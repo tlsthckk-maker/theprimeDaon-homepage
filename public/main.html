@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>더프라임다온 - 메인 (Multilingual Full)</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Pretendard', -apple-system, sans-serif; }
+    body { background-color: #000; overflow-x: hidden; }
+
+    h1:first-of-type { display: none !important; }
+
+    /* 히어로 섹션 (전체 화면 비디오) */
+    .hero-section {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    /* 비디오 배경 설정 */
+    .hero-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+        z-index: 1;
+    }
+
+    /* 텍스트 가독성을 위한 다크 오버레이 */
+    .hero-overlay {
+        position: absolute;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.7) 100%);
+        z-index: 2;
+    }
+
+    /* 상단 고정 언어 선택 바 (애플 스타일 미니멀리즘) */
+    .lang-selector-wrap {
+        position: absolute;
+        top: 30px;
+        right: 40px;
+        z-index: 10;
+        display: flex;
+        gap: 15px;
+    }
+
+    .lang-btn {
+        background: none;
+        border: none;
+        color: rgba(255, 255, 255, 0.4);
+        font-size: 13px;
+        font-weight: 600;
+        cursor: pointer;
+        letter-spacing: 1px;
+        transition: color 0.3s ease;
+        padding: 5px;
+    }
+
+    .lang-btn:hover {
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .lang-btn.active {
+        color: #fff;
+        border-bottom: 2px solid #fff;
+    }
+
+    /* 메인 텍스트 콘텐츠 */
+    .hero-content {
+        position: relative;
+        z-index: 3;
+        text-align: center;
+        color: #fff;
+        padding: 0 20px;
+        max-width: 900px;
+    }
+
+    .hero-kicker {
+        font-size: 14px;
+        font-weight: 600;
+        color: #8b7355;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        display: block;
+    }
+
+    .hero-title {
+        font-size: 52px;
+        font-weight: 700;
+        letter-spacing: -1.5px;
+        line-height: 1.25;
+        margin-bottom: 30px;
+        text-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        word-break: keep-all;
+    }
+
+    .hero-desc {
+        font-size: 18px;
+        font-weight: 300;
+        color: #ccc;
+        max-width: 650px;
+        margin: 0 auto;
+        line-height: 1.65;
+        word-break: keep-all;
+    }
+
+    /* 하단 스크롤 유도 아이콘 */
+    .scroll-down {
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 3;
+        color: #fff;
+        font-size: 11px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        opacity: 0.5;
+        animation: bounce 2s infinite;
+    }
+
+    /* 하단 다국어 푸터 */
+    .footer {
+        background-color: #000;
+        text-align: center;
+        padding: 60px 20px;
+        border-top: 1px solid #1c1c1c;
+        font-size: 13px;
+        color: #666;
+        font-weight: 300;
+        line-height: 1.8;
+        z-index: 5;
+        position: relative;
+    }
+
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% { transform: translateY(0) translateX(-50%); }
+        40% { transform: translateY(-10px) translateX(-50%); }
+        60% { transform: translateY(-5px) translateX(-50%); }
+    }
+
+    @media (max-width: 768px) {
+        .lang-selector-wrap { right: 20px; top: 20px; }
+        .hero-title { font-size: 32px; }
+        .hero-desc { font-size: 15px; }
+    }
+</style>
+</head>
+<body>
+
+<section class="hero-section">
+    <div class="lang-selector-wrap">
+        <button class="lang-btn active" onclick="switchLanguage('ko', this)">KO</button>
+        <button class="lang-btn" onclick="switchLanguage('en', this)">EN</button>
+        <button class="lang-btn" onclick="switchLanguage('ja', this)">JA</button>
+        <button class="lang-btn" onclick="switchLanguage('zh', this)">ZH</button>
+    </div>
+
+    <video class="hero-video" autoplay loop muted playsinline>
+        <source src="intro.mp4" type="video/mp4">
+    </video>
+    
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content">
+        <span class="hero-kicker" id="txt-kicker">Premium Leather Manufacturing</span>
+        <h2 class="hero-title" id="txt-title">글로벌 스탠다드를 넘어선<br>하이엔드 양산 시스템</h2>
+        <p class="hero-desc" id="txt-desc">엄격한 원부자재 검수부터 한 치의 오차 없는 정밀 공정까지. 더프라임다온은 당신의 브랜드 가치를 현실로 구현하는 가장 완벽한 제조 파트너입니다.</p>
+    </div>
+
+    <div class="scroll-down">Scroll Down ↓</div>
+</section>
+
+<footer class="footer">
+    <p id="txt-footer-info">상호명: (주)더프라임다온 | 대표이사: 석용주 | 주소: 서울 중랑구 봉우재로108 3층</p>
+    <p style="margin-top: 5px;">&copy; 2026 THE PRIME DA-ON. All rights reserved.</p>
+</footer>
+
+<script>
+    // 4개국어 딕셔너리 데이터 데이터 세팅
+    const langData = {
+        ko: {
+            kicker: "Premium Leather Manufacturing",
+            title: "글로벌 스탠다드를 넘어선<br>하이엔드 양산 시스템",
+            desc: "엄격한 원부자재 검수부터 한 치의 오차 없는 정밀 공정까지. 더프라임다온은 당신의 브랜드 가치를 현실로 구현하는 가장 완벽한 제조 파트너입니다.",
+            footer: "상호명: (주)더프라임다온 | 대표이사: 석용주 | 주소: 서울 중랑구 봉우재로108 3층"
+        },
+        en: {
+            kicker: "Premium Leather Manufacturing",
+            title: "High-End Mass Production<br>Beyond Global Standards",
+            desc: "From strict raw material inspection to precise processing with zero margin for error. The Prime Da-on is the ultimate manufacturing partner to turn your brand value into reality.",
+            footer: "Company: THE PRIME DA-ON Co., Ltd. | CEO: Yongju Seok | Address: 3F, 108, Bongujae-ro, Jungnang-gu, Seoul, Republic of Korea"
+        },
+        ja: {
+            kicker: "Premium Leather Manufacturing",
+            title: "グローバルスタンダードを超えた<br>ハイエンド量産システム",
+            desc: "厳格な原材料検査から誤差ゼロの精密加工まで。ザ・プライムダオンは、貴社のブランド価値を現実に具現化する最も完璧な製造パートナーです。",
+            footer: "社名: (株)ザ・プライムダオン | 代表取締役: 石龍柱 | 住所: ソウル特別市中浪区烽火災路108 3階"
+        },
+        zh: {
+            kicker: "Premium Leather Manufacturing",
+            title: "超越国际标准的<br>端到端高端量产系统",
+            desc: "从严格的原辅料检验到零误差的精密加工。The Prime Da-on 是将您的品牌价值转化为现实的最完美制造伙伴。",
+            footer: "公司名称: (株)The Prime Da-on | 代表董事: 石龙柱 | 地址: 首尔特别市中浪区烽火灾路108 3楼"
+        }
+    };
+
+    // 언어 전환 스크립트 함수
+    function switchLanguage(lang, btnElement) {
+        // 1. 모든 버튼에서 active 클래스 제거 후 클릭한 버튼에 추가
+        const buttons = document.querySelectorAll('.lang-btn');
+        buttons.forEach(btn => btn.classList.remove('active'));
+        btnElement.classList.add('active');
+
+        // 2. 해당하는 언어 데이터로 텍스트 실시간 매핑 변경
+        document.getElementById('txt-kicker').innerHTML = langData[lang].kicker;
+        document.getElementById('txt-title').innerHTML = langData[lang].title;
+        document.getElementById('txt-desc').innerHTML = langData[lang].desc;
+        document.getElementById('txt-footer-info').innerHTML = langData[lang].footer;
+    }
+
+    // 안티그라비티 상단 타이틀 강제 삭제
+    document.addEventListener("DOMContentLoaded", function() {
+        const h1Tags = document.querySelectorAll('h1');
+        h1Tags.forEach(el => el.style.display = 'none');
+    });
+</script>
+
+</body>
+</html>

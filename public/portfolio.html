@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>더프라임다온 - 포트폴리오</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Pretendard', -apple-system, sans-serif; }
+    body { background-color: #fcfcfc; color: #222; overflow-x: hidden; }
+
+    /* 안티그라비티 기본 타이틀 숨김 */
+    h1:first-of-type { display: none !important; }
+
+    /* 공통 섹션 스타일 */
+    .section { padding: 120px 20px; max-width: 1200px; margin: 0 auto; }
+    .sec-kicker { font-size: 11px; font-weight: 700; color: #8b7355; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 15px; display: block; text-align: center; }
+    .sec-title { font-size: 40px; font-family: 'Times New Roman', serif; color: #111; margin-bottom: 80px; font-weight: 300; letter-spacing: 1px; text-align: center; }
+
+    /* 1. 핵심 프로젝트 (슈피겐) */
+    .featured-project { display: flex; align-items: center; background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.06); margin-bottom: 100px; border: 1px solid #eaeaea; transition: transform 0.4s ease; }
+    .featured-project:hover { transform: translateY(-5px); }
+    
+    .fp-image { flex: 1.2; position: relative; height: 100%; min-height: 450px; background-color: #f4f4f4; }
+    /* 임시 이미지 세팅 */
+    .fp-image img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; }
+    
+    .fp-content { flex: 1; padding: 60px 50px; }
+    .fp-brand { font-size: 13px; font-weight: 700; color: #8b7355; margin-bottom: 15px; display: inline-block; padding: 5px 12px; border: 1px solid #8b7355; border-radius: 20px; letter-spacing: 1px; }
+    .fp-title { font-size: 32px; font-weight: 700; color: #111; margin-bottom: 20px; line-height: 1.3; word-break: keep-all; }
+    .fp-desc { font-size: 16px; color: #555; line-height: 1.7; font-weight: 300; margin-bottom: 40px; word-break: keep-all; }
+    
+    .fp-specs { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+    .spec-item { padding-top: 15px; border-top: 1px solid #eee; }
+    .spec-label { font-size: 12px; color: #888; display: block; margin-bottom: 6px; letter-spacing: 0.5px; }
+    .spec-value { font-size: 16px; font-weight: 600; color: #222; }
+
+    /* 2. 파트너사 로고 그리드 */
+    .partner-wrap { text-align: center; padding-top: 40px; border-top: 1px solid #eee; }
+    .partner-title { font-size: 20px; font-weight: 600; margin-bottom: 40px; color: #111; letter-spacing: -0.5px; }
+    .partner-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; }
+    .partner-logo { background: #fff; border: 1px solid #eaeaea; padding: 25px 40px; border-radius: 8px; font-size: 18px; font-weight: 700; color: #888; transition: all 0.3s; cursor: default; }
+    .partner-logo:hover { color: #111; border-color: #111; transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); }
+
+    /* 모바일 반응형 */
+    @media (max-width: 900px) {
+        .featured-project { flex-direction: column; }
+        .fp-image { width: 100%; min-height: 300px; }
+        .fp-content { padding: 40px 30px; }
+        .fp-title { font-size: 26px; }
+        .fp-specs { gap: 20px; }
+        .partner-logo { font-size: 15px; padding: 20px 30px; width: calc(50% - 10px); }
+    }
+</style>
+</head>
+<body>
+
+<section id="portfolio" class="section">
+    <span class="sec-kicker">Portfolio</span>
+    <h2 class="sec-title">Proven by Global Standards</h2>
+
+    <!-- 핵심 케이스 스터디 (슈피겐) -->
+    <div class="featured-project">
+        <div class="fp-image">
+            <img src="https://images.unsplash.com/photo-1603313011101-320f26a4f6f6?q=80&w=1200&auto=format&fit=crop" alt="Spigen Project">
+        </div>
+        <div class="fp-content">
+            <span class="fp-brand">SPIGEN KOREA</span>
+            <h3 class="fp-title">글로벌 스탠다드를 충족한<br>하이엔드 라인업 양산</h3>
+            <p class="fp-desc">글로벌 모바일 액세서리 브랜드 '슈피겐'의 프리미엄 가죽 라인업을 성공적으로 생산했습니다. 엄격한 두께 관리와 정교한 단면 마감 등 까다로운 작업지도서를 100% 완벽하게 구현하며 더프라임다온의 기술력을 입증했습니다.</p>
+            
+            <div class="fp-specs">
+                <div class="spec-item">
+                    <span class="spec-label">CLIENT</span>
+                    <span class="spec-value">슈피겐코리아</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">CATEGORY</span>
+                    <span class="spec-value">프리미엄 케이스</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">PROCESS</span>
+                    <span class="spec-value">OEM / ODM 양산</span>
+                </div>
+                <div class="spec-item">
+                    <span class="spec-label">RESULT</span>
+                    <span class="spec-value">글로벌 QC 패스</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 파트너사 로고 텍스트 그리드 -->
+    <div class="partner-wrap">
+        <h3 class="partner-title">더프라임다온과 함께한 브랜드</h3>
+        <div class="partner-grid">
+            <div class="partner-logo">SAMSUNG</div>
+            <div class="partner-logo">SPIGEN</div>
+            <div class="partner-logo">HEINK KOREA</div>
+            <div class="partner-logo">S.T. DUPONT</div>
+            <div class="partner-logo">SLASH B SLASH</div>
+            <div class="partner-logo">DESIGN SKIN</div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const h1Tags = document.querySelectorAll('h1');
+        h1Tags.forEach(el => el.style.display = 'none');
+    });
+</script>
+
+</body>
+</html>

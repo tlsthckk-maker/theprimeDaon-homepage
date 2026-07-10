@@ -1,0 +1,986 @@
+{
+  "header": {
+    "home": "홈",
+    "about": "회사소개",
+    "capabilities": "제조역량",
+    "showroom": "쇼룸",
+    "contact": "상담문의"
+  },
+  "hero": {
+    "kicker": "",
+    "title": "가장 든든한 가죽 제조 파트너<br/>더 프라임다온",
+    "subtitle": "샘플 개발의 유연함부터 대량 생산의 정확함까지. 10년 이상의 꼼꼼한 공정 관리로 약속된 시간 안에 최고의 결과물을 납품합니다."
+  },
+  "about": {
+    "title": "회사 소개",
+    "main_copy": "타협하지 않는 정직함, 글로벌 브랜드가 신뢰하는 프리미엄 제조 파트너.",
+    "sub_copy": "보이지 않는 곳에서 최고의 가치를 만듭니다.\n2014년 설립 이래, ㈜더프라임다온은 오직 '정직한 생산'이라는 확고한 철학을 바탕으로 프리미엄 가죽 제품과 스마트 기기 액세서리를 묵묵히 제조해 왔습니다.\n20년 이상의 노하우를 지닌 15명의 현장 장인과 3명의 관리 스태프가 한 팀이 되어, 디자인 기획부터 패턴 제작, 엄격한 전수 품질 검수(QC)에 이르는 완벽한 자체 원스톱 시스템을 구현합니다.\n철저한 납기 준수와 고객의 관점에 맞추는 품질 관리를 통해, 귀사의 성공적인 글로벌 비즈니스를 이끌어 줄 가장 든든한 제조 전진 기지가 되겠습니다.",
+    "global_partners": {
+      "title": "글로벌 파트너",
+      "desc": "몽*랑, 우*미 등 최고급 패션 하우스부터 삼*전자, 슈*겐 관련 하이엔드 모바일 액세서리까지. 까다로운 국내외 메이저 기업들이 우리의 품질을 선택한 데에는 변하지 않는 이유가 있습니다.\n수많은 프로젝트를 성공으로 이끌며 다져진 탄탄한 제조 레퍼런스를 지금 귀사의 비즈니스에 연결하십시오."
+    },
+    "organization": {
+      "title": "조직도",
+      "management": {
+        "label": "관리부",
+        "roles": "영업, 구매, 제품 개발"
+      },
+      "production": {
+        "label": "생산부",
+        "roles": "제품 생산, 품질 관리(QC)"
+      }
+    },
+    "location": {
+      "title": "오시는 길",
+      "address_label": "주소",
+      "address": "서울 중랑구 봉우재로 108 3층",
+      "phone_label": "전화번호",
+      "phone": "070-4169-9233",
+      "fax_label": "팩스",
+      "fax": "02-979-0929",
+      "email_label": "이메일",
+      "email": "daon0929@naver.com"
+    }
+  },
+  "capabilities": {
+    "title": "제조 역량",
+    "main_copy": "압도적인 제조 인프라, 완벽을 향한 시스템.",
+    "sub_copy": "최첨단 설비와 20년의 노하우로 최상의 결과물을 제공합니다.",
+    "capacity": {
+      "title": "월간 생산 능력 (Monthly Capacity)",
+      "value": "월 평균 40,000개",
+      "subtitle": "(연간 약 50만 개 생산 가능)",
+      "desc": "※ 제품 특성(종류) 및 난이도에 따라 제작 수량은 유연하게 조정될 수 있습니다."
+    },
+    "global_network": {
+      "title": "글로벌 공급망 (Global Network)",
+      "subtitle": "중국 칭다오 K&J 코퍼레이션 전략적 생산 MOU 체결 완료",
+      "desc": "국내 자체 인프라와 글로벌 파트너십을 통한 안정적이고 신속한 대량 생산 및 납기 시스템 구축."
+    },
+    "facilities": {
+      "title": "보유 제조 설비 리스트 (Equipment List)",
+      "items": [
+        {
+          "name": "레이저 재단기",
+          "count": "1대"
+        },
+        {
+          "name": "고속 프레스 및 연속 재단기",
+          "count": "2대"
+        },
+        {
+          "name": "열 프레스 (정밀 성형용)",
+          "count": "9대"
+        },
+        {
+          "name": "스키 / 부분 피할기",
+          "count": "1대"
+        },
+        {
+          "name": "컴퓨터 자동 미싱",
+          "count": "3대"
+        },
+        {
+          "name": "봉제 미싱 (타프, 말뚝 등 특수 미싱)",
+          "count": "6대"
+        },
+        {
+          "name": "불박기",
+          "count": "3대"
+        }
+      ]
+    }
+  },
+  "showroom": {
+    "title": "B2B 프리미엄 룩북 쇼룸",
+    "categories": {
+      "all": "전체",
+      "tech": "테크 에센셜",
+      "bag": "가방 & 파우치",
+      "leather": "퍼스널 레더 굿즈",
+      "lifestyle": "라이프스타일 소품"
+    },
+    "request_sample": "샘플 문의하기",
+    "products": [
+      {
+        "id": 1,
+        "category": "tech",
+        "label": "스마트폰 가죽 케이스",
+        "name": "다온1",
+        "description": "[임시 특징 설명] 프리미엄 가죽 소재와 실용적인 카드 수납 기능이 돋보이는 모델입니다.",
+        "image": "/images/Ai_Daon_12.png"
+      },
+      {
+        "id": 2,
+        "category": "tech",
+        "label": "스마트폰 가죽 케이스",
+        "name": "다온2",
+        "description": "[임시 특징 설명] 섬세한 텍스처와 메탈 링 디테일로 사용자의 편의성을 극대화한 제품입니다.",
+        "image": "/images/Ai_Daon_19.png"
+      },
+      {
+        "id": 3,
+        "category": "tech",
+        "label": "스마트폰 가죽 케이스",
+        "name": "다온3",
+        "description": "[임시 특징 설명] 폴더블 스마트폰의 힌지를 완벽하게 보호하는 맞춤형 천연 가죽 케이스입니다.",
+        "image": "/images/Ai_Daon_48.png"
+      },
+      {
+        "id": 4,
+        "category": "tech",
+        "label": "스마트폰 가죽 케이스",
+        "name": "다온4",
+        "description": "[임시 특징 설명] 독특한 메탈 타공 디자인과 가죽의 조화로 내구성을 높인 특수 케이스입니다.",
+        "image": "/images/Ai_Daon_51.png"
+      },
+      {
+        "id": 5,
+        "category": "leather",
+        "label": "카드홀더 & 지갑",
+        "name": "다온5",
+        "description": "[임시 특징 설명] 프리미엄 오플 가죽의 부드러운 질감과 유니크한 컬러 배색이 돋보이는 슬림 카드홀더입니다.",
+        "image": "/images/Ai_Daon_5.png"
+      },
+      {
+        "id": 6,
+        "category": "tech",
+        "label": "맥세이프 카드홀더",
+        "name": "다온6",
+        "description": "[임시 특징 설명] 강력한 자력으로 스마트폰에 안정적으로 부착되며, 스티치 디테일로 마감한 맥세이프 지갑입니다.",
+        "image": "/images/Ai_Daon_8.png"
+      },
+      {
+        "id": 7,
+        "category": "leather",
+        "label": "카드홀더 & 지갑",
+        "name": "다온7",
+        "description": "[임시 특징 설명] 세 가지 모던한 컬러 라인업으로 제공되며, 심플하고 클래식한 디자인의 카드지갑입니다.",
+        "image": "/images/Ai_Daon_11.png"
+      },
+      {
+        "id": 8,
+        "category": "tech",
+        "label": "맥세이프 카드홀더",
+        "name": "다온8",
+        "description": "[임시 특징 설명] 독특한 빗살무늬 텍스처와 미니멀한 로고 디테일이 가미된 부착형 카드홀더입니다.",
+        "image": "/images/Ai_Daon_13.png"
+      },
+      {
+        "id": 9,
+        "category": "tech",
+        "label": "맥세이프 카드홀더",
+        "name": "다온9",
+        "description": "[임시 특징 설명] 정교한 엠보싱 로고와 견고한 가죽 소재로 제작되어 내구성이 뛰어난 모델입니다.",
+        "image": "/images/Ai_Daon_23.png"
+      },
+      {
+        "id": 10,
+        "category": "tech",
+        "label": "맥세이프 카드홀더",
+        "name": "다온10",
+        "description": "[임시 특징 설명] 스탠드 기능을 더해 실용성을 높였으며 밝은 톤의 가죽이 돋보이는 다기능 카드지갑입니다.",
+        "image": "/images/Ai_Daon_32.png"
+      },
+      {
+        "id": 11,
+        "category": "tech",
+        "label": "맥세이프 카드홀더",
+        "name": "다온11",
+        "description": "[임시 특징 설명] 오렌지색 포인트 스티치와 블랙 가죽의 조화가 세련된 분위기를 연출합니다.",
+        "image": "/images/Ai_Daon_34.png"
+      },
+      {
+        "id": 12,
+        "category": "leather",
+        "label": "카드홀더 & 지갑",
+        "name": "다온12",
+        "description": "[임시 특징 설명] 다양한 취향을 만족시키는 컬러 베리에이션과 슬림한 핏을 자랑하는 베스트셀러입니다.",
+        "image": "/images/Ai_Daon_45.png"
+      },
+      {
+        "id": 13,
+        "category": "leather",
+        "label": "컴팩트 지갑 / 슬림 카드홀더",
+        "name": "다온24",
+        "description": "부드러운 그레이 가죽과 미니멀한 폴딩 디자인이 특징인 컴팩트 지갑입니다.",
+        "image": "/images/Ai_Daon_1.png"
+      },
+      {
+        "id": 14,
+        "category": "lifestyle",
+        "label": "자동차 스마트키 홀더/케이스",
+        "name": "다온25",
+        "description": "차량 키의 굴곡을 완벽하게 재현하여 입체적인 그립감을 제공하는 가죽 키케이스입니다.",
+        "image": "/images/Ai_Daon_2.png"
+      },
+      {
+        "id": 15,
+        "category": "lifestyle",
+        "label": "자동차 스마트키 홀더/케이스",
+        "name": "다온26",
+        "description": "화이트 레더와 감각적인 컷아웃 디자인이 적용된 프리미엄 키 커버입니다.",
+        "image": "/images/Ai_Daon_3.png"
+      },
+      {
+        "id": 16,
+        "category": "leather",
+        "label": "가죽 다이어리 커버 / 바인더",
+        "name": "다온27",
+        "description": "모던한 블랙 레더로 비즈니스 환경에 최적화된 다이어리 커버입니다.",
+        "image": "/images/Ai_Daon_4.png"
+      },
+      {
+        "id": 17,
+        "category": "leather",
+        "label": "컴팩트 지갑 / 슬림 카드홀더",
+        "name": "다온28",
+        "description": "그레이 바탕에 오렌지 컬러 포인트를 주어 세련됨을 더한 카드홀더입니다.",
+        "image": "/images/Ai_Daon_5.png"
+      },
+      {
+        "id": 18,
+        "category": "bag",
+        "label": "다목적 소형 미니 파우치",
+        "name": "다온29",
+        "description": "견고한 질감과 실용적인 핸들 스트랩을 갖춘 올리브 그린 다목적 파우치입니다.",
+        "image": "/images/Ai_Daon_6.png"
+      },
+      {
+        "id": 19,
+        "category": "lifestyle",
+        "label": "가죽 스트랩 & 루프 키링",
+        "name": "다온30",
+        "description": "매트한 블랙 카라비너에 정교한 가죽 스트랩을 결합한 하이엔드 키링입니다.",
+        "image": "/images/Ai_Daon_7.png"
+      },
+      {
+        "id": 20,
+        "category": "tech",
+        "label": "맥세이프 카드 지갑",
+        "name": "다온31",
+        "description": "오렌지 스티치 포인트로 블랙 가죽의 밋밋함을 없앤 부착형 카드 지갑입니다.",
+        "image": "/images/Ai_Daon_8.png"
+      },
+      {
+        "id": 21,
+        "category": "bag",
+        "label": "미니 체인 백",
+        "name": "다온32",
+        "description": "다크 메탈 볼 체인과 화이트 가죽이 어우러져 트렌디한 감각을 선사하는 미니 백입니다.",
+        "image": "/images/Ai_Daon_9.png"
+      },
+      {
+        "id": 22,
+        "category": "leather",
+        "label": "컴팩트 지갑 / 슬림 카드홀더",
+        "name": "다온33",
+        "description": "기하학적인 절개 라인과 스티치 디테일이 돋보이는 딥 그린 카드홀더입니다.",
+        "image": "/images/Ai_Daon_10.png"
+      },
+      {
+        "id": 23,
+        "category": "leather",
+        "label": "컴팩트 지갑 / 슬림 카드홀더",
+        "name": "다온34",
+        "description": "베이직한 디자인에 세 가지 모던한 컬러 옵션을 제공하는 슬림형 가죽 카드홀더입니다.",
+        "image": "/images/Ai_Daon_11.png"
+      },
+      {
+        "id": 24,
+        "category": "tech",
+        "label": "스마트폰 가죽 케이스",
+        "name": "다온35",
+        "description": "실버 메탈릭 가죽과 스냅 버튼 포켓으로 유니크함과 실용성을 동시에 더한 케이스입니다.",
+        "image": "/images/Ai_Daon_12.png"
+      },
+      {
+        "id": 25,
+        "category": "tech",
+        "label": "맥세이프 카드 지갑",
+        "name": "다온36",
+        "description": "블랙 사피아노 패턴 가죽에 Y자 메탈 디테일을 적용하여 세련미를 강조한 맥세이프 지갑입니다.",
+        "image": "/images/Ai_Daon_13.png"
+      },
+      {
+        "id": 26,
+        "category": "tech",
+        "label": "에어팟 / 버즈 가죽 케이스",
+        "name": "다온37",
+        "description": "무선 이어폰을 안전하게 보호하며 시간이 지날수록 클래식한 멋이 더해지는 브라운 가죽 케이스입니다.",
+        "image": "/images/Ai_Daon_14.png"
+      },
+      {
+        "id": 27,
+        "category": "leather",
+        "label": "컴팩트 지갑 / 슬림 카드홀더",
+        "name": "다온38",
+        "description": "독특한 링클 질감의 다크 브라운 가죽으로 제작되어 빈티지한 무드를 풍기는 카드지갑입니다.",
+        "image": "/images/Ai_Daon_15.png"
+      },
+      {
+        "id": 28,
+        "category": "tech",
+        "label": "스마트폰 가죽 케이스",
+        "name": "다온39",
+        "description": "정교한 동물 자수 디테일이 포인트로 들어가 키치하면서도 하이엔드 감성을 놓치지 않은 케이스입니다.",
+        "image": "/images/Ai_Daon_16.png"
+      },
+      {
+        "id": 29,
+        "category": "bag",
+        "label": "가죽 브리프케이스 / 노트북 백",
+        "name": "다온40",
+        "description": "미니멀한 디자인과 부드러운 그레이 가죽이 돋보이는 비즈니스용 노트북 및 태블릿 슬리브입니다.",
+        "image": "/images/Ai_Daon_17.png"
+      },
+      {
+        "id": 30,
+        "category": "leather",
+        "label": "가죽 다이어리 커버 / 바인더",
+        "name": "다온41",
+        "description": "밝은 별 모양의 가죽 패치와 메탈 스터드 장식으로 펑키한 매력을 살린 다이어리 커버입니다.",
+        "image": "/images/Ai_Daon_18.png"
+      },
+      {
+        "id": 31,
+        "category": "tech",
+        "label": "스마트폰 가죽 케이스",
+        "name": "다온42",
+        "description": "핑크빛 텍스처 가죽에 그립감을 높여주는 실용적인 메탈 링 스트랩이 부착된 우아한 케이스입니다.",
+        "image": "/images/Ai_Daon_19.png"
+      },
+      {
+        "id": 32,
+        "category": "leather",
+        "label": "컴팩트 지갑 / 슬림 카드홀더",
+        "name": "다온43",
+        "description": "매혹적인 버건디 컬러와 내부의 효율적인 카드 수납공간을 자랑하는 폴딩 타입 지갑입니다.",
+        "image": "/images/Ai_Daon_20.png"
+      },
+      {
+        "id": 33,
+        "category": "leather",
+        "label": "컴팩트 지갑 / 슬림 카드홀더",
+        "name": "다온44",
+        "description": "핑크 컬러의 크로커다일 패턴 가죽과 하트 모티브 메탈 장식이 사랑스러운 미니 지갑입니다.",
+        "image": "/images/Ai_Daon_21.png"
+      },
+      {
+        "id": 34,
+        "category": "bag",
+        "label": "미니 체인 백",
+        "name": "다온45",
+        "description": "메탈릭 실버 컬러의 가죽과 세련된 체인 스트랩이 결합되어 화려하고 트렌디한 룩을 완성합니다.",
+        "image": "/images/Ai_Daon_22.png"
+      },
+      {
+        "id": 35,
+        "category": "tech",
+        "label": "맥세이프 카드 지갑",
+        "name": "다온46",
+        "description": "클래식한 블랙 가죽에 나무 질감의 로고 디테일을 더해 자연스러운 멋을 살린 맥세이프 지갑입니다.",
+        "image": "/images/Ai_Daon_23.png"
+      },
+      {
+        "id": 36,
+        "category": "leather",
+        "label": "가죽 다이어리 커버 / 바인더",
+        "name": "다온47",
+        "description": "시크한 블랙 가죽 바탕에 실버 별 모양 스터드와 아일렛을 장식하여 유니크한 감성을 자아냅니다.",
+        "image": "/images/Ai_Daon_24.png"
+      },
+      {
+        "id": 37,
+        "category": "leather",
+        "label": "가죽 러기지택 / 네임택",
+        "name": "다온48",
+        "description": "고급스러운 버건디 가죽에 투명 보호창을 더해 실용성을 높인 하이엔드 여행용 러기지택입니다.",
+        "image": "/images/Ai_Daon_25.png"
+      },
+      {
+        "id": 38,
+        "category": "bag",
+        "label": "다목적 소형 미니 파우치",
+        "name": "다온49",
+        "description": "견고한 금속 카라비너가 부착되어 휴대가 간편하며 형태 보존력이 뛰어난 베이지 가죽 케이스입니다.",
+        "image": "/images/Ai_Daon_26.png"
+      },
+      {
+        "id": 39,
+        "category": "bag",
+        "label": "다목적 소형 미니 파우치",
+        "name": "다온50",
+        "description": "소형 스마트 기기나 골프 거리측정기 등을 외부 충격으로부터 안전하게 보호하는 프리미엄 파우치입니다.",
+        "image": "/images/Ai_Daon_27.png"
+      },
+      {
+        "id": 40,
+        "category": "leather",
+        "label": "컴팩트 지갑 / 슬림 카드홀더",
+        "name": "다온51",
+        "description": "글로시한 레드 질감과 매트한 카멜 컬러의 대조가 돋보이는 슬림형 베이직 카드홀더입니다.",
+        "image": "/images/Ai_Daon_28.png"
+      },
+      {
+        "id": 41,
+        "category": "bag",
+        "label": "가죽 브리프케이스 / 노트북 백",
+        "name": "다온52",
+        "description": "프로페셔널한 비즈니스 환경에 어울리는 클래식한 블랙 가죽 소재의 서류 가방 겸 브리프케이스입니다.",
+        "image": "/images/Ai_Daon_29.png"
+      },
+      {
+        "id": 42,
+        "category": "leather",
+        "label": "여행용 여권 지갑 / 여권 케이스",
+        "name": "다온53",
+        "description": "심플한 블랙 가죽에 골드 레터링 포인트를 주어 모던하고 세련된 분위기를 연출하는 커버입니다.",
+        "image": "/images/Ai_Daon_30.png"
+      },
+      {
+        "id": 43,
+        "category": "leather",
+        "label": "컴팩트 지갑 / 슬림 카드홀더",
+        "name": "다온54",
+        "description": "블루와 블랙 컬러의 견고한 가죽 바탕에 정교한 스티치 마감이 돋보이는 슬림 카드홀더입니다.",
+        "image": "/images/Ai_Daon_31.png"
+      },
+      {
+        "id": 44,
+        "category": "tech",
+        "label": "맥세이프 카드 지갑",
+        "name": "다온55",
+        "description": "화이트 톤의 깔끔한 가죽에 실용적인 핑거 스트랩 스탠드 기능을 더한 맥세이프 지갑입니다.",
+        "image": "/images/Ai_Daon_32.png"
+      },
+      {
+        "id": 45,
+        "category": "leather",
+        "label": "가죽 다이어리 커버 / 바인더",
+        "name": "다온56",
+        "description": "우아한 버건디 컬러와 고급스러운 빗살무늬 텍스처가 적용된 프리미엄 다이어리 커버입니다.",
+        "image": "/images/Ai_Daon_33.png"
+      },
+      {
+        "id": 46,
+        "category": "tech",
+        "label": "맥세이프 카드 지갑",
+        "name": "다온57",
+        "description": "블랙 가죽 가장자리에 오렌지 컬러 스티치로 스포티한 매력을 살린 부착형 카드홀더입니다.",
+        "image": "/images/Ai_Daon_34.png"
+      },
+      {
+        "id": 47,
+        "category": "bag",
+        "label": "다목적 소형 미니 파우치",
+        "name": "다온58",
+        "description": "카라비너와 미니 핸들이 부착되어 아웃도어 환경이나 일상에서 다목적으로 활용하기 좋은 파우치입니다.",
+        "image": "/images/Ai_Daon_35.png"
+      },
+      {
+        "id": 48,
+        "category": "lifestyle",
+        "label": "자동차 스마트키 홀더/케이스",
+        "name": "다온59",
+        "description": "다섯 가지 다채로운 컬러 라인업과 골드 스냅 버튼 장식이 매력적인 폴딩 타입 키케이스입니다.",
+        "image": "/images/Ai_Daon_36.png"
+      },
+      {
+        "id": 49,
+        "category": "lifestyle",
+        "label": "가죽 스트랩 & 루프 키링",
+        "name": "다온60",
+        "description": "무광 골드 메탈 장식과 스티치 마감 처리된 천연 가죽이 조화롭게 어우러진 고급 스트랩 키링입니다.",
+        "image": "/images/Ai_Daon_37.png"
+      },
+      {
+        "id": 50,
+        "category": "leather",
+        "label": "컴팩트 지갑 / 슬림 카드홀더",
+        "name": "다온61",
+        "description": "클래식한 카멜 브라운 컬러와 부드러운 가죽 질감이 돋보이는 폴딩형 명함 겸 카드 지갑입니다.",
+        "image": "/images/Ai_Daon_38.png"
+      },
+      {
+        "id": 51,
+        "category": "tech",
+        "label": "스마트폰 가죽 케이스",
+        "name": "다온62",
+        "description": "산뜻한 깅엄 체크 패턴 바탕에 귀여운 강아지 자수가 더해져 캐주얼한 무드를 선사하는 케이스입니다.",
+        "image": "/images/Ai_Daon_39.png"
+      },
+      {
+        "id": 52,
+        "category": "tech",
+        "label": "스마트폰 가죽 케이스",
+        "name": "다온63",
+        "description": "애니멀 텍스처와 솔리드 가죽을 활용해 유니크함을 강조하고 후면 링으로 그립감을 높인 제품입니다.",
+        "image": "/images/Ai_Daon_40.png"
+      },
+      {
+        "id": 53,
+        "category": "bag",
+        "label": "가죽 브리프케이스 / 노트북 백",
+        "name": "다온64",
+        "description": "차분한 블루 그레이 톤의 가죽으로 제작되어 심플하면서도 프로페셔널한 느낌을 주는 서류 및 태블릿 슬리브입니다.",
+        "image": "/images/Ai_Daon_41.png"
+      },
+      {
+        "id": 54,
+        "category": "tech",
+        "label": "산업용/특수 장비 가죽 케이스",
+        "name": "다온65",
+        "description": "하이엔드 오디오 기기 등 특수 디지털 장비를 완벽하게 보호하고 거치할 수 있는 다크 그린 색상의 맞춤형 가죽 케이스입니다.",
+        "image": "/images/Ai_Daon_42.png"
+      },
+      {
+        "id": 55,
+        "category": "bag",
+        "label": "미니 체인 백 / 사첼백 / 크로스백",
+        "name": "다온66",
+        "description": "클래식한 사첼백 디자인을 미니 사이즈로 구현하여 데일리하게 활용하기 좋은 브라운 가죽 백입니다.",
+        "image": "/images/Ai_Daon_43.png"
+      },
+      {
+        "id": 56,
+        "category": "tech",
+        "label": "스마트폰 가죽 케이스",
+        "name": "다온67",
+        "description": "세련된 메탈릭 실버 텍스처와 핑거 링 스트랩이 결합되어 폴더블 스마트폰의 사용성을 극대화한 케이스입니다.",
+        "image": "/images/Ai_Daon_44.png"
+      },
+      {
+        "id": 57,
+        "category": "tech",
+        "label": "맥세이프 카드 지갑",
+        "name": "다온68",
+        "description": "부드러운 천연 가죽 소재와 세 가지 베이직 컬러로 구성된 미니멀 디자인의 맥세이프 부착형 카드홀더입니다.",
+        "image": "/images/Ai_Daon_45.png"
+      },
+      {
+        "id": 58,
+        "category": "tech",
+        "label": "산업용/특수 장비 가죽 케이스",
+        "name": "다온69",
+        "description": "특수 장비의 디스플레이와 버튼 조작부를 고려하여 정교하게 타공 및 설계된 블랙 스크린 가죽 커버입니다.",
+        "image": "/images/Ai_Daon_46.png"
+      },
+      {
+        "id": 59,
+        "category": "bag",
+        "label": "다목적 소형 미니 파우치",
+        "name": "다온70",
+        "description": "비비드한 블루 컬러와 엠보싱 처리된 가죽이 돋보이며, 상단 D링으로 휴대성을 높인 소형 다목적 파우치입니다.",
+        "image": "/images/Ai_Daon_47.png"
+      },
+      {
+        "id": 60,
+        "category": "tech",
+        "label": "스마트폰 가죽 케이스",
+        "name": "다온71",
+        "description": "폴더블 스마트폰의 상하단에 완벽하게 핏되는 베이직한 카멜 브라운 컬러의 프리미엄 가죽 쉘 케이스입니다.",
+        "image": "/images/Ai_Daon_48.png"
+      },
+      {
+        "id": 61,
+        "category": "lifestyle",
+        "label": "자동차 스마트키 홀더/케이스",
+        "name": "다온72",
+        "description": "차량 키의 버튼부까지 섬세하게 덮어주는 일체형 디자인으로 스포티한 매력을 지닌 스마트키 커버입니다.",
+        "image": "/images/Ai_Daon_49.png"
+      },
+      {
+        "id": 62,
+        "category": "leather",
+        "label": "오피스 스테이셔너리",
+        "name": "다온73",
+        "description": "기업 및 대학의 VIP 웰컴 키트나 행사용 기념품으로 활용하기 좋은 맞춤형 로고 각인 가죽 폴더입니다.",
+        "image": "/images/Ai_Daon_50.png"
+      },
+      {
+        "id": 63,
+        "category": "tech",
+        "label": "산업용/특수 장비 가죽 케이스",
+        "name": "다온74",
+        "description": "하이엔드 오디오 기기 등을 안전하게 보호하며 방열을 돕는 메탈 그릴 디자인이 결합된 프리미엄 케이스입니다.",
+        "image": "/images/Ai_Daon_51.png"
+      },
+      {
+        "id": 64,
+        "category": "bag",
+        "label": "다목적 소형 미니 파우치",
+        "name": "다온75",
+        "description": "견고한 캔버스 질감의 소재와 미니 핸들, 카라비너를 장착하여 아웃도어 및 일상에서 실용적인 토트형 파우치입니다.",
+        "image": "/images/Ai_Daon_52.png"
+      },
+      {
+        "id": 65,
+        "category": "leather",
+        "label": "컴팩트 지갑 / 슬림 카드홀더",
+        "name": "다온76",
+        "description": "기업의 로고 각인이 적용되어 VIP 판촉용이나 임직원 웰컴 키트로 선호도가 높은 클래식한 가죽 명함 지갑입니다.",
+        "image": "/images/Ai_Daon_53.png"
+      },
+      {
+        "id": 66,
+        "category": "bag",
+        "label": "미니 체인 백 / 사첼백 / 크로스백",
+        "name": "다온77",
+        "description": "우아한 카멜 컬러의 크로커다일 패턴 가죽과 얇은 스트랩이 어우러져 세련된 룩을 완성하는 미니 크로스백입니다.",
+        "image": "/images/Ai_Daon_54.png"
+      },
+      {
+        "id": 67,
+        "category": "lifestyle",
+        "label": "가죽 스트랩 & 루프 키링",
+        "name": "다온78",
+        "description": "부드러운 아이보 가죽과 정교한 메탈 버클로 제작되어 다목적 액세서리로 활용 가능한 가죽 스트랩입니다.",
+        "image": "/images/Ai_Daon_55.png"
+      },
+      {
+        "id": 68,
+        "category": "leather",
+        "label": "가죽 러기지택 / 네임택",
+        "name": "다온79",
+        "description": "브랜드 로고 각인과 깔끔한 스티치 마감이 돋보이는 모던한 베이지 컬러의 여행용 가죽 네임택입니다.",
+        "image": "/images/Ai_Daon_56.png"
+      },
+      {
+        "id": 69,
+        "category": "tech",
+        "label": "에어팟 / 버즈 가죽 케이스",
+        "name": "다온80",
+        "description": "유니크하고 트렌디한 동물 자수 패치가 더해져 브랜드의 개성을 확실하게 표현할 수 있는 이어폰 케이스입니다.",
+        "image": "/images/Ai_Daon_57.png"
+      },
+      {
+        "id": 70,
+        "category": "bag",
+        "label": "다목적 소형 미니 파우치",
+        "name": "다온81",
+        "description": "벨트나 가방에 쉽게 체결할 수 있는 카라비너가 부착되어 형태 유지력이 뛰어난 베이지 소형 파우치입니다.",
+        "image": "/images/Ai_Daon_58.png"
+      },
+      {
+        "id": 71,
+        "category": "bag",
+        "label": "다목적 소형 미니 파우치",
+        "name": "다온82",
+        "description": "기하학적인 메탈 컷아웃 패턴과 블랙 가죽이 결합되어 미래지향적인 분위기를 자아내는 하드 쉘 케이스입니다.",
+        "image": "/images/Ai_Daon_59.png"
+      },
+      {
+        "id": 72,
+        "category": "bag",
+        "label": "다목적 소형 미니 파우치",
+        "name": "다온83",
+        "description": "시계나 주얼리 등 귀중품을 안전하게 보관할 수 있도록 내부 맞춤형 쿠션 폼이 적용된 선명한 블루 컬러의 하드 파우치입니다.",
+        "image": "/images/Ai_Daon_60.png"
+      },
+      {
+        "id": 73,
+        "category": "bag",
+        "label": "미니 체인 백 / 사첼백",
+        "name": "다온84",
+        "description": "트렌디한 메탈릭 실버 컬러와 미니멀한 스퀘어 쉐입이 돋보이는 컴팩트한 사이즈의 미니 백입니다.",
+        "image": "/images/Ai_Daon_61.png"
+      },
+      {
+        "id": 74,
+        "category": "bag",
+        "label": "다목적 소형 미니 파우치 / 클러치",
+        "name": "다온85",
+        "description": "고급스러운 블랙 가죽에 골드 메탈 후크와 탈부착 가능한 핸드 스트랩을 더해 실용성을 극대화한 클러치형 파우치입니다.",
+        "image": "/images/Ai_Daon_62.png"
+      },
+      {
+        "id": 75,
+        "category": "lifestyle",
+        "label": "자동차 스마트키 홀더/케이스",
+        "name": "다온86",
+        "description": "차량 키의 버튼 형태를 정교하게 압인하고 견고한 스티치로 마감하여 일체감을 높인 프리미엄 스마트키 커버입니다.",
+        "image": "/images/Ai_Daon_63.png"
+      }
+    ],
+    "subtitle": "더프라임다온이 제작한 독창적인 제품 라인업을 만나보세요."
+  },
+  "contact": {
+    "title": "상담 문의",
+    "subtitle": "아이디어를 현실로 만들어 드릴 준비가 되었습니다. 견적이나 샘플 개발을 문의해 주세요.",
+    "company_info": {
+      "title": "본사 정보",
+      "address_label": "주소",
+      "address": "서울 중랑구 봉우재로 108 3층",
+      "phone_label": "연락처",
+      "phone": "070-4169-9233\n010-9741-8540",
+      "email_label": "이메일",
+      "email": "daon0929@naver.com",
+      "hours_label": "운영시간",
+      "hours": "평일 09:00 - 18:00 (주말 및 공휴일 휴무)"
+    },
+    "form": {
+      "company": "기업명",
+      "person": "담당자명",
+      "contact": "연락처 및 이메일",
+      "item": "문의 품목",
+      "message": "문의 내용",
+      "submit": "문의하기"
+    }
+  },
+  "footer": {
+    "intro": "보호용케이스, 지갑, 파우치 등 프리미엄 가죽 제품 및 스마트 기기 액세서리 OEM/ODM 전문 제조 파트너.",
+    "popular_lines": {
+      "title": "Popular Lines",
+      "items": [
+        "스마트기기 케이스",
+        "키케이스 & 태그",
+        "지갑 & 파우치",
+        "워치 스트랩"
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address_label": "Address",
+      "address": "서울 중랑구 봉우재로 108 3층",
+      "phone_label": "Phone",
+      "fax_label": "Fax",
+      "email_label": "Email"
+    },
+    "quick_links": {
+      "title": "Quick Links",
+      "about": "회사소개",
+      "capabilities": "제조역량",
+      "showroom": "쇼룸",
+      "contact": "상담문의"
+    },
+    "b2b": {
+      "title": "B2B Sourcing",
+      "items": [
+        "OEM/ODM 제조 문의",
+        "샘플 제작 문의",
+        "대량 생산 의뢰",
+        "글로벌 수출 상담"
+      ]
+    },
+    "bottom": {
+      "privacy": "개인정보처리방침",
+      "terms": "이용약관"
+    }
+  },
+  "capabilities_process": {
+    "headerTitle": "제조 프로세스",
+    "headerDesc": "최첨단 기술과 숙련된 노하우의 완벽한 조화",
+    "steps": [
+      {
+        "title": "정밀 CAD 설계",
+        "desc": "디지털 환경에서 정밀하게 구조를 모델링하여 완벽한 설계 표준을 수립합니다.",
+        "detail": [
+          "글로벌 브랜드 테크팩(Tech Pack) 완벽 분석",
+          "원단 수율 최적화를 위한 효율적 네스팅"
+        ],
+        "image": "/cad_step.jpg"
+      },
+      {
+        "title": "레이저 가공 (Cutting)",
+        "desc": "CO2 레이저 기술을 도입하여 복잡하고 섬세한 곡선 단면도 탄 자국 없이 매끄럽게 절단합니다.",
+        "detail": [
+          "열 손상 최소화 가공 기술",
+          "대량 양산을 위한 고속 재단 시스템"
+        ],
+        "image": "/laser_step.jpg"
+      },
+      {
+        "title": "고속 정밀 절단 (Press)",
+        "desc": "더프라임다온만의 오차 없는 타발기 프레스 공정. 수작업의 디테일을 대량 생산 체제에서도 흐트러짐 없이 일관되게 구현합니다.",
+        "detail": [
+          "균일한 규격 유지를 위한 정밀 금형 운용",
+          "글로벌 대량 발주에 최적화된 납기 경쟁력"
+        ],
+        "image": "/press_step.jpg"
+      },
+      {
+        "title": "특수 미싱 및 조립",
+        "desc": "숙련된 장인 정신과 특수 미싱 인프라의 결합으로 가죽의 결을 살려 완벽한 내구성을 완성합니다.",
+        "detail": [
+          "입체 구조를 위한 전용 타프 미싱 운용",
+          "명품 기준의 균일한 땀수와 마감 퀄리티"
+        ],
+        "image": "/sewing_step.jpg"
+      }
+    ]
+  },
+  "capabilities_apple": {
+    "s1Title": "Digital Precision",
+    "s1Desc": "오토캐드(AutoCAD) 기반의 정밀 설계. 0.1mm의 오차도 허용하지 않는 완벽한 패턴이 제품의 시작입니다.",
+    "s2Title": "Laser Sharpness",
+    "s2Desc": "열 손상을 최소화하는 최첨단 레이저 재단기(1대)와 스키/부분 피할기(1대)로 가죽 본연의 질감을 보호합니다.",
+    "s3Title": "Massive Efficiency",
+    "s3Desc": "고속 프레스(2대)와 정밀 성형용 열 프레스(9대) 라인. 일일 대량 물량에서도 흔들리지 않는 균일한 규격을 보장합니다.",
+    "s4Title": "Master Stitch",
+    "s4Desc": "자동 미싱 3대, 타프/말뚝 등 특수 미싱 6대, 그리고 불박기 3대. 하이엔드 브랜드만의 입체적 실루엣과 완벽한 각인을 완성합니다."
+  },
+  "capabilities_bento": {
+    "heroTitle": "Engineering<br>Meets Artistry.",
+    "heroDesc": "구조적 정밀함과 감각적 디테일의 융합. 더프라임다온이 구축한 하이엔드 B2B 양산 생태계를 소개합니다.",
+    "sec1Head": "01. 전산 설계와 초정밀 재단<br><span class='text-[#8b7355]'>0.1mm 오차 한계를 제어하다</span>",
+    "card1Title": "Autodesk AutoCAD 시스템",
+    "card1Desc": "글로벌 규격의 복잡한 테크팩(Tech Pack)을 완벽하게 해체하고 재해석합니다. 모바일 액세서리와 가방의 완벽한 핏을 구현하기 위한 마스터 가이드라인을 전산화하여 원단 수율을 극대화합니다.",
+    "card2Title": "레이저 테크놀로지",
+    "card2Desc": "수작업의 한계를 넘어서는 첨단 레이저 재단 설비. 열 손상을 극한으로 억제하는 독자적 가공 제어로 단면의 가죽 모공과 섬유질 손상 없이 정교한 패턴 및 미세 로고 타공을 수행합니다.",
+    "sec2Head": "02. 자동화 양산과 입체 봉제<br><span class='text-[#8b7355]'>대량 생산 체제에서 품질을 보장하다</span>",
+    "card3Title": "고속 연속 프레스",
+    "card3Desc": "일일 수만 건의 대량 가공을 신속하게 처리하는 자동화 고압 프레스 라인입니다. 금형 고유의 정밀 규격을 100% 동일하게 복제하여 첫 번째 제품과 만 번째 제품의 완벽한 균일성을 유지합니다.",
+    "card4Title": "11대 특수 미싱 라인업",
+    "card4Desc": "컴퓨터 자동 미싱, 입체 구조 전용 타프 미싱 및 말뚝 미싱을 포함한 총 11대의 하이엔드 특수 봉제 설비를 가동합니다. 평면 봉제로는 결코 구현할 수 없는 까다로운 모서리 라운딩과 곡면 실루엣 스티치를 오차 없이 완성합니다.",
+    "sec3Head": "03. 생산 인프라 수치<br><span class='text-[#8b7355]'>숫자로 증명하는 신뢰성</span>",
+    "lblSpec1": "정밀 성형 열 프레스 설비",
+    "lblSpec2": "타프 · 말뚝 특수 미싱 설비",
+    "lblSpec3": "정밀 로고 불박기 장비"
+  },
+  "capabilities_excellence": {
+    "heroTitle": "Manufacturing<br>Excellence",
+    "heroDesc": "더프라임다온이 구축한 하이엔드 B2B 양산 생태계의 모든 공정을 공개합니다.",
+    "s1Title": "디지털 정밀 설계<br>0.1mm 오차 한계를 넘다",
+    "s1Desc": "Autodesk AutoCAD 시스템을 기반으로 글로벌 브랜드의 테크팩(Tech Pack)을 완벽하게 분석합니다. 디자인을 정밀한 데이터로 변환하여 원단 수율을 극대화하고 핏의 오차를 원천 차단합니다.",
+    "s2Title": "열 손상을 통제하는<br>초정밀 레이저 재단",
+    "s2Desc": "수작업의 한계를 넘어서는 첨단 레이저 설비. 가죽의 모공과 섬유질 손상을 극한으로 억제하며, 복잡한 패턴과 미세 로고 타공을 완벽한 단면으로 잘라냅니다.",
+    "s3Title": "흔들림 없는 균일성,<br>자동화 고속 양산 체제",
+    "s3Sub": "고속 연속 프레스 라인",
+    "s3Desc": "금형 고유의 정밀 규격을 100% 동일하게 복제하는 고압 프레스 라인입니다. 일일 수만 건의 물량을 처리하면서도 첫 번째 제품과 만 번째 제품의 퀄리티가 완벽하게 동일합니다.",
+    "s3Kpi": "일일 생산 가능 수량 (Units/Day)",
+    "s4Title": "평면을 입체로 만드는<br>마스터 레벨 특수 봉제",
+    "c1Title": "타프 및 말뚝 미싱",
+    "c1Desc": "일반 평면 봉제로는 불가능한 하이엔드 가방 및 케이스의 입체적 곡면 실루엣을 완성합니다.",
+    "c2Title": "자동 컴퓨터 미싱",
+    "c2Desc": "입력된 데이터에 따라 명품 기준의 한 치 오차 없는 일정한 땀수(Stitch)와 간격을 보장합니다.",
+    "c3Title": "정밀 열 성형 및 각인",
+    "c3Desc": "가죽 전용 불박기를 활용하여 브랜드 로고를 선명하고 고급스럽게 각인하는 최종 마감 공정입니다.",
+    "stat1": "정밀 성형용 열 프레스",
+    "stat2": "타프/말뚝 등 특수 미싱",
+    "stat3": "자동 미싱 및 로고 불박기"
+  },
+  "capabilities_light": {
+    "heroTitle": "당신의 비전,<br>정교하게 제조되다.",
+    "heroDesc": "구조적 정밀함과 감각적 디테일의 융합. 더프라임다온이 구축한 하이엔드 B2B 양산 생태계를 경험하십시오.",
+    "card1Title": "Digital Precision Engineering",
+    "card1Desc": "오토캐드(AutoCAD) 기반의 정밀 2D/3D 엔지니어링. 복잡한 테크팩을 완벽하게 분석하고 0.1mm의 오차도 허용하지 않는 설계로 원단 수율을 극대화합니다.",
+    "card2Title": "Ultra-Precision<br>Laser Cutting",
+    "card2Desc": "수작업의 한계를 넘어서는 첨단 레이저. 가죽의 섬유질 손상 없이 정교한 패턴을 타공합니다.",
+    "card3Title": "High-Speed<br>Automated Press",
+    "card3Desc": "일일 수만 건의 물량을 신속하게 처리하는 고압 프레스 라인. 언제나 첫 번째 제품과 동일한 규격을 유지합니다.",
+    "card4Title": "Master-Level Specialized Sewing",
+    "card4Desc": "입체 구조 전용 타프 미싱 및 자동 컴퓨터 미싱 등 총 11대의 특수 봉제 라인. 평면 봉제로는 구현할 수 없는 까다로운 곡면 실루엣 스티치를 오차 없이 완성합니다.",
+    "lblSpec1": "정밀 성형 열 프레스 설비",
+    "lblSpec2": "타프 · 말뚝 특수 미싱 설비",
+    "lblSpec3": "정밀 로고 불박기 장비"
+  },
+  "capabilities_dynamic": {
+    "h_title": "Your Vision,<br>Exquisitely Manufactured.",
+    "h_desc": "구조적 정밀함과 감각적 디테일의 융합. 더프라임다온의 하이엔드 양산 생태계를 경험하십시오.",
+    "s1_title": "Digital Precision",
+    "s1_desc": "Autodesk AutoCAD 기반의 정밀 설계. 글로벌 테크팩을 분석하여 0.1mm의 오차도 허용하지 않는 완벽한 핏을 전산화합니다.",
+    "s2_title": "Laser Sharpness",
+    "s2_desc": "수작업의 한계를 넘어서는 첨단 레이저. 열 제어 기술로 가죽 손상 없이 정교한 패턴을 완벽한 단면으로 타공합니다.",
+    "s3_title": "Massive Efficiency",
+    "s3_desc": "일일 수만 건을 처리하는 고압 프레스 라인. 만 번째 제품도 첫 번째와 완벽히 동일한 퀄리티를 유지합니다.",
+    "s4_title": "Master Stitch",
+    "s4_c1_t": "11대 특수 미싱 라인업",
+    "s4_c1_d": "타프, 말뚝, 자동 미싱 등 평면 봉제로는 구현 불가능한 하이엔드 브랜드만의 입체적 곡면 실루엣을 오차 없이 완성합니다.",
+    "s4_c2_t": "로고 정밀 불박",
+    "s4_c2_d": "열과 압력을 제어하여 브랜드의 시그니처를 가장 돋보이게 각인합니다.",
+    "stat_title": "Numbers that Prove Trust",
+    "stat_1": "정밀 성형용 열 프레스",
+    "stat_2": "타프 · 말뚝 특수 미싱",
+    "stat_3": "정밀 각인 불박기"
+  },
+  "capabilities_cinematic": {
+    "h_title": "모든 좋은 것이 다 오는",
+    "h_desc": "압도적인 제조 인프라, 완벽을 향한 시스템. 더프라임다온이 구축한 하이엔드 B2B 양산 생태계를 경험하십시오.",
+    "s1_title": "정밀 CAD 설계",
+    "s1_desc": "디지털 환경에서 정밀하게 구조를 모델링하여 완벽한 설계 표준을 수립합니다.",
+    "s2_title": "레이저 가공 (Cutting)",
+    "s2_desc": "CO2 레이저 기술을 도입하여 복잡하고 섬세한 곡선 단면도 탄 자국 없이 매끄럽게 절단합니다.",
+    "s3_title": "고속 정밀 절단 (Press)",
+    "s3_desc": "더프라임다온만의 오차 없는 타발기 프레스 공정. 수작업의 디테일을 대량 생산 체제에서도 흐트러짐 없이 일관되게 구현합니다.",
+    "s4_title": "특수 미싱 및 조립",
+    "s4_c1_t": "11대 특수 미싱 라인업",
+    "s4_c1_d": "타프, 말뚝, 자동 미싱 등 평면 봉제로는 구현 불가능한 하이엔드 브랜드만의 입체적 곡면 실루엣을 오차 없이 완성합니다.",
+    "s4_c2_t": "로고 정밀 불박",
+    "s4_c2_d": "열과 압력을 제어하여 브랜드의 시그니처를 가장 돋보이게 각인합니다.",
+    "stat_title": "Numbers that Prove Trust",
+    "stat_1": "정밀 성형용 열 프레스",
+    "stat_2": "타프 · 말뚝 특수 미싱",
+    "stat_3": "정밀 각인 불박기",
+    "s4_desc": "숙련된 장인 정신과 특수 미싱 인프라의 결합으로 가죽의 결을 살려 완벽한 내구성을 완성합니다.",
+    "feat_quality": "<i class='fa-solid fa-circle-check'></i> 품질 관리",
+    "feat_mass": "<i class='fa-solid fa-circle-check'></i> 대량 생산",
+    "feat_precision": "<i class='fa-solid fa-circle-check'></i> 정밀 기술",
+    "mfg_subtitle": "당신의 비전, 정교하게 완성되다."
+  },
+  "showroom_ui": {
+    "ui": {
+      "kicker": "B2B Reference",
+      "title": "Collections",
+      "desc": "더프라임다온의 하이엔드 제조 역량을 확인해 보세요.",
+      "filter_all": "전체 보기",
+      "filter_tech": "테크 에센셜",
+      "filter_bag": "가방 & 파우치",
+      "filter_personal": "퍼스널 레더 굿즈",
+      "filter_life": "라이프스타일 소품",
+      "tag_promo": "기업 판촉용",
+      "tag_vip": "VIP 웰컴키트",
+      "tag_dealer": "딜러사 판촉물",
+      "drawer_craft_label": "Craftsmanship & Details",
+      "drawer_craft_desc": "견고한 마감 처리, 최고급 소재 적용 및 정밀 봉제. 내구성과 심미성을 동시에 충족하는 하이엔드 공정.",
+      "drawer_cust_label": "Customization Option",
+      "drawer_cust_desc": "가죽 소재 및 컬러 변경, 기업 로고 커스텀 각인(불박/금박), 패키지 구성 등 100% 맞춤형 OEM/ODM 양산이 가능합니다.",
+      "drawer_footer": "본 제품은 더프라임다온의 완벽한 마감 퀄리티를 증명하는 레퍼런스 모델입니다.",
+      "btn_contact": "💡 이 스타일로 제작 단가 문의하기",
+      "btn_portfolio": "📁 제조 포트폴리오 확인하기"
+    },
+    "categories": {
+      "테크 에센셜 | 맥세이프 카드홀더": "테크 에센셜 | 맥세이프 카드홀더",
+      "테크 에센셜 | 디지털/웨어러블 기어": "테크 에센셜 | 디지털/웨어러블 기어",
+      "라이프스타일 소품 | 키 케이싱 & 키링": "라이프스타일 소품 | 키 케이싱 & 키링",
+      "퍼스널 레더 굿즈 | 오피스 스테이셔너리": "퍼스널 레더 굿즈 | 오피스 스테이셔너리",
+      "가방 & 파우치 | 라이프스타일 파우치": "가방 & 파우치 | 라이프스타일 파우치",
+      "가방 & 파우치 | 데일리 & 캐주얼 백": "가방 & 파우치 | 데일리 & 캐주얼 백",
+      "테크 에센셜 | 스마트폰 가죽 케이스": "테크 에센셜 | 스마트폰 가죽 케이스",
+      "퍼스널 레더 굿즈 | 카드홀더 & 지갑": "퍼스널 레더 굿즈 | 카드홀더 & 지갑",
+      "퍼스널 레더 굿즈 | 트래블 액세서리": "퍼스널 레더 굿즈 | 트래블 액세서리",
+      "라이프스타일 소품 | 골프 액세서리": "라이프스타일 소품 | 골프 액세서리",
+      "가방 & 파우치 | 비즈니스 백": "가방 & 파우치 | 비즈니스 백",
+      "테크 에센셜 | 산업용/특수 장비 기어": "테크 에센셜 | 산업용/특수 장비 기어"
+    },
+    "products": {
+      "맥세이프 카드 지갑 (스탠드/밴드형)": "맥세이프 카드 지갑 (스탠드/밴드형)",
+      "에어팟 케이스": "에어팟 케이스",
+      "자동차 스마트키 홀더/케이스": "자동차 스마트키 홀더/케이스",
+      "가죽 다이어리 커버 / 바인더": "가죽 다이어리 커버 / 바인더",
+      "다목적 소형 미니 파우치": "다목적 소형 미니 파우치",
+      "가죽 스트랩 & 루프 키링": "가죽 스트랩 & 루프 키링",
+      "미니 체인 백 / 사첼백 / 크로스백": "미니 체인 백 / 사첼백 / 크로스백",
+      "아이폰 프리미엄 가죽 케이스": "아이폰 프리미엄 가죽 케이스",
+      "에어팟 / 버즈 가죽 케이스": "에어팟 / 버즈 가죽 케이스",
+      "컴팩트 지갑 / 슬림 카드홀더": "컴팩트 지갑 / 슬림 카드홀더",
+      "갤럭시 Z플립/폴드 가죽 케이스": "갤럭시 Z플립/폴드 가죽 케이스",
+      "러기지텍": "러기지텍",
+      "골프 공 파우치": "골프 공 파우치",
+      "워치 스트랩": "워치 스트랩",
+      "가죽 브리프케이스 / 노트북 백": "가죽 브리프케이스 / 노트북 백",
+      "다용도 미니 파우치": "다용도 미니 파우치",
+      "명함/카드지갑": "명함/카드지갑",
+      "아이폰 케이스(자수형)": "아이폰 케이스(자수형)",
+      "노트북 파우치": "노트북 파우치",
+      "PDA 및 바코드 단말기 가죽 가드": "PDA 및 바코드 단말기 가죽 가드",
+      "핸드 스트랩": "핸드 스트랩",
+      "다용도 레더 파우치": "다용도 레더 파우치",
+      "벨트 클립": "벨트 클립",
+      "가죽 선글라스/안경 케이스": "가죽 선글라스/안경 케이스",
+      "핸드스트랩": "핸드스트랩",
+      "골프-아이언커버": "골프-아이언커버",
+      "아이폰 프리미엄 케이스": "아이폰 프리미엄 케이스"
+    }
+  }
+}

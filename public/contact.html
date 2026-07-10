@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>더프라임다온 - 상담 문의</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Pretendard', -apple-system, sans-serif; }
+    body { background-color: #fcfcfc; color: #222; overflow-x: hidden; }
+
+    /* 안티그라비티 기본 타이틀 숨김 */
+    h1:first-of-type { display: none !important; }
+
+    /* 공통 섹션 스타일 */
+    .section { padding: 120px 20px; max-width: 1200px; margin: 0 auto; }
+    .sec-kicker { font-size: 11px; font-weight: 700; color: #8b7355; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 15px; display: block; text-align: center; }
+    .sec-title { font-size: 40px; font-family: 'Times New Roman', serif; color: #111; margin-bottom: 80px; font-weight: 300; letter-spacing: 1px; text-align: center; }
+
+    /* Contact 레이아웃 (좌: 정보, 우: 입력폼) */
+    .contact-wrap { display: flex; gap: 80px; background: #fff; border: 1px solid #eaeaea; border-radius: 12px; box-shadow: 0 20px 40px rgba(0,0,0,0.04); overflow: hidden; }
+    
+    /* 좌측 정보 영역 */
+    .contact-info { flex: 1; background: #111; color: #fff; padding: 70px 60px; display: flex; flex-direction: column; justify-content: center; }
+    .info-title { font-size: 32px; font-weight: 600; margin-bottom: 20px; line-height: 1.4; letter-spacing: -0.5px; }
+    .info-desc { font-size: 15px; color: #aaa; margin-bottom: 50px; line-height: 1.7; font-weight: 300; word-break: keep-all; }
+    
+    .info-list { list-style: none; }
+    .info-list li { display: flex; align-items: flex-start; margin-bottom: 25px; font-size: 16px; font-weight: 300; color: #eee; }
+    .info-list li:last-child { margin-bottom: 0; }
+    .info-icon { font-size: 20px; margin-right: 15px; color: #8b7355; }
+    .info-text strong { display: block; font-size: 13px; color: #888; margin-bottom: 5px; font-weight: 500; letter-spacing: 1px; }
+
+    /* 우측 폼 영역 */
+    .contact-form { flex: 1.2; padding: 70px 60px 70px 0; }
+    .form-group { margin-bottom: 30px; }
+    .form-group label { display: block; font-size: 13px; font-weight: 600; color: #555; margin-bottom: 10px; letter-spacing: 0.5px; }
+    .form-control { width: 100%; padding: 15px 0; border: none; border-bottom: 1px solid #ddd; font-size: 16px; color: #111; background: transparent; transition: border-color 0.3s; outline: none; }
+    .form-control:focus { border-bottom-color: #111; }
+    .form-control::placeholder { color: #bbb; font-weight: 300; }
+    textarea.form-control { resize: none; height: 100px; }
+    
+    .submit-btn { display: inline-block; background: #111; color: #fff; border: none; padding: 18px 40px; font-size: 15px; font-weight: 600; letter-spacing: 1px; cursor: pointer; transition: background 0.3s; width: 100%; text-align: center; margin-top: 10px; }
+    .submit-btn:hover { background: #8b7355; }
+
+    /* 푸터 */
+    .footer { text-align: center; padding: 60px 20px; border-top: 1px solid #eee; margin-top: 80px; font-size: 13px; color: #888; font-weight: 300; }
+
+    /* 모바일 반응형 */
+    @media (max-width: 900px) {
+        .contact-wrap { flex-direction: column; gap: 0; }
+        .contact-info { padding: 50px 30px; }
+        .contact-form { padding: 50px 30px; }
+        .info-title { font-size: 26px; }
+    }
+</style>
+</head>
+<body>
+
+<section id="contact" class="section">
+    <span class="sec-kicker">Contact Us</span>
+    <h2 class="sec-title">프로젝트 문의하기</h2>
+
+    <div class="contact-wrap">
+        <!-- 좌측: 연락처 정보 -->
+        <div class="contact-info">
+            <h3 class="info-title">더프라임다온과 함께<br>성공적인 비즈니스를 시작하세요.</h3>
+            <p class="info-desc">가방, 지갑, 파우치, 보호용 케이스 등 프리미엄 가죽 제품의 샘플 개발부터 OEM/ODM 양산까지, 최고의 품질로 보답하겠습니다.</p>
+            
+            <ul class="info-list">
+                <li>
+                    <span class="info-icon">📍</span>
+                    <span class="info-text">
+                        <strong>주소</strong>
+                        서울 중랑구 봉우재로 108 3층
+                    </span>
+                </li>
+                <li>
+                    <span class="info-icon">📞</span>
+                    <span class="info-text">
+                        <strong>본사 연락처</strong>
+                        070-4169-9233
+                    </span>
+                </li>
+                <li>
+                    <span class="info-icon">📱</span>
+                    <span class="info-text">
+                        <strong>대표 휴대전화</strong>
+                        010-9741-8540
+                    </span>
+                </li>
+                <li>
+                    <span class="info-icon">✉️</span>
+                    <span class="info-text">
+                        <strong>이메일</strong>
+                        daon0929@naver.com
+                    </span>
+                </li>
+                <li>
+                    <span class="info-icon">⏰</span>
+                    <span class="info-text">
+                        <strong>운영시간</strong>
+                        평일 09:00 - 18:00 (주말 및 공휴일 휴무)
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- 우측: 문의 폼 -->
+        <div class="contact-form">
+            <div class="form-group">
+                <label for="company">기업명 / 브랜드명</label>
+                <input type="text" id="company" class="form-control" placeholder="기업명을 입력해 주세요">
+            </div>
+            <div class="form-group">
+                <label for="name">담당자 성함</label>
+                <input type="text" id="name" class="form-control" placeholder="성함을 입력해 주세요">
+            </div>
+            <div class="form-group">
+                <label for="contact-num">연락처</label>
+                <input type="tel" id="contact-num" class="form-control" placeholder="답변 받으실 연락처를 남겨주세요">
+            </div>
+            <div class="form-group">
+                <label for="message">문의 내용</label>
+                <textarea id="message" class="form-control" placeholder="제작을 원하시는 품목, 수량, 일정 등 상세한 내용을 적어주시면 더 빠르고 정확한 상담이 가능합니다."></textarea>
+            </div>
+            <button type="button" class="submit-btn" onclick="alert('문의가 접수되었습니다. 담당자가 확인 후 연락드리겠습니다.');">문의 접수하기</button>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p>상호명: (주)더프라임다온 | 대표이사: 석용주 | 주소: 서울 중랑구 봉우재로108 3층</p>
+    <p style="margin-top: 10px;">&copy; 2026 THE PRIME DA-ON. All rights reserved.</p>
+</footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const h1Tags = document.querySelectorAll('h1');
+        h1Tags.forEach(el => el.style.display = 'none');
+    });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>더프라임다온 - 제조역량</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Pretendard', -apple-system, sans-serif; }
+    body { background-color: #000; color: #fff; overflow-x: hidden; }
+    h1:first-of-type { display: none !important; }
+
+    /* 다국어 선택 바 (메인과 동일 스타일) */
+    .lang-selector-wrap {
+        position: fixed; top: 30px; right: 40px; z-index: 100;
+        display: flex; gap: 15px; background: rgba(0,0,0,0.5); padding: 10px 20px; border-radius: 30px; backdrop-filter: blur(10px);
+    }
+    .lang-btn { background: none; border: none; color: rgba(255, 255, 255, 0.4); font-size: 13px; font-weight: 600; cursor: pointer; letter-spacing: 1px; transition: 0.3s; }
+    .lang-btn.active { color: #fff; border-bottom: 2px solid #fff; }
+
+    /* 공정 섹션 레이아웃 */
+    .process-container { width: 100%; max-width: 1400px; margin: 0 auto; padding: 100px 20px; }
+    .section-header { text-align: center; margin-bottom: 100px; }
+    .section-header h2 { font-size: 42px; font-weight: 700; letter-spacing: -1.5px; margin-bottom: 20px; }
+    .section-header p { font-size: 18px; color: #888; font-weight: 300; }
+
+    .step-item { 
+        display: flex; align-items: center; gap: 80px; margin-bottom: 150px; 
+        opacity: 0; transform: translateY(50px); transition: 1s ease-out;
+    }
+    .step-item.show { opacity: 1; transform: translateY(0); }
+    .step-item:nth-child(even) { flex-direction: row-reverse; }
+
+    .step-image { flex: 1.2; position: relative; border-radius: 12px; overflow: hidden; height: 500px; box-shadow: 0 30px 60px rgba(0,0,0,0.5); }
+    .step-image img { width: 100%; height: 100%; object-fit: cover; filter: brightness(0.8); transition: 0.5s; }
+    .step-image:hover img { filter: brightness(1); transform: scale(1.05); }
+
+    .step-text { flex: 0.8; }
+    .step-num { font-size: 14px; color: #8b7355; font-weight: 700; letter-spacing: 3px; margin-bottom: 15px; display: block; }
+    .step-title { font-size: 36px; font-weight: 700; margin-bottom: 25px; line-height: 1.2; }
+    .step-desc { font-size: 17px; color: #aaa; line-height: 1.7; font-weight: 300; word-break: keep-all; }
+    .step-detail { margin-top: 30px; list-style: none; }
+    .step-detail li { margin-bottom: 12px; font-size: 15px; color: #8b7355; font-weight: 500; display: flex; align-items: center; gap: 10px; }
+    .step-detail li::before { content: '•'; font-size: 20px; }
+
+    /* 푸터 */
+    .footer { background-color: #000; text-align: center; padding: 60px 20px; border-top: 1px solid #1c1c1c; font-size: 13px; color: #666; font-weight: 300; }
+
+    @media (max-width: 1024px) {
+        .step-item, .step-item:nth-child(even) { flex-direction: column; gap: 40px; text-align: center; }
+        .step-image { width: 100%; height: 350px; }
+        .step-detail { display: inline-block; text-align: left; }
+    }
+</style>
+</head>
+<body>
+
+<div class="lang-selector-wrap">
+    <button class="lang-btn active" onclick="switchLanguage('ko', this)">KO</button>
+    <button class="lang-btn" onclick="switchLanguage('en', this)">EN</button>
+    <button class="lang-btn" onclick="switchLanguage('ja', this)">JA</button>
+    <button class="lang-btn" onclick="switchLanguage('zh', this)">ZH</button>
+</div>
+
+<div class="process-container">
+    <div class="section-header">
+        <h2 id="txt-header-title">제조 프로세스</h2>
+        <p id="txt-header-desc">최첨단 기술과 숙련된 노하우의 완벽한 조화</p>
+    </div>
+
+    <div class="step-item">
+        <div class="step-image">
+            <img src="cad_step.jpg" alt="Digital Design">
+        </div>
+        <div class="step-text">
+            <span class="step-num">STEP 01</span>
+            <h3 class="step-title" id="txt-s1-title">디지털 정밀 설계</h3>
+            <p class="step-desc" id="txt-s1-desc">오토캐드(AutoCAD)를 이용한 2D/3D 엔지니어링으로 0.1mm의 오차도 허용하지 않는 완벽한 칼선 설계를 진행합니다.</p>
+            <ul class="step-detail" id="txt-s1-detail">
+                <li>글로벌 브랜드 테크팩(Tech Pack) 완벽 분석</li>
+                <li>원단 수율 최적화를 위한 효율적 네스팅</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="step-item">
+        <div class="step-image">
+            <img src="laser_step.jpg" alt="Laser Cutting">
+        </div>
+        <div class="step-text">
+            <span class="step-num">STEP 02</span>
+            <h3 class="step-title" id="txt-s2-title">초정밀 레이저 재단</h3>
+            <p class="step-desc" id="txt-s2-desc">복잡한 패턴과 미세한 로고 타공을 위한 최첨단 레이저 설비를 운용하여 가죽 단면의 퀄리티를 극대화합니다.</p>
+            <ul class="step-detail" id="txt-s2-detail">
+                <li>열 손상 최소화 가공 기술</li>
+                <li>대량 양산을 위한 고속 재단 시스템</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="step-item">
+        <div class="step-image">
+            <img src="press_step.jpg" alt="Automated Press">
+        </div>
+        <div class="step-text">
+            <span class="step-num">STEP 03</span>
+            <h3 class="step-title" id="txt-s3-title">고속 자동화 프레스</h3>
+            <p class="step-desc" id="txt-s3-desc">강력한 고압 프레스 라인을 통해 일일 수만 건의 물량을 균일한 규격으로 신속하게 생산해냅니다.</p>
+            <ul class="step-detail" id="txt-s3-detail">
+                <li>균일한 규격 유지를 위한 정밀 금형 운용</li>
+                <li>글로벌 대량 발주에 최적화된 납기 경쟁력</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="step-item">
+        <div class="step-image">
+            <img src="sewing_step.jpg" alt="Specialized Sewing">
+        </div>
+        <div class="step-text">
+            <span class="step-num">STEP 04</span>
+            <h3 class="step-title" id="txt-s4-title">마스터 레벨 특수 봉제</h3>
+            <p class="step-desc" id="txt-s4-desc">11대의 특수 미싱 설비를 보유하여 일반 봉제로 구현 불가능한 입체적이고 견고한 프리미엄 스티치를 완성합니다.</p>
+            <ul class="step-detail" id="txt-s4-detail">
+                <li>입체 구조를 위한 전용 타프 미싱 운용</li>
+                <li>명품 기준의 균일한 땀수와 마감 퀄리티</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p id="txt-footer-info">상호명: (주)더프라임다온 | 대표이사: 석용주 | 주소: 서울 중랑구 봉우재로108 3층</p>
+    <p style="margin-top: 5px;">&copy; 2026 THE PRIME DA-ON. All rights reserved.</p>
+</footer>
+
+<script>
+    // 다국어 데이터
+    const langData = {
+        ko: {
+            headerTitle: "제조 프로세스",
+            headerDesc: "최첨단 기술과 숙련된 노하우의 완벽한 조화",
+            s1Title: "디지털 정밀 설계",
+            s1Desc: "오토캐드(AutoCAD)를 이용한 2D/3D 엔지니어링으로 0.1mm의 오차도 허용하지 않는 완벽한 칼선 설계를 진행합니다.",
+            s1Detail: "<li>글로벌 브랜드 테크팩(Tech Pack) 완벽 분석</li><li>원단 수율 최적화를 위한 효율적 네스팅</li>",
+            s2Title: "초정밀 레이저 재단",
+            s2Desc: "복잡한 패턴과 미세한 로고 타공을 위한 최첨단 레이저 설비를 운용하여 가죽 단면의 퀄리티를 극대화합니다.",
+            s2Detail: "<li>열 손상 최소화 가공 기술</li><li>대량 양산을 위한 고속 재단 시스템</li>",
+            s3Title: "고속 자동화 프레스",
+            s3Desc: "강력한 고압 프레스 라인을 통해 일일 수만 건의 물량을 균일한 규격으로 신속하게 생산해냅니다.",
+            s3Detail: "<li>균일한 규격 유지를 위한 정밀 금형 운용</li><li>글로벌 대량 발주에 최적화된 납기 경쟁력</li>",
+            s4Title: "마스터 레벨 특수 봉제",
+            s4Desc: "11대의 특수 미싱 설비를 보유하여 일반 봉제로 구현 불가능한 입체적이고 견고한 프리미엄 스티치를 완성합니다.",
+            s4Detail: "<li>입체 구조를 위한 전용 타프 미싱 운용</li><li>명품 기준의 균일한 땀수와 마감 퀄리티</li>",
+            footer: "상호명: (주)더프라임다온 | 대표이사: 석용주 | 주소: 서울 중랑구 봉우재로108 3층"
+        },
+        en: {
+            headerTitle: "Manufacturing Process",
+            headerDesc: "Perfect Harmony of Advanced Technology and Expert Know-how",
+            s1Title: "Digital Precision Engineering",
+            s1Desc: "Using Autodesk AutoCAD, we execute 2D/3D engineering to ensure perfect dieline design with zero margin for error.",
+            s1Detail: "<li>In-depth Tech Pack Analysis</li><li>Optimal Material Nesting for Maximum Yield</li>",
+            s2Title: "Ultra-Precision Laser Cutting",
+            s2Desc: "Operating advanced laser equipment for complex patterns and micro-perforations to maximize edge quality.",
+            s2Detail: "<li>Heat-Minimize Processing Technology</li><li>High-Speed Cutting System for Mass Production</li>",
+            s3Title: "High-Speed Automated Press",
+            s3Desc: "Producing tens of thousands of units daily in uniform standards through high-pressure press lines.",
+            s3Detail: "<li>Precision Mold Management</li><li>Optimized Lead-Time for Global Bulk Orders</li>",
+            s4Title: "Master-Level Specialized Sewing",
+            s4Desc: "With 11 specialized machines, we achieve premium, 3D stitching that is impossible with standard sewing.",
+            s4Detail: "<li>Tarp-type Sewing for 3D Structures</li><li>Uniform Stitch Quality Meeting Luxury Standards</li>",
+            footer: "Company: THE PRIME DA-ON Co., Ltd. | CEO: Yongju Seok | Address: 3F, 108, Bongujae-ro, Jungnang-gu, Seoul, Korea"
+        },
+        ja: {
+            headerTitle: "製造プロセス",
+            headerDesc: "最先端技術と熟練したノウハウの完璧な調和",
+            s1Title: "デジタル精密設計",
+            s1Desc: "AutoCADを利用した2D/3Dエンジニアリングで、0.1mmの誤差も許さない完璧な設計を行います。",
+            s1Detail: "<li>グローバルブランドのテックパック分析</li><li>効率的なネスティングによる歩留まり向上</li>",
+            s2Title: "超精密レーザー裁断",
+            s2Desc: "複雑なパターンや微細なロゴ加工のための最先端設備を運用し、革の断面品質を極大化します。",
+            s2Detail: "<li>熱損傷最小化加工技術</li><li>量産のための高速裁단システム</li>",
+            s3Title: "高速自動化プレス",
+            s3Desc: "強力な高圧プレスラインを通じ、1日当たり数万件の物量を均一な規格で迅速に生産します。",
+            s3Detail: "<li>精密な金型運用による規格維持</li><li>グローバル受注に最適化された納期競争力</li>",
+            s4Title: "マ스터レベル特殊縫製",
+            s4Desc: "11台の特殊ミシン設備を保有し、プレミアムで堅牢なステッチを完成させます。",
+            s4Detail: "<li>立体構造のための特殊ミシン運用</li><li>名品基準の均一な縫い目と仕上げ品質</li>",
+            footer: "社名: (株)ザ・プライムダオン | 代表取締役: 石龍柱 | 住所: ソウル特別市中浪区烽火災路108 3階"
+        },
+        zh: {
+            headerTitle: "制造流程",
+            headerDesc: "先端技术与熟练经验的完美结合",
+            s1Title: "数字精密设计",
+            s1Desc: "利用AutoCAD进行2D/3D工程设计，确保0.1mm误差以内的精准设计。",
+            s1Detail: "<li>全球品牌规格书(Tech Pack)深入分析</li><li>提高原材料利用率的高效排版</li>",
+            s2Title: "超精密激光裁剪",
+            s2Desc: "运用尖端激光设备，实现复杂图案和微孔加工，最大程度提升皮革切面质量。",
+            s2Detail: "<li>减少热损伤加工技术</li><li>针对大批量生产的高速裁剪系统</li>",
+            s3Title: "高速自动化冲压",
+            s3Desc: "通过高压冲压线，每日高效、精准地生产数万件统一规格的产品。",
+            s3Detail: "<li>精密模具管理</li><li>针对全球大宗订单优化的交付竞争力</li>",
+            s4Title: "大师级特殊缝制",
+            s4Desc: "拥有11台特种缝纫设备，完成普通缝制无法实现的立体、坚固的高端缝线。",
+            s4Detail: "<li>立体结构专用特种缝纫机</li><li>符合名品标准的均匀针距与收边质量</li>",
+            footer: "公司名称: (株)The Prime Da-on | 代表董事: 石龙柱 | 地址: 首尔特别市中浪区烽火灾路108 3楼"
+        }
+    };
+
+    function switchLanguage(lang, btnElement) {
+        document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+        btnElement.classList.add('active');
+
+        document.getElementById('txt-header-title').innerHTML = langData[lang].headerTitle;
+        document.getElementById('txt-header-desc').innerHTML = langData[lang].headerDesc;
+        document.getElementById('txt-s1-title').innerHTML = langData[lang].s1Title;
+        document.getElementById('txt-s1-desc').innerHTML = langData[lang].s1Desc;
+        document.getElementById('txt-s1-detail').innerHTML = langData[lang].s1Detail;
+        document.getElementById('txt-s2-title').innerHTML = langData[lang].s2Title;
+        document.getElementById('txt-s2-desc').innerHTML = langData[lang].s2Desc;
+        document.getElementById('txt-s2-detail').innerHTML = langData[lang].s2Detail;
+        document.getElementById('txt-s3-title').innerHTML = langData[lang].s3Title;
+        document.getElementById('txt-s3-desc').innerHTML = langData[lang].s3Desc;
+        document.getElementById('txt-s3-detail').innerHTML = langData[lang].s3Detail;
+        document.getElementById('txt-s4-title').innerHTML = langData[lang].s4Title;
+        document.getElementById('txt-s4-desc').innerHTML = langData[lang].s4Desc;
+        document.getElementById('txt-s4-detail').innerHTML = langData[lang].s4Detail;
+        document.getElementById('txt-footer-info').innerHTML = langData[lang].footer;
+    }
+
+    // 스크롤 애니메이션
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) entry.target.classList.add('show');
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.step-item').forEach(item => observer.observe(item));
+</script>
+
+</body>
+</html>

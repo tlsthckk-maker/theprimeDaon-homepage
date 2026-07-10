@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>더프라임다온 | Premium Leather Manufacturing</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif; }
+        body { background-color: #000000; color: #ffffff; overflow-x: hidden; }
+        header { position: fixed; top: 0; left: 0; width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; z-index: 1000; background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)); }
+        .logo { font-size: 1.5rem; font-weight: 700; letter-spacing: 1px; color: #ffffff; }
+        .lang-switcher { display: flex; gap: 10px; }
+        .lang-btn { background: none; border: 1px solid rgba(255,255,255,0.4); color: rgba(255,255,255,0.6); padding: 5px 10px; cursor: pointer; font-size: 0.8rem; transition: all 0.3s ease; border-radius: 3px; }
+        .lang-btn.active, .lang-btn:hover { border-color: #ffffff; color: #ffffff; background-color: rgba(255,255,255,0.1); }
+        .hero-section { position: relative; width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; overflow: hidden; }
+        .hero-video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
+        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 2; }
+        .hero-content { position: relative; z-index: 3; text-align: center; max-width: 800px; padding: 0 20px; }
+        .hero-content h1 { font-size: 4rem; font-weight: 700; margin-bottom: 20px; letter-spacing: -1px; }
+        .hero-content p { font-size: 1.5rem; color: #cccccc; margin-bottom: 30px; }
+        .manufacturing-container { position: relative; }
+        .manufacturing-stage { position: relative; height: 200vh; background-color: #0b0b0b; }
+        .sticky-bg { position: sticky; top: 0; width: 100%; height: 100vh; background-size: cover; background-position: center; z-index: 1; overflow: hidden; }
+        .sticky-bg video { width: 100%; height: 100%; object-fit: cover; }
+        .bg-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)); }
+        .scroll-content { position: relative; z-index: 2; margin-top: -100vh; height: 200vh; display: flex; align-items: center; justify-content: center; }
+        
+        /* 대표님 피드백 반영: 오버레이 없이 원본 밝기 유지 및 20% 줌 애니메이션 효과 */
+        .stage03-bg {
+            position: sticky; top: 0; width: 100%; height: 100vh;
+            background-image: url('HighPress.jpeg'); background-size: cover; background-position: center;
+            z-index: 1; overflow: hidden;
+            animation: pulseZoom 12s ease-in-out infinite; /* 12초 주기로 20% 확대/축소 무한 반복 */
+        }
+        @keyframes pulseZoom {
+            0% { transform: scale(1.0); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1.0); }
+        }
+
+        .text-block { text-align: center; color: #ffffff; max-width: 700px; padding: 40px; background: rgba(0, 0, 0, 0.6); border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
+        .stage-label { font-size: 0.9rem; color: #8bbfa3; letter-spacing: 3px; margin-bottom: 15px; text-transform: uppercase; }
+        .stage-title { font-size: 3rem; font-weight: 700; margin-bottom: 20px; }
+        .stage-desc { font-size: 1.1rem; line-height: 1.7; color: #dddddd; margin-bottom: 25px; }
+        .stage-features { list-style: none; display: flex; justify-content: center; gap: 25px; color: #aaaaaa; font-size: 0.95rem; }
+        .stage-features li i { color: #8bbfa3; margin-right: 5px; }
+        .fade-in-element { opacity: 0; transform: translateY(40px); transition: opacity 1s ease, transform 1s ease; }
+        .fade-in-element.is-visible { opacity: 1; transform: translateY(0); }
+        .showroom-preview { padding: 100px 40px; text-align: center; background-color: #000; }
+        .showroom-btn { background-color: #ffffff; color: #000000; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: background 0.3s; margin-top: 30px; }
+        .showroom-btn:hover { background-color: #8bbfa3; color: #ffffff; }
+        .side-drawer { position: fixed; top: 0; right: -500px; width: 500px; height: 100vh; background-color: #141414; box-shadow: -5px 0 25px rgba(0,0,0,0.5); z-index: 2000; transition: right 0.5s cubic-bezier(0.1, 0.8, 0.3, 1); padding: 40px; display: flex; flex-direction: column; }
+        .side-drawer.open { right: 0; }
+        .drawer-close { align-self: flex-end; background: none; border: none; color: #ffffff; font-size: 1.5rem; cursor: pointer; }
+        .drawer-content { margin-top: 40px; }
+        .drawer-content h3 { font-size: 2rem; margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; }
+        .product-item { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+        .product-id { color: #8bbfa3; font-weight: 700; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">THE PRIME DAON</div>
+        <div class="lang-switcher">
+            <button class="lang-btn active" onclick="changeLanguage('ko')">KO</button>
+            <button class="lang-btn" onclick="changeLanguage('en')">EN</button>
+            <button class="lang-btn" onclick="changeLanguage('ja')">JA</button>
+            <button class="lang-btn" onclick="changeLanguage('zh')">ZH</button>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <video class="hero-video" autoplay loop muted playsinline>
+            <source src="colormix.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 data-i18n="hero_title">모든 좋은 것이 다 오는</h1>
+            <p data-i18n="hero_desc">더프라임다온 프리미엄 가죽 솔루션</p>
+        </div>
+    </section>
+
+    <div class="manufacturing-container">
+        <section class="manufacturing-stage" id="stage-01">
+            <div class="sticky-bg" style="background-color: #1a1a1a;">
+                <div class="bg-overlay"></div>
+            </div>
+            <div class="scroll-content">
+                <div class="text-block fade-in-element">
+                    <h4 class="stage-label">STAGE 01</h4>
+                    <h2 class="stage-title" data-i18n="stage1_title">정밀 CAD 설계</h2>
+                    <p class="stage-desc" data-i18n="stage1_desc">디지털 환경에서 정밀하게 구조를 모델링하여 완벽한 설계 표준을 수립합니다.</p>
+                    <ul class="stage-features">
+                        <li data-i18n="feat_cad1"><i class="fa-solid : fa-circle-check"></i> 정밀 모델링</li>
+                        <li data-i18n="feat_cad2"><i class="fa-solid : fa-circle-check"></i> 최적 패턴 규격화</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="manufacturing-stage" id="stage-02">
+            <div class="sticky-bg">
+                <video autoplay loop muted playsinline>
+                    <source src="co2Cutting.mp4" type="video/mp4">
+                </video>
+                <div class="bg-overlay"></div>
+            </div>
+            <div class="scroll-content">
+                <div class="text-block fade-in-element">
+                    <h4 class="stage-label">STAGE 02</h4>
+                    <h2 class="stage-title" data-i18n="stage2_title">레이저 가공 (Cutting)</h2>
+                    <p class="stage-desc" data-i18n="stage2_desc">CO2 레이저 기술을 도입하여 복잡하고 섬세한 곡선 단면도 탄 자국 없이 매끄럽게 절단합니다.</p>
+                    <ul class="stage-features">
+                        <li data-i18n="feat_laser1"><i class="fa-solid : fa-circle-check"></i> 고속 자동 컷팅</li>
+                        <li data-i18n="feat_laser2"><i class="fa-solid : fa-circle-check"></i> 원단 손실 최소화</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="manufacturing-stage" id="stage-03">
+            <div class="stage03-bg"></div> <div class="scroll-content">
+                <div class="text-block fade-in-element">
+                    <h4 class="stage-label">STAGE 03</h4>
+                    <h2 class="stage-title" data-i18n="stage3_title">고속 정밀 절단 (Press)</h2>
+                    <p class="stage-desc" data-i18n="stage3_desc">더프라임다온만의 오차 없는 타발기 프레스 공정. 수작업의 디테일을 대량 생산 체제에서도 흐트러짐 없이 일관되게 구현합니다.</p>
+                    <ul class="stage-features">
+                        <li data-i18n="feat_quality"><i class="fa-solid fa-circle-check"></i> 품질 관리</li>
+                        <li data-i18n="feat_mass"><i class="fa-solid fa-circle-check"></i> 대량 생산</li>
+                        <li data-i18n="feat_precision"><i class="fa-solid fa-circle-check"></i> 정밀 기술</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="manufacturing-stage" id="stage-04">
+            <div class="sticky-bg" style="background-color: #111111;">
+                <div class="bg-overlay"></div>
+            </div>
+            <div class="scroll-content">
+                <div class="text-block fade-in-element">
+                    <h4 class="stage-label">STAGE 04</h4>
+                    <h2 class="stage-title" data-i18n="stage4_title">특수 미싱 및 조립</h2>
+                    <p class="stage-desc" data-i18n="stage4_desc">숙련된 장인 정신과 특수 미싱 인프라의 결합으로 가죽의 결을 살려 완벽한 내구성을 완성합니다.</p>
+                    <ul class="stage-features">
+                        <li data-i18n="feat_stitch1"><i class="fa-solid : fa-circle-check"></i> 장인 수작업 마감</li>
+                        <li data-i18n="feat_stitch2"><i class="fa-solid : fa-circle-check"></i> 명품급 내구성</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="showroom-preview">
+        <h2 data-i18n="showroom_title">B2B 프리미엄 룩북 쇼룸</h2>
+        <p style="color: #888; margin-top: 10px;" data-i18n="showroom_desc">더프라임다온이 제작한 독창적인 제품 라인업을 만나보세요.</p>
+        <button class="showroom-btn" onclick="toggleDrawer(true)">SHOWROOM OPEN</button>
+    </section>
+
+    <div class="side-drawer" id="sideDrawer">
+        <button class="drawer-close" onclick="toggleDrawer(false)"><i class="fa-solid : fa-xmark"></i></button>
+        <div class="drawer-content">
+            <h3>B2B Lookbook</h3>
+            <div class="product-item">
+                <span class="product-id">DAON-01</span>
+                <span data-i18n="prod_1">가죽 폰케이스 (플립형)</span>
+            </div>
+            <div class="product-item">
+                <span class="product-id">DAON-02</span>
+                <span data-i18n="prod_2">차량용 가죽 키케이스</span>
+            </div>
+            <div class="product-item">
+                <span class="product-id">DAON-03</span>
+                <span data-i18n="prod_3">새들 미니 크로스백</span>
+            </div>
+            <p style="margin-top: 40px; font-size: 0.9rem; color: #666; line-height: 1.5;" data-i18n="showroom_note">* 구글 시트 매핑이 완료되면 더 많은 70여 개의 데이터가 이곳에 다국어로 채워집니다.</p>
+        </div>
+    </div>
+
+    <script>
+        // 누락되었던 제목 문구와 하단 특징 항목들의 다국어 사전 동기화 완료
+        const i18nTokens = {
+            ko: {
+                hero_title: "모든 좋은 것이 다 오는", hero_desc: "더프라임다온 프리미엄 가죽 솔루션",
+                mfg_subtitle: "당신의 비전, 정교하게 완성되다.",
+                stage1_title: "정밀 CAD 설계", stage1_desc: "디지털 환경에서 정밀하게 구조를 모델링하여 완벽한 설계 표준을 수립합니다.",
+                feat_cad1: "<i class='fa-solid fa-circle-check'></i> 정밀 모델링", feat_cad2: "<i class='fa-solid fa-circle-check'></i> 최적 패턴 규격화",
+                stage2_title: "레이저 가공 (Cutting)", stage2_desc: "CO2 레이저 기술을 도입하여 복잡하고 섬세한 곡선 단면도 탄 자국 없이 매끄럽게 절단합니다.",
+                feat_laser1: "<i class='fa-solid fa-circle-check'></i> 고속 자동 컷팅", feat_laser2: "<i class='fa-solid fa-circle-check'></i> 원단 손실 최소화",
+                stage3_title: "고속 정밀 절단 (Press)", stage3_desc: "더프라임다온만의 오차 없는 타발기 프레스 공정. 수작업의 디테일을 대량 생산 체제에서도 흐트러짐 없이 일관되게 구현합니다.",
+                feat_quality: "<i class='fa-solid fa-circle-check'></i> 품질 관리", feat_mass: "<i class='fa-solid fa-circle-check'></i> 대량 생산", feat_precision: "<i class='fa-solid fa-circle-check'></i> 정밀 기술",
+                stage4_title: "특수 미싱 및 조립", stage4_desc: "숙련된 장인 정신과 특수 미싱 인프라의 결합으로 가죽의 결을 살려 완벽한 내구성을 완성합니다.",
+                feat_stitch1: "<i class='fa-solid : fa-circle-check'></i> 장인 수작업 마감", feat_stitch2: "<i class='fa-solid : fa-circle-check'></i> 명품급 내구성",
+                showroom_title: "B2B 프리미엄 룩북 쇼룸", showroom_desc: "더프라임다온이 제작한 독창적인 제품 라인업을 만나보세요.",
+                prod_1: "가죽 폰케이스 (플립형)", prod_2: "차량용 가죽 키케이스", prod_3: "새들 미니 크로스백", showroom_note: "* 구글 시트 매핑이 완료되면 더 많은 70여 개의 데이터가 이곳에 다국어로 채워집니다."
+            },
+            en: {
+                hero_title: "Where All Fine Things Come", hero_desc: "The Prime Daon Premium Leather Solutions",
+                mfg_subtitle: "Your vision, masterfully brought to life.",
+                stage1_title: "Precision CAD Design", stage1_desc: "Accurate structural modeling in a digital environment to establish the perfect blueprint.",
+                feat_cad1: "<i class='fa-solid fa-circle-check'></i> Precision Modeling", feat_cad2: "<i class='fa-solid fa-circle-check'></i> Standardized Patterns",
+                stage2_title: "Laser Processing (Cutting)", stage2_desc: "Advanced CO2 laser technology ensures smooth, flawless cutting of complex curves without burn marks.",
+                feat_laser1: "<i class='fa-solid fa-circle-check'></i> High-Speed Auto Cutting", feat_laser2: "<i class='fa-solid fa-circle-check'></i> Minimize Fabric Loss",
+                stage3_title: "High-Speed Precision Press", stage3_desc: "The Prime Daon's proprietary clicking press process consistently replicates artisanal details even in mass production.",
+                feat_quality: "<i class='fa-solid fa-circle-check'></i> Quality Control", feat_mass: "<i class='fa-solid fa-circle-check'></i> Mass Production", feat_precision: "<i class='fa-solid fa-circle-check'></i> Precision Tech",
+                stage4_title: "Special Stitching & Assembly", stage4_desc: "Combining experienced craftsmanship with specialized sewing infrastructure to bring out unparalleled durability.",
+                feat_stitch1: "<i class='fa-solid : fa-circle-check'></i> Artisan Hand-Finish", feat_stitch2: "<i class='fa-solid : fa-circle-check'></i> Luxury Durability",
+                showroom_title: "B2B Premium Lookbook Showroom", showroom_desc: "Explore our masterfully crafted original leather product lineups.",
+                prod_1: "Leather Phone Case (Flip)", prod_2: "Car Leather Key Case", prod_3: "Saddle Mini Crossbody Bag", showroom_note: "* Once Google Sheet mapping is complete, over 70 items will be loaded here in multiple languages."
+            },
+            ja: {
+                hero_title: "すべての良きことが訪れる", hero_desc: "ザ・プライム다온 プレミアムレザーソリューション",
+                mfg_subtitle: "あなたのビジョン、精巧に具現化される。",
+                stage1_title: "精密CAD設計", stage1_desc: "デジタル環境で精密に構造をモデリングし、完璧な設計標準을確立します。",
+                feat_cad1: "<i class='fa-solid fa-circle-check'></i> 精密モデリング", feat_cad2: "<i class='fa-solid fa-circle-check'></i> 最適パターンの規格化",
+                stage2_title: "レーザー加工 (Cutting)", stage2_desc: "CO2レーザー技術を導入し、複雑で繊細な曲線断面も焦げ跡なく滑らかに切断します。",
+                feat_laser1: "<i class='fa-solid fa-circle-check'></i> 高速自動カッティング", feat_laser2: "<i class='fa-solid fa-circle-check'></i> 生地ロスの最小化",
+                stage3_title: "高速精密裁断 (Press)", stage3_desc: "ザ・プライムダ온独自のクリッカープレス工程。手作業のディテールを大量生産体制でも乱れなく均一に実現します。",
+                feat_quality: "<i class='fa-solid fa-circle-check'></i> 品質管理", feat_mass: "<i class='fa-solid fa-circle-check'></i> 大量生産", feat_precision: "<i class='fa-solid fa-circle-check'></i> 精密技術",
+                stage4_title: "特殊ミシンと組立", stage4_desc: "熟練した職人精神と特殊ミシンインフラの結合により、革の風合いを生かした完璧な耐久性を完成させます。",
+                feat_stitch1: "<i class='fa-solid : fa-circle-check'></i> 職人手作業仕上げ", feat_stitch2: "<i class='fa-solid : fa-circle-check'></i> 名品級の耐久性",
+                showroom_title: "B2B プレミアム ルックブック ショールーム", showroom_desc: "ザ・プライムダオンが製作した独創的な製品ラインナップをご覧ください。",
+                prod_1: "革製スマホケース (フリップ型)", prod_2: "車用本革キーケース", prod_3: "サドルミニクロスバッグ", showroom_note: "* Googleスプレッドシートのマッピングが完了すると、70以上の製品データが多言語でここに表示されます。"
+            },
+            zh: {
+                hero_title: "万福云集之地", hero_desc: "The Prime Daon 顶级皮革制造方案",
+                mfg_subtitle: "您的远见卓识，在此精准达成。",
+                stage1_title: "精准 CAD 设计", stage1_desc: "在数字化环境中精准建模，确立完美的生产标准蓝图。",
+                feat_cad1: "<i class='fa-solid fa-circle-check'></i> 精准建模", feat_cad2: "<i class='fa-solid fa-circle-check'></i> 优化图纸规格化",
+                stage2_title: "激光切割加工 (Cutting)", stage2_desc: "采用先进的 CO2 激光切割技术，完美切割复杂精致的曲线且不留焦痕。",
+                feat_laser1: "<i class='fa-solid fa-circle-check'></i> 高速自动切割", feat_laser2: "<i class='fa-solid fa-circle-check'></i> 最大程度减少面料损耗",
+                stage3_title: "高速精密模切 (Press)", stage3_desc: "The Prime Daon 独家精密裁断冲床工艺。在量产体系中依然能够完美复刻手工定制的细腻质感。",
+                feat_quality: "<i class='fa-solid fa-circle-check'></i> 质量管理", feat_mass: "<i class='fa-solid fa-circle-check'></i> 批量生产", feat_precision: "<i class='fa-solid fa-circle-check'></i> 精密技术",
+                stage4_title: "特种缝纫与组装", stage4_desc: "匠人精湛手艺与特种缝纫设备的深度结合，顺应皮革纹理，打造无可比拟的经久耐用度。",
+                feat_stitch1: "<i class='fa-solid : fa-circle-check'></i> 匠人手工打磨", feat_stitch2: "<i class='fa-solid : fa-circle-check'></i> 奢华级耐用度",
+                showroom_title: "B2B 高端画册展厅", showroom_desc: "探索由 The Prime Daon 精心打造的原创皮革系列产品。",
+                prod_1: "真皮手机壳 (翻盖式)", prod_2: "汽车真皮钥匙包", prod_3: "马鞍迷你斜挎包", showroom_note: "* 谷歌表格映射完成后，此处将以多语言加载70余款产品列表。"
+            }
+        };
+
+        function changeLanguage(lang) {
+            const buttons = document.querySelectorAll('.lang-btn');
+            buttons.forEach(btn => {
+                if(btn.textContent.toLowerCase() === lang) { btn.classList.add('active'); } 
+                else { btn.classList.remove('active'); }
+            });
+
+            const elements = document.querySelectorAll('[data-i18n]');
+            elements.forEach(el => {
+                const token = el.getAttribute('data-i18n');
+                if (i18nTokens[lang] && i18nTokens[lang][token]) { el.innerHTML = i18nTokens[lang][token]; }
+            });
+        }
+
+        function toggleDrawer(open) {
+            const drawer = document.getElementById('sideDrawer');
+            if(open) { drawer.classList.add('open'); } 
+            else { drawer.classList.remove('open'); }
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            const observerOptions = { root: null, rootMargin: "0px", threshold: 0.2 };
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('is-visible'); } });
+            }, observerOptions);
+            const fadeElements = document.querySelectorAll('.fade-in-element');
+            fadeElements.forEach(el => { observer.observe(el); });
+        });
+    </script>
+</body>
+</html>

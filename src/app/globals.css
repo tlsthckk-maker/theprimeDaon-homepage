@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #0F172A;
+  --color-accent: #854D0E;
+  --font-sans: var(--font-outfit), var(--font-noto), sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900;
+  }
+}

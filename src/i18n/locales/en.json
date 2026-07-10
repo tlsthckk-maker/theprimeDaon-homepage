@@ -1,0 +1,986 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "capabilities": "Capabilities",
+    "showroom": "Showroom",
+    "contact": "Contact"
+  },
+  "hero": {
+    "kicker": "",
+    "title": "The Most Reliable Leather Manufacturing Partner<br/>The Prime Daon",
+    "subtitle": "From the flexibility of sample development to the precision of mass production. We deliver the best results within the promised time with over 10 years of meticulous process management."
+  },
+  "about": {
+    "title": "About Us",
+    "main_copy": "Uncompromising Honesty, the Premium Manufacturing Partner Trusted by Global Brands.",
+    "sub_copy": "We create the highest value behind the scenes.\nSince our establishment in 2014, The Prime Daon has silently manufactured premium leather products and smart device accessories based on our firm philosophy of 'Honest Production'.\nOur team of 15 seasoned artisans with over 20 years of know-how and 3 management staff work together to implement a perfect in-house one-stop system from design planning and pattern making to strict total quality inspection (QC).\nThrough thorough adherence to delivery schedules and quality control tailored to the customer's perspective, we will be your most reliable manufacturing forward base leading your successful global business.",
+    "global_partners": {
+      "title": "Global Partners",
+      "desc": "From top-tier fashion houses like Mont**** and Wooy**** to high-end mobile accessories for Sam**** and Spi***. There is an unchanging reason why demanding domestic and international major companies choose our quality.\nConnect our solid manufacturing references, built upon numerous successful projects, to your business today."
+    },
+    "organization": {
+      "title": "Organization",
+      "management": {
+        "label": "Management Dept.",
+        "roles": "Sales, Purchasing, Product Development"
+      },
+      "production": {
+        "label": "Production Dept.",
+        "roles": "Product Production, Quality Control (QC)"
+      }
+    },
+    "location": {
+      "title": "Location",
+      "address_label": "Address",
+      "address": "3F, 108 Bongujae-ro, Jungnang-gu, Seoul",
+      "phone_label": "Phone",
+      "phone": "+82-70-4169-9233",
+      "fax_label": "Fax",
+      "fax": "+82-2-979-0929",
+      "email_label": "Email",
+      "email": "daon0929@naver.com"
+    }
+  },
+  "capabilities": {
+    "title": "Capabilities",
+    "main_copy": "Overwhelming Manufacturing Infrastructure, A System Towards Perfection.",
+    "sub_copy": "Providing the best results with cutting-edge equipment and 20 years of know-how.",
+    "capacity": {
+      "title": "Monthly Capacity",
+      "value": "Avg. 40,000 units",
+      "subtitle": "(Approx. 500,000 units annually)",
+      "desc": "※ Production volume can be flexibly adjusted depending on product characteristics and difficulty."
+    },
+    "global_network": {
+      "title": "Global Network",
+      "subtitle": "Strategic Production MOU with Qingdao K&J Corp.",
+      "desc": "Building a stable and fast mass production and delivery system through our domestic infrastructure and global partnerships."
+    },
+    "facilities": {
+      "title": "Equipment List",
+      "items": [
+        {
+          "name": "Laser Cutting Machine",
+          "count": "1 unit"
+        },
+        {
+          "name": "High-Speed Press & Continuous Cutter",
+          "count": "2 units"
+        },
+        {
+          "name": "Heat Press (Precision Molding)",
+          "count": "9 units"
+        },
+        {
+          "name": "Skiving Machine",
+          "count": "1 unit"
+        },
+        {
+          "name": "Computerized Sewing Machine",
+          "count": "3 units"
+        },
+        {
+          "name": "Special Sewing Machine",
+          "count": "6 units"
+        },
+        {
+          "name": "Hot Foil Stamping Machine",
+          "count": "3 units"
+        }
+      ]
+    }
+  },
+  "showroom": {
+    "title": "B2B Premium Lookbook Showroom",
+    "categories": {
+      "all": "All",
+      "tech": "Tech Essentials",
+      "bag": "Bags & Pouches",
+      "leather": "Personal Leather Goods",
+      "lifestyle": "Lifestyle Accessories"
+    },
+    "request_sample": "Request Sample",
+    "products": [
+      {
+        "id": 1,
+        "category": "tech",
+        "label": "Leather Smartphone Case",
+        "name": "Daon 1",
+        "description": "[Temporary] A model featuring premium leather material and practical card storage.",
+        "image": "/images/Ai_Daon_12.png"
+      },
+      {
+        "id": 2,
+        "category": "tech",
+        "label": "Leather Smartphone Case",
+        "name": "Daon 2",
+        "description": "[Temporary] A product maximizing user convenience with delicate texture and metal ring details.",
+        "image": "/images/Ai_Daon_19.png"
+      },
+      {
+        "id": 3,
+        "category": "tech",
+        "label": "Leather Smartphone Case",
+        "name": "Daon 3",
+        "description": "[Temporary] A custom genuine leather case that perfectly protects the hinge of foldable smartphones.",
+        "image": "/images/Ai_Daon_48.png"
+      },
+      {
+        "id": 4,
+        "category": "tech",
+        "label": "Leather Smartphone Case",
+        "name": "Daon 4",
+        "description": "[Temporary] A special case with increased durability through a unique metal perforated design and leather combination.",
+        "image": "/images/Ai_Daon_51.png"
+      },
+      {
+        "id": 5,
+        "category": "leather",
+        "label": "Card Holder & Wallet",
+        "name": "Daon 5",
+        "description": "[Temporary] Slim card holder with soft texture of premium opple leather and unique color scheme.",
+        "image": "/images/Ai_Daon_5.png"
+      },
+      {
+        "id": 6,
+        "category": "tech",
+        "label": "MagSafe Card Holder",
+        "name": "Daon 6",
+        "description": "[Temporary] MagSafe wallet that attaches stably with strong magnetic force and finished with stitch details.",
+        "image": "/images/Ai_Daon_8.png"
+      },
+      {
+        "id": 7,
+        "category": "leather",
+        "label": "Card Holder & Wallet",
+        "name": "Daon 7",
+        "description": "[Temporary] Card wallet with simple and classic design, available in three modern color lineups.",
+        "image": "/images/Ai_Daon_11.png"
+      },
+      {
+        "id": 8,
+        "category": "tech",
+        "label": "MagSafe Card Holder",
+        "name": "Daon 8",
+        "description": "[Temporary] Attachable card holder with unique comb-pattern texture and minimal logo details.",
+        "image": "/images/Ai_Daon_13.png"
+      },
+      {
+        "id": 9,
+        "category": "tech",
+        "label": "MagSafe Card Holder",
+        "name": "Daon 9",
+        "description": "[Temporary] Highly durable model made of sophisticated embossed logo and solid leather material.",
+        "image": "/images/Ai_Daon_23.png"
+      },
+      {
+        "id": 10,
+        "category": "tech",
+        "label": "MagSafe Card Holder",
+        "name": "Daon 10",
+        "description": "[Temporary] Multi-functional card wallet with bright-toned leather and added stand function for practicality.",
+        "image": "/images/Ai_Daon_32.png"
+      },
+      {
+        "id": 11,
+        "category": "tech",
+        "label": "MagSafe Card Holder",
+        "name": "Daon 11",
+        "description": "[Temporary] Harmony of orange point stitch and black leather creates a sophisticated atmosphere.",
+        "image": "/images/Ai_Daon_34.png"
+      },
+      {
+        "id": 12,
+        "category": "leather",
+        "label": "Card Holder & Wallet",
+        "name": "Daon 12",
+        "description": "[Temporary] Best-seller boasting slim fit and color variations to satisfy various tastes.",
+        "image": "/images/Ai_Daon_45.png"
+      },
+      {
+        "id": 13,
+        "category": "leather",
+        "label": "Compact Wallet / Slim Card Holder",
+        "name": "Daon 24",
+        "description": "Compact wallet featuring soft gray leather and minimal folding design.",
+        "image": "/images/Ai_Daon_1.png"
+      },
+      {
+        "id": 14,
+        "category": "lifestyle",
+        "label": "Car Smart Key Holder / Case",
+        "name": "Daon 25",
+        "description": "Leather key case providing a three-dimensional grip by perfectly recreating the curves of the car key.",
+        "image": "/images/Ai_Daon_2.png"
+      },
+      {
+        "id": 15,
+        "category": "lifestyle",
+        "label": "Car Smart Key Holder / Case",
+        "name": "Daon 26",
+        "description": "Premium key cover with white leather and sensual cut-out design.",
+        "image": "/images/Ai_Daon_3.png"
+      },
+      {
+        "id": 16,
+        "category": "leather",
+        "label": "Leather Diary Cover / Binder",
+        "name": "Daon 27",
+        "description": "Diary cover optimized for business environments with modern black leather.",
+        "image": "/images/Ai_Daon_4.png"
+      },
+      {
+        "id": 17,
+        "category": "leather",
+        "label": "Compact Wallet / Slim Card Holder",
+        "name": "Daon 28",
+        "description": "Card holder with added sophistication by giving an orange color point to a gray background.",
+        "image": "/images/Ai_Daon_5.png"
+      },
+      {
+        "id": 18,
+        "category": "bag",
+        "label": "Multi-purpose Mini Pouch",
+        "name": "Daon 29",
+        "description": "Olive green multi-purpose pouch with solid texture and practical handle strap.",
+        "image": "/images/Ai_Daon_6.png"
+      },
+      {
+        "id": 19,
+        "category": "lifestyle",
+        "label": "Leather Strap & Loop Keyring",
+        "name": "Daon 30",
+        "description": "High-end keyring combining a matte black carabiner with a sophisticated leather strap.",
+        "image": "/images/Ai_Daon_7.png"
+      },
+      {
+        "id": 20,
+        "category": "tech",
+        "label": "MagSafe Card Wallet",
+        "name": "Daon 31",
+        "description": "Attachable card wallet that removes the dullness of black leather with orange stitch points.",
+        "image": "/images/Ai_Daon_8.png"
+      },
+      {
+        "id": 21,
+        "category": "bag",
+        "label": "Mini Chain Bag",
+        "name": "Daon 32",
+        "description": "Mini bag presenting a trendy sense with the harmony of dark metal ball chain and white leather.",
+        "image": "/images/Ai_Daon_9.png"
+      },
+      {
+        "id": 22,
+        "category": "leather",
+        "label": "Compact Wallet / Slim Card Holder",
+        "name": "Daon 33",
+        "description": "Deep green card holder highlighted by geometric cut lines and stitch details.",
+        "image": "/images/Ai_Daon_10.png"
+      },
+      {
+        "id": 23,
+        "category": "leather",
+        "label": "Compact Wallet / Slim Card Holder",
+        "name": "Daon 34",
+        "description": "A slim leather card holder offering three modern color options with a basic design.",
+        "image": "/images/Ai_Daon_11.png"
+      },
+      {
+        "id": 24,
+        "category": "tech",
+        "label": "Leather Smartphone Case",
+        "name": "Daon 35",
+        "description": "A case that adds both uniqueness and practicality with silver metallic leather and a snap button pocket.",
+        "image": "/images/Ai_Daon_12.png"
+      },
+      {
+        "id": 25,
+        "category": "tech",
+        "label": "MagSafe Card Wallet",
+        "name": "Daon 36",
+        "description": "A MagSafe wallet emphasizing sophistication by applying Y-shaped metal details to black saffiano pattern leather.",
+        "image": "/images/Ai_Daon_13.png"
+      },
+      {
+        "id": 26,
+        "category": "tech",
+        "label": "AirPods / Buds Leather Case",
+        "name": "Daon 37",
+        "description": "A brown leather case that safely protects wireless earphones and adds a classic charm as time goes by.",
+        "image": "/images/Ai_Daon_14.png"
+      },
+      {
+        "id": 27,
+        "category": "leather",
+        "label": "Compact Wallet / Slim Card Holder",
+        "name": "Daon 38",
+        "description": "A card wallet made of dark brown leather with a unique wrinkled texture, exuding a vintage mood.",
+        "image": "/images/Ai_Daon_15.png"
+      },
+      {
+        "id": 28,
+        "category": "tech",
+        "label": "Leather Smartphone Case",
+        "name": "Daon 39",
+        "description": "A case that does not miss the high-end sensibility while being kitschy with elaborate animal embroidery details as a point.",
+        "image": "/images/Ai_Daon_16.png"
+      },
+      {
+        "id": 29,
+        "category": "bag",
+        "label": "Leather Briefcase / Laptop Bag",
+        "name": "Daon 40",
+        "description": "A business laptop and tablet sleeve featuring a minimalist design and soft gray leather.",
+        "image": "/images/Ai_Daon_17.png"
+      },
+      {
+        "id": 30,
+        "category": "leather",
+        "label": "Leather Diary Cover / Binder",
+        "name": "Daon 41",
+        "description": "A diary cover that brings out a funky charm with bright star-shaped leather patches and metal stud decorations.",
+        "image": "/images/Ai_Daon_18.png"
+      },
+      {
+        "id": 31,
+        "category": "tech",
+        "label": "Leather Smartphone Case",
+        "name": "Daon 42",
+        "description": "An elegant case with a practical metal ring strap that enhances grip attached to pink textured leather.",
+        "image": "/images/Ai_Daon_19.png"
+      },
+      {
+        "id": 32,
+        "category": "leather",
+        "label": "Compact Wallet / Slim Card Holder",
+        "name": "Daon 43",
+        "description": "A folding type wallet boasting a captivating burgundy color and an efficient inner card storage space.",
+        "image": "/images/Ai_Daon_20.png"
+      },
+      {
+        "id": 33,
+        "category": "leather",
+        "label": "Compact Wallet / Slim Card Holder",
+        "name": "Daon 44",
+        "description": "A lovely mini wallet with pink crocodile pattern leather and heart motif metal decoration.",
+        "image": "/images/Ai_Daon_21.png"
+      },
+      {
+        "id": 34,
+        "category": "bag",
+        "label": "Mini Chain Bag",
+        "name": "Daon 45",
+        "description": "Metallic silver colored leather combined with a sophisticated chain strap completes a glamorous and trendy look.",
+        "image": "/images/Ai_Daon_22.png"
+      },
+      {
+        "id": 35,
+        "category": "tech",
+        "label": "MagSafe Card Wallet",
+        "name": "Daon 46",
+        "description": "A MagSafe wallet that brings out a natural style by adding wood-textured logo details to classic black leather.",
+        "image": "/images/Ai_Daon_23.png"
+      },
+      {
+        "id": 36,
+        "category": "leather",
+        "label": "Leather Diary Cover / Binder",
+        "name": "Daon 47",
+        "description": "Decorated with silver star-shaped studs and eyelets on a chic black leather background, creating a unique sensibility.",
+        "image": "/images/Ai_Daon_24.png"
+      },
+      {
+        "id": 37,
+        "category": "leather",
+        "label": "Leather Luggage Tag / Name Tag",
+        "name": "Daon 48",
+        "description": "A high-end travel luggage tag that enhances practicality by adding a transparent protective window to luxurious burgundy leather.",
+        "image": "/images/Ai_Daon_25.png"
+      },
+      {
+        "id": 38,
+        "category": "bag",
+        "label": "Multi-purpose Mini Pouch",
+        "name": "Daon 49",
+        "description": "A beige leather case with excellent shape retention and easy portability due to an attached sturdy metal carabiner.",
+        "image": "/images/Ai_Daon_26.png"
+      },
+      {
+        "id": 39,
+        "category": "bag",
+        "label": "Multi-purpose Mini Pouch",
+        "name": "Daon 50",
+        "description": "A premium pouch that safely protects small smart devices or golf rangefinders from external shocks.",
+        "image": "/images/Ai_Daon_27.png"
+      },
+      {
+        "id": 40,
+        "category": "leather",
+        "label": "Compact Wallet / Slim Card Holder",
+        "name": "Daon 51",
+        "description": "A slim basic card holder highlighted by the contrast between glossy red texture and matte camel color.",
+        "image": "/images/Ai_Daon_28.png"
+      },
+      {
+        "id": 41,
+        "category": "bag",
+        "label": "Leather Briefcase / Laptop Bag",
+        "name": "Daon 52",
+        "description": "A document bag and briefcase made of classic black leather suitable for a professional business environment.",
+        "image": "/images/Ai_Daon_29.png"
+      },
+      {
+        "id": 42,
+        "category": "leather",
+        "label": "Travel Passport Wallet / Passport Case",
+        "name": "Daon 53",
+        "description": "A cover that creates a modern and sophisticated atmosphere by giving gold lettering points on simple black leather.",
+        "image": "/images/Ai_Daon_30.png"
+      },
+      {
+        "id": 43,
+        "category": "leather",
+        "label": "Compact Wallet / Slim Card Holder",
+        "name": "Daon 54",
+        "description": "A slim card holder highlighting exquisite stitch finishing on a solid leather base in blue and black colors.",
+        "image": "/images/Ai_Daon_31.png"
+      },
+      {
+        "id": 44,
+        "category": "tech",
+        "label": "MagSafe Card Wallet",
+        "name": "Daon 55",
+        "description": "A MagSafe wallet that adds a practical finger strap stand function to neat white-toned leather.",
+        "image": "/images/Ai_Daon_32.png"
+      },
+      {
+        "id": 45,
+        "category": "leather",
+        "label": "Leather Diary Cover / Binder",
+        "name": "Daon 56",
+        "description": "A premium diary cover applied with an elegant burgundy color and a luxurious comb-pattern texture.",
+        "image": "/images/Ai_Daon_33.png"
+      },
+      {
+        "id": 46,
+        "category": "tech",
+        "label": "MagSafe Card Wallet",
+        "name": "Daon 57",
+        "description": "An attachable card holder that brings out a sporty charm with orange color stitches on the edges of black leather.",
+        "image": "/images/Ai_Daon_34.png"
+      },
+      {
+        "id": 47,
+        "category": "bag",
+        "label": "Multi-purpose Mini Pouch",
+        "name": "Daon 58",
+        "description": "A pouch that is good for multi-purpose use in outdoor environments or daily life with a carabiner and mini handle attached.",
+        "image": "/images/Ai_Daon_35.png"
+      },
+      {
+        "id": 48,
+        "category": "lifestyle",
+        "label": "Car Smart Key Holder / Case",
+        "name": "Daon 59",
+        "description": "A folding type key case attractive for its five colorful color lineups and gold snap button decoration.",
+        "image": "/images/Ai_Daon_36.png"
+      },
+      {
+        "id": 49,
+        "category": "lifestyle",
+        "label": "Leather Strap & Loop Keyring",
+        "name": "Daon 60",
+        "description": "A luxurious strap keyring harmoniously blending matte gold metal decoration and stitched natural leather.",
+        "image": "/images/Ai_Daon_37.png"
+      },
+      {
+        "id": 50,
+        "category": "leather",
+        "label": "Compact Wallet / Slim Card Holder",
+        "name": "Daon 61",
+        "description": "A folding type business card and card wallet highlighting a classic camel brown color and soft leather texture.",
+        "image": "/images/Ai_Daon_38.png"
+      },
+      {
+        "id": 51,
+        "category": "tech",
+        "label": "Leather Smartphone Case",
+        "name": "Daon 62",
+        "description": "A case presenting a casual mood by adding cute puppy embroidery to a refreshing gingham check pattern background.",
+        "image": "/images/Ai_Daon_39.png"
+      },
+      {
+        "id": 52,
+        "category": "tech",
+        "label": "Leather Smartphone Case",
+        "name": "Daon 63",
+        "description": "A product emphasizing uniqueness by utilizing animal texture and solid leather, and enhancing grip with a rear ring.",
+        "image": "/images/Ai_Daon_40.png"
+      },
+      {
+        "id": 53,
+        "category": "bag",
+        "label": "Leather Briefcase / Laptop Bag",
+        "name": "Daon 64",
+        "description": "A document and tablet sleeve made of calm blue-gray tone leather that gives a simple yet professional feeling.",
+        "image": "/images/Ai_Daon_41.png"
+      },
+      {
+        "id": 54,
+        "category": "tech",
+        "label": "Industrial / Special Equipment Leather Case",
+        "name": "Daon 65",
+        "description": "A customized dark green leather case that can perfectly protect and mount special digital equipment such as high-end audio devices.",
+        "image": "/images/Ai_Daon_42.png"
+      },
+      {
+        "id": 55,
+        "category": "bag",
+        "label": "Mini Chain Bag / Satchel Bag / Crossbag",
+        "name": "Daon 66",
+        "description": "A brown leather bag that implements a classic satchel bag design in a mini size, making it great for daily use.",
+        "image": "/images/Ai_Daon_43.png"
+      },
+      {
+        "id": 56,
+        "category": "tech",
+        "label": "Leather Smartphone Case",
+        "name": "Daon 67",
+        "description": "A case that maximizes the usability of foldable smartphones by combining a sophisticated metallic silver texture and a finger ring strap.",
+        "image": "/images/Ai_Daon_44.png"
+      },
+      {
+        "id": 57,
+        "category": "tech",
+        "label": "MagSafe Card Wallet",
+        "name": "Daon 68",
+        "description": "A minimal design MagSafe attachable card holder made of soft natural leather material and available in three basic colors.",
+        "image": "/images/Ai_Daon_45.png"
+      },
+      {
+        "id": 58,
+        "category": "tech",
+        "label": "Industrial / Special Equipment Leather Case",
+        "name": "Daon 69",
+        "description": "A black screen leather cover intricately perforated and designed considering the display and button operation parts of special equipment.",
+        "image": "/images/Ai_Daon_46.png"
+      },
+      {
+        "id": 59,
+        "category": "bag",
+        "label": "Multi-purpose Mini Pouch",
+        "name": "Daon 70",
+        "description": "A small multi-purpose pouch highlighting a vivid blue color and embossed leather, enhancing portability with a top D-ring.",
+        "image": "/images/Ai_Daon_47.png"
+      },
+      {
+        "id": 60,
+        "category": "tech",
+        "label": "Leather Smartphone Case",
+        "name": "Daon 71",
+        "description": "A premium leather shell case in a basic camel brown color that perfectly fits the top and bottom of a foldable smartphone.",
+        "image": "/images/Ai_Daon_48.png"
+      },
+      {
+        "id": 61,
+        "category": "lifestyle",
+        "label": "Car Smart Key Holder / Case",
+        "name": "Daon 72",
+        "description": "A smart key cover with a sporty charm featuring an integrated design that delicately covers even the button part of the car key.",
+        "image": "/images/Ai_Daon_49.png"
+      },
+      {
+        "id": 62,
+        "category": "leather",
+        "label": "Office Stationery",
+        "name": "Daon 73",
+        "description": "A customized logo-engraved leather folder suitable for use as a VIP welcome kit or event souvenir for companies and universities.",
+        "image": "/images/Ai_Daon_50.png"
+      },
+      {
+        "id": 63,
+        "category": "tech",
+        "label": "Industrial / Special Equipment Leather Case",
+        "name": "Daon 74",
+        "description": "A premium case combined with a metal grill design that safely protects high-end audio devices and helps with heat dissipation.",
+        "image": "/images/Ai_Daon_51.png"
+      },
+      {
+        "id": 64,
+        "category": "bag",
+        "label": "Multi-purpose Mini Pouch",
+        "name": "Daon 75",
+        "description": "A practical tote-type pouch for outdoors and daily life, equipped with a sturdy canvas-textured material, a mini handle, and a carabiner.",
+        "image": "/images/Ai_Daon_52.png"
+      },
+      {
+        "id": 65,
+        "category": "leather",
+        "label": "Compact Wallet / Slim Card Holder",
+        "name": "Daon 76",
+        "description": "A classic leather business card wallet highly preferred for VIP promotions or employee welcome kits with a company logo engraving applied.",
+        "image": "/images/Ai_Daon_53.png"
+      },
+      {
+        "id": 66,
+        "category": "bag",
+        "label": "Mini Chain Bag / Satchel Bag / Crossbag",
+        "name": "Daon 77",
+        "description": "A mini crossbag that completes a sophisticated look by harmonizing an elegant camel color crocodile pattern leather and a thin strap.",
+        "image": "/images/Ai_Daon_54.png"
+      },
+      {
+        "id": 67,
+        "category": "lifestyle",
+        "label": "Leather Strap & Loop Keyring",
+        "name": "Daon 78",
+        "description": "A leather strap that can be used as a multi-purpose accessory, made of soft ivory leather and an elaborate metal buckle.",
+        "image": "/images/Ai_Daon_55.png"
+      },
+      {
+        "id": 68,
+        "category": "leather",
+        "label": "Leather Luggage Tag / Name Tag",
+        "name": "Daon 79",
+        "description": "A modern beige color travel leather name tag highlighting brand logo engraving and neat stitch finishing.",
+        "image": "/images/Ai_Daon_56.png"
+      },
+      {
+        "id": 69,
+        "category": "tech",
+        "label": "AirPods / Buds Leather Case",
+        "name": "Daon 80",
+        "description": "An earphone case that can clearly express the brand's personality with a unique and trendy animal embroidery patch added.",
+        "image": "/images/Ai_Daon_57.png"
+      },
+      {
+        "id": 70,
+        "category": "bag",
+        "label": "Multi-purpose Mini Pouch",
+        "name": "Daon 81",
+        "description": "A beige small pouch with excellent shape retention, attached with a carabiner that can be easily fastened to a belt or bag.",
+        "image": "/images/Ai_Daon_58.png"
+      },
+      {
+        "id": 71,
+        "category": "bag",
+        "label": "Multi-purpose Mini Pouch",
+        "name": "Daon 82",
+        "description": "A hard shell case creating a futuristic atmosphere by combining a geometric metal cutout pattern and black leather.",
+        "image": "/images/Ai_Daon_59.png"
+      },
+      {
+        "id": 72,
+        "category": "bag",
+        "label": "Multi-purpose Mini Pouch",
+        "name": "Daon 83",
+        "description": "A vivid blue color hard pouch with a customized internal cushion foam applied so that valuables such as watches and jewelry can be safely stored.",
+        "image": "/images/Ai_Daon_60.png"
+      },
+      {
+        "id": 73,
+        "category": "bag",
+        "label": "Mini Chain Bag / Satchel Bag",
+        "name": "Daon 84",
+        "description": "A compact-sized mini bag highlighting a trendy metallic silver color and a minimalist square shape.",
+        "image": "/images/Ai_Daon_61.png"
+      },
+      {
+        "id": 74,
+        "category": "bag",
+        "label": "Multi-purpose Mini Pouch / Clutch",
+        "name": "Daon 85",
+        "description": "A clutch-type pouch maximizing practicality by adding a gold metal hook and a detachable hand strap to luxurious black leather.",
+        "image": "/images/Ai_Daon_62.png"
+      },
+      {
+        "id": 75,
+        "category": "lifestyle",
+        "label": "Car Smart Key Holder / Case",
+        "name": "Daon 86",
+        "description": "A premium smart key cover that enhances a sense of unity by delicately embossing the button shape of the car key and finishing it with sturdy stitches.",
+        "image": "/images/Ai_Daon_63.png"
+      }
+    ],
+    "subtitle": "Explore our masterfully crafted original leather product lineups."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are ready to bring your ideas to life. Request a quote or sample development.",
+    "company_info": {
+      "title": "Headquarters",
+      "address_label": "Address",
+      "address": "3F, 108 Bongujae-ro, Jungnang-gu, Seoul",
+      "phone_label": "Phone",
+      "phone": "+82-70-4169-9233\n+82-10-9741-8540",
+      "email_label": "Email",
+      "email": "daon0929@naver.com",
+      "hours_label": "Business Hours",
+      "hours": "Mon-Fri 09:00 - 18:00 (Closed on weekends and holidays)"
+    },
+    "form": {
+      "company": "Company Name",
+      "person": "Contact Person",
+      "contact": "Contact Number / Email",
+      "item": "Inquiry Item",
+      "message": "Message / Requirements",
+      "submit": "Send Inquiry"
+    }
+  },
+  "footer": {
+    "intro": "Premium leather goods and smart device accessories OEM/ODM manufacturing partner, including protective cases, wallets, and pouches.",
+    "popular_lines": {
+      "title": "Popular Lines",
+      "items": [
+        "Smart Device Cases",
+        "Key Cases & Tags",
+        "Wallets & Pouches",
+        "Watch Straps"
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address_label": "Address",
+      "address": "3F, 108 Bongujae-ro, Jungnang-gu, Seoul",
+      "phone_label": "Phone",
+      "fax_label": "Fax",
+      "email_label": "Email"
+    },
+    "quick_links": {
+      "title": "Quick Links",
+      "about": "About Us",
+      "capabilities": "Capabilities",
+      "showroom": "Showroom",
+      "contact": "Contact"
+    },
+    "b2b": {
+      "title": "B2B Sourcing",
+      "items": [
+        "OEM/ODM Inquiry",
+        "Sample Request",
+        "Mass Production Request",
+        "Global Export Consultation"
+      ]
+    },
+    "bottom": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  },
+  "capabilities_process": {
+    "headerTitle": "Manufacturing Process",
+    "headerDesc": "Perfect Harmony of Advanced Technology and Expert Know-how",
+    "steps": [
+      {
+        "title": "Precision CAD Design",
+        "desc": "Accurate structural modeling in a digital environment to establish the perfect blueprint.",
+        "detail": [
+          "In-depth Tech Pack Analysis",
+          "Optimal Material Nesting for Maximum Yield"
+        ],
+        "image": "/cad_step.jpg"
+      },
+      {
+        "title": "Laser Processing (Cutting)",
+        "desc": "Advanced CO2 laser technology ensures smooth, flawless cutting of complex curves without burn marks.",
+        "detail": [
+          "Heat-Minimize Processing Technology",
+          "High-Speed Cutting System for Mass Production"
+        ],
+        "image": "/laser_step.jpg"
+      },
+      {
+        "title": "High-Speed Precision Press",
+        "desc": "The Prime Daon's proprietary clicking press process consistently replicates artisanal details even in mass production.",
+        "detail": [
+          "Precision Mold Management",
+          "Optimized Lead-Time for Global Bulk Orders"
+        ],
+        "image": "/press_step.jpg"
+      },
+      {
+        "title": "Special Stitching & Assembly",
+        "desc": "Combining experienced craftsmanship with specialized sewing infrastructure to bring out unparalleled durability.",
+        "detail": [
+          "Tarp-type Sewing for 3D Structures",
+          "Uniform Stitch Quality Meeting Luxury Standards"
+        ],
+        "image": "/sewing_step.jpg"
+      }
+    ]
+  },
+  "capabilities_apple": {
+    "s1Title": "Digital Precision",
+    "s1Desc": "Autodesk AutoCAD-based engineering. A perfect design with zero margin for error is the start of every product.",
+    "s2Title": "Laser Sharpness",
+    "s2Desc": "Advanced laser cutting and skiving machines minimize heat damage and protect the natural texture of the leather.",
+    "s3Title": "Massive Efficiency",
+    "s3Desc": "High-speed and thermal press lines handle bulk orders, guaranteeing uniform standards effortlessly.",
+    "s4Title": "Master Stitch",
+    "s4Desc": "Powered by 9 specialized sewing machines and 3 hot stamping machines. We create 3D silhouettes unique to luxury brands."
+  },
+  "capabilities_bento": {
+    "heroTitle": "Engineering<br>Meets Artistry.",
+    "heroDesc": "The fusion of structural precision and sensory detail. Introducing the high-end B2B mass production ecosystem built by The Prime Da-on.",
+    "sec1Head": "01. CAD Design & Laser Cutting<br><span class='text-[#8b7355]'>Controlling the 0.1mm Margin of Error</span>",
+    "card1Title": "Autodesk AutoCAD System",
+    "card1Desc": "Completely deconstruct and interpret complex global Tech Packs. By digitalizing master guidelines to realize a flawless fit for mobile accessories and bags, we maximize material yield.",
+    "card2Title": "Laser Technology",
+    "card2Desc": "Advanced laser cutting machinery expanding beyond manual craftsmanship limitations. Proprietary thermal-control processing prevents damage to leather fibers, ensuring clean perforation and micro-logo engraving.",
+    "sec2Head": "02. Automated Production & 3D Stitching<br><span class='text-[#8b7355]'>Securing Quality Standards in Bulk Production</span>",
+    "card3Title": "High-Speed Continuous Press",
+    "card3Desc": "An automated high-pressure press line built to seamlessly manage tens of thousands of processing requests daily. Replicating mold dimensions exactly guarantees absolute uniformity from the 1st to the 10,000th product.",
+    "card4Title": "11 Specialized Sewing Equipment",
+    "card4Desc": "Operating 11 specialized machines including automated computer sewing, tarp-type, and post-bed setups. We flawlessly execute challenging corner roundings and curved silhouettes unachievable via flat-bed methods.",
+    "sec3Head": "03. Infrastructure Metrics<br><span class='text-[#8b7355]'>Proven Reliability in Numbers</span>",
+    "lblSpec1": "Precision Thermal Press Systems",
+    "lblSpec2": "Specialized Tarp & Post-Bed Machines",
+    "lblSpec3": "High-Precision Hot Stamping Machinery"
+  },
+  "capabilities_excellence": {
+    "heroTitle": "Manufacturing<br>Excellence",
+    "heroDesc": "Unveiling the high-end B2B mass production ecosystem built by The Prime Da-on.",
+    "s1Title": "Digital Precision<br>Beyond 0.1mm Limits",
+    "s1Desc": "Based on Autodesk AutoCAD, we perfectly analyze Tech Packs from global brands. Converting design into precise data maximizes yield and completely eliminates fit errors.",
+    "s2Title": "Ultra-Precision Laser<br>Controlling Thermal Damage",
+    "s2Desc": "Advanced laser equipment beyond manual limits. We suppress damage to leather fibers to the extreme, cutting complex patterns and micro-logos with perfect edges.",
+    "s3Title": "Unwavering Uniformity,<br>High-Speed Automation",
+    "s3Sub": "Continuous Press Line",
+    "s3Desc": "A high-pressure press line that replicates mold specifications 100%. Managing tens of thousands of units daily, the 10,000th product is identical to the first.",
+    "s3Kpi": "Daily Production Capacity (Units)",
+    "s4Title": "Turning 2D into 3D:<br>Master-Level Stitching",
+    "c1Title": "Tarp & Post-Bed Machines",
+    "c1Desc": "Achieves 3D curved silhouettes for high-end bags and cases, impossible with standard flat sewing.",
+    "c2Title": "Auto Computer Sewing",
+    "c2Desc": "Ensures uniform stitch counts and spacing without a single error, meeting luxury standards.",
+    "c3Title": "Hot Stamping & Molding",
+    "c3Desc": "The final finishing process using dedicated leather hot stampers for clear, luxurious brand logo engraving.",
+    "stat1": "Thermal Presses for Molding",
+    "stat2": "Specialized Sewing Machines",
+    "stat3": "Auto Sewing & Hot Stampers"
+  },
+  "capabilities_light": {
+    "heroTitle": "Your Vision,<br>Exquisitely Manufactured.",
+    "heroDesc": "The fusion of structural precision and sensory detail. Experience the high-end B2B mass production ecosystem built by The Prime Da-on.",
+    "card1Title": "Digital Precision Engineering",
+    "card1Desc": "Autodesk AutoCAD-based 2D/3D engineering. We analyze complex Tech Packs perfectly and maximize yield with a design that tolerates zero error.",
+    "card2Title": "Ultra-Precision<br>Laser Cutting",
+    "card2Desc": "Advanced laser tech beyond manual limits. Perforating intricate patterns without damaging leather fibers.",
+    "card3Title": "High-Speed<br>Automated Press",
+    "card3Desc": "High-pressure press lines handling tens of thousands of units daily. Always maintaining identical specs to the very first unit.",
+    "card4Title": "Master-Level Specialized Sewing",
+    "card4Desc": "11 specialized sewing lines including tarp and computer-automated machines. We flawlessly complete curved 3D silhouettes impossible with standard flat sewing.",
+    "lblSpec1": "Thermal Presses for Molding",
+    "lblSpec2": "Specialized Tarp & Post-Bed Machines",
+    "lblSpec3": "High-Precision Hot Stamping Machinery"
+  },
+  "capabilities_dynamic": {
+    "h_title": "Your Vision,<br>Exquisitely Manufactured.",
+    "h_desc": "The fusion of precision and sensory detail. Experience The Prime Da-on's high-end mass production ecosystem.",
+    "s1_title": "Digital Precision",
+    "s1_desc": "AutoCAD-based precision design. Analyzing global Tech Packs to digitize a perfect fit with zero tolerance for error.",
+    "s2_title": "Laser Sharpness",
+    "s2_desc": "Advanced lasers beyond manual limits. Perforating intricate patterns with perfect edges without damaging leather fibers.",
+    "s3_title": "Massive Efficiency",
+    "s3_desc": "High-pressure press lines handling tens of thousands of units daily. The 10,000th product matches the first perfectly.",
+    "s4_title": "Master Stitch",
+    "s4_c1_t": "11 Specialized Sewing Lines",
+    "s4_c1_d": "Completing 3D curved silhouettes impossible with standard flat sewing.",
+    "s4_c2_t": "Precision Hot Stamping",
+    "s4_c2_d": "Controlling heat and pressure to engrave the brand signature luxuriously.",
+    "stat_title": "Numbers that Prove Trust",
+    "stat_1": "Thermal Molding Presses",
+    "stat_2": "Specialized Sewing Machines",
+    "stat_3": "Precision Hot Stampers"
+  },
+  "capabilities_cinematic": {
+    "h_title": "Where All Fine Things Come",
+    "h_desc": "The fusion of precision and sensory detail. Experience The Prime Da-on's high-end mass production ecosystem.",
+    "s1_title": "Precision CAD Design",
+    "s1_desc": "Accurate structural modeling in a digital environment to establish the perfect blueprint.",
+    "s2_title": "Laser Processing (Cutting)",
+    "s2_desc": "Advanced CO2 laser technology ensures smooth, flawless cutting of complex curves without burn marks.",
+    "s3_title": "High-Speed Precision Press",
+    "s3_desc": "The Prime Daon's proprietary clicking press process consistently replicates artisanal details even in mass production.",
+    "s4_title": "Special Stitching & Assembly",
+    "s4_c1_t": "11 Specialized Sewing Lines",
+    "s4_c1_d": "Completing 3D curved silhouettes impossible with standard flat sewing.",
+    "s4_c2_t": "Precision Hot Stamping",
+    "s4_c2_d": "Controlling heat and pressure to engrave the brand signature luxuriously.",
+    "stat_title": "Numbers that Prove Trust",
+    "stat_1": "Thermal Molding Presses",
+    "stat_2": "Specialized Sewing Machines",
+    "stat_3": "Precision Hot Stampers",
+    "s4_desc": "Combining experienced craftsmanship with specialized sewing infrastructure to bring out unparalleled durability.",
+    "feat_quality": "<i class='fa-solid fa-circle-check'></i> Quality Control",
+    "feat_mass": "<i class='fa-solid fa-circle-check'></i> Mass Production",
+    "feat_precision": "<i class='fa-solid fa-circle-check'></i> Precision Tech",
+    "mfg_subtitle": "Your vision, masterfully brought to life."
+  },
+  "showroom_ui": {
+    "ui": {
+      "kicker": "B2B Reference",
+      "title": "Collections",
+      "desc": "Discover the high-end manufacturing capabilities of The Prime Daon.",
+      "filter_all": "View All",
+      "filter_tech": "Tech Essentials",
+      "filter_bag": "Bags & Pouches",
+      "filter_personal": "Personal Leather Goods",
+      "filter_life": "Lifestyle Accessories",
+      "tag_promo": "Corporate Promo",
+      "tag_vip": "VIP Welcome Kit",
+      "tag_dealer": "Dealer Promo",
+      "drawer_craft_label": "Craftsmanship & Details",
+      "drawer_craft_desc": "Solid finishing, premium materials, and precision stitching. High-end processes satisfying both durability and aesthetics.",
+      "drawer_cust_label": "Customization Option",
+      "drawer_cust_desc": "100% custom OEM/ODM mass production is possible, including leather material and color changes, corporate logo custom engraving, and packaging configuration.",
+      "drawer_footer": "This product is a reference model proving the perfect finish quality of The Prime Daon.",
+      "btn_contact": "💡 Inquire about manufacturing costs for this style",
+      "btn_portfolio": "📁 View manufacturing portfolio"
+    },
+    "categories": {
+      "테크 에센셜 | 맥세이프 카드홀더": "Tech Essentials | MagSafe Card Holder",
+      "테크 에센셜 | 디지털/웨어러블 기어": "Tech Essentials | Digital/Wearable Gear",
+      "라이프스타일 소품 | 키 케이싱 & 키링": "Lifestyle | Key Casing & Key Ring",
+      "퍼스널 레더 굿즈 | 오피스 스테이셔너리": "Personal | Office Stationery",
+      "가방 & 파우치 | 라이프스타일 파우치": "Bag & Pouch | Lifestyle Pouch",
+      "가방 & 파우치 | 데일리 & 캐주얼 백": "Bag & Pouch | Daily & Casual Bag",
+      "테크 에센셜 | 스마트폰 가죽 케이스": "Tech Essentials | Smartphone Case",
+      "퍼스널 레더 굿즈 | 카드홀더 & 지갑": "Personal | Card Holder & Wallet",
+      "퍼스널 레더 굿즈 | 트래블 액세서리": "Personal | Travel Accessory",
+      "라이프스타일 소품 | 골프 액세서리": "Lifestyle | Golf Accessory",
+      "가방 & 파우치 | 비즈니스 백": "Bag & Pouch | Business Bag",
+      "테크 에센셜 | 산업용/특수 장비 기어": "Tech Essentials | Industrial Gear"
+    },
+    "products": {
+      "맥세이프 카드 지갑 (스탠드/밴드형)": "MagSafe Card Wallet (Stand/Band)",
+      "에어팟 케이스": "AirPods Case",
+      "자동차 스마트키 홀더/케이스": "Car Smart Key Holder/Case",
+      "가죽 다이어리 커버 / 바인더": "Leather Diary Cover/Binder",
+      "다목적 소형 미니 파우치": "Multipurpose Mini Pouch",
+      "가죽 스트랩 & 루프 키링": "Leather Strap & Loop Keyring",
+      "미니 체인 백 / 사첼백 / 크로스백": "Mini Chain Bag / Satchel Bag",
+      "아이폰 프리미엄 가죽 케이스": "iPhone Premium Leather Case",
+      "에어팟 / 버즈 가죽 케이스": "AirPods/Buds Leather Case",
+      "컴팩트 지갑 / 슬림 카드홀더": "Compact Wallet / Slim Card Holder",
+      "갤럭시 Z플립/폴드 가죽 케이스": "Galaxy Z Flip/Fold Leather Case",
+      "러기지텍": "Luggage Tag",
+      "골프 공 파우치": "Golf Ball Pouch",
+      "워치 스트랩": "Watch Strap",
+      "가죽 브리프케이스 / 노트북 백": "Leather Briefcase / Laptop Bag",
+      "다용도 미니 파우치": "Multipurpose Mini Pouch",
+      "명함/카드지갑": "Business Card Holder / Wallet",
+      "아이폰 케이스(자수형)": "iPhone Case (Embroidered)",
+      "노트북 파우치": "Laptop Pouch",
+      "PDA 및 바코드 단말기 가죽 가드": "PDA / Barcode Terminal Leather Guard",
+      "핸드 스트랩": "Hand Strap",
+      "다용도 레더 파우치": "Multipurpose Leather Pouch",
+      "벨트 클립": "Belt Clip",
+      "가죽 선글라스/안경 케이스": "Leather Sunglasses/Glasses Case",
+      "핸드스트랩": "Hand Strap",
+      "골프-아이언커버": "Golf Iron Cover",
+      "아이폰 프리미엄 케이스": "iPhone Premium Case"
+    }
+  }
+}

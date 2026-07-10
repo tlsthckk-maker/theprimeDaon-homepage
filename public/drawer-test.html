@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>더프라임다온 - 쇼룸 패널 샘플</title>
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Pretendard', -apple-system, sans-serif; }
+    body { background-color: #f5f5f5; padding: 40px; color: #333; overflow-x: hidden; }
+
+    .header-title { text-align: center; margin-bottom: 50px; }
+    .header-title h1 { font-size: 32px; font-weight: 700; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .header-title p { color: #666; font-size: 16px; }
+
+    /* 제품 그리드 (배경) */
+    .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 40px; max-width: 1200px; margin: 0 auto; transition: opacity 0.3s; }
+    .product-card { background: #fff; overflow: hidden; cursor: pointer; transition: transform 0.3s; border-bottom: 1px solid #eaeaea; }
+    .product-card:hover { transform: translateY(-5px); }
+    .product-img-wrap { width: 100%; height: 350px; background: #eee; display: flex; align-items: center; justify-content: center; color: #999; font-size: 18px; }
+    .product-info { padding: 25px 0; }
+    .category-label { font-size: 13px; color: #8b7355; font-weight: 600; margin-bottom: 10px; display: block; }
+    .product-title { font-size: 20px; font-weight: 600; margin-bottom: 15px; }
+    .b2b-tag { display: inline-block; font-size: 12px; border: 1px solid #111; color: #111; padding: 4px 12px; border-radius: 20px; font-weight: 500; }
+
+    /* ★ 사이드 패널 (Drawer) 스타일 ★ */
+    .drawer-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.4); backdrop-filter: blur(3px); opacity: 0; visibility: hidden; transition: all 0.4s ease; z-index: 1000; }
+    .drawer-overlay.active { opacity: 1; visibility: visible; }
+    
+    .side-drawer { position: fixed; top: 0; right: -100%; width: 100%; max-width: 550px; height: 100vh; background: #fff; z-index: 1001; transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1); box-shadow: -10px 0 30px rgba(0,0,0,0.1); overflow-y: auto; display: flex; flex-direction: column; }
+    .drawer-overlay.active + .side-drawer { right: 0; }
+    
+    /* 패널 헤더 (닫기 버튼) */
+    .drawer-header { padding: 20px 30px; display: flex; justify-content: flex-end; position: sticky; top: 0; background: #fff; z-index: 10; border-bottom: 1px solid #f0f0f0; }
+    .close-btn { background: none; border: none; font-size: 32px; cursor: pointer; color: #333; line-height: 1; }
+    .close-btn:hover { color: #000; }
+
+    /* 패널 컨텐츠 */
+    .drawer-content { padding: 0 40px 40px; }
+    
+    .drawer-img { width: 100%; height: 400px; background: #f9f9f9; display: flex; align-items: center; justify-content: center; margin-bottom: 30px; color: #999; font-size: 20px; }
+    
+    .drawer-cat { font-size: 14px; color: #8b7355; font-weight: 600; margin-bottom: 10px; }
+    .drawer-title { font-size: 32px; margin-bottom: 30px; color: #111; letter-spacing: -0.5px; }
+    
+    .info-section { margin-bottom: 30px; padding-bottom: 30px; border-bottom: 1px solid #eee; }
+    .info-label { font-size: 12px; color: #888; text-transform: uppercase; font-weight: 700; margin-bottom: 8px; letter-spacing: 1px; }
+    .info-text { font-size: 16px; color: #222; line-height: 1.6; }
+    
+    .drawer-footer-msg { font-size: 15px; color: #666; line-height: 1.6; margin-bottom: 40px; background: #f8f8f8; padding: 20px; border-left: 3px solid #111; }
+    
+    .btn-wrap { display: flex; gap: 10px; flex-direction: column; }
+    .btn-dark { background: #111; color: #fff; text-align: center; padding: 18px; text-decoration: none; font-weight: 600; transition: background 0.2s; font-size: 16px; }
+    .btn-dark:hover { background: #333; }
+    .btn-light { background: #fff; color: #111; border: 1px solid #ddd; text-align: center; padding: 18px; text-decoration: none; font-weight: 600; transition: background 0.2s; font-size: 16px; }
+    .btn-light:hover { background: #f5f5f5; border-color: #ccc; }
+
+</style>
+</head>
+<body>
+
+<div class="header-title">
+    <h1>B2B Showroom Preview (Side Panel)</h1>
+    <p>아래 이미지를 클릭하면 우측에서 패널이 슬라이드 됩니다.</p>
+</div>
+
+<!-- 리스트 배경 -->
+<div class="grid-container" id="main-grid">
+    <div class="product-card" onclick="openDrawer()">
+        <div class="product-img-wrap">상품 썸네일 이미지</div>
+        <div class="product-info">
+            <span class="category-label">퍼스널 레더 굿즈 | 트래블</span>
+            <h3 class="product-title">다온48 (가죽 러기지택)</h3>
+            <div class="b2b-tag">기업 판촉용</div>
+        </div>
+    </div>
+</div>
+
+<!-- 사이드 패널 구조 -->
+<div class="drawer-overlay" id="overlay" onclick="closeDrawer()"></div>
+<div class="side-drawer" id="drawer">
+    <div class="drawer-header">
+        <button class="close-btn" onclick="closeDrawer()">×</button>
+    </div>
+    
+    <div class="drawer-content">
+        <div class="drawer-img">상세 디테일 컷 (고해상도)</div>
+        
+        <div class="drawer-cat">퍼스널 레더 굿즈 | 트래블 액세서리</div>
+        <h2 class="drawer-title">다온48 (가죽 러기지택)</h2>
+        
+        <div class="info-section">
+            <div class="info-label">Craftsmanship (기술)</div>
+            <div class="info-text">투명 보호창 정밀 내측 봉제, 모서리 라운드 커팅 및 엣지코트 마감. 내구성 강화를 위한 타공 펀칭.</div>
+        </div>
+        
+        <div class="info-section">
+            <div class="info-label">Materials (소재)</div>
+            <div class="info-text">시그니처 버건디 천연 가죽, 스크래치에 강한 실버 메탈 버클.</div>
+        </div>
+        
+        <div class="info-section">
+            <div class="info-label">Customization (맞춤 제작)</div>
+            <div class="info-text">가죽 컬러 풀 커스텀. 스트랩 길이 조절. 기업 로고 정중앙 불박/금박 각인 지원.</div>
+        </div>
+        
+        <div class="drawer-footer-msg">
+            본 제품은 더프라임다온의 마감 기술력을 보여주는 레퍼런스 모델입니다. VIP 웰컴키트나 임직원 선물용으로 완벽한 OEM 양산이 가능합니다.
+        </div>
+        
+        <div class="btn-wrap">
+            <a href="#" class="btn-dark">이 스타일로 제작 단가 문의하기</a>
+            <a href="#" class="btn-light">제조 포트폴리오 다운로드</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    const overlay = document.getElementById('overlay');
+    const drawer = document.getElementById('drawer');
+    const mainGrid = document.getElementById('main-grid');
+
+    function openDrawer() {
+        overlay.classList.add('active');
+        // 패널이 열릴 때 뒷배경이 살짝 흐려지면서 뒤로 밀리는 듯한 고급스러운 연출
+        mainGrid.style.transform = 'scale(0.98)'; 
+        mainGrid.style.opacity = '0.7';
+    }
+
+    function closeDrawer() {
+        overlay.classList.remove('active');
+        mainGrid.style.transform = 'scale(1)';
+        mainGrid.style.opacity = '1';
+    }
+</script>
+
+</body>
+</html>
