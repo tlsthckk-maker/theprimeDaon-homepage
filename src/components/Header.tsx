@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { getDictionary } from '@/i18n';
 import Image from 'next/image';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import MobileMenu from '@/components/MobileMenu';
 
 export default async function Header({ lng }: { lng: string }) {
   const dict = await getDictionary(lng);
@@ -27,7 +28,10 @@ export default async function Header({ lng }: { lng: string }) {
             <Link href={`/${lng}/showroom`} className="hover:text-amber-600 transition-colors">{dict.header.showroom}</Link>
             <Link href={`/${lng}/contact`} className="hover:text-amber-600 transition-colors">{dict.header.contact}</Link>
           </nav>
-          <LanguageSwitcher currentLng={lng} />
+          <div className="flex items-center">
+            <LanguageSwitcher currentLng={lng} />
+            <MobileMenu lng={lng} dict={dict.header} />
+          </div>
         </div>
       </div>
     </header>
