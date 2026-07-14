@@ -248,8 +248,38 @@ export default function ShowroomGallery(props: ShowroomGalleryProps) {
                             </div>
                             
                             <div className="btn-wrap">
-                                <a href={`/${props.lng || 'ko'}/contact`} className="btn-dark" onClick={(e) => { e.preventDefault(); closeDrawer(); window.location.href = `/${props.lng || 'ko'}/contact`; }}>{t.btn_contact || '💡 이 스타일로 제작 단가 문의하기'}</a>
-                                <a href={`/${props.lng || 'ko'}/portfolio`} className="btn-light" onClick={(e) => { e.preventDefault(); closeDrawer(); window.location.href = `/${props.lng || 'ko'}/portfolio`; }}>{t.btn_portfolio || '📁 제조 포트폴리오 확인하기'}</a>
+                                {(() => {
+                                    const presetMsg = selectedProduct ? `[${selectedProduct.productName}]${t.drawer_preset_msg || ' 스타일로 제작 단가를 문의합니다.'}` : '';
+                                    const presetQuery = encodeURIComponent(presetMsg);
+                                    const contactHref = `/${props.lng || 'ko'}/contact?preset=${presetQuery}`;
+                                    const portfolioHref = `/${props.lng || 'ko'}`;
+                                    return (
+                                        <>
+                                            <a 
+                                                href={contactHref}
+                                                className="btn-dark" 
+                                                onClick={(e) => { 
+                                                    e.preventDefault(); 
+                                                    closeDrawer(); 
+                                                    window.location.href = contactHref; 
+                                                }}
+                                            >
+                                                {t.btn_contact || '💡 이 스타일로 제작 단가 문의하기'}
+                                            </a>
+                                            <a 
+                                                href={portfolioHref}
+                                                className="btn-light" 
+                                                onClick={(e) => { 
+                                                    e.preventDefault(); 
+                                                    closeDrawer(); 
+                                                    window.location.href = portfolioHref; 
+                                                }}
+                                            >
+                                                {t.btn_portfolio || '📁 제조 포트폴리오 확인하기'}
+                                            </a>
+                                        </>
+                                    );
+                                })()}
                             </div>
                         </>
                     )}

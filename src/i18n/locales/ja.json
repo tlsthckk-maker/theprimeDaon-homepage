@@ -725,7 +725,8 @@
       "contact": "連絡先（電話 / メール）",
       "item": "お問い合わせ項目",
       "message": "お問い合わせ内容",
-      "submit": "送信する"
+      "submit": "送信する",
+      "message_placeholder": "生産をご希望の製品の種類、予想数量、希望納期、その他参考事項（デザイン、素材など）をご自由にお書きください。\n\n例：スマートフォン用レザーケース、1,000個、8月末納品希望"
     }
   },
   "footer": {
@@ -916,7 +917,37 @@
     "feat_quality": "<i class='fa-solid fa-circle-check'></i> 品質管理",
     "feat_mass": "<i class='fa-solid fa-circle-check'></i> 大量生産",
     "feat_precision": "<i class='fa-solid fa-circle-check'></i> 精密技術",
-    "mfg_subtitle": "あなたのビジョン、精巧に具現化される。"
+    "mfg_subtitle": "あなたのビジョン、精巧に具現化される。",
+    "gallery_title": "さらに詳しく見る。",
+    "status_title": "設備状況",
+    "eq_cutting_title": "裁断機",
+    "eq_laser_title": "レーザーカッター",
+    "eq_laser_desc": "CO2レーザーカッター。CAD設計通りの精密な裁断に最適。",
+    "eq_highpress_title": "高速プレス機",
+    "eq_highpress_desc": "ロール状の生地を高速で裁断可能。",
+    "eq_leathercut_title": "皮革裁断機",
+    "eq_leathercut_desc": "革の裁断に特化した専用機。",
+    "eq_sewing_title": "縫製機",
+    "eq_normal_sewing_title": "一般用ミシン",
+    "eq_normal_sewing_desc": "革や生地の一般的な縫製に使用。",
+    "eq_tarp_sewing_title": "タープミシン",
+    "eq_tarp_sewing_desc": "革や生地の曲面を縫製する際に使用。",
+    "eq_post_sewing_title": "ポストミシン",
+    "eq_post_sewing_desc": "革製品の深い部分や立体的な縫製に使用する特殊ミシン。",
+    "eq_comp_sewing_title": "コンピューターミシン",
+    "eq_comp_sewing_desc": "入力されたプログラムデータに基づき精密な縫製が可能。",
+    "eq_press_title": "プレス・成型",
+    "eq_heat_press_title": "熱プレス機",
+    "eq_heat_press_desc": "熱を利用した革の接着や、金型による革の成型に使用。",
+    "eq_hot_stamp_title": "箔押し機（ホットスタンプ）",
+    "eq_hot_stamp_desc": "ブランドロゴなどの刻印作業に最適。",
+    "eq_finish_title": "仕上げ・その他",
+    "eq_skiving_title": "革漉き機",
+    "eq_skiving_desc": "革の厚みを部分的に薄く調整することが可能。",
+    "eq_dryer_title": "コンベア乾燥機",
+    "eq_dryer_desc": "コバ塗り（エッジコート）後の急速乾燥用設備。",
+    "eq_gluing_title": "接着剤塗布機",
+    "eq_gluing_desc": "革や生地への接着剤塗布に使用。"
   },
   "showroom_ui": {
     "ui": {
@@ -937,7 +968,8 @@
       "drawer_cust_desc": "レザー素材およびカラー変更、企業ロゴのカスタム刻印（型押し/箔押し）、パッケージ構成など、100%カスタマイズされたOEM/ODM量産が可能です。",
       "drawer_footer": "本製品はThe Prime Daonの完璧な仕上げ品質を証明するリファレンスモデルです。",
       "btn_contact": "💡 このスタイルでの製作単価を問い合わせる",
-      "btn_portfolio": "📁 製造ポートフォリオを確認する"
+      "btn_portfolio": "📁 製造ポートフォリオを確認する",
+      "drawer_preset_msg": " スタイルでの製作単価を問い合わせます。"
     },
     "categories": {
       "테크 에센셜 | 맥세이프 카드홀더": "テックエッセンシャル | MagSafeカードホルダー",
@@ -982,5 +1014,99 @@
       "골프-아이언커버": "ゴルフアイアンカバー",
       "아이폰 프리미엄 케이스": "iPhoneプレミアムケース"
     }
+  },
+  "process": {
+    "section_title": "信頼への旅、完璧への6ステップ。",
+    "section_desc": "The Prime Daonは、妥協のない品質のため、自社のB2B工場で企画から納品までの全工程を直接管理します。",
+    "helper_text": "ステップをクリックすると、タイムラインの詳細仕様と成果物を確認できます。",
+    "active_step": "ACTIVE PRODUCTION STEP",
+    "step_guide": "ステップ {step} 詳細ガイド",
+    "phase_overview": "工程概要 (PHASE OVERVIEW)",
+    "deliverables": "義務成果物 (B2B DELIVERABLES)",
+    "est_days": "予想所要営業日:",
+    "inquiry_btn": "この工程基準でお問い合わせ",
+    "preset_msg": "[工程お問い合わせ: {title}] に関するご相談をお願いします。",
+    "steps": [
+      {
+        "id": "step-1",
+        "titlePre": "STEP 01",
+        "title": "企画およびカスタマイズ相談",
+        "titleEn": "Briefing & Consultation",
+        "content": "顧客のニーズとアイデアを分析し、製品の方向性を確立します。The Prime Daonの専任専門家が投入され、明確な基準を設けます。",
+        "checks": [
+          "専任専門家との1:1ミーティング",
+          "要件定義書の作成",
+          "リファレンスと技術的実現可能性の検討"
+        ],
+        "time": "1~2日"
+      },
+      {
+        "id": "step-2",
+        "titlePre": "STEP 02",
+        "title": "見積もりのご案内と契約",
+        "titleEn": "Estimation & Contract",
+        "content": "確定した企画に基づき、最適な生産単価と日程を算出します。透明な費用算定により相互の信頼を築きます。",
+        "checks": [
+          "最適化されたカスタマイズ見積書の送付",
+          "製造スケジュールのタイムライン確立",
+          "公式B2B量産契約の締結"
+        ],
+        "time": "1~2日"
+      },
+      {
+        "id": "step-3",
+        "titlePre": "STEP 03",
+        "title": "デザイン確定およびサンプル製作",
+        "titleEn": "Design & Prototyping",
+        "content": "原材料を厳選し、本生産と100%同じ環境で一次マスターサンプルを製作します。",
+        "checks": [
+          "デザイン、色、原材料スペックの最終確定",
+          "CAD精密設計およびパターン作業",
+          "一次実物プロトタイプの完成"
+        ],
+        "time": "2~3週間",
+        "highlight": "予想所要期間 2~3週間"
+      },
+      {
+        "id": "step-4",
+        "titlePre": "STEP 04",
+        "title": "フィードバックおよび最終確定",
+        "titleEn": "Refinement & Confirmation",
+        "content": "製作されたサンプルを顧客と共にレビューし、詳細を修正します。完璧な本生産のための最終マスターサンプルを確立します。",
+        "checks": [
+          "顧客のサンプルレビューとフィードバックの受付",
+          "詳細の修正および補完",
+          "最終生産仕様の確定"
+        ],
+        "time": "4~7日"
+      },
+      {
+        "id": "step-5",
+        "titlePre": "STEP 05",
+        "title": "ハイエンド大量生産",
+        "titleEn": "Mass Production",
+        "content": "最終確定したサンプルとわずか0.1mmの誤差もない規格で、自動化設備に基づく本生産を本格稼働させます。",
+        "checks": [
+          "本生産用原材料の大量確保",
+          "レーザーカッティングおよび高速プレスの稼働",
+          "特殊ミシンラインの組み立て進行"
+        ],
+        "time": "2~5週間",
+        "highlight": "予想所要期間 2~5週間"
+      },
+      {
+        "id": "step-6",
+        "titlePre": "STEP 06",
+        "title": "全数検品および納品",
+        "titleEn": "QC & Logistics",
+        "content": "妥協のない品質管理のため、全製品100%精密検品を行った後、完璧にパッケージングして安全に納品します。",
+        "checks": [
+          "不良率ゼロのための全製品100%検品",
+          "ブランド基準に合わせた最終安全パッケージング",
+          "顧客の要望に応じた現場別カスタマイズ配送"
+        ],
+        "time": "1~2日"
+      }
+    ]
   }
 }

@@ -725,7 +725,8 @@
       "contact": "연락처 및 이메일",
       "item": "문의 품목",
       "message": "문의 내용",
-      "submit": "문의하기"
+      "submit": "문의하기",
+      "message_placeholder": "생산하시고자 하는 제품의 종류, 예상 수량, 희망 납기일, 기타 참고 사항을 자유롭게 작성해 주세요.\n\n예) 스마트폰 가죽 케이스, 1,000개, 8월 말 납품 희망"
     }
   },
   "footer": {
@@ -916,7 +917,37 @@
     "feat_quality": "<i class='fa-solid fa-circle-check'></i> 품질 관리",
     "feat_mass": "<i class='fa-solid fa-circle-check'></i> 대량 생산",
     "feat_precision": "<i class='fa-solid fa-circle-check'></i> 정밀 기술",
-    "mfg_subtitle": "당신의 비전, 정교하게 완성되다."
+    "mfg_subtitle": "당신의 비전, 정교하게 완성되다.",
+    "gallery_title": "보다 자세히 들여다보기.",
+    "status_title": "설비 현황",
+    "eq_cutting_title": "재단기",
+    "eq_laser_title": "레이저 커팅기",
+    "eq_laser_desc": "co2레이저 컷팅기. 도면 설계에 용이함.",
+    "eq_highpress_title": "고속 프레스",
+    "eq_highpress_desc": "롤 형태의 원단을 빠르게 재단할 수 있음.",
+    "eq_leathercut_title": "가죽 재단기",
+    "eq_leathercut_desc": "가죽 재단하는 기계임.",
+    "eq_sewing_title": "봉제기",
+    "eq_normal_sewing_title": "일반 봉제기",
+    "eq_normal_sewing_desc": "가죽 또는 원단을 봉제할 수 있음.",
+    "eq_tarp_sewing_title": "타프 봉제기",
+    "eq_tarp_sewing_desc": "가죽 또는 원단을 봉제할 수 있음 (굴곡진 면을 봉제할 때 사용함).",
+    "eq_post_sewing_title": "말뚝형 봉제기",
+    "eq_post_sewing_desc": "가죽 제품의 깊은 면을 봉제할 때 사용하는 특수 미싱임.",
+    "eq_comp_sewing_title": "컴퓨터 봉제기",
+    "eq_comp_sewing_desc": "컴퓨터에 입력된 위치로 봉제가 용이함.",
+    "eq_press_title": "프레스 및 성형",
+    "eq_heat_press_title": "열 프레스",
+    "eq_heat_press_desc": "열을 가해서 가죽을 접착할 수 있으며 금형으로 가죽을 성형할 수도 있음.",
+    "eq_hot_stamp_title": "불박기",
+    "eq_hot_stamp_desc": "각인 작업에 용이함.",
+    "eq_finish_title": "마감 및 기타 장비",
+    "eq_skiving_title": "가죽 피할기",
+    "eq_skiving_desc": "가죽을 부분적으로 두께 조절할 수 있음.",
+    "eq_dryer_title": "컨베어 건조기",
+    "eq_dryer_desc": "제품의 엣지코팅(기리메) 작업 후 빠른 건조를 위한 건조 장비임.",
+    "eq_gluing_title": "본드 접착기",
+    "eq_gluing_desc": "가죽 또는 원단에 본드 칠 할 때 사용함."
   },
   "showroom_ui": {
     "ui": {
@@ -937,7 +968,8 @@
       "drawer_cust_desc": "가죽 소재 및 컬러 변경, 기업 로고 커스텀 각인(불박/금박), 패키지 구성 등 100% 맞춤형 OEM/ODM 양산이 가능합니다.",
       "drawer_footer": "본 제품은 더프라임다온의 완벽한 마감 퀄리티를 증명하는 레퍼런스 모델입니다.",
       "btn_contact": "💡 이 스타일로 제작 단가 문의하기",
-      "btn_portfolio": "📁 제조 포트폴리오 확인하기"
+      "btn_portfolio": "📁 제조 포트폴리오 확인하기",
+      "drawer_preset_msg": " 스타일로 제작 단가를 문의합니다."
     },
     "categories": {
       "테크 에센셜 | 맥세이프 카드홀더": "테크 에센셜 | 맥세이프 카드홀더",
@@ -982,5 +1014,99 @@
       "골프-아이언커버": "골프-아이언커버",
       "아이폰 프리미엄 케이스": "아이폰 프리미엄 케이스"
     }
+  },
+  "process": {
+    "section_title": "신뢰의 여정, 완벽을 향한 6단계.",
+    "section_desc": "더프라임다온은 타협 없는 품질을 위해 자체 B2B 팩토리에서 기획부터 납품까지 모든 공정을 직접 통제합니다.",
+    "helper_text": "스텝을 클릭하시면 타임라인 상세 명세와 산출물을 확인할 수 있습니다.",
+    "active_step": "ACTIVE PRODUCTION STEP",
+    "step_guide": "단계 {step} 상세 가이드",
+    "phase_overview": "공정 실효 개요 (PHASE OVERVIEW)",
+    "deliverables": "의무 약정 산출물 (B2B DELIVERABLES)",
+    "est_days": "예상 소요 영업일:",
+    "inquiry_btn": "이 공정기준으로 문의 게시",
+    "preset_msg": "[공정문의: {title}] 관련 상담을 요청합니다.",
+    "steps": [
+      {
+        "id": "step-1",
+        "titlePre": "STEP 01",
+        "title": "기획 및 맞춤 상담",
+        "titleEn": "Briefing & Consultation",
+        "content": "고객사의 니즈와 아이디어를 분석하여 제품의 방향성을 수립합니다. 더프라임다온의 전담 전문가가 투입되어 명확한 기준을 세웁니다.",
+        "checks": [
+          "전담 전문가 1:1 미팅 진행",
+          "요구사항 정의서 작성",
+          "레퍼런스 및 기술 구현 가능성 검토"
+        ],
+        "time": "1~2일"
+      },
+      {
+        "id": "step-2",
+        "titlePre": "STEP 02",
+        "title": "견적 안내 및 계약",
+        "titleEn": "Estimation & Contract",
+        "content": "확정된 기획을 바탕으로 최적의 생산 단가와 일정을 산출합니다. 투명한 비용 산정으로 상호 신뢰를 구축합니다.",
+        "checks": [
+          "최적화된 맞춤 견적서 발송",
+          "제조 일정 타임라인 확립",
+          "공식 B2B 양산 계약 체결"
+        ],
+        "time": "1~2일"
+      },
+      {
+        "id": "step-3",
+        "titlePre": "STEP 03",
+        "title": "디자인 확정 및 샘플 제작",
+        "titleEn": "Design & Prototyping",
+        "content": "원자재를 깐깐하게 선별하고 본생산과 100% 동일한 환경에서 1차 마스터 샘플을 제작합니다.",
+        "checks": [
+          "디자인, 색상, 원자재 스펙 확정",
+          "CAD 정밀 설계 및 패턴 작업",
+          "1차 실물 프로토타입 완성"
+        ],
+        "time": "2~3주",
+        "highlight": "예상 소요 기간 2~3주"
+      },
+      {
+        "id": "step-4",
+        "titlePre": "STEP 04",
+        "title": "피드백 및 최종 확정",
+        "titleEn": "Refinement & Confirmation",
+        "content": "제작된 샘플을 고객사와 함께 리뷰하고 디테일을 수정합니다. 완벽한 본생산을 위한 최종 마스터 샘플을 확립합니다.",
+        "checks": [
+          "고객사 샘플 리뷰 및 피드백 접수",
+          "디테일 수정 및 보완",
+          "최종 생산 사양 픽스"
+        ],
+        "time": "4~7일"
+      },
+      {
+        "id": "step-5",
+        "titlePre": "STEP 05",
+        "title": "하이엔드 대량 생산",
+        "titleEn": "Mass Production",
+        "content": "최종 확정된 샘플과 단 0.1mm의 오차도 없는 규격으로 자동화 설비 기반의 본생산을 본격 가동합니다.",
+        "checks": [
+          "본생산용 원자재 대량 확보",
+          "레이저 커팅 및 고속 프레스 가동",
+          "특수 미싱 라인 조립"
+        ],
+        "time": "2~5주",
+        "highlight": "예상 소요 기간 2~5주"
+      },
+      {
+        "id": "step-6",
+        "titlePre": "STEP 06",
+        "title": "전수 검수 및 납품",
+        "titleEn": "QC & Logistics",
+        "content": "타협 없는 품질 관리를 위해 전 제품 100% 정밀 검수를 진행한 뒤, 완벽하게 패키징하여 안전하게 납품합니다.",
+        "checks": [
+          "불량률 제로를 위한 전 제품 100% 검수",
+          "브랜드 기준에 맞춘 최종 안전 패키징",
+          "고객사 요청에 따른 현장별 맞춤 배송"
+        ],
+        "time": "1~2일"
+      }
+    ]
   }
 }

@@ -1,7 +1,16 @@
 import { getDictionary } from '@/i18n';
+import ContactForm from '@/components/ContactForm';
 
-export default async function Contact({ params }: { params: Promise<{ lng: string }> }) {
+export default async function Contact({ 
+  params,
+  searchParams
+}: { 
+  params: Promise<{ lng: string }>,
+  searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}) {
   const { lng } = await params;
+  const sp = await searchParams;
+  const preset = sp.preset as string | undefined;
   const dict = await getDictionary(lng);
 
   return (
@@ -42,45 +51,7 @@ export default async function Contact({ params }: { params: Promise<{ lng: strin
 
           {/* Right Side: Contact Form (3 cols) */}
           <div className="lg:col-span-3 p-10 md:p-12">
-            <form className="space-y-8">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-3">{dict.contact.form.company}</label>
-                  <input type="text" className="w-full px-5 py-4 bg-slate-50 rounded-xl border-none focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-3">{dict.contact.form.person}</label>
-                  <input type="text" className="w-full px-5 py-4 bg-slate-50 rounded-xl border-none focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all" />
-                </div>
-              </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-3">{dict.contact.form.contact}</label>
-                  <input type="text" className="w-full px-5 py-4 bg-slate-50 rounded-xl border-none focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-3">{dict.contact.form.item}</label>
-                  <select className="w-full px-5 py-4 bg-slate-50 rounded-xl border-none focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all text-slate-800">
-                    <option>{dict.showroom.categories.device}</option>
-                    <option>{dict.showroom.categories.keytag}</option>
-                    <option>{dict.showroom.categories.wallet}</option>
-                    <option>{dict.showroom.categories.watch}</option>
-                  </select>
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium text-slate-700 mb-3">{dict.contact.form.message}</label>
-                <textarea rows={5} className="w-full px-5 py-4 bg-slate-50 rounded-xl border-none focus:outline-none focus:ring-2 focus:ring-amber-500 transition-all"></textarea>
-              </div>
-
-              <div className="pt-2">
-                <button type="button" className="w-full md:w-auto px-10 bg-slate-900 text-white font-bold py-4 rounded-xl hover:bg-amber-700 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
-                  {dict.contact.form.submit}
-                </button>
-              </div>
-            </form>
+            <ContactForm dict={dict.contact.form} preset={preset} />
           </div>
           
         </div>

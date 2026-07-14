@@ -31,15 +31,7 @@ export default async function Footer({ lng }: { lng: string }) {
                 ></p>
               </section>
 
-              {/* 2. Popular Lines */}
-              <section>
-                <h3 className="font-serif text-lg font-bold text-white mb-5">{dict.footer.popular_lines.title}</h3>
-                <ul className="flex flex-col space-y-3 text-[15px] font-sans text-gray-400">
-                  {dict.footer.popular_lines.items.map((item: string, i: number) => <li key={i}>{item}</li>)}
-                </ul>
-              </section>
-
-              {/* 3. Contact Us */}
+              {/* 2. Contact Us */}
               <section>
                 <h3 className="font-serif text-lg font-bold text-white mb-5">{dict.footer.contact.title}</h3>
                 <div className="grid grid-cols-[80px_1fr] gap-y-4 text-[15px] font-sans text-gray-400">
@@ -73,29 +65,37 @@ export default async function Footer({ lng }: { lng: string }) {
                   <li><a href={`/${lng}/contact`} className="hover:text-white transition-colors">{dict.footer.quick_links.contact}</a></li>
                 </ul>
               </section>
-
-              {/* 2. B2B Sourcing */}
-              <section>
-                <h3 className="font-serif text-lg font-bold text-white mb-5">{dict.footer.b2b.title}</h3>
-                <ul className="flex flex-col space-y-3 text-[15px] font-sans text-gray-400">
-                  {dict.footer.b2b.items.map((item: string, i: number) => <li key={i}>{item}</li>)}
-                </ul>
-              </section>
             </div>
           </div>
 
           {/* Bottom Bar */}
-          <div className="mt-20 pt-8 border-t border-gray-700 flex flex-col md:flex-row justify-between items-center md:items-start text-xs font-sans text-gray-500">
-            <p className="mb-4 md:mb-0">© 2026 THE PRIME DAON. All rights reserved.</p>
-            <div className="flex space-x-4">
-              <a href="#" className="hover:text-white transition-colors">{dict.footer.bottom.privacy}</a>
-              <span>&middot;</span>
-              <a href="#" className="hover:text-white transition-colors">{dict.footer.bottom.terms}</a>
+          <div className="mt-20 pt-8 border-t border-gray-700">
+            <div className="flex flex-col md:flex-row justify-between items-start text-xs font-sans text-gray-500 mb-6">
+              <div className="flex flex-col space-y-2 mb-4 md:mb-0">
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+                  <span><strong className="font-semibold text-gray-400">상호:</strong> (주)더프라임다온</span>
+                  <span><strong className="font-semibold text-gray-400">대표자:</strong> 석용주</span>
+                  <span><strong className="font-semibold text-gray-400">사업자등록번호:</strong> 157-88-01211</span>
+                  <span><strong className="font-semibold text-gray-400">통신판매업신고:</strong> 제2023-서울중랑-0273호</span>
+                </div>
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+                  <span><strong className="font-semibold text-gray-400">주소:</strong> 서울 중랑구 봉우재로 108 3층</span>
+                  <span><strong className="font-semibold text-gray-400">대표전화:</strong> 070-4169-9233</span>
+                  <span><strong className="font-semibold text-gray-400">팩스:</strong> 02-979-0929</span>
+                  <span><strong className="font-semibold text-gray-400">이메일:</strong> daon0929@naver.com</span>
+                </div>
+              </div>
+              <div className="flex space-x-4 pt-1">
+                <a href={`/${lng}/privacy`} className="hover:text-white transition-colors font-semibold">{dict.footer.bottom.privacy}</a>
+                <span>&middot;</span>
+                <a href={`/${lng}/terms`} className="hover:text-white transition-colors">{dict.footer.bottom.terms}</a>
+              </div>
             </div>
+            <p className="text-xs font-sans text-gray-600">© 2026 THE PRIME DAON. All rights reserved.</p>
           </div>
         </div>
       </footer>
-      <FloatingActionButtons />
+      <FloatingActionButtons lng={lng} />
     </>
   );
 }

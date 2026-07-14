@@ -725,7 +725,8 @@
       "contact": "联系电话 / 电子邮箱",
       "item": "咨询产品",
       "message": "留言 / 需求说明",
-      "submit": "发送咨询"
+      "submit": "发送咨询",
+      "message_placeholder": "请自由填写您想要生产的产品种类、预估数量、期望交期以及其他参考事项。\n\n例如：智能手机皮套，1,000个，希望8月底交货"
     }
   },
   "footer": {
@@ -916,7 +917,37 @@
     "feat_quality": "<i class='fa-solid fa-circle-check'></i> 质量管理",
     "feat_mass": "<i class='fa-solid fa-circle-check'></i> 批量生产",
     "feat_precision": "<i class='fa-solid fa-circle-check'></i> 精密技术",
-    "mfg_subtitle": "您的远见卓识，在此精准达成。"
+    "mfg_subtitle": "您的远见卓识，在此精准达成。",
+    "gallery_title": "深入了解",
+    "status_title": "设备概况",
+    "eq_cutting_title": "裁剪机",
+    "eq_laser_title": "激光切割机",
+    "eq_laser_desc": "CO2激光切割机。便于精确执行图纸设计。",
+    "eq_highpress_title": "高速冲压机",
+    "eq_highpress_desc": "可快速裁剪卷轴状面料。",
+    "eq_leathercut_title": "皮革裁剪机",
+    "eq_leathercut_desc": "用于裁剪皮革的专用设备。",
+    "eq_sewing_title": "缝纫机",
+    "eq_normal_sewing_title": "普通缝纫机",
+    "eq_normal_sewing_desc": "可用于皮革或面料的常规缝制。",
+    "eq_tarp_sewing_title": "高车缝纫机",
+    "eq_tarp_sewing_desc": "用于皮革或面料的曲面缝制。",
+    "eq_post_sewing_title": "柱车缝纫机",
+    "eq_post_sewing_desc": "特种缝纫机，用于缝制皮革制品的深处及立体部位。",
+    "eq_comp_sewing_title": "电脑缝纫机",
+    "eq_comp_sewing_desc": "根据电脑输入的轨迹进行精密缝制。",
+    "eq_press_title": "冲压与成型",
+    "eq_heat_press_title": "热压机",
+    "eq_heat_press_desc": "加热贴合皮革，或使用模具对皮革进行立体成型。",
+    "eq_hot_stamp_title": "烫印机",
+    "eq_hot_stamp_desc": "适用于品牌Logo的精美压印作业。",
+    "eq_finish_title": "后整与其它设备",
+    "eq_skiving_title": "片皮机/削皮机",
+    "eq_skiving_desc": "可对皮革进行局部减薄处理。",
+    "eq_dryer_title": "输送带烘干机",
+    "eq_dryer_desc": "用于边缘涂层（边油）作业后的快速烘干。",
+    "eq_gluing_title": "上胶机",
+    "eq_gluing_desc": "用于在皮革或面料上涂抹胶水。"
   },
   "showroom_ui": {
     "ui": {
@@ -937,7 +968,8 @@
       "drawer_cust_desc": "支持100%定制OEM/ODM量产，包括更改皮革材料和颜色、企业标志定制雕刻及包装配置。",
       "drawer_footer": "本产品为参考型号，证明了The Prime Daon完美的表面处理质量。",
       "btn_contact": "💡 询问此款式的制造单价",
-      "btn_portfolio": "📁 查看制造作品集"
+      "btn_portfolio": "📁 查看制造作品集",
+      "drawer_preset_msg": " 风格制作单价咨询。"
     },
     "categories": {
       "테크 에센셜 | 맥세이프 카드홀더": "科技精选 | MagSafe卡包",
@@ -982,5 +1014,99 @@
       "골프-아이언커버": "高尔夫铁杆套",
       "아이폰 프리미엄 케이스": "iPhone高级保护壳"
     }
+  },
+  "process": {
+    "section_title": "信任之旅，迈向完美的6个阶段。",
+    "section_desc": "The Prime Daon为了不妥协的质量，在自有的B2B工厂中直接控制从规划到交付的所有流程。",
+    "helper_text": "点击步骤查看详细的时间线规格和可交付成果。",
+    "active_step": "ACTIVE PRODUCTION STEP",
+    "step_guide": "阶段 {step} 详细指南",
+    "phase_overview": "流程概览 (PHASE OVERVIEW)",
+    "deliverables": "义务可交付成果 (B2B DELIVERABLES)",
+    "est_days": "预计所需工作日:",
+    "inquiry_btn": "以此流程标准发起咨询",
+    "preset_msg": "我想针对 [流程咨询: {title}] 申请相关咨询。",
+    "steps": [
+      {
+        "id": "step-1",
+        "titlePre": "STEP 01",
+        "title": "企划及定制咨询",
+        "titleEn": "Briefing & Consultation",
+        "content": "通过分析客户的需求和想法，确立产品的方向性。The Prime Daon的专属专家将介入，制定明确的标准。",
+        "checks": [
+          "专属专家1:1会议",
+          "编写需求定义书",
+          "参考案例及技术实现可行性探讨"
+        ],
+        "time": "1~2天"
+      },
+      {
+        "id": "step-2",
+        "titlePre": "STEP 02",
+        "title": "报价单指南与合同",
+        "titleEn": "Estimation & Contract",
+        "content": "根据确定的规划，计算出最佳的生产单价和时间表。通过透明的成本估算建立相互的信任。",
+        "checks": [
+          "发送优化的定制报价单",
+          "确立制造进度时间表",
+          "签署正式的B2B量产合同"
+        ],
+        "time": "1~2天"
+      },
+      {
+        "id": "step-3",
+        "titlePre": "STEP 03",
+        "title": "设计确认及样品制作",
+        "titleEn": "Design & Prototyping",
+        "content": "严格挑选原材料，并在与大货生产100%相同的环境中制作第一批主样品。",
+        "checks": [
+          "最终确定设计、颜色、原材料规格",
+          "CAD精密设计和制版作业",
+          "完成第一批实体原型"
+        ],
+        "time": "2~3周",
+        "highlight": "预计所需时间 2~3周"
+      },
+      {
+        "id": "step-4",
+        "titlePre": "STEP 04",
+        "title": "反馈及最终确认",
+        "titleEn": "Refinement & Confirmation",
+        "content": "与客户一起审核制作的样品并修改细节。确立完美的最终大货生产用主样品。",
+        "checks": [
+          "客户样品审核及接收反馈",
+          "细节修改和补充",
+          "确定最终生产规格"
+        ],
+        "time": "4~7天"
+      },
+      {
+        "id": "step-5",
+        "titlePre": "STEP 05",
+        "title": "高端大批量生产",
+        "titleEn": "Mass Production",
+        "content": "以0.1mm误差都没有的规格和最终确定的样品，正式启动基于自动化设备的大批量生产。",
+        "checks": [
+          "大量确保大货生产用原材料",
+          "启动激光切割和高速压力机",
+          "特殊缝纫线组装"
+        ],
+        "time": "2~5周",
+        "highlight": "预计所需时间 2~5周"
+      },
+      {
+        "id": "step-6",
+        "titlePre": "STEP 06",
+        "title": "全数检验及交付",
+        "titleEn": "QC & Logistics",
+        "content": "为了不妥协的质量控制，对所有产品进行100%精密检验后，完美包装并安全交付。",
+        "checks": [
+          "为实现零不良率对所有产品进行100%检验",
+          "符合品牌标准的最终安全包装",
+          "根据客户要求的按现场定制配送"
+        ],
+        "time": "1~2天"
+      }
+    ]
   }
 }

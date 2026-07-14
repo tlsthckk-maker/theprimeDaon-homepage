@@ -27,7 +27,7 @@ export default async function RootLayout({
   const { lng } = await params;
   return (
     <html lang={lng}>
-      <body className={`${outfit.variable} ${notoSansKR.variable} font-sans bg-slate-50 text-slate-900 antialiased pt-20 flex flex-col min-h-screen`}>
+      <body className={`${outfit.variable} ${notoSansKR.variable} font-sans bg-slate-50 text-slate-900 antialiased pt-20 flex flex-col min-h-screen relative`}>
         <Header lng={lng} />
         <main className="flex-grow">
           {children}

@@ -725,7 +725,8 @@
       "contact": "Contact Number / Email",
       "item": "Inquiry Item",
       "message": "Message / Requirements",
-      "submit": "Send Inquiry"
+      "submit": "Send Inquiry",
+      "message_placeholder": "Please feel free to describe the type of product, estimated quantity, desired delivery date, and any other details.\n\ne.g., Leather smartphone cases, 1,000 units, desired delivery by end of August"
     }
   },
   "footer": {
@@ -916,7 +917,37 @@
     "feat_quality": "<i class='fa-solid fa-circle-check'></i> Quality Control",
     "feat_mass": "<i class='fa-solid fa-circle-check'></i> Mass Production",
     "feat_precision": "<i class='fa-solid fa-circle-check'></i> Precision Tech",
-    "mfg_subtitle": "Your vision, masterfully brought to life."
+    "mfg_subtitle": "Your vision, masterfully brought to life.",
+    "gallery_title": "A Closer Look.",
+    "status_title": "Equipment Status",
+    "eq_cutting_title": "Cutting",
+    "eq_laser_title": "Laser Cutting Machine",
+    "eq_laser_desc": "CO2 laser cutter. Ideal for precise CAD design execution.",
+    "eq_highpress_title": "High-Speed Press",
+    "eq_highpress_desc": "Capable of rapidly cutting rolled fabrics.",
+    "eq_leathercut_title": "Leather Cutting Machine",
+    "eq_leathercut_desc": "Specialized machine for cutting leather.",
+    "eq_sewing_title": "Sewing",
+    "eq_normal_sewing_title": "Standard Sewing Machine",
+    "eq_normal_sewing_desc": "General sewing for leather and fabrics.",
+    "eq_tarp_sewing_title": "Tarp Sewing Machine",
+    "eq_tarp_sewing_desc": "Used for sewing curved surfaces on leather or fabrics.",
+    "eq_post_sewing_title": "Post-Bed Sewing Machine",
+    "eq_post_sewing_desc": "Specialized machine for sewing deep or hard-to-reach areas of leather goods.",
+    "eq_comp_sewing_title": "Computerized Sewing Machine",
+    "eq_comp_sewing_desc": "Facilitates precise sewing based on computerized positioning.",
+    "eq_press_title": "Press & Molding",
+    "eq_heat_press_title": "Heat Press",
+    "eq_heat_press_desc": "Applies heat to bond leather or mold it using custom dies.",
+    "eq_hot_stamp_title": "Hot Stamping Machine",
+    "eq_hot_stamp_desc": "Ideal for precise logo debossing and engraving.",
+    "eq_finish_title": "Finishing & Others",
+    "eq_skiving_title": "Leather Skiving Machine",
+    "eq_skiving_desc": "Used to thin specific areas of the leather.",
+    "eq_dryer_title": "Conveyor Dryer",
+    "eq_dryer_desc": "Drying equipment for rapid curing after edge coating (Kirime).",
+    "eq_gluing_title": "Bond Gluing Machine",
+    "eq_gluing_desc": "Used for applying adhesive to leather or fabrics."
   },
   "showroom_ui": {
     "ui": {
@@ -937,7 +968,8 @@
       "drawer_cust_desc": "100% custom OEM/ODM mass production is possible, including leather material and color changes, corporate logo custom engraving, and packaging configuration.",
       "drawer_footer": "This product is a reference model proving the perfect finish quality of The Prime Daon.",
       "btn_contact": "💡 Inquire about manufacturing costs for this style",
-      "btn_portfolio": "📁 View manufacturing portfolio"
+      "btn_portfolio": "📁 View manufacturing portfolio",
+      "drawer_preset_msg": " style manufacturing cost inquiry."
     },
     "categories": {
       "테크 에센셜 | 맥세이프 카드홀더": "Tech Essentials | MagSafe Card Holder",
@@ -982,5 +1014,99 @@
       "골프-아이언커버": "Golf Iron Cover",
       "아이폰 프리미엄 케이스": "iPhone Premium Case"
     }
+  },
+  "process": {
+    "section_title": "The Journey of Trust, 6 Steps to Perfection.",
+    "section_desc": "The Prime Daon directly controls all processes from planning to delivery in our own B2B factory for uncompromising quality.",
+    "helper_text": "Click on a step to view detailed timeline specifications and deliverables.",
+    "active_step": "ACTIVE PRODUCTION STEP",
+    "step_guide": "Step {step} Detailed Guide",
+    "phase_overview": "PHASE OVERVIEW",
+    "deliverables": "B2B DELIVERABLES",
+    "est_days": "Estimated Business Days:",
+    "inquiry_btn": "Inquire Based on This Process",
+    "preset_msg": "I would like to request a consultation regarding [Process Inquiry: {title}].",
+    "steps": [
+      {
+        "id": "step-1",
+        "titlePre": "STEP 01",
+        "title": "Briefing & Consultation",
+        "titleEn": "Briefing & Consultation",
+        "content": "We establish product direction by analyzing client needs and ideas. A dedicated expert from The Prime Daon is assigned to set clear standards.",
+        "checks": [
+          "1:1 meeting with dedicated expert",
+          "Create requirements definition",
+          "Review references and technical feasibility"
+        ],
+        "time": "1~2 days"
+      },
+      {
+        "id": "step-2",
+        "titlePre": "STEP 02",
+        "title": "Estimation & Contract",
+        "titleEn": "Estimation & Contract",
+        "content": "Based on the finalized plan, optimal production costs and schedules are calculated. Mutual trust is built through transparent cost estimation.",
+        "checks": [
+          "Send optimized custom quotation",
+          "Establish manufacturing timeline",
+          "Sign official B2B mass production contract"
+        ],
+        "time": "1~2 days"
+      },
+      {
+        "id": "step-3",
+        "titlePre": "STEP 03",
+        "title": "Design & Prototyping",
+        "titleEn": "Design & Prototyping",
+        "content": "Raw materials are carefully selected, and the 1st master sample is produced in the exact same environment as mass production.",
+        "checks": [
+          "Finalize design, color, and material specs",
+          "Precision CAD design and patterning",
+          "Complete 1st physical prototype"
+        ],
+        "time": "2~3 weeks",
+        "highlight": "Estimated time: 2~3 weeks"
+      },
+      {
+        "id": "step-4",
+        "titlePre": "STEP 04",
+        "title": "Refinement & Confirmation",
+        "titleEn": "Refinement & Confirmation",
+        "content": "The produced sample is reviewed with the client, and details are modified. The final master sample for perfect mass production is established.",
+        "checks": [
+          "Client sample review and feedback",
+          "Modify and supplement details",
+          "Fix final production specifications"
+        ],
+        "time": "4~7 days"
+      },
+      {
+        "id": "step-5",
+        "titlePre": "STEP 05",
+        "title": "Mass Production",
+        "titleEn": "Mass Production",
+        "content": "Mass production begins in earnest based on automated equipment with exactly 0.1mm tolerance to the final confirmed sample.",
+        "checks": [
+          "Secure raw materials for mass production",
+          "Operate laser cutting and high-speed press",
+          "Special sewing line assembly"
+        ],
+        "time": "2~5 weeks",
+        "highlight": "Estimated time: 2~5 weeks"
+      },
+      {
+        "id": "step-6",
+        "titlePre": "STEP 06",
+        "title": "QC & Logistics",
+        "titleEn": "QC & Logistics",
+        "content": "For uncompromising quality control, 100% precision inspection of all products is conducted, followed by perfect packaging and safe delivery.",
+        "checks": [
+          "100% inspection of all products for zero defect rate",
+          "Final safety packaging tailored to brand standards",
+          "Custom delivery to specific sites as requested by client"
+        ],
+        "time": "1~2 days"
+      }
+    ]
   }
 }

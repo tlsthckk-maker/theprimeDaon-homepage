@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Design Compare</title>
+    <style>
+        /* =========================================================================
+           RESET & GLOBAL
+           ========================================================================= */
+        :root {
+            --v1-bg: #f5f5f7;
+            --v1-text: #1d1d1f;
+            --v1-muted: #86868b;
+            --v1-accent: #8b7355;
+            --v1-glass-bg: rgba(255, 255, 255, 0.6);
+            --v1-glass-border: rgba(255, 255, 255, 0.4);
+
+            --v2-bg: #1d1d1f;
+            --v2-text: #f5f5f7;
+            --v2-muted: #86868b;
+            --v2-accent: #c2a378;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            overflow-x: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Divider between versions */
+        .version-divider {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* =========================================================================
+           VERSION 1: Vertical Scroll-spy (White Theme)
+           ========================================================================= */
+        .v1-section {
+            background-color: var(--v1-bg);
+            color: var(--v1-text);
+            position: relative;
+            padding-bottom: 100px;
+        }
+
+        .v1-header {
+            text-align: center;
+            padding: 120px 20px 80px;
+        }
+        .v1-header .category {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--v1-accent);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            margin-bottom: 16px;
+        }
+        .v1-header h2 { font-size: 48px; font-weight: 700; margin: 0 0 24px; letter-spacing: -0.03em; }
+        .v1-header p { font-size: 21px; color: var(--v1-muted); max-width: 700px; margin: 0 auto; line-height: 1.6; }
+
+        .v1-container {
+            display: flex;
+            max-width: 1400px;
+            margin: 0 auto;
+            position: relative;
+            padding: 0 20px;
+        }
+
+        .v1-left { width: 50%; padding-right: 50px; padding-top: 10vh; padding-bottom: 50vh; }
+        
+        .v1-step {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            opacity: 0.2;
+            transition: opacity 0.6s ease, transform 0.6s ease;
+            transform: translateX(-30px);
+        }
+        .v1-step.active { opacity: 1; transform: translateX(0); }
+
+        .v1-step-title { font-size: 42px; font-weight: 700; line-height: 1.3; letter-spacing: -0.02em; }
+        .v1-step-title span {
+            display: block; font-size: 16px; color: var(--v1-accent); margin-bottom: 12px; font-weight: 600; letter-spacing: 0.05em;
+        }
+        .v1-step-title .en {
+            font-size: 32px; font-weight: 500; opacity: 0.5; display: block; margin-top: 5px;
+        }
+
+        .v1-right {
+            width: 50%;
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .v1-card {
+            background: var(--v1-glass-bg);
+            backdrop-filter: blur(25px);
+            -webkit-backdrop-filter: blur(25px);
+            border: 1px solid var(--v1-glass-border);
+            border-radius: 32px;
+            padding: 60px 50px;
+            width: 100%;
+            max-width: 540px;
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.05), inset 0 0 0 1px rgba(255, 255, 255, 0.8);
+            transition: opacity 0.5s cubic-bezier(0.25, 1, 0.5, 1), transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+            opacity: 0;
+            transform: scale(0.95) translateY(20px);
+        }
+        .v1-card.visible { opacity: 1; transform: scale(1) translateY(0); }
+
+        .v1-content { font-size: 20px; line-height: 1.6; color: var(--v1-text); margin-bottom: 35px; font-weight: 500; }
+        .v1-checks { list-style: none; padding: 0; margin: 0; }
+        .v1-checks li {
+            position: relative; padding-left: 36px; margin-bottom: 18px; font-size: 17px; color: var(--v1-muted); line-height: 1.5;
+        }
+        .v1-checks li::before {
+            content: '✓'; position: absolute; left: 0; top: -2px; color: var(--v1-accent); font-weight: 800; font-size: 18px;
+            background: rgba(139, 115, 85, 0.1); width: 24px; height: 24px; display: flex; align-items: center; justify-content: center; border-radius: 50%;
+        }
+        .v1-highlight { margin-top: 35px; padding-top: 25px; border-top: 1px solid rgba(0, 0, 0, 0.08); font-weight: 600; color: var(--v1-accent); font-size: 16px; display: none; }
+
+
+        /* =========================================================================
+           VERSION 2: Horizontal Scroll (Dark Theme)
+           ========================================================================= */
+        .v2-section {
+            background-color: var(--v2-bg);
+            color: var(--v2-text);
+        }
+
+        .v2-header {
+            text-align: center;
+            padding: 120px 20px 60px;
+        }
+        .v2-header .category {
+            font-size: 14px; font-weight: 700; color: var(--v2-accent); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 16px;
+        }
+        .v2-header h2 { font-size: 48px; font-weight: 700; margin: 0 0 24px; letter-spacing: -0.03em; }
+        .v2-header p { font-size: 21px; color: var(--v2-muted); max-width: 700px; margin: 0 auto; line-height: 1.6; }
+
+        /* The container that defines the total vertical scroll height */
+        .v2-scroll-container {
+            height: 400vh; /* 4 times the viewport height to give enough room to scroll */
+            position: relative;
+        }
+
+        /* The sticky wrapper that stays fixed while scrolling the container */
+        .v2-sticky-wrapper {
+            position: sticky;
+            top: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* The track that moves horizontally */
+        .v2-track {
+            display: flex;
+            gap: 40px;
+            padding: 0 10vw; /* Gives padding so cards don't stick strictly to the edge */
+            will-change: transform;
+        }
+
+        .v2-card {
+            flex: 0 0 500px; /* Fixed width for each card */
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 24px;
+            padding: 50px 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: background 0.3s ease;
+        }
+        .v2-card:hover {
+            background: rgba(255,255,255,0.06);
+            border-color: rgba(255,255,255,0.2);
+        }
+
+        .v2-step-num {
+            font-size: 16px;
+            color: var(--v2-accent);
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            margin-bottom: 20px;
+            display: inline-block;
+            padding: 6px 14px;
+            border-radius: 20px;
+            background: rgba(194, 163, 120, 0.15);
+        }
+
+        .v2-card h3 {
+            font-size: 32px;
+            font-weight: 700;
+            margin: 0 0 10px 0;
+            line-height: 1.3;
+        }
+        .v2-card .en {
+            font-size: 20px;
+            color: rgba(255,255,255,0.4);
+            font-weight: 400;
+            margin-bottom: 30px;
+        }
+
+        .v2-card p {
+            font-size: 18px;
+            color: var(--v2-muted);
+            line-height: 1.6;
+            margin-bottom: 40px;
+            flex-grow: 1;
+        }
+
+        .v2-checks {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 30px 0;
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 30px;
+        }
+        .v2-checks li {
+            position: relative;
+            padding-left: 28px;
+            margin-bottom: 12px;
+            font-size: 16px;
+            color: #d1d1d6;
+        }
+        .v2-checks li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--v2-accent);
+            font-size: 20px;
+            line-height: 1;
+            top: -2px;
+        }
+
+        .v2-highlight {
+            display: inline-flex;
+            background: var(--v2-accent);
+            color: #000;
+            font-weight: 700;
+            font-size: 15px;
+            padding: 10px 20px;
+            border-radius: 12px;
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- =========================================================================
+         VERSION 1 : Vertical Interactive Index (White Theme)
+         ========================================================================= -->
+    <section class="v1-section">
+        <header class="v1-header">
+            <div class="category">Version 1: Interactive Index (White)</div>
+            <h2>신뢰의 여정, 완벽을 향한 6단계.</h2>
+            <p>더프라임다온은 타협 없는 품질을 위해 자체 B2B 팩토리에서 기획부터 납품까지 모든 공정을 직접 통제합니다.</p>
+        </header>
+
+        <div class="v1-container">
+            <div class="v1-left">
+                <!-- STEP 01 -->
+                <div class="v1-step" 
+                     data-content="고객사의 니즈와 아이디어를 분석하여 제품의 방향성을 수립합니다. 더프라임다온의 전담 전문가가 투입되어 명확한 기준을 세웁니다."
+                     data-checks='["전담 전문가 1:1 미팅 진행", "요구사항 정의서 작성", "레퍼런스 및 기술 구현 가능성 검토"]'>
+                    <div class="v1-step-title"><span>STEP 01</span>기획 및 맞춤 상담<span class="en">Briefing & Consultation</span></div>
+                </div>
+
+                <!-- STEP 02 -->
+                <div class="v1-step" 
+                     data-content="확정된 기획을 바탕으로 최적의 생산 단가와 일정을 산출합니다. 투명한 비용 산정으로 상호 신뢰를 구축합니다."
+                     data-checks='["최적화된 맞춤 견적서 발송", "제조 일정 타임라인 확립", "공식 B2B 양산 계약 체결"]'>
+                    <div class="v1-step-title"><span>STEP 02</span>견적 안내 및 계약<span class="en">Estimation & Contract</span></div>
+                </div>
+
+                <!-- STEP 03 -->
+                <div class="v1-step" 
+                     data-content="원자재를 깐깐하게 선별하고 본생산과 100% 동일한 환경에서 1차 마스터 샘플을 제작합니다."
+                     data-checks='["디자인, 색상, 원자재 스펙 확정", "CAD 정밀 설계 및 패턴 작업", "1차 실물 프로토타입 완성"]'
+                     data-highlight="예상 소요 기간 2~3주">
+                    <div class="v1-step-title"><span>STEP 03</span>디자인 확정 및 샘플 제작<span class="en">Design & Prototyping</span></div>
+                </div>
+
+                <!-- STEP 04 -->
+                <div class="v1-step" 
+                     data-content="제작된 샘플을 고객사와 함께 리뷰하고 디테일을 수정합니다. 완벽한 본생산을 위한 최종 마스터 샘플을 확립합니다."
+                     data-checks='["고객사 샘플 리뷰 및 피드백 접수", "디테일 수정 및 보완", "최종 생산 사양 픽스"]'>
+                    <div class="v1-step-title"><span>STEP 04</span>피드백 및 최종 확정<span class="en">Refinement & Confirmation</span></div>
+                </div>
+
+                <!-- STEP 05 -->
+                <div class="v1-step" 
+                     data-content="최종 확정된 샘플과 단 0.1mm의 오차도 없는 규격으로 자동화 설비 기반의 본생산을 본격 가동합니다."
+                     data-checks='["본생산용 원자재 대량 확보", "레이저 커팅 및 고속 프레스 가동", "특수 미싱 라인 조립"]'
+                     data-highlight="예상 소요 기간 2~5주">
+                    <div class="v1-step-title"><span>STEP 05</span>하이엔드 대량 생산<span class="en">Mass Production</span></div>
+                </div>
+
+                <!-- STEP 06 -->
+                <div class="v1-step" 
+                     data-content="타협 없는 품질 관리를 위해 전 제품 100% 정밀 검수를 진행한 뒤, 완벽하게 패키징하여 안전하게 납품합니다."
+                     data-checks='["불량률 제로를 위한 전 제품 100% 검수", "브랜드 기준에 맞춘 최종 안전 패키징", "고객사 요청에 따른 현장별 맞춤 배송"]'>
+                    <div class="v1-step-title"><span>STEP 06</span>전수 검수 및 납품<span class="en">QC & Logistics</span></div>
+                </div>
+            </div>
+
+            <div class="v1-right">
+                <div class="v1-card" id="v1-sticky-card">
+                    <div class="v1-content" id="v1-card-content"></div>
+                    <ul class="v1-checks" id="v1-card-checks"></ul>
+                    <div class="v1-highlight" id="v1-card-highlight"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Divider -->
+    <div class="version-divider">
+        Scroll Down for Version 2 ⬇️
+    </div>
+
+    <!-- =========================================================================
+         VERSION 2 : Horizontal Scroll Timeline (Dark Theme)
+         ========================================================================= -->
+    <section class="v2-section">
+        <header class="v2-header">
+            <div class="category">Version 2: Horizontal Scroll (Dark)</div>
+            <h2>신뢰의 여정, 완벽을 향한 6단계.</h2>
+            <p>더프라임다온은 타협 없는 품질을 위해 자체 B2B 팩토리에서 기획부터 납품까지 모든 공정을 직접 통제합니다.</p>
+        </header>
+
+        <!-- Vertical scroll container giving height to scroll -->
+        <div class="v2-scroll-container" id="v2-container">
+            <!-- Sticky wrapper that pins to screen -->
+            <div class="v2-sticky-wrapper">
+                <!-- Track that moves horizontally -->
+                <div class="v2-track" id="v2-track">
+                    
+                    <!-- Card 1 -->
+                    <div class="v2-card">
+                        <div>
+                            <span class="v2-step-num">STEP 01</span>
+                            <h3>기획 및 맞춤 상담</h3>
+                            <div class="en">Briefing & Consultation</div>
+                            <p>고객사의 니즈와 아이디어를 분석하여 제품의 방향성을 수립합니다. 더프라임다온의 전담 전문가가 투입되어 명확한 기준을 세웁니다.</p>
+                            <ul class="v2-checks">
+                                <li>전담 전문가 1:1 미팅 진행</li>
+                                <li>요구사항 정의서 작성</li>
+                                <li>레퍼런스 및 기술 구현 가능성 검토</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="v2-card">
+                        <div>
+                            <span class="v2-step-num">STEP 02</span>
+                            <h3>견적 안내 및 계약</h3>
+                            <div class="en">Estimation & Contract</div>
+                            <p>확정된 기획을 바탕으로 최적의 생산 단가와 일정을 산출합니다. 투명한 비용 산정으로 상호 신뢰를 구축합니다.</p>
+                            <ul class="v2-checks">
+                                <li>최적화된 맞춤 견적서 발송</li>
+                                <li>제조 일정 타임라인 확립</li>
+                                <li>공식 B2B 양산 계약 체결</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="v2-card">
+                        <div>
+                            <span class="v2-step-num">STEP 03</span>
+                            <h3>디자인 확정 및 샘플 제작</h3>
+                            <div class="en">Design & Prototyping</div>
+                            <p>원자재를 깐깐하게 선별하고 본생산과 100% 동일한 환경에서 1차 마스터 샘플을 제작합니다.</p>
+                            <ul class="v2-checks">
+                                <li>디자인, 색상, 원자재 스펙 확정</li>
+                                <li>CAD 정밀 설계 및 패턴 작업</li>
+                                <li>1차 실물 프로토타입 완성</li>
+                            </ul>
+                        </div>
+                        <div class="v2-highlight">예상 소요 기간 2~3주</div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="v2-card">
+                        <div>
+                            <span class="v2-step-num">STEP 04</span>
+                            <h3>피드백 및 최종 확정</h3>
+                            <div class="en">Refinement & Confirmation</div>
+                            <p>제작된 샘플을 고객사와 함께 리뷰하고 디테일을 수정합니다. 완벽한 본생산을 위한 최종 마스터 샘플을 확립합니다.</p>
+                            <ul class="v2-checks">
+                                <li>고객사 샘플 리뷰 및 피드백 접수</li>
+                                <li>디테일 수정 및 보완</li>
+                                <li>최종 생산 사양 픽스</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="v2-card">
+                        <div>
+                            <span class="v2-step-num">STEP 05</span>
+                            <h3>하이엔드 대량 생산</h3>
+                            <div class="en">Mass Production</div>
+                            <p>최종 확정된 샘플과 단 0.1mm의 오차도 없는 규격으로 자동화 설비 기반의 본생산을 본격 가동합니다.</p>
+                            <ul class="v2-checks">
+                                <li>본생산용 원자재 대량 확보</li>
+                                <li>레이저 커팅 및 고속 프레스 가동</li>
+                                <li>특수 미싱 라인 조립</li>
+                            </ul>
+                        </div>
+                        <div class="v2-highlight">예상 소요 기간 2~5주</div>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="v2-card">
+                        <div>
+                            <span class="v2-step-num">STEP 06</span>
+                            <h3>전수 검수 및 납품</h3>
+                            <div class="en">QC & Logistics</div>
+                            <p>타협 없는 품질 관리를 위해 전 제품 100% 정밀 검수를 진행한 뒤, 완벽하게 패키징하여 안전하게 납품합니다.</p>
+                            <ul class="v2-checks">
+                                <li>불량률 제로를 위한 전 제품 100% 검수</li>
+                                <li>브랜드 기준에 맞춘 최종 안전 패키징</li>
+                                <li>고객사 요청에 따른 현장별 맞춤 배송</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JS Logic -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            
+            // ==========================================
+            // LOGIC FOR VERSION 1 (Scroll Spy)
+            // ==========================================
+            const v1Steps = document.querySelectorAll('.v1-step');
+            const v1Card = document.getElementById('v1-sticky-card');
+            const v1Content = document.getElementById('v1-card-content');
+            const v1Checks = document.getElementById('v1-card-checks');
+            const v1Highlight = document.getElementById('v1-card-highlight');
+            let v1ActiveIndex = -1;
+
+            const updateV1Card = (step, index) => {
+                if (v1ActiveIndex === index) return;
+                v1ActiveIndex = index;
+
+                v1Card.classList.remove('visible');
+                
+                setTimeout(() => {
+                    v1Content.innerHTML = step.dataset.content;
+                    const checks = JSON.parse(step.dataset.checks);
+                    v1Checks.innerHTML = checks.map(c => `<li>${c}</li>`).join('');
+                    
+                    if (step.dataset.highlight) {
+                        v1Highlight.innerHTML = step.dataset.highlight;
+                        v1Highlight.style.display = 'inline-flex';
+                    } else {
+                        v1Highlight.style.display = 'none';
+                    }
+                    
+                    v1Card.classList.add('visible');
+                }, 400);
+            };
+
+            const v1Observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        v1Steps.forEach(s => s.classList.remove('active'));
+                        entry.target.classList.add('active');
+                        const index = Array.from(v1Steps).indexOf(entry.target);
+                        updateV1Card(entry.target, index);
+                    }
+                });
+            }, {
+                root: null,
+                rootMargin: '-40% 0px -40% 0px', 
+                threshold: 0
+            });
+
+            v1Steps.forEach(step => v1Observer.observe(step));
+            
+            // Initial load for V1
+            if(v1Steps.length > 0) {
+                v1Steps[0].classList.add('active');
+                updateV1Card(v1Steps[0], 0);
+            }
+
+
+            // ==========================================
+            // LOGIC FOR VERSION 2 (Horizontal Scroll)
+            // ==========================================
+            const v2Container = document.getElementById('v2-container');
+            const v2Track = document.getElementById('v2-track');
+
+            window.addEventListener('scroll', () => {
+                // Get the bounding rectangle of the scroll container
+                const rect = v2Container.getBoundingClientRect();
+                const containerTop = rect.top;
+                const containerHeight = rect.height;
+                const windowHeight = window.innerHeight;
+
+                // The scrollable distance inside the container
+                const scrollableDistance = containerHeight - windowHeight;
+                
+                // How far we've scrolled inside the container (0 to scrollableDistance)
+                // When containerTop is 0, scrolled = 0
+                // When containerTop is -scrollableDistance, scrolled = scrollableDistance
+                let scrolled = -containerTop;
+
+                if (scrolled < 0) {
+                    scrolled = 0;
+                } else if (scrolled > scrollableDistance) {
+                    scrolled = scrollableDistance;
+                }
+
+                // Calculate the percentage of scrolling completed (0 to 1)
+                const scrollPercentage = scrolled / scrollableDistance;
+
+                // Calculate how much horizontal space we need to move
+                // Total width of track minus the viewport width
+                const trackScrollWidth = v2Track.scrollWidth;
+                const maxTranslateX = trackScrollWidth - window.innerWidth + (window.innerWidth * 0.1); // add a little buffer for the right padding
+
+                // Apply transform
+                const translateX = scrollPercentage * maxTranslateX;
+                v2Track.style.transform = `translateX(-${translateX}px)`;
+            });
+
+        });
+    </script>
+</body>
+</html>
