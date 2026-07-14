@@ -1,4 +1,5 @@
 import { getDictionary } from '@/i18n';
+import HomeSections from '@/components/HomeSections';
 
 export default async function Home({ params }: { params: Promise<{ lng: string }> }) {
   const { lng } = await params;
@@ -41,24 +42,28 @@ export default async function Home({ params }: { params: Promise<{ lng: string }
         <div className="relative z-[3] text-center text-white px-5 hero-content-anim">
           {dict.hero.kicker && (
             <span 
-              className="block text-[14px] font-semibold text-[#d4af37] tracking-[4px] uppercase mb-5"
+              className="inline-block text-[14px] md:text-[16px] font-normal text-[#d2b690] opacity-80 pb-2 mb-6 border-b border-[#d2b690]/40 tracking-[-0.02em]"
               dangerouslySetInnerHTML={{ __html: dict.hero.kicker }}
             ></span>
           )}
           <h2 
-            className="text-[36px] md:text-[56px] font-bold tracking-[-2px] leading-[1.2] mb-[30px] drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)]"
+            className="text-[clamp(2.25rem,6.5vw,4.75rem)] font-bold tracking-[-0.03em] leading-[1.25] mb-[30px] drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)] break-keep"
             dangerouslySetInnerHTML={{ __html: dict.hero.title }}
           ></h2>
-          <p 
-            className="text-[16px] md:text-[18px] font-light text-[#ddd] max-w-[600px] mx-auto leading-[1.6] break-keep"
-            dangerouslySetInnerHTML={{ __html: dict.hero.subtitle }}
-          ></p>
+          {dict.hero.subtitle && (
+            <p 
+              className="text-[16px] md:text-[18px] font-light text-[#ddd] max-w-[600px] mx-auto leading-[1.6] break-keep"
+              dangerouslySetInnerHTML={{ __html: dict.hero.subtitle }}
+            ></p>
+          )}
         </div>
 
         <div className="absolute bottom-[40px] left-1/2 -translate-x-1/2 z-[3] text-white text-[12px] tracking-[2px] uppercase opacity-60 scroll-down-anim">
           Scroll Down ↓
         </div>
       </section>
+
+      <HomeSections dict={dict} />
     </div>
   );
 }

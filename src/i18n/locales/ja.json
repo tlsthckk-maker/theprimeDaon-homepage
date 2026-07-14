@@ -7,9 +7,9 @@
     "contact": "お問い合わせ"
   },
   "hero": {
-    "kicker": "",
-    "title": "最も心強いレザー製造パートナー<br/>The Prime Daon",
-    "subtitle": "サンプル開発の柔軟性から大量生産の正確性まで。10年以上の徹底した工程管理により、約束された時間内に最高の結果を納品します。"
+    "kicker": "顧客の信頼を基盤とするThe Prime Daon",
+    "title": "お客様が満足する製品、<br/>それ以上を生み出します。",
+    "subtitle": "サンプル開発の柔軟性から大量生産の正確さまで。10年以上の徹底した工程管理により、<br className=\\'hidden md:block\\'/>約束された時間内に最高の結果をお届けします。"
   },
   "about": {
     "title": "会社概要",
@@ -1108,5 +1108,30 @@
         "time": "1~2日"
       }
     ]
+  },
+  "home_sections": {
+    "brand_philosophy_highlight": "Architects of Excellence.",
+    "brand_philosophy_title": "",
+    "brand_philosophy_desc": "ハイエンドの本質は妥協のないディテールにあります。<br className=\\'hidden md:block\\'/>独創的な工程設計とグローバル基準を超える厳格さ。<br className=\\'hidden md:block\\'/>貴社のビジョンはここで完璧な実体となります。",
+    "transition_1": "We Make More Than Products, ",
+    "transition_2": "We Deliver Trust.",
+    "process_title": "Our Process",
+    "masterpieces_title": "Masterpieces",
+    "masterpieces": {
+      "tech": "テックエッセンシャル",
+      "tech_item": "スマートフォンレザーケース",
+      "bag": "バッグ＆ポーチ",
+      "bag_item": "多目的ミニポーチ",
+      "leather": "パーソナルレザーグッズ",
+      "leather_item": "スリムカードホルダー",
+      "lifestyle": "ライフスタイル小物",
+      "lifestyle_item": "カースマートキーホルダー"
+    },
+    "contact_title": "Ready to craft your vision?",
+    "contact_btn": "プロジェクトの問い合わせ",
+    "brand_philosophy2_title": "Mastering the Art of Leather.",
+    "brand_philosophy2_desc": "私たちは単なる製造を超え、ラグジュアリーの価値を設計します。<br className='hidden md:block'/>最高級の原皮選びから寸分の狂いもない仕上げまで、<br className='hidden md:block'/>最高級レザー製造の新たな基準を提示します。",
+    "brand_philosophy0_title": "Vision, Exquisitely Manufactured.",
+    "brand_philosophy0_desc": "貴社が想像するハイエンド、それ以上を実現します。<br className=\\'hidden md:block\\'/>圧倒的な技術力と精巧な職人技の結合。<br className=\\'hidden md:block\\'/>完璧に統制された品質で、貴社のブランド価値を証明してください。"
   }
 }

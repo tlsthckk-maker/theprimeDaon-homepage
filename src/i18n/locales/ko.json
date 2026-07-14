@@ -7,9 +7,9 @@
     "contact": "상담문의"
   },
   "hero": {
-    "kicker": "",
-    "title": "가장 든든한 가죽 제조 파트너<br/>더 프라임다온",
-    "subtitle": "샘플 개발의 유연함부터 대량 생산의 정확함까지. 10년 이상의 꼼꼼한 공정 관리로 약속된 시간 안에 최고의 결과물을 납품합니다."
+    "kicker": "고객의 신뢰를 기반으로 하는 더프라임다온",
+    "title": "고객이 만족하는 제품,<br/>그 이상을 만들어냅니다.",
+    "subtitle": "샘플 개발의 유연함부터 대량 생산의 정확함까지. 10년 이상의 꼼꼼한 공정 관리로<br className=\\'hidden md:block\\'/>약속된 시간 안에 최고의 결과물을 납품합니다."
   },
   "about": {
     "title": "회사 소개",
@@ -1108,5 +1108,30 @@
         "time": "1~2일"
       }
     ]
+  },
+  "home_sections": {
+    "brand_philosophy_highlight": "Architects of Excellence.",
+    "brand_philosophy_title": "",
+    "brand_philosophy_desc": "하이엔드의 본질은 타협 없는 디테일에 있습니다.<br className=\\'hidden md:block\\'/>독보적인 공정 설계와 글로벌 스탠다드를 뛰어넘는 엄격함.<br className=\\'hidden md:block\\'/>귀사의 비전은 이곳에서 완벽한 실체가 됩니다.",
+    "transition_1": "We Make More Than Products, ",
+    "transition_2": "We Deliver Trust.",
+    "process_title": "Our Process",
+    "masterpieces_title": "Masterpieces",
+    "masterpieces": {
+      "tech": "테크 에센셜",
+      "tech_item": "스마트폰 가죽 케이스",
+      "bag": "가방 & 파우치",
+      "bag_item": "다목적 소형 파우치",
+      "leather": "퍼스널 레더 굿즈",
+      "leather_item": "슬림 카드홀더",
+      "lifestyle": "라이프스타일 소품",
+      "lifestyle_item": "자동차 스마트키 홀더"
+    },
+    "contact_title": "Ready to craft your vision?",
+    "contact_btn": "프로젝트 문의하기",
+    "brand_philosophy2_title": "Mastering the Art of Leather.",
+    "brand_philosophy2_desc": "우리는 단순한 제조를 넘어 럭셔리의 가치를 설계합니다.<br className='hidden md:block'/>최상급 원피 선별부터 한 치의 오차 없는 마감까지,<br className='hidden md:block'/>최고급 가죽 제조의 새로운 표준을 제시합니다.",
+    "brand_philosophy0_title": "Vision, Exquisitely Manufactured.",
+    "brand_philosophy0_desc": "귀사가 상상하는 하이엔드, 그 이상을 실현합니다.<br className=\\'hidden md:block\\'/>압도적인 기술력과 정교한 장인정신의 결합.<br className=\\'hidden md:block\\'/>완벽하게 통제된 품질로 귀사의 브랜드 가치를 증명하십시오."
   }
 }

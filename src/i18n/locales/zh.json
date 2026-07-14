@@ -7,9 +7,9 @@
     "contact": "联系我们"
   },
   "hero": {
-    "kicker": "",
-    "title": "最可靠的皮革制造合作伙伴<br/>The Prime Daon",
-    "subtitle": "从样品开发的灵活性到批量生产的精确性。凭借10年以上的严谨工艺管理，在承诺时间内交付最佳成果。"
+    "kicker": "以客户信任为基础的The Prime Daon",
+    "title": "我们创造让客户满意的产品，<br/>甚至超越期望。",
+    "subtitle": "从样品开发的灵活性到大规模生产的准确性。凭借10年以上的细致工艺管理，<br className=\\'hidden md:block\\'/>我们在承诺的时间内交付最佳成果。"
   },
   "about": {
     "title": "关于我们",
@@ -1108,5 +1108,30 @@
         "time": "1~2天"
       }
     ]
+  },
+  "home_sections": {
+    "brand_philosophy_highlight": "Architects of Excellence.",
+    "brand_philosophy_title": "",
+    "brand_philosophy_desc": "高端的本质在于毫不妥协的细节。<br className=\\'hidden md:block\\'/>无与伦比的工艺设计和超越全球标准的严格要求。<br className=\\'hidden md:block\\'/>您的愿景将在这里化为完美的现实。",
+    "transition_1": "We Make More Than Products, ",
+    "transition_2": "We Deliver Trust.",
+    "process_title": "Our Process",
+    "masterpieces_title": "Masterpieces",
+    "masterpieces": {
+      "tech": "科技必需品",
+      "tech_item": "智能手机皮套",
+      "bag": "包袋和收纳袋",
+      "bag_item": "多用途迷你收纳袋",
+      "leather": "个人皮革制品",
+      "leather_item": "超薄卡套",
+      "lifestyle": "生活配件",
+      "lifestyle_item": "汽车智能钥匙扣"
+    },
+    "contact_title": "Ready to craft your vision?",
+    "contact_btn": "项目咨询",
+    "brand_philosophy2_title": "Mastering the Art of Leather.",
+    "brand_philosophy2_desc": "我们不仅是制造，更在设计奢华的价值。<br className='hidden md:block'/>从精选顶级原皮到分毫不差的完美收尾，<br className='hidden md:block'/>我们树立了顶级皮革制造的新标准。",
+    "brand_philosophy0_title": "Vision, Exquisitely Manufactured.",
+    "brand_philosophy0_desc": "实现您想象之外的高端品质。<br className=\\'hidden md:block\\'/>压倒性的技术力与精湛的匠人精神的结合。<br className=\\'hidden md:block\\'/>以完美控制的质量证明您的品牌价值。"
   }
 }

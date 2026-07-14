@@ -7,9 +7,9 @@
     "contact": "Contact"
   },
   "hero": {
-    "kicker": "",
-    "title": "The Most Reliable Leather Manufacturing Partner<br/>The Prime Daon",
-    "subtitle": "From the flexibility of sample development to the precision of mass production. We deliver the best results within the promised time with over 10 years of meticulous process management."
+    "kicker": "The Prime Daon, built on customer trust",
+    "title": "We create products that satisfy our customers,<br/>and beyond.",
+    "subtitle": "From the flexibility of sample development to the precision of mass production. With over 10 years of meticulous process management,<br className=\\'hidden md:block\\'/>we deliver the best results within the promised time."
   },
   "about": {
     "title": "About Us",
@@ -1108,5 +1108,30 @@
         "time": "1~2 days"
       }
     ]
+  },
+  "home_sections": {
+    "brand_philosophy_highlight": "Architects of Excellence.",
+    "brand_philosophy_title": "",
+    "brand_philosophy_desc": "The essence of high-end lies in uncompromising details.<br className=\\'hidden md:block\\'/>Unrivaled process design and strictness exceeding global standards.<br className=\\'hidden md:block\\'/>Your vision becomes a perfect reality here.",
+    "transition_1": "We Make More Than Products, ",
+    "transition_2": "We Deliver Trust.",
+    "process_title": "Our Process",
+    "masterpieces_title": "Masterpieces",
+    "masterpieces": {
+      "tech": "Tech Essential",
+      "tech_item": "Smartphone Leather Case",
+      "bag": "Bag & Pouch",
+      "bag_item": "Multi-purpose Mini Pouch",
+      "leather": "Personal Leather Goods",
+      "leather_item": "Slim Card Holder",
+      "lifestyle": "Lifestyle Accessories",
+      "lifestyle_item": "Car Smart Key Holder"
+    },
+    "contact_title": "Ready to craft your vision?",
+    "contact_btn": "Contact Us for Projects",
+    "brand_philosophy2_title": "Mastering the Art of Leather.",
+    "brand_philosophy2_desc": "We design the value of luxury beyond simple manufacturing.<br className='hidden md:block'/>From selecting the finest hides to flawless finishing,<br className='hidden md:block'/>we present a new standard in premium leather goods.",
+    "brand_philosophy0_title": "Vision, Exquisitely Manufactured.",
+    "brand_philosophy0_desc": "Realizing the high-end beyond your imagination.<br className=\\'hidden md:block\\'/>The combination of overwhelming technology and exquisite craftsmanship.<br className=\\'hidden md:block\\'/>Prove your brand value with perfectly controlled quality."
   }
 }

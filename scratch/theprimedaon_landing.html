@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Prime Daon - Vision, Exquisitely Manufactured.</title>
+    <style>
+        :root {
+            --bg-color: #f5f5f7;
+            --text-color: #1d1d1f;
+            --text-secondary: #86868b;
+            --point-color: #8b7355;
+            --dark-bg: #111111;
+            --font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            overflow-x: hidden;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, p {
+            letter-spacing: -0.015em;
+        }
+
+        .section {
+            padding: 160px 24px;
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--text-secondary);
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        /* Animations */
+        .fade-up {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .fade-up.delay-1 {
+            transition-delay: 0.2s;
+        }
+
+        .fade-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .stagger-item {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 1s cubic-bezier(0.16, 1, 0.3, 1), transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .stagger-item.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* 1. Hero Section */
+        .hero {
+            height: 100vh;
+            background-color: var(--dark-bg);
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            padding: 0 20px;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 1px;
+            height: 60px;
+            background-color: rgba(255, 255, 255, 0.3);
+            animation: scrollDown 2s infinite cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes scrollDown {
+            0% { transform: translate(-50%, 0) scaleY(0); transform-origin: top; }
+            50% { transform: translate(-50%, 0) scaleY(1); transform-origin: top; }
+            51% { transform: translate(-50%, 0) scaleY(1); transform-origin: bottom; }
+            100% { transform: translate(-50%, 0) scaleY(0); transform-origin: bottom; }
+        }
+
+        .hero h1 {
+            font-size: clamp(2.2rem, 5.5vw, 5.5rem);
+            font-weight: 600;
+            line-height: 1.1;
+            letter-spacing: -0.03em;
+            margin-bottom: 20px;
+        }
+
+        .hero-sub {
+            font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.8);
+            letter-spacing: -0.02em;
+        }
+
+        /* 2, 3. Brand Philosophy */
+        .philosophy-1 {
+            text-align: center;
+            padding: 240px 24px 120px;
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+
+        .philosophy-2 {
+            text-align: center;
+            padding: 120px 24px 240px;
+            max-width: 1024px;
+            margin: 0 auto;
+        }
+
+        .philosophy-1 h2, .philosophy-2 h2 {
+            font-size: clamp(2rem, 4.5vw, 4.2rem);
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -0.03em;
+        }
+
+        .point {
+            color: var(--point-color);
+        }
+
+        .philosophy-sub {
+            margin-top: 40px;
+            font-size: clamp(1.1rem, 2vw, 1.4rem);
+            color: var(--text-secondary);
+            font-weight: 400;
+            line-height: 1.7;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            word-break: keep-all;
+        }
+
+        /* 4. 6-Step Process */
+        .process {
+            padding-bottom: 240px;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px 40px;
+            margin-top: 80px;
+        }
+
+        @media (max-width: 768px) {
+            .process-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .process-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .process-item {
+            border-top: 1px solid #d2d2d7;
+            padding-top: 24px;
+        }
+
+        .process-num {
+            font-size: 0.85rem;
+            color: var(--point-color);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+        }
+
+        .process-item h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin: 12px 0;
+            color: var(--text-color);
+        }
+
+        .process-item p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.6;
+            word-break: keep-all;
+        }
+
+        /* 5. Portfolio Teaser */
+        .portfolio {
+            padding-top: 0;
+            padding-bottom: 240px;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            margin-top: 60px;
+        }
+
+        @media (max-width: 768px) {
+            .portfolio-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .portfolio-item {
+            cursor: pointer;
+            group: portfolio;
+        }
+
+        .img-placeholder {
+            width: 100%;
+            aspect-ratio: 4 / 5;
+            background-color: #e5e5ea;
+            border-radius: 18px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .img-placeholder::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.05));
+            transition: opacity 0.5s ease;
+        }
+
+        .portfolio-item:hover .img-placeholder::after {
+            opacity: 0;
+        }
+
+        /* Subtle scale on hover */
+        .portfolio-image-inner {
+            width: 100%;
+            height: 100%;
+            background-color: #d2d2d7;
+            transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .portfolio-item:hover .portfolio-image-inner {
+            transform: scale(1.03);
+        }
+
+        .portfolio-item h4 {
+            margin-top: 24px;
+            font-size: 1.25rem;
+            font-weight: 600;
+            text-align: center;
+        }
+        
+        .portfolio-item p {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-top: 4px;
+        }
+
+        /* 6. Contact */
+        .contact {
+            background-color: var(--text-color);
+            color: #ffffff;
+            padding: 200px 24px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: clamp(2rem, 5vw, 4rem);
+            font-weight: 600;
+            letter-spacing: -0.03em;
+            margin-bottom: 60px;
+        }
+
+        .contact-btn {
+            background-color: #ffffff;
+            color: var(--text-color);
+            border: none;
+            padding: 18px 40px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 40px;
+            cursor: pointer;
+            transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), background-color 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            transform: scale(1.02);
+            background-color: #f5f5f7;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="fade-up">Vision, Exquisitely Manufactured.</h1>
+            <p class="hero-sub fade-up delay-1">귀사가 상상하는 하이엔드, 그 이상을 실현합니다.</p>
+        </div>
+    </section>
+
+    <!-- 2. Brand Philosophy 1 -->
+    <section class="philosophy-1">
+        <div class="fade-up">
+            <h2><span class="point">Architects of Excellence.</span></h2>
+            <p class="philosophy-sub">
+                하이엔드의 본질은 타협 없는 디테일에 있습니다.<br>
+                독보적인 공정 설계와 글로벌 스탠다드를 뛰어넘는 엄격함으로<br>
+                귀사의 비전을 완벽한 실체로 만듭니다.
+            </p>
+        </div>
+    </section>
+
+    <!-- 3. Brand Philosophy 2 -->
+    <section class="philosophy-2">
+        <div class="fade-up">
+            <h2>Mastering the Art of Leather.</h2>
+            <p class="philosophy-sub">
+                우리는 단순한 제조를 넘어 럭셔리의 가치를 설계합니다.<br>
+                최상급 원피 선별부터 한 치의 오차 없는 마감까지,<br>
+                최고급 가죽 제조의 새로운 표준을 제시합니다.
+            </p>
+        </div>
+    </section>
+
+    <!-- 4. 6-Step Process -->
+    <section class="process section">
+        <div class="section-title fade-up">Our Process</div>
+        <div class="process-grid">
+            <div class="process-item stagger-item">
+                <span class="process-num">01</span>
+                <h3>Consulting</h3>
+                <p>고객의 비전과 요구사항을 심층적으로 분석하여 최적의 제조 방향을 수립합니다.</p>
+            </div>
+            <div class="process-item stagger-item">
+                <span class="process-num">02</span>
+                <h3>Sourcing</h3>
+                <p>글로벌 네트워크를 통해 최고 등급의 명품 가죽과 프리미엄 부자재를 엄선합니다.</p>
+            </div>
+            <div class="process-item stagger-item">
+                <span class="process-num">03</span>
+                <h3>Prototyping</h3>
+                <p>정밀한 패턴 설계와 가봉을 통해 완벽한 실루엣의 프로토타입을 제작합니다.</p>
+            </div>
+            <div class="process-item stagger-item">
+                <span class="process-num">04</span>
+                <h3>Crafting</h3>
+                <p>수십 년 경력의 장인들이 한 치의 오차 없는 정교한 공정으로 제품을 완성합니다.</p>
+            </div>
+            <div class="process-item stagger-item">
+                <span class="process-num">05</span>
+                <h3>Inspection</h3>
+                <p>하이엔드 기준에 부합하는 엄격하고 세밀한 다단계 품질 검수를 진행합니다.</p>
+            </div>
+            <div class="process-item stagger-item">
+                <span class="process-num">06</span>
+                <h3>Delivery</h3>
+                <p>가장 안전하고 완벽한 상태로 글로벌 파트너의 문 앞까지 제품을 전달합니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Portfolio Teaser -->
+    <section class="portfolio section">
+        <div class="section-title fade-up">Masterpieces</div>
+        <div class="portfolio-grid">
+            <div class="portfolio-item stagger-item" onclick="alert('포트폴리오 상세 페이지로 이동합니다.')">
+                <div class="img-placeholder">
+                    <div class="portfolio-image-inner"></div>
+                </div>
+                <h4>Signature Tote Collection</h4>
+                <p>Premium Calfskin</p>
+            </div>
+            <div class="portfolio-item stagger-item" onclick="alert('포트폴리오 상세 페이지로 이동합니다.')">
+                <div class="img-placeholder">
+                    <div class="portfolio-image-inner"></div>
+                </div>
+                <h4>Executive Briefcase</h4>
+                <p>Handcrafted Artisan Leather</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Contact -->
+    <section class="contact">
+        <div class="fade-up">
+            <h2>Ready to craft your vision?</h2>
+            <button class="contact-btn" onclick="alert('프로젝트 문의 모달창이 열립니다.')">프로젝트 문의하기</button>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.15
+            };
+
+            const fadeUpObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            const fadeUpElements = document.querySelectorAll('.fade-up');
+            fadeUpElements.forEach(el => fadeUpObserver.observe(el));
+
+            const staggerContainers = document.querySelectorAll('.process-grid, .portfolio-grid');
+            
+            staggerContainers.forEach(container => {
+                const items = container.querySelectorAll('.stagger-item');
+                
+                const staggerObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            items.forEach((item, index) => {
+                                setTimeout(() => {
+                                    item.classList.add('visible');
+                                }, index * 120);
+                            });
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                }, observerOptions);
+                
+                staggerObserver.observe(container);
+            });
+            
+            setTimeout(() => {
+                const heroFades = document.querySelectorAll('.hero .fade-up');
+                heroFades.forEach(el => el.classList.add('visible'));
+            }, 100);
+        });
+    </script>
+</body>
+</html>
