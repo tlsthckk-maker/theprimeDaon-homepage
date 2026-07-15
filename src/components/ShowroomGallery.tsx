@@ -142,12 +142,12 @@ export default function ShowroomGallery(props: ShowroomGalleryProps) {
                 .grid-container { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 40px; max-width: 1200px; margin: 0 auto; transition: all 0.4s ease; }
                 .grid-container.drawer-open { transform: scale(0.98); opacity: 0.7; }
                 
-                .product-card { background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.04); overflow: hidden; cursor: pointer; transition: transform 0.4s ease, box-shadow 0.4s ease; text-align: left; }
-                .product-card:hover { transform: translateY(-8px); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
+                .product-card { background: #ffffff; border: 1px solid #e0e0e0; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.04); overflow: hidden; cursor: pointer; transition: transform 0.4s ease, box-shadow 0.4s ease; text-align: left; transform: translateZ(0); -webkit-font-smoothing: antialiased; backface-visibility: hidden; }
+                .product-card:hover { transform: translate3d(0, -8px, 0); box-shadow: 0 12px 30px rgba(0,0,0,0.08); }
                 
-                .product-img-wrap { width: 100%; height: 320px; background: #f9f9f9; display: flex; align-items: center; justify-content: center; overflow: hidden; border-bottom: 1px solid #f0f0f0; }
-                .product-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease; }
-                .product-card:hover .product-img-wrap img { transform: scale(1.03); }
+                .product-img-wrap { width: 100%; height: 320px; background: #f9f9f9; display: flex; align-items: center; justify-content: center; overflow: hidden; border-bottom: 1px solid #f0f0f0; transform: translateZ(0); }
+                .product-img-wrap img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease; backface-visibility: hidden; transform: translateZ(0) scale(1.001); image-rendering: -webkit-optimize-contrast; }
+                .product-card:hover .product-img-wrap img { transform: translateZ(0) scale(1.03); }
                 
                 .product-info { padding: 25px 25px; pointer-events: none; }
                 .product-title { font-size: 17px; font-weight: 600; margin-bottom: 6px; color: #111; line-height: 1.4; }

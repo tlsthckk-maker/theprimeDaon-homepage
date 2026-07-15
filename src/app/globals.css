@@ -11,3 +11,11 @@
     @apply bg-slate-50 text-slate-900;
   }
 }
+
+/* Fix text overflow for non-Korean languages and make line breaks prettier */
+html:not([lang="ko"]) .break-keep {
+  word-break: normal !important;
+  word-break: auto-phrase !important;
+  overflow-wrap: break-word !important;
+  text-wrap: balance !important;
+}

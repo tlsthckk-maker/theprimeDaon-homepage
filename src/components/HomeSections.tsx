@@ -1,8 +1,12 @@
 'use client';
 
 import React, { useEffect } from 'react';
+import { useParams } from 'next/navigation';
 
 export default function HomeSections({ dict }: { dict?: any }) {
+    const params = useParams();
+    const lng = (params?.lng as string) || 'ko';
+
     useEffect(() => {
         const observerOptions = {
             root: null,
@@ -79,6 +83,8 @@ export default function HomeSections({ dict }: { dict?: any }) {
                 }
                 .img-placeholder {
                     position: relative;
+                    transform: translateZ(0);
+                    backface-visibility: hidden;
                 }
                 .img-placeholder::after {
                     content: '';
@@ -92,9 +98,12 @@ export default function HomeSections({ dict }: { dict?: any }) {
                 }
                 .portfolio-image-inner {
                     transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+                    backface-visibility: hidden;
+                    transform: translateZ(0) scale(1.001);
+                    image-rendering: -webkit-optimize-contrast;
                 }
                 .group:hover .portfolio-image-inner {
-                    transform: scale(1.03);
+                    transform: translateZ(0) scale(1.03);
                 }
             `}} />
 
@@ -165,7 +174,7 @@ export default function HomeSections({ dict }: { dict?: any }) {
                 <div className="section-title fade-up">{d.masterpieces_title || 'Masterpieces'}</div>
                 <div className="portfolio-grid grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-[60px]">
                     {/* Category 1: Tech */}
-                    <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = 'showroom'}>
+                    <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = `/${lng}/showroom`}>
                         <div className="img-placeholder w-full aspect-[4/5] bg-[#e5e5ea] rounded-[18px] overflow-hidden">
                             <img src="/images/Ai_Daon_12.png" alt={d.masterpieces?.tech_item} className="portfolio-image-inner w-full h-full object-cover" />
                         </div>
@@ -173,7 +182,7 @@ export default function HomeSections({ dict }: { dict?: any }) {
                         <p className="text-center text-[#86868b] text-[0.85rem] mt-1 tracking-[-0.015em]">{d.masterpieces?.tech || '테크 에센셜'}</p>
                     </div>
                     {/* Category 2: Bag */}
-                    <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = 'showroom'}>
+                    <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = `/${lng}/showroom`}>
                         <div className="img-placeholder w-full aspect-[4/5] bg-[#e5e5ea] rounded-[18px] overflow-hidden">
                             <img src="/images/Ai_Daon_6.png" alt={d.masterpieces?.bag_item} className="portfolio-image-inner w-full h-full object-cover" />
                         </div>
@@ -181,7 +190,7 @@ export default function HomeSections({ dict }: { dict?: any }) {
                         <p className="text-center text-[#86868b] text-[0.85rem] mt-1 tracking-[-0.015em]">{d.masterpieces?.bag || '가방 & 파우치'}</p>
                     </div>
                     {/* Category 3: Leather */}
-                    <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = 'showroom'}>
+                    <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = `/${lng}/showroom`}>
                         <div className="img-placeholder w-full aspect-[4/5] bg-[#e5e5ea] rounded-[18px] overflow-hidden">
                             <img src="/images/Ai_Daon_5.png" alt={d.masterpieces?.leather_item} className="portfolio-image-inner w-full h-full object-cover" />
                         </div>
@@ -189,7 +198,7 @@ export default function HomeSections({ dict }: { dict?: any }) {
                         <p className="text-center text-[#86868b] text-[0.85rem] mt-1 tracking-[-0.015em]">{d.masterpieces?.leather || '퍼스널 레더 굿즈'}</p>
                     </div>
                     {/* Category 4: Lifestyle */}
-                    <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = 'showroom'}>
+                    <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = `/${lng}/showroom`}>
                         <div className="img-placeholder w-full aspect-[4/5] bg-[#e5e5ea] rounded-[18px] overflow-hidden">
                             <img src="/images/Ai_Daon_2.png" alt={d.masterpieces?.lifestyle_item} className="portfolio-image-inner w-full h-full object-cover" />
                         </div>
@@ -205,7 +214,7 @@ export default function HomeSections({ dict }: { dict?: any }) {
                     <h2 className="text-[clamp(2rem,5vw,4rem)] font-semibold tracking-[-0.03em] mb-[60px]">{d.contact_title || 'Ready to craft your vision?'}</h2>
                     <button 
                         className="bg-white text-[#1d1d1f] border-none px-10 py-[18px] text-[1.1rem] font-semibold rounded-[40px] cursor-pointer transition-all duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] hover:scale-105 hover:bg-[#f5f5f7]"
-                        onClick={() => window.location.href = 'contact'}
+                        onClick={() => window.location.href = `/${lng}/contact`}
                     >
                         {d.contact_btn || '프로젝트 문의하기'}
                     </button>
