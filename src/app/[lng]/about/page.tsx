@@ -55,7 +55,7 @@ export default async function About({ params }: { params: Promise<{ lng: string 
             {/* Right: Image Area */}
             <div className="order-1 lg:order-2 relative h-[400px] md:h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl">
               <Image 
-                src="/images/artisan.png" 
+                src="/images/daon_2.jpg" 
                 alt="Artisan Hands Working" 
                 fill 
                 className="object-cover transition-transform hover:scale-105 duration-700"
