@@ -1,83 +1,385 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>?�프?�임?�온 | Premium Leather Manufacturing</title>
-    
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta name="naver-site-verification" content="c4c1b6c2bf67619f673a6d35616c5866842ea6b5" />
+    <title>?�프?�임?�온 | Premium Leather Manufacturing</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Noto Sans KR', sans-serif; }
-        body { background-color: #000000; color: #ffffff; overflow-x: hidden; }
-        header { position: fixed; top: 0; left: 0; width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; z-index: 1000; background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0)); }
-        .logo { font-size: 1.5rem; font-weight: 700; letter-spacing: 1px; color: #ffffff; }
-        .lang-switcher { display: flex; gap: 10px; }
-        .lang-btn { background: none; border: 1px solid rgba(255,255,255,0.4); color: rgba(255,255,255,0.6); padding: 5px 10px; cursor: pointer; font-size: 0.8rem; transition: all 0.3s ease; border-radius: 3px; }
-        .lang-btn.active, .lang-btn:hover { border-color: #ffffff; color: #ffffff; background-color: rgba(255,255,255,0.1); }
-        .hero-section { position: relative; width: 100%; height: 100vh; display: flex; justify-content: center; align-items: center; overflow: hidden; }
-        .hero-video { position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1; }
-        .hero-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 2; }
-        .hero-content { position: relative; z-index: 3; text-align: center; max-width: 800px; padding: 0 20px; }
-        .hero-content h1 { font-size: 4rem; font-weight: 700; margin-bottom: 20px; letter-spacing: -1px; }
-        .hero-content p { font-size: 1.5rem; color: #cccccc; margin-bottom: 30px; }
-        .manufacturing-container { position: relative; }
-        .manufacturing-stage { position: relative; height: 200vh; background-color: #0b0b0b; }
-        .sticky-bg { position: sticky; top: 0; width: 100%; height: 100vh; background-size: cover; background-position: center; z-index: 1; overflow: hidden; }
-        .sticky-bg video { width: 100%; height: 100%; object-fit: cover; }
-        .bg-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.8)); }
-        .scroll-content { position: relative; z-index: 2; margin-top: -100vh; height: 200vh; display: flex; align-items: center; justify-content: center; }
-        
-        /* ?�?�님 ?�드�?반영: ?�버?�이 ?�이 ?�본 밝기 ?��? �?20% �??�니메이???�과 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            z-index: 1000;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #ffffff;
+        }
+
+        .lang-switcher {
+            display: flex;
+            gap: 10px;
+        }
+
+        .lang-btn {
+            background: none;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            color: rgba(255, 255, 255, 0.6);
+            padding: 5px 10px;
+            cursor: pointer;
+            font-size: 0.8rem;
+            transition: all 0.3s ease;
+            border-radius: 3px;
+        }
+
+        .lang-btn.active,
+        .lang-btn:hover {
+            border-color: #ffffff;
+            color: #ffffff;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .hero-section {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .hero-video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 2;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 3;
+            text-align: center;
+            max-width: 800px;
+            padding: 0 20px;
+        }
+
+        .hero-content h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            letter-spacing: -1px;
+        }
+
+        .hero-content p {
+            font-size: 1.5rem;
+            color: #cccccc;
+            margin-bottom: 30px;
+        }
+
+        .manufacturing-container {
+            position: relative;
+        }
+
+        .manufacturing-stage {
+            position: relative;
+            height: 200vh;
+            background-color: #0b0b0b;
+        }
+
+        .sticky-bg {
+            position: sticky;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+            overflow: hidden;
+        }
+
+        .sticky-bg video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .bg-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+        }
+
+        .scroll-content {
+            position: relative;
+            z-index: 2;
+            margin-top: -100vh;
+            height: 200vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* ?�?�님 ?�드�?반영: ?�버?�이 ?�이 ?�본 밝기 ?��? �?20% �??�니메이???�과 */
         .stage03-bg {
-            position: sticky; top: 0; width: 100%; height: 100vh;
-            background-image: url('HighPress.webp'); background-size: cover; background-position: center;
-            z-index: 1; overflow: hidden;
-            animation: pulseZoom 12s ease-in-out infinite; /* 12�?주기�?20% ?��?/축소 무한 반복 */
+            position: sticky;
+            top: 0;
+            width: 100%;
+            height: 100vh;
+            background-image: url('HighPress.webp');
+            background-size: cover;
+            background-position: center;
+            z-index: 1;
+            overflow: hidden;
+            animation: pulseZoom 12s ease-in-out infinite;
+            /* 12�?주기�?20% ?��?/축소 무한 반복 */
         }
+
         @keyframes pulseZoom {
-            0% { transform: scale(1.0); }
-            50% { transform: scale(1.2); }
-            100% { transform: scale(1.0); }
+            0% {
+                transform: scale(1.0);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1.0);
+            }
         }
 
-        .text-block { text-align: center; color: #ffffff; max-width: 700px; padding: 40px; background: rgba(0, 0, 0, 0.6); border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); }
-        .stage-label { font-size: 0.9rem; color: #8bbfa3; letter-spacing: 3px; margin-bottom: 15px; text-transform: uppercase; }
-        .stage-title { font-size: 3rem; font-weight: 700; margin-bottom: 20px; }
-        .stage-desc { font-size: 1.1rem; line-height: 1.7; color: #dddddd; margin-bottom: 25px; }
-        .stage-features { list-style: none; display: flex; justify-content: center; gap: 25px; color: #aaaaaa; font-size: 0.95rem; }
-        .stage-features li i { color: #8bbfa3; margin-right: 5px; }
-        .fade-in-element { opacity: 0; transform: translateY(40px); transition: opacity 1s ease, transform 1s ease; }
-        .fade-in-element.is-visible { opacity: 1; transform: translateY(0); }
-        .showroom-preview { padding: 100px 40px; text-align: center; background-color: #000; }
-        .showroom-btn { background-color: #ffffff; color: #000000; border: none; padding: 15px 40px; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: background 0.3s; margin-top: 30px; }
-        .showroom-btn:hover { background-color: #8bbfa3; color: #ffffff; }
-        
-        .side-drawer { position: fixed; top: 0; right: 0; transform: translateX(100%); width: 500px; max-width: 100%; height: 100vh; background-color: #141414; box-shadow: -5px 0 25px rgba(0,0,0,0.5); z-index: 2000; transition: transform 0.5s cubic-bezier(0.1, 0.8, 0.3, 1); padding: 40px; display: flex; flex-direction: column; }
-        .side-drawer.open { transform: translateX(0); }
-        .drawer-close { align-self: flex-end; background: none; border: none; color: #ffffff; font-size: 1.5rem; cursor: pointer; }
-        .drawer-content { margin-top: 40px; }
-        .drawer-content h3 { font-size: 2rem; margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 10px; }
-        .product-item { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
-        .product-id { color: #8bbfa3; font-weight: 700; }
+        .text-block {
+            text-align: center;
+            color: #ffffff;
+            max-width: 700px;
+            padding: 40px;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
 
-        /* 모바??반응???�??*/
+        .stage-label {
+            font-size: 0.9rem;
+            color: #8bbfa3;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .stage-title {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .stage-desc {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            color: #dddddd;
+            margin-bottom: 25px;
+        }
+
+        .stage-features {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            color: #aaaaaa;
+            font-size: 0.95rem;
+        }
+
+        .stage-features li i {
+            color: #8bbfa3;
+            margin-right: 5px;
+        }
+
+        .fade-in-element {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 1s ease, transform 1s ease;
+        }
+
+        .fade-in-element.is-visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .showroom-preview {
+            padding: 100px 40px;
+            text-align: center;
+            background-color: #000;
+        }
+
+        .showroom-btn {
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 30px;
+        }
+
+        .showroom-btn:hover {
+            background-color: #8bbfa3;
+            color: #ffffff;
+        }
+
+        .side-drawer {
+            position: fixed;
+            top: 0;
+            right: 0;
+            transform: translateX(100%);
+            width: 500px;
+            max-width: 100%;
+            height: 100vh;
+            background-color: #141414;
+            box-shadow: -5px 0 25px rgba(0, 0, 0, 0.5);
+            z-index: 2000;
+            transition: transform 0.5s cubic-bezier(0.1, 0.8, 0.3, 1);
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .side-drawer.open {
+            transform: translateX(0);
+        }
+
+        .drawer-close {
+            align-self: flex-end;
+            background: none;
+            border: none;
+            color: #ffffff;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        .drawer-content {
+            margin-top: 40px;
+        }
+
+        .drawer-content h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 10px;
+        }
+
+        .product-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .product-id {
+            color: #8bbfa3;
+            font-weight: 700;
+        }
+
+        /* 모바??반응???�??*/
         @media (max-width: 768px) {
-            header { padding: 15px 20px; }
-            .logo { font-size: 1.2rem; }
-            .lang-btn { padding: 4px 8px; font-size: 0.75rem; }
-            .hero-content h1 { font-size: 2.5rem; }
-            .hero-content p { font-size: 1.1rem; margin-bottom: 20px; }
-            .text-block { padding: 25px 20px; margin: 0 15px; }
-            .stage-title { font-size: 2rem; }
-            .stage-desc { font-size: 1rem; }
-            .stage-features { flex-direction: column; gap: 12px; }
-            .side-drawer { padding: 25px; }
-            .showroom-preview { padding: 60px 20px; }
+            header {
+                padding: 15px 20px;
+            }
+
+            .logo {
+                font-size: 1.2rem;
+            }
+
+            .lang-btn {
+                padding: 4px 8px;
+                font-size: 0.75rem;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-content p {
+                font-size: 1.1rem;
+                margin-bottom: 20px;
+            }
+
+            .text-block {
+                padding: 25px 20px;
+                margin: 0 15px;
+            }
+
+            .stage-title {
+                font-size: 2rem;
+            }
+
+            .stage-desc {
+                font-size: 1rem;
+            }
+
+            .stage-features {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            .side-drawer {
+                padding: 25px;
+            }
+
+            .showroom-preview {
+                padding: 60px 20px;
+            }
         }
     </style>
 </head>
+
 <body>
 
     <header>
@@ -96,8 +398,8 @@
         </video>
         <div class="hero-overlay"></div>
         <div class="hero-content">
-            <h1 data-i18n="hero_title">모든 좋�? 것이 ???�는</h1>
-            <p data-i18n="hero_desc">?�프?�임?�온 ?�리미엄 가�??�루??/p>
+            <h1 data-i18n="hero_title">모든 좋�? 것이 ???�는</h1>
+            <p data-i18n="hero_desc">?�프?�임?�온 ?�리미엄 가�??�루??/p>
         </div>
     </section>
 
@@ -109,11 +411,12 @@
             <div class="scroll-content">
                 <div class="text-block fade-in-element">
                     <h4 class="stage-label">STAGE 01</h4>
-                    <h2 class="stage-title" data-i18n="stage1_title">?��? CAD ?�계</h2>
-                    <p class="stage-desc" data-i18n="stage1_desc">?��????�경?�서 ?��??�게 구조�?모델링하???�벽???�계 ?��????�립?�니??</p>
+                    <h2 class="stage-title" data-i18n="stage1_title">?��? CAD ?�계</h2>
+                    <p class="stage-desc" data-i18n="stage1_desc">?��????�경?�서 ?��??�게 구조�?모델링하???�벽???�계 ?��????�립?�니??
+                    </p>
                     <ul class="stage-features">
-                        <li data-i18n="feat_cad1"><i class="fa-solid fa-circle-check"></i> ?��? 모델�?/li>
-                        <li data-i18n="feat_cad2"><i class="fa-solid fa-circle-check"></i> 최적 ?�턴 규격??/li>
+                        <li data-i18n="feat_cad1"><i class="fa-solid fa-circle-check"></i> ?��? 모델�?/li>
+                        <li data-i18n="feat_cad2"><i class="fa-solid fa-circle-check"></i> 최적 ?�턴 규격??/li>
                     </ul>
                 </div>
             </div>
@@ -129,11 +432,12 @@
             <div class="scroll-content">
                 <div class="text-block fade-in-element">
                     <h4 class="stage-label">STAGE 02</h4>
-                    <h2 class="stage-title" data-i18n="stage2_title">?�이?� 가�?(Cutting)</h2>
-                    <p class="stage-desc" data-i18n="stage2_desc">CO2 ?�이?� 기술???�입?�여 복잡?�고 ?�세??곡선 ?�면?????�국 ?�이 매끄?�게 ?�단?�니??</p>
+                    <h2 class="stage-title" data-i18n="stage2_title">?�이?� 가�?(Cutting)</h2>
+                    <p class="stage-desc" data-i18n="stage2_desc">CO2 ?�이?� 기술???�입?�여 복잡?�고 ?�세??곡선 ?�면?????�국 ?�이
+                        매끄?�게 ?�단?�니??</p>
                     <ul class="stage-features">
-                        <li data-i18n="feat_laser1"><i class="fa-solid fa-circle-check"></i> 고속 ?�동 컷팅</li>
-                        <li data-i18n="feat_laser2"><i class="fa-solid fa-circle-check"></i> ?�단 ?�실 최소??/li>
+                        <li data-i18n="feat_laser1"><i class="fa-solid fa-circle-check"></i> 고속 ?�동 컷팅</li>
+                        <li data-i18n="feat_laser2"><i class="fa-solid fa-circle-check"></i> ?�단 ?�실 최소??/li>
                     </ul>
                 </div>
             </div>
@@ -144,12 +448,13 @@
             <div class="scroll-content">
                 <div class="text-block fade-in-element">
                     <h4 class="stage-label">STAGE 03</h4>
-                    <h2 class="stage-title" data-i18n="stage3_title">고속 ?��? ?�단 (Press)</h2>
-                    <p class="stage-desc" data-i18n="stage3_desc">?�프?�임?�온만의 ?�차 ?�는 ?�발기 ?�레??공정. ?�작?�의 ?�테?�을 ?�???�산 체제?�서???�트?�짐 ?�이 ?��??�게 구현?�니??</p>
+                    <h2 class="stage-title" data-i18n="stage3_title">고속 ?��? ?�단 (Press)</h2>
+                    <p class="stage-desc" data-i18n="stage3_desc">?�프?�임?�온만의 ?�차 ?�는 ?�발기 ?�레??공정. ?�작?�의 ?�테?�을
+                        ?�???�산 체제?�서???�트?�짐 ?�이 ?��??�게 구현?�니??</p>
                     <ul class="stage-features">
-                        <li data-i18n="feat_quality"><i class="fa-solid fa-circle-check"></i> ?�질 관�?/li>
-                        <li data-i18n="feat_mass"><i class="fa-solid fa-circle-check"></i> ?�???�산</li>
-                        <li data-i18n="feat_precision"><i class="fa-solid fa-circle-check"></i> ?��? 기술</li>
+                        <li data-i18n="feat_quality"><i class="fa-solid fa-circle-check"></i> ?�질 관�?/li>
+                        <li data-i18n="feat_mass"><i class="fa-solid fa-circle-check"></i> ?�???�산</li>
+                        <li data-i18n="feat_precision"><i class="fa-solid fa-circle-check"></i> ?��? 기술</li>
                     </ul>
                 </div>
             </div>
@@ -162,11 +467,12 @@
             <div class="scroll-content">
                 <div class="text-block fade-in-element">
                     <h4 class="stage-label">STAGE 04</h4>
-                    <h2 class="stage-title" data-i18n="stage4_title">?�수 미싱 �?조립</h2>
-                    <p class="stage-desc" data-i18n="stage4_desc">?�련???�인 ?�신�??�수 미싱 ?�프?�의 결합?�로 가죽의 결을 ?�려 ?�벽???�구?�을 ?�성?�니??</p>
+                    <h2 class="stage-title" data-i18n="stage4_title">?�수 미싱 �?조립</h2>
+                    <p class="stage-desc" data-i18n="stage4_desc">?�련???�인 ?�신�??�수 미싱 ?�프?�의 결합?�로 가죽의 결을 ?�려
+                        ?�벽???�구?�을 ?�성?�니??</p>
                     <ul class="stage-features">
-                        <li data-i18n="feat_stitch1"><i class="fa-solid fa-circle-check"></i> ?�인 ?�작??마감</li>
-                        <li data-i18n="feat_stitch2"><i class="fa-solid fa-circle-check"></i> 명품�??�구??/li>
+                        <li data-i18n="feat_stitch1"><i class="fa-solid fa-circle-check"></i> ?�인 ?�작??마감</li>
+                        <li data-i18n="feat_stitch2"><i class="fa-solid fa-circle-check"></i> 명품�??�구??/li>
                     </ul>
                 </div>
             </div>
@@ -174,8 +480,8 @@
     </div>
 
     <section class="showroom-preview">
-        <h2 data-i18n="showroom_title">B2B ?�리미엄 룩북 ?�룸</h2>
-        <p style="color: #888; margin-top: 10px;" data-i18n="showroom_desc">?�프?�임?�온???�작???�창?�인 ?�품 ?�인?�을 만나보세??</p>
+        <h2 data-i18n="showroom_title">B2B ?�리미엄 룩북 ?�룸</h2>
+        <p style="color: #888; margin-top: 10px;" data-i18n="showroom_desc">?�프?�임?�온???�작???�창?�인 ?�품 ?�인?�을 만나보세??</p>
         <button class="showroom-btn" onclick="toggleDrawer(true)">SHOWROOM OPEN</button>
     </section>
 
@@ -185,36 +491,37 @@
             <h3>B2B Lookbook</h3>
             <div class="product-item">
                 <span class="product-id">DAON-01</span>
-                <span data-i18n="prod_1">가�??��??�스 (?�립??</span>
+                <span data-i18n="prod_1">가�??��??�스 (?�립??</span>
             </div>
             <div class="product-item">
                 <span class="product-id">DAON-02</span>
-                <span data-i18n="prod_2">차량??가�??��??�스</span>
+                <span data-i18n="prod_2">차량??가�??��??�스</span>
             </div>
             <div class="product-item">
                 <span class="product-id">DAON-03</span>
-                <span data-i18n="prod_3">?�들 미니 ?�로?�백</span>
+                <span data-i18n="prod_3">?�들 미니 ?�로?�백</span>
             </div>
-            <p style="margin-top: 40px; font-size: 0.9rem; color: #666; line-height: 1.5;" data-i18n="showroom_note">* 구�? ?�트 매핑???�료?�면 ??많�? 70??개의 ?�이?��? ?�곳???�국?�로 채워집니??</p>
+            <p style="margin-top: 40px; font-size: 0.9rem; color: #666; line-height: 1.5;" data-i18n="showroom_note">*
+                구�? ?�트 매핑???�료?�면 ??많�? 70??개의 ?�이?��? ?�곳???�국?�로 채워집니??</p>
         </div>
     </div>
 
     <script>
-        // ?�락?�었???�목 문구?� ?�단 ?�징 ??��?�의 ?�국???�전 ?�기???�료
+        // ?�락?�었???�목 문구?� ?�단 ?�징 ??��?�의 ?�국???�전 ?�기???�료
         const i18nTokens = {
             ko: {
-                hero_title: "모든 좋�? 것이 ???�는", hero_desc: "?�프?�임?�온 ?�리미엄 가�??�루??,
-                mfg_subtitle: "?�신??비전, ?�교?�게 ?�성?�다.",
-                stage1_title: "?��? CAD ?�계", stage1_desc: "?��????�경?�서 ?��??�게 구조�?모델링하???�벽???�계 ?��????�립?�니??",
-                feat_cad1: "<i class='fa-solid fa-circle-check'></i> ?��? 모델�?, feat_cad2: "<i class='fa-solid fa-circle-check'></i> 최적 ?�턴 규격??,
-                stage2_title: "?�이?� 가�?(Cutting)", stage2_desc: "CO2 ?�이?� 기술???�입?�여 복잡?�고 ?�세??곡선 ?�면?????�국 ?�이 매끄?�게 ?�단?�니??",
-                feat_laser1: "<i class='fa-solid fa-circle-check'></i> 고속 ?�동 컷팅", feat_laser2: "<i class='fa-solid fa-circle-check'></i> ?�단 ?�실 최소??,
-                stage3_title: "고속 ?��? ?�단 (Press)", stage3_desc: "?�프?�임?�온만의 ?�차 ?�는 ?�발기 ?�레??공정. ?�작?�의 ?�테?�을 ?�???�산 체제?�서???�트?�짐 ?�이 ?��??�게 구현?�니??",
-                feat_quality: "<i class='fa-solid fa-circle-check'></i> ?�질 관�?, feat_mass: "<i class='fa-solid fa-circle-check'></i> ?�???�산", feat_precision: "<i class='fa-solid fa-circle-check'></i> ?��? 기술",
-                stage4_title: "?�수 미싱 �?조립", stage4_desc: "?�련???�인 ?�신�??�수 미싱 ?�프?�의 결합?�로 가죽의 결을 ?�려 ?�벽???�구?�을 ?�성?�니??",
-                feat_stitch1: "<i class='fa-solid fa-circle-check'></i> ?�인 ?�작??마감", feat_stitch2: "<i class='fa-solid fa-circle-check'></i> 명품�??�구??,
-                showroom_title: "B2B ?�리미엄 룩북 ?�룸", showroom_desc: "?�프?�임?�온???�작???�창?�인 ?�품 ?�인?�을 만나보세??",
-                prod_1: "가�??��??�스 (?�립??", prod_2: "차량??가�??��??�스", prod_3: "?�들 미니 ?�로?�백", showroom_note: "* 구�? ?�트 매핑???�료?�면 ??많�? 70??개의 ?�이?��? ?�곳???�국?�로 채워집니??"
+                hero_title: "모든 좋�? 것이 ???�는", hero_desc: "?�프?�임?�온 ?�리미엄 가�??�루??,
+                mfg_subtitle: "?�신??비전, ?�교?�게 ?�성?�다.",
+                stage1_title: "?��? CAD ?�계", stage1_desc: "?��????�경?�서 ?��??�게 구조�?모델링하???�벽???�계 ?��????�립?�니??",
+                feat_cad1: "<i class='fa-solid fa-circle-check'></i> ?��? 모델�?, feat_cad2: " < i class= 'fa-solid fa-circle-check' ></i> 최적 ?�턴 규격??,
+                stage2_title: "?�이?� 가�?(Cutting)", stage2_desc: "CO2 ?�이?� 기술???�입?�여 복잡?�고 ?�세??곡선 ?�면?????�국 ?�이 매끄?�게 ?�단?�니??",
+                feat_laser1: "<i class='fa-solid fa-circle-check'></i> 고속 ?�동 컷팅", feat_laser2: "<i class='fa-solid fa-circle-check'></i> ?�단 ?�실 최소??,
+                stage3_title: "고속 ?��? ?�단 (Press)", stage3_desc: "?�프?�임?�온만의 ?�차 ?�는 ?�발기 ?�레??공정. ?�작?�의 ?�테?�을 ?�???�산 체제?�서???�트?�짐 ?�이 ?��??�게 구현?�니??",
+                feat_quality: "<i class='fa-solid fa-circle-check'></i> ?�질 관�?, feat_mass: "<i class='fa-solid fa-circle-check'></i> ?�???�산", feat_precision: "<i class='fa-solid fa-circle-check'></i> ?��? 기술",
+                stage4_title: "?�수 미싱 �?조립", stage4_desc: "?�련???�인 ?�신�??�수 미싱 ?�프?�의 결합?�로 가죽의 결을 ?�려 ?�벽???�구?�을 ?�성?�니??",
+                feat_stitch1: "<i class='fa-solid fa-circle-check'></i> ?�인 ?�작??마감", feat_stitch2: "<i class='fa-solid fa-circle-check'></i> 명품�??�구??,
+                showroom_title: "B2B ?�리미엄 룩북 ?�룸", showroom_desc: "?�프?�임?�온???�작???�창?�인 ?�품 ?�인?�을 만나보세??",
+                prod_1: "가�??��??�스 (?�립??", prod_2: "차량??가�??��??�스", prod_3: "?�들 미니 ?�로?�백", showroom_note: "* 구�? ?�트 매핑???�료?�면 ??많�? 70??개의 ?�이?��? ?�곳???�국?�로 채워집니??"
             },
             en: {
                 hero_title: "Where All Fine Things Come", hero_desc: "The Prime Daon Premium Leather Solutions",
@@ -231,32 +538,32 @@
                 prod_1: "Leather Phone Case (Flip)", prod_2: "Car Leather Key Case", prod_3: "Saddle Mini Crossbody Bag", showroom_note: "* Once Google Sheet mapping is complete, over 70 items will be loaded here in multiple languages."
             },
             ja: {
-                hero_title: "?�べ?�の??��?�と?�訪?�る", hero_desc: "?�・?�ラ?�ム?�온 ?�レ?�ア?�レ?�ー?�リ?�ー?�ョ??,
-                mfg_subtitle: "?�な?�の?�ジ?�ン?�精巧に?�現?�さ?�る??,
-                stage1_title: "精密CAD�?��", stage1_desc: "?�ジ?�ル?�境?�精密に構造を?�デ?�ン?�し?�完?�な�?��標準?�確立し?�す??,
-                feat_cad1: "<i class='fa-solid fa-circle-check'></i> 精密?�デ?�ン??, feat_cad2: "<i class='fa-solid fa-circle-check'></i> ?�?�パ?�ー?�の規格??,
-                stage2_title: "?�ー?�ー?�工 (Cutting)", stage2_desc: "CO2?�ー?�ー?�術を導入?�、複?�で繊細?�曲線断?�も?�げ跡な?�滑?�か?�切??��?�す??,
-                feat_laser1: "<i class='fa-solid fa-circle-check'></i> 高速自?�カ?�テ?�ン??, feat_laser2: "<i class='fa-solid fa-circle-check'></i> ?�地??��???小化",
-                stage3_title: "高速精密裁??(Press)", stage3_desc: "?�・?�ラ?�ム?�?�独?�の??��?�カ?�プ?�ス工程?�手作�???��?�テ?�ル?�大?�生?�体?�で?�乱?�な?�均一?�実?�し?�す??,
-                feat_quality: "<i class='fa-solid fa-circle-check'></i> ?�質管理", feat_mass: "<i class='fa-solid fa-circle-check'></i> 大量?�産", feat_precision: "<i class='fa-solid fa-circle-check'></i> 精密?��?,
-                stage4_title: "?�殊?�シ?�と組立", stage4_desc: "?�練?�た?�人精神?�特殊ミ?�ン?�ン?�ラ??��?�に?�り?�革??��?�い?�生?�し?�完?�な?�久?�を完成?�せ?�す??,
-                feat_stitch1: "<i class='fa-solid fa-circle-check'></i> ?�人?�作�?��上げ", feat_stitch2: "<i class='fa-solid fa-circle-check'></i> ?�品級の?�久??,
-                showroom_title: "B2B ?�レ?�ア???�ッ??��?�ク ?�ョ?�ル?�ム", showroom_desc: "?�・?�ラ?�ム?�?�ン?�製作し?�独?�的?�製?�ラ?�ン?�ッ?�を?�覧?�だ?�い??,
-                prod_1: "?�製?�マ?�ケ?�ス (?�リ?�プ??", prod_2: "車用?�革??��?�ー??, prod_3: "?�ド?�ミ?�ク??��?�ッ??, showroom_note: "* Google?�プ?�ッ?�シ?�ト??��?�ピ?�グ?�完了す?�と??0以上??��?�デ?�タ?�多言語で?�こ?�表示さ?�ま?��?
+                hero_title: "?�べ?�の??��?�と?�訪?�る", hero_desc: "?�・?�ラ?�ム?�온 ?�レ?�ア?�レ?�ー?�リ?�ー?�ョ??,
+                mfg_subtitle: "?�な?�の?�ジ?�ン?�精巧に?�現?�さ?�る??,
+                stage1_title: "精密CAD�?��", stage1_desc: "?�ジ?�ル?�境?�精密に構造を?�デ?�ン?�し?�完?�な�?��標準?�確立し?�す??,
+                feat_cad1: "<i class='fa-solid fa-circle-check'></i> 精密?�デ?�ン??, feat_cad2: "<i class='fa-solid fa-circle-check'></i> ?�?�パ?�ー?�の規格??,
+                stage2_title: "?�ー?�ー?�工 (Cutting)", stage2_desc: "CO2?�ー?�ー?�術を導入?�、複?�で繊細?�曲線断?�も?�げ跡な?�滑?�か?�切??��?�す??,
+                feat_laser1: "<i class='fa-solid fa-circle-check'></i> 高速自?�カ?�テ?�ン??, feat_laser2: "<i class='fa-solid fa-circle-check'></i> ?�地??��???小化",
+                stage3_title: "高速精密裁??(Press)", stage3_desc: "?�・?�ラ?�ム?�?�独?�の??��?�カ?�プ?�ス工程?�手作�???��?�テ?�ル?�大?�生?�体?�で?�乱?�な?�均一?�実?�し?�す??,
+                feat_quality: "<i class='fa-solid fa-circle-check'></i> ?�質管理", feat_mass: "<i class='fa-solid fa-circle-check'></i> 大量?�産", feat_precision: "<i class='fa-solid fa-circle-check'></i> 精密?��?,
+                stage4_title: "?�殊?�シ?�と組立", stage4_desc: "?�練?�た?�人精神?�特殊ミ?�ン?�ン?�ラ??��?�に?�り?�革??��?�い?�生?�し?�完?�な?�久?�を完成?�せ?�す??,
+                feat_stitch1: "<i class='fa-solid fa-circle-check'></i> ?�人?�作�?��上げ", feat_stitch2: "<i class='fa-solid fa-circle-check'></i> ?�品級の?�久??,
+                showroom_title: "B2B ?�レ?�ア???�ッ??��?�ク ?�ョ?�ル?�ム", showroom_desc: "?�・?�ラ?�ム?�?�ン?�製作し?�独?�的?�製?�ラ?�ン?�ッ?�を?�覧?�だ?�い??,
+                prod_1: "?�製?�マ?�ケ?�ス (?�リ?�プ??", prod_2: "車用?�革??��?�ー??, prod_3: "?�ド?�ミ?�ク??��?�ッ??, showroom_note: "* Google?�プ?�ッ?�シ?�ト??��?�ピ?�グ?�完了す?�と??0以上??��?�デ?�タ?�多言語で?�こ?�表示さ?�ま?��?
             },
             zh: {
-                hero_title: "万福云集之地", hero_desc: "The Prime Daon 顶级??��?�造方�?,
-                mfg_subtitle: "?�的远见?�识，在此精?�达?��?,
-                stage1_title: "精准 CAD 设�?", stage1_desc: "?�数字化??���?��?�建模，�?��完美?�生产标?�蓝?��?,
-                feat_cad1: "<i class='fa-solid fa-circle-check'></i> 精准建模", feat_cad2: "<i class='fa-solid fa-circle-check'></i> 优化?�纸规格??,
-                stage2_title: "激?�切?�加�?(Cutting)", stage2_desc: "?�用?�进??CO2 激?�切?��???��完美?�割复杂精致?�曲线且不留??��??,
-                feat_laser1: "<i class='fa-solid fa-circle-check'></i> 高速自?�切??, feat_laser2: "<i class='fa-solid fa-circle-check'></i> ?�大程�?��少面?�损??,
-                stage3_title: "高速精密模??(Press)", stage3_desc: "The Prime Daon ?��?精密裁断?�床工艺?�在?�产体系�?��?�能够完美复?�手工定?�的细腻质感??,
-                feat_quality: "<i class='fa-solid fa-circle-check'></i> 质量管理", feat_mass: "<i class='fa-solid fa-circle-check'></i> ?�量?�产", feat_precision: "<i class='fa-solid fa-circle-check'></i> 精密?�??,
-                stage4_title: "?�种缝纫与组�?, stage4_desc: "?�人精湛?�艺与特种缝纫�?备的深度结合，顺应皮?�纹?�，?�造无??��?�的经久?�用度�?,
-                feat_stitch1: "<i class='fa-solid fa-circle-check'></i> ?�人?�工?�磨", feat_stitch2: "<i class='fa-solid fa-circle-check'></i> 奢华级耐用�?,
-                showroom_title: "B2B 高端?�册展厅", showroom_desc: "?�索??The Prime Daon 精心?�造的?�创??��系列产品??,
-                prod_1: "?�皮?�机�?(翻盖�?", prod_2: "汽车?�皮?�匙??, prod_3: "马鞍迷你?�挎??, showroom_note: "* 谷歌表格?�射完成?�，此处将以多�?言?�载70余款产品?�表??
+                hero_title: "万福云集之地", hero_desc: "The Prime Daon 顶级??��?�造方�?,
+                mfg_subtitle: "?�的远见?�识，在此精?�达?��?,
+                stage1_title: "精准 CAD 设�?", stage1_desc: "?�数字化??���?��?�建模，�?��完美?�生产标?�蓝?��?,
+                feat_cad1: "<i class='fa-solid fa-circle-check'></i> 精准建模", feat_cad2: "<i class='fa-solid fa-circle-check'></i> 优化?�纸规格??,
+                stage2_title: "激?�切?�加�?(Cutting)", stage2_desc: "?�用?�进??CO2 激?�切?��???��完美?�割复杂精致?�曲线且不留??��??,
+                feat_laser1: "<i class='fa-solid fa-circle-check'></i> 高速自?�切??, feat_laser2: "<i class='fa-solid fa-circle-check'></i> ?�大程�?��少面?�损??,
+                stage3_title: "高速精密模??(Press)", stage3_desc: "The Prime Daon ?��?精密裁断?�床工艺?�在?�产体系�?��?�能够完美复?�手工定?�的细腻质感??,
+                feat_quality: "<i class='fa-solid fa-circle-check'></i> 质量管理", feat_mass: "<i class='fa-solid fa-circle-check'></i> ?�量?�产", feat_precision: "<i class='fa-solid fa-circle-check'></i> 精密?�??,
+                stage4_title: "?�种缝纫与组�?, stage4_desc: "?�人精湛?�艺与特种缝纫�?备的深度结合，顺应皮?�纹?�，?�造无??��?�的经久?�用度�?,
+                feat_stitch1: "<i class='fa-solid fa-circle-check'></i> ?�人?�工?�磨", feat_stitch2: "<i class='fa-solid fa-circle-check'></i> 奢华级耐用�?,
+                showroom_title: "B2B 高端?�册展厅", showroom_desc: "?�索??The Prime Daon 精心?�造的?�创??��系列产品??,
+                prod_1: "?�皮?�机�?(翻盖�?", prod_2: "汽车?�皮?�匙??, prod_3: "马鞍迷你?�挎??, showroom_note: "* 谷歌表格?�射完成?�，此处将以多�?言?�载70余款产品?�表??
             }
         };
 
@@ -290,4 +597,5 @@
         });
     </script>
 </body>
+
 </html>
