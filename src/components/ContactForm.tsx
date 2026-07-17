@@ -74,6 +74,19 @@ export default function ContactForm({ dict, preset }: { dict: any, preset?: stri
         ></textarea>
       </div>
 
+      <div className="flex items-start gap-3 my-4">
+        <input 
+          type="checkbox" 
+          id="privacy" 
+          required 
+          className="mt-1 w-4 h-4 text-amber-600 bg-slate-50 border-slate-300 rounded focus:ring-amber-500 cursor-pointer" 
+        />
+        <label htmlFor="privacy" className="text-sm text-slate-600 cursor-pointer select-none">
+          {dict.privacy_consent || "개인정보 수집 및 이용에 동의합니다."} <span className="text-amber-600 font-bold">(필수)</span><br />
+          <span className="text-xs text-slate-400">수집된 개인정보는 원활한 상담 목적으로만 활용되며 안전하게 관리됩니다.</span>
+        </label>
+      </div>
+
       {status === 'success' && (
         <div className="p-4 bg-green-50 text-green-700 rounded-xl text-sm font-medium">
           성공적으로 문의가 접수되었습니다. 빠르게 확인 후 회신드리겠습니다!
