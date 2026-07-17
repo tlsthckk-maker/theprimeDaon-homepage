@@ -15,6 +15,11 @@ export async function generateStaticParams() {
 export const metadata: Metadata = {
   title: 'THE PRIME DAON | Premium Leather Goods OEM/ODM',
   description: 'Innovation in Leather Manufacturing. B2B specialized premium leather goods factory.',
+  verification: {
+    other: {
+      'naver-site-verification': ['ec03d59dffb1d43a88617c78d4ca74bd464165e3'],
+    },
+  },
 };
 
 export default async function RootLayout({
