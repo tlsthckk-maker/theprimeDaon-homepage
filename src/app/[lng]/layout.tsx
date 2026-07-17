@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: 'THE PRIME DAON',
     images: [
       {
-        url: 'https://primedaon.com/thumbnail.jpg',
+        url: 'https://primedaon.com/thumbnail_ko.jpg',
       },
     ],
   },
