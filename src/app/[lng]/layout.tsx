@@ -19,11 +19,11 @@ export const metadata: Metadata = {
     type: 'website',
     title: 'THE PRIME DAON | 완벽한 가죽 컬렉션 구현의 새로운 표준',
     description: '타협 없는 디테일과 압도적인 장인정신. 귀사가 상상하는 하이엔드, 그 이상을 실현하는 B2B 가죽 제조 기업입니다.',
-    url: 'https://primedaon.com',
+    url: 'https://www.primedaon.com',
     siteName: 'THE PRIME DAON',
     images: [
       {
-        url: 'https://primedaon.com/thumbnail_ko.jpg',
+        url: 'https://www.primedaon.com/thumbnail_ko.jpg',
       },
     ],
   },

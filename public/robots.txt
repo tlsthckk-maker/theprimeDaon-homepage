@@ -1,4 +1,9 @@
+# *
 User-agent: *
 Allow: /
 
-Sitemap: https://primedaon.com/sitemap.xml
+# Host
+Host: https://www.primedaon.com
+
+# Sitemaps
+Sitemap: https://www.primedaon.com/sitemap.xml
