@@ -13,6 +13,17 @@ export async function generateStaticParams() {
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://www.primedaon.com'),
+  alternates: {
+    canonical: '/en',
+    languages: {
+      'ko': '/',
+      'en': '/en',
+      'ja': '/ja',
+      'zh': '/zh',
+      'x-default': '/',
+    },
+  },
   title: 'THE PRIME DAON | 완벽한 가죽 컬렉션 구현의 새로운 표준',
   description: '타협 없는 디테일과 압도적인 장인정신. 귀사가 상상하는 하이엔드, 그 이상을 실현하는 B2B 가죽 제조 기업입니다.',
   openGraph: {
