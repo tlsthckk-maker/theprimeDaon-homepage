@@ -18,20 +18,20 @@ export default async function About({ params }: { params: Promise<{ lng: string 
       {/* Section 1 : Main Visual Banner */}
       <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden w-full">
         <div className="absolute inset-0 bg-slate-900">
-          <Image 
-            src="/images/banner.png" 
-            alt="Premium Leather Craftsmanship" 
-            fill 
-            className="object-cover opacity-60"
-            priority
-          />
+            <Image 
+              src="/images/banner.png" 
+              alt="최고급 이태리 소가죽 공예 맞춤 제작 샘플" 
+              fill 
+              className="object-cover opacity-60"
+              priority
+            />
           <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-slate-900/40"></div>
         </div>
         
         <div className="relative z-10 w-full px-4 text-center mt-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-white tracking-tight leading-tight max-w-6xl mx-auto drop-shadow-xl font-serif break-keep text-balance">
+          <h1 className="text-3xl md:text-5xl font-bold text-white tracking-tight leading-tight max-w-6xl mx-auto drop-shadow-xl font-serif break-keep text-balance">
             {dict.about.main_copy}
-          </h2>
+          </h1>
         </div>
       </section>
 
@@ -56,7 +56,7 @@ export default async function About({ params }: { params: Promise<{ lng: string 
             <div className="order-1 lg:order-2 relative h-[400px] md:h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl">
               <Image 
                 src="/images/daon_2.jpg" 
-                alt="Artisan Hands Working" 
+                alt="수제 가죽 장인 꼼꼼한 수공예 맞춤 제작 방식" 
                 fill 
                 className="object-cover transition-transform hover:scale-105 duration-700"
               />

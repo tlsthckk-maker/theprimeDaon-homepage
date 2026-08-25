@@ -24,7 +24,6 @@ export default async function Home({ params }: { params: Promise<{ lng: string }
         .scroll-down-anim {
             animation: customBounce 2s infinite;
         }
-        h1:first-of-type { display: none !important; }
       `}} />
 
       {/* Hero Section (Video) */}
@@ -46,10 +45,10 @@ export default async function Home({ params }: { params: Promise<{ lng: string }
               dangerouslySetInnerHTML={{ __html: dict.hero.kicker }}
             ></span>
           )}
-          <h2 
+          <h1 
             className="text-[clamp(2.25rem,6.5vw,4.75rem)] font-bold tracking-[-0.03em] leading-[1.25] mb-[30px] drop-shadow-[0_10px_30px_rgba(0,0,0,0.5)] break-keep"
             dangerouslySetInnerHTML={{ __html: dict.hero.title }}
-          ></h2>
+          ></h1>
           {dict.hero.subtitle && (
             <p 
               className="text-[16px] md:text-[18px] font-light text-[#ddd] max-w-[600px] mx-auto leading-[1.6] break-keep"

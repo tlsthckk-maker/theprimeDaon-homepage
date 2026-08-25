@@ -91,7 +91,7 @@ export default function BentoCapabilities({ dict }: BentoCapabilitiesProps) {
               <p className="text-[17px] text-[#86868b] leading-[1.55] font-light break-keep">{dict.card1Desc}</p>
             </div>
             <div className="w-full h-[320px] relative overflow-hidden bg-[#161617]">
-              <Image src="/cad_step.jpg" alt="CAD" fill className="object-cover opacity-60 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-90" />
+              <Image src="/cad_step.jpg" alt="정밀 3D 모델링 CAD 설계 맞춤 제작 방식" fill className="object-cover opacity-60 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-90" />
             </div>
           </div>
           
@@ -101,7 +101,7 @@ export default function BentoCapabilities({ dict }: BentoCapabilitiesProps) {
               <p className="text-[17px] text-[#86868b] leading-[1.55] font-light break-keep">{dict.card2Desc}</p>
             </div>
             <div className="w-full h-[320px] relative overflow-hidden bg-[#161617]">
-              <Image src="/laser_step.jpg" alt="Laser" fill className="object-cover opacity-60 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-90" />
+              <Image src="/laser_step.jpg" alt="정밀 CO2 레이저 커팅 기법 맞춤 제작 방식" fill className="object-cover opacity-60 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-90" />
             </div>
           </div>
 
@@ -125,7 +125,7 @@ export default function BentoCapabilities({ dict }: BentoCapabilitiesProps) {
               <p className="text-[17px] text-[#86868b] leading-[1.55] font-light break-keep">{dict.card3Desc}</p>
             </div>
             <div className="w-full h-[320px] relative overflow-hidden bg-[#161617]">
-              <Image src="/press_step.jpg" alt="Press" fill className="object-cover opacity-60 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-90" />
+              <Image src="/press_step.jpg" alt="고속 유압 프레스 성형 대량 제작 방식" fill className="object-cover opacity-60 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-90" />
             </div>
           </div>
 
@@ -135,7 +135,7 @@ export default function BentoCapabilities({ dict }: BentoCapabilitiesProps) {
               <p className="text-[17px] text-[#86868b] leading-[1.55] font-light break-keep">{dict.card4Desc}</p>
             </div>
             <div className="w-full h-[320px] relative overflow-hidden bg-[#161617]">
-              <Image src="/sewing_step.jpg" alt="Sewing" fill className="object-cover opacity-60 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-90" />
+              <Image src="/sewing_step.jpg" alt="프리미엄 꼼꼼한 봉제 마감 제작 방식" fill className="object-cover opacity-60 transition-transform duration-700 group-hover:scale-105 group-hover:opacity-90" />
             </div>
           </div>
           

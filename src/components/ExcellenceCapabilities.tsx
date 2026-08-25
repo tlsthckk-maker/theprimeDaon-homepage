@@ -78,7 +78,7 @@ export default function ExcellenceCapabilities({ dict }: ExcellenceCapabilitiesP
             ref={setRef}
           >
             <div className="h-[600px] relative rounded-[20px] overflow-hidden border border-[#333]">
-              <Image src="/cad_step.jpg" alt="CAD" fill className="object-cover opacity-80" />
+              <Image src="/cad_step.jpg" alt="정밀 3D 모델링 CAD 설계 맞춤 제작 방식" fill className="object-cover opacity-80" />
             </div>
           </div>
         </div>
@@ -87,7 +87,7 @@ export default function ExcellenceCapabilities({ dict }: ExcellenceCapabilitiesP
       {/* Stage 02: Full Bleed Layout */}
       <section className="relative w-full h-[90vh] flex items-center justify-start p-0">
         <div className="absolute inset-0 w-full h-full z-10">
-          <Image src="/laser_step.jpg" alt="Laser" fill className="object-cover opacity-70" />
+          <Image src="/laser_step.jpg" alt="정밀 CO2 레이저 커팅 기법 맞춤 제작 방식" fill className="object-cover opacity-70" />
         </div>
         <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-black/90 to-black/20 z-20" />
         
@@ -172,7 +172,7 @@ export default function ExcellenceCapabilities({ dict }: ExcellenceCapabilitiesP
               ref={setRef}
             >
               <div className="h-[250px] relative border-b border-[#222]">
-                 <Image src="/sewing_step.jpg" alt="Sewing" fill className="object-cover opacity-80" />
+                 <Image src="/sewing_step.jpg" alt="프리미엄 꼼꼼한 봉제 마감 제작 방식" fill className="object-cover opacity-80" />
               </div>
               <div className="p-10 pb-8">
                 <h3 className="text-[24px] font-bold mb-4">{dict.c1Title}</h3>
@@ -185,7 +185,7 @@ export default function ExcellenceCapabilities({ dict }: ExcellenceCapabilitiesP
               ref={setRef}
             >
               <div className="h-[250px] relative border-b border-[#222]">
-                 <Image src="/press_step.jpg" alt="Auto Sewing" fill className="object-cover opacity-80" />
+                 <Image src="/press_step.jpg" alt="자동화 컴퓨터 봉제 기법 맞춤 제작 방식" fill className="object-cover opacity-80" />
               </div>
               <div className="p-10 pb-8">
                 <h3 className="text-[24px] font-bold mb-4">{dict.c2Title}</h3>
@@ -198,7 +198,7 @@ export default function ExcellenceCapabilities({ dict }: ExcellenceCapabilitiesP
               ref={setRef}
             >
               <div className="h-[250px] relative border-b border-[#222]">
-                 <Image src="/product_unveil.jpg" alt="Hot Stamping" fill className="object-cover opacity-80" />
+                 <Image src="/product_unveil.jpg" alt="고온 프레스 불박 성형 기법 제작 방식" fill className="object-cover opacity-80" />
               </div>
               <div className="p-10 pb-8">
                 <h3 className="text-[24px] font-bold mb-4">{dict.c3Title}</h3>

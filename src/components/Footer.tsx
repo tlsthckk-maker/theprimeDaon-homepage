@@ -18,7 +18,7 @@ export default async function Footer({ lng }: { lng: string }) {
                 <div className="mb-5 border-none outline-none bg-transparent">
                   <Image 
                     src="/images/CI.png" 
-                    alt="더프라임다온" 
+                    alt="더프라임다온 가죽 제품 OEM 전문 기업 로고" 
                     width={180} 
                     height={56} 
                     className="object-contain bg-transparent border-none outline-none"

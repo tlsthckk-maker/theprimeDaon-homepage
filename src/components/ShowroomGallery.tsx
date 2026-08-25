@@ -203,7 +203,7 @@ export default function ShowroomGallery(props: ShowroomGalleryProps) {
                     {filteredProducts.map(p => (
                         <div key={p.id} className="product-card" onClick={() => openDrawer(p)}>
                             <div className="product-img-wrap">
-                                <img src={p.img} alt={p.title} onError={(e) => { (e.target as HTMLImageElement).src = 'https://via.placeholder.com/400x400/f5f5f5/999?text=Image+Loading'; }} />
+                                <img src={p.img} alt={`${p.material || '천연 가죽'} ${p.color || '다양한 색상'} ${p.title} OEM 제작 샘플`} onError={(e) => { (e.target as HTMLImageElement).src = 'https://via.placeholder.com/400x400/f5f5f5/999?text=Image+Loading'; }} />
                             </div>
                             <div className="product-info">
                                 <h3 className="product-title">{p.modelName}</h3>
@@ -224,7 +224,7 @@ export default function ShowroomGallery(props: ShowroomGalleryProps) {
                     {selectedProduct && (
                         <>
                             <div className="drawer-img">
-                                <img src={selectedProduct.img} alt="Detail" onError={(e) => { (e.target as HTMLImageElement).src = 'https://via.placeholder.com/600x600/f5f5f5/999?text=Image+Loading'; }} />
+                                <img src={selectedProduct.img} alt={`${selectedProduct.material || '천연 가죽'} ${selectedProduct.color || '다양한 색상'} ${selectedProduct.title} 맞춤 제작 샘플`} onError={(e) => { (e.target as HTMLImageElement).src = 'https://via.placeholder.com/600x600/f5f5f5/999?text=Image+Loading'; }} />
                             </div>
                             <div className="drawer-cat">{selectedProduct.catName.split('|')[0].trim()}</div>
                             <h2 className="drawer-title" style={{ marginBottom: '25px' }}>
