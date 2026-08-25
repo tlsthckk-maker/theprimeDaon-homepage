@@ -1,4 +1,10 @@
+import { buildAlternates } from "@/lib/seo";
 import { getDictionary } from '@/i18n';
+
+export async function generateMetadata({ params }: { params: Promise<{ lng: string }> }) {
+  const { lng } = await params;
+  return { alternates: buildAlternates(lng, "/capabilities") };
+}
 import CinematicCapabilities from '@/components/CinematicCapabilities';
 import ProcessSection from '@/components/ProcessSection';
 

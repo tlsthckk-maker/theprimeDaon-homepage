@@ -1,4 +1,10 @@
+import { buildAlternates } from "@/lib/seo";
 import { getDictionary } from '@/i18n';
+
+export async function generateMetadata({ params }: { params: Promise<{ lng: string }> }) {
+  const { lng } = await params;
+  return { alternates: buildAlternates(lng, "/about") };
+}
 import Image from 'next/image';
 
 export default async function About({ params }: { params: Promise<{ lng: string }> }) {
