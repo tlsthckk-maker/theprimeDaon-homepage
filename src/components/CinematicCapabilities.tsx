@@ -416,7 +416,7 @@ export default function CinematicCapabilities({ dict }: CinematicCapabilitiesPro
                   {/* 앞배경: 모바일은 너무 많은 흰 여백이 안 생기도록 pt와 pb 최적화 */}
                   <img 
                     src={node.image} 
-                    alt={`${node.title} 가죽 제품 설비 현황 및 맞춤 제작 방식 샘플`}
+                    alt={`자사 공장에 설비된 ${node.title} 장비의 실제 모습`}
                     className="absolute inset-0 w-full h-full object-contain object-center lg:object-right lg:pr-[5%] pt-4 pb-[110px] lg:py-12 mix-blend-darken transition-transform duration-700"
                   />
                 </div>

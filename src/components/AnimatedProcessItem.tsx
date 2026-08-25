@@ -53,7 +53,7 @@ export default function AnimatedProcessItem({ step, index }: AnimatedProcessItem
       <div className="flex-1 w-full relative rounded-xl overflow-hidden h-[350px] lg:h-[500px] shadow-[0_30px_60px_rgba(0,0,0,0.5)] group">
         <Image
           src={step.image}
-          alt={`${step.title} 관련 맞춤형 OEM/ODM 가죽 제품 제작 방식`}
+          alt={`${step.title} 단계를 수행하는 공정 이미지`}
           fill
           className="object-cover brightness-80 transition-all duration-500 group-hover:brightness-100 group-hover:scale-105"
         />

@@ -20,7 +20,7 @@ export default async function About({ params }: { params: Promise<{ lng: string 
         <div className="absolute inset-0 bg-slate-900">
             <Image 
               src="/images/banner.png" 
-              alt="최고급 이태리 소가죽 공예 맞춤 제작 샘플" 
+              alt="다양한 가죽 원단과 작업 도구들이 놓여 있는 공방 배경" 
               fill 
               className="object-cover opacity-60"
               priority
@@ -56,7 +56,7 @@ export default async function About({ params }: { params: Promise<{ lng: string 
             <div className="order-1 lg:order-2 relative h-[400px] md:h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl">
               <Image 
                 src="/images/daon_2.jpg" 
-                alt="수제 가죽 장인 꼼꼼한 수공예 맞춤 제작 방식" 
+                alt="가죽 공예 장인이 직접 손으로 가죽을 다듬는 모습" 
                 fill 
                 className="object-cover transition-transform hover:scale-105 duration-700"
               />

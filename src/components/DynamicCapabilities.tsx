@@ -118,7 +118,7 @@ export default function DynamicCapabilities({ dict }: DynamicCapabilitiesProps) 
           </p>
         </div>
         <div className="flex-1 w-full h-[400px] lg:h-full anim-slide-right delay-200">
-          <img src="/laser_step.jpg" alt="정밀 CO2 레이저 커팅 기법 맞춤 제작 방식" className="w-full h-full object-cover" />
+          <img src="/laser_step.jpg" alt="정밀 레이저 커팅 기계가 가죽 원단을 오차 없이 재단하는 모습" className="w-full h-full object-cover" />
         </div>
       </section>
 
