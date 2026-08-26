@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
 import { Outfit, Noto_Sans_KR } from 'next/font/google';
 import '@/app/globals.css';
 import Header from '@/components/Header';
@@ -44,6 +45,15 @@ export default async function RootLayout({
   params: Promise<{ lng: string }>;
 }) {
   const { lng } = await params;
+
+  // 지원하지 않는 언어 코드는 404로 처리한다.
+  // 이 가드가 없으면 /process-test.html 같은 임의 경로가 [lng]에 매칭되고
+  // getDictionary가 영어로 폴백해서 영문 홈페이지가 200으로 렌더된다.
+  // (proxy.ts와 같은 캐스팅 방식 — languages가 readonly 리터럴 튜플이라 필요)
+  if (!(languages as readonly string[]).includes(lng)) {
+    notFound();
+  }
+
   const orgSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
