@@ -1,9 +1,9 @@
-import { buildAlternates } from "@/lib/seo";
+import { buildPageMetadata } from "@/lib/meta";
 import { getDictionary } from '@/i18n';
 
 export async function generateMetadata({ params }: { params: Promise<{ lng: string }> }) {
   const { lng } = await params;
-  return { alternates: buildAlternates(lng, "/contact") };
+  return buildPageMetadata(lng, "/contact");
 }
 import ContactForm from '@/components/ContactForm';
 

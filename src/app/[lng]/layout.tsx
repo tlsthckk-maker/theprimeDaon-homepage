@@ -5,6 +5,7 @@ import '@/app/globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { languages } from '@/i18n/settings';
+import { getMeta, brandSuffix, SITE_URL } from '@/lib/meta';
 
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
 const notoSansKR = Noto_Sans_KR({ subsets: ['latin'], variable: '--font-noto' });
@@ -13,29 +14,49 @@ export async function generateStaticParams() {
   return languages.map((lng) => ({ lng }));
 }
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://www.primedaon.com'),
+/**
+ * 언어별 기본 메타데이터.
+ *
+ * `export const metadata` 를 쓰면 정적 평가라 params 에 접근할 수 없어 lng 를 모른다.
+ * 그 결과 한 언어로 쓴 문구가 4개 언어 경로 전부에 나간다. 그래서 generateMetadata 를 쓴다.
+ *
+ * title.template 이 언어별 브랜드 접미사를 붙이므로,
+ * 각 페이지는 브랜드명 없이 검색어만 담은 title 을 반환하면 된다.
+ */
+export async function generateMetadata(
+  { params }: { params: Promise<{ lng: string }> }
+): Promise<Metadata> {
+  const { lng } = await params;
+  const home = getMeta(lng, '/');
+  const suffix = brandSuffix(lng);
+  const full = home.title + suffix;
 
-  title: 'THE PRIME DAON | 완벽한 가죽 컬렉션 구현의 새로운 표준',
-  description: '타협 없는 디테일과 압도적인 장인정신. 귀사가 상상하는 하이엔드, 그 이상을 실현하는 B2B 가죽 제조 기업입니다.',
-  openGraph: {
-    type: 'website',
-    title: 'THE PRIME DAON | 완벽한 가죽 컬렉션 구현의 새로운 표준',
-    description: '타협 없는 디테일과 압도적인 장인정신. 귀사가 상상하는 하이엔드, 그 이상을 실현하는 B2B 가죽 제조 기업입니다.',
-    url: 'https://www.primedaon.com',
-    siteName: 'THE PRIME DAON',
-    images: [
-      {
-        url: 'https://www.primedaon.com/thumbnail_ko.jpg',
-      },
-    ],
-  },
-  verification: {
-    other: {
-      'naver-site-verification': ['ec03d59dffb1d43a88617c78d4ca74bd464165e3', 'c4c1b6c2bf67619f673a6d35616c5866842ea6b5'],
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: {
+      default: full,
+      template: `%s${suffix}`,
     },
-  },
-};
+    description: home.description,
+    openGraph: {
+      type: 'website',
+      title: full,
+      description: home.description,
+      url: `${SITE_URL}/${lng}`,
+      siteName: 'THE PRIME DAON',
+      images: [
+        {
+          url: `${SITE_URL}/thumbnail_ko.jpg`,
+        },
+      ],
+    },
+    verification: {
+      other: {
+        'naver-site-verification': ['ec03d59dffb1d43a88617c78d4ca74bd464165e3', 'c4c1b6c2bf67619f673a6d35616c5866842ea6b5'],
+      },
+    },
+  };
+}
 
 export default async function RootLayout({
   children,
