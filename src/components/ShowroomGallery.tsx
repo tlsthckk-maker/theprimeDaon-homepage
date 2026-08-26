@@ -200,10 +200,12 @@ export default function ShowroomGallery(props: ShowroomGalleryProps) {
                 </div>
 
                 <div className={`grid-container ${isDrawerOpen ? 'drawer-open' : ''}`}>
-                    {filteredProducts.map(p => (
+                    {filteredProducts.map((p, idx) => (
                         <div key={p.id} className="product-card" onClick={() => openDrawer(p)}>
                             <div className="product-img-wrap">
-                                <img src={p.img} alt={`${p.productName} (${p.modelName}) 가죽 제품 맞춤 제작 포트폴리오 이미지`} onError={(e) => { (e.target as HTMLImageElement).src = 'https://via.placeholder.com/400x400/f5f5f5/999?text=Image+Loading'; }} />
+                                {/* 첫 화면에 보이는 8장만 즉시 로드하고 나머지는 지연 로드한다.
+                                    loading 속성이 없으면 기본값이 eager라 68장이 마운트 즉시 동시 요청된다. */}
+                                <img src={p.img} loading={idx < 8 ? 'eager' : 'lazy'} decoding="async" alt={`${p.productName} (${p.modelName}) 가죽 제품 맞춤 제작 포트폴리오 이미지`} onError={(e) => { (e.target as HTMLImageElement).src = 'https://via.placeholder.com/400x400/f5f5f5/999?text=Image+Loading'; }} />
                             </div>
                             <div className="product-info">
                                 <h3 className="product-title">{p.modelName}</h3>
@@ -224,7 +226,7 @@ export default function ShowroomGallery(props: ShowroomGalleryProps) {
                     {selectedProduct && (
                         <>
                             <div className="drawer-img">
-                                <img src={selectedProduct.img} alt={`${selectedProduct.productName} (${selectedProduct.modelName}) 가죽 제품 맞춤 제작 포트폴리오 이미지`} onError={(e) => { (e.target as HTMLImageElement).src = 'https://via.placeholder.com/600x600/f5f5f5/999?text=Image+Loading'; }} />
+                                <img src={selectedProduct.img} loading="lazy" decoding="async" alt={`${selectedProduct.productName} (${selectedProduct.modelName}) 가죽 제품 맞춤 제작 포트폴리오 이미지`} onError={(e) => { (e.target as HTMLImageElement).src = 'https://via.placeholder.com/600x600/f5f5f5/999?text=Image+Loading'; }} />
                             </div>
                             <div className="drawer-cat">{selectedProduct.catName.split('|')[0].trim()}</div>
                             <h2 className="drawer-title" style={{ marginBottom: '25px' }}>
