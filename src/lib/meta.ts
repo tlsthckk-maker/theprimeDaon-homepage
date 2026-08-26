@@ -170,7 +170,11 @@ export function buildPageMetadata(lng: string, route: string): Metadata {
   const full = m.title + brandSuffix(lng);
 
   return {
-    title: m.title,
+    // 레이아웃의 title.template 은 "하위 세그먼트"에만 적용된다.
+    // app/[lng]/layout.tsx 와 app/[lng]/page.tsx 는 같은 세그먼트이므로
+    // 홈에는 템플릿이 붙지 않는다 (실제로 브랜드명이 빠진 채 배포된 적 있음).
+    // 그래서 홈만 absolute 로 완성된 제목을 직접 지정한다.
+    title: route === '/' ? { absolute: full } : m.title,
     description: m.description,
     alternates: buildAlternates(lng, path),
     openGraph: {
