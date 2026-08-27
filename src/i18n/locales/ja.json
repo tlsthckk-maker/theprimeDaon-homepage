@@ -108,7 +108,7 @@
         "label": "スマートフォン用レザーケース",
         "name": "Daon 1",
         "description": "[仮説明] プレミアムレザー素材と実用的なカード収納機能が際立つモデルです。",
-        "image": "/images/Ai_Daon_12.png"
+        "image": "/images/Ai_Daon_12.webp"
       },
       {
         "id": 2,
@@ -116,7 +116,7 @@
         "label": "スマートフォン用レザーケース",
         "name": "Daon 2",
         "description": "[仮説明] 繊細なテクスチャーとメタルリングのディテールでユーザーの利便性を極大化した製品です。",
-        "image": "/images/Ai_Daon_19.png"
+        "image": "/images/Ai_Daon_19.webp"
       },
       {
         "id": 3,
@@ -124,7 +124,7 @@
         "label": "スマートフォン用レザーケース",
         "name": "Daon 3",
         "description": "[仮説明] 折りたたみスマートフォンのヒンジを完璧に保護するカスタム本革ケースです。",
-        "image": "/images/Ai_Daon_48.png"
+        "image": "/images/Ai_Daon_48.webp"
       },
       {
         "id": 4,
@@ -132,7 +132,7 @@
         "label": "スマートフォン用レザーケース",
         "name": "Daon 4",
         "description": "[仮説明] ユニークなメタルパンチングデザインとレザーの調和で耐久性を高めた特殊ケースです。",
-        "image": "/images/Ai_Daon_51.png"
+        "image": "/images/Ai_Daon_51.webp"
       },
       {
         "id": 5,
@@ -140,7 +140,7 @@
         "label": "カードホルダー＆財布",
         "name": "Daon 5",
         "description": "[仮説明] プレミアムオプルレザーの柔らかい質感とユニークな配色が際立つスリムなカードホルダーです。",
-        "image": "/images/Ai_Daon_5.png"
+        "image": "/images/Ai_Daon_5.webp"
       },
       {
         "id": 6,
@@ -148,7 +148,7 @@
         "label": "MagSafeカードホルダー",
         "name": "Daon 6",
         "description": "[仮説明] 強力な磁力でスマートフォンに安定して付着し、ステッチディテールで仕上げたMagSafeウォレットです。",
-        "image": "/images/Ai_Daon_8.png"
+        "image": "/images/Ai_Daon_8.webp"
       },
       {
         "id": 7,
@@ -156,7 +156,7 @@
         "label": "カードホルダー＆財布",
         "name": "Daon 7",
         "description": "[仮説明] 3つのモダンなカラーラインナップで提供される、シンプルでクラシックなデザインのカードウォレットです。",
-        "image": "/images/Ai_Daon_11.png"
+        "image": "/images/Ai_Daon_11.webp"
       },
       {
         "id": 8,
@@ -164,7 +164,7 @@
         "label": "MagSafeカードホルダー",
         "name": "Daon 8",
         "description": "[仮説明] 独特な櫛目模様のテクスチャーとミニマルなロゴディテールが加わった付着型カードホルダーです。",
-        "image": "/images/Ai_Daon_13.png"
+        "image": "/images/Ai_Daon_13.webp"
       },
       {
         "id": 9,
@@ -172,7 +172,7 @@
         "label": "MagSafeカードホルダー",
         "name": "Daon 9",
         "description": "[仮説明] 精巧なエンボスロゴと頑丈なレザー素材で作られた耐久性に優れたモデルです。",
-        "image": "/images/Ai_Daon_23.png"
+        "image": "/images/Ai_Daon_23.webp"
       },
       {
         "id": 10,
@@ -180,7 +180,7 @@
         "label": "MagSafeカードホルダー",
         "name": "Daon 10",
         "description": "[仮説明] スタンド機能を追加して実用性を高めた、明るいトーンのレザーが際立つ多機能カードウォレットです。",
-        "image": "/images/Ai_Daon_32.png"
+        "image": "/images/Ai_Daon_32.webp"
       },
       {
         "id": 11,
@@ -188,7 +188,7 @@
         "label": "MagSafeカードホルダー",
         "name": "Daon 11",
         "description": "[仮説明] オレンジ色のポイントステッチとブラックレザーの調和が洗練された雰囲気を演出します。",
-        "image": "/images/Ai_Daon_34.png"
+        "image": "/images/Ai_Daon_34.webp"
       },
       {
         "id": 12,
@@ -196,7 +196,7 @@
         "label": "カードホルダー＆財布",
         "name": "Daon 12",
         "description": "[仮説明] 様々な好みを満たすカラーバリエーションとスリムなフィット感を誇るベストセラーです。",
-        "image": "/images/Ai_Daon_45.png"
+        "image": "/images/Ai_Daon_45.webp"
       },
       {
         "id": 13,
@@ -204,7 +204,7 @@
         "label": "コンパクト財布 / スリムカードホルダー",
         "name": "Daon 24",
         "description": "柔らかいグレーのレザーとミニマルな折りたたみデザインが特徴のコンパクト財布です。",
-        "image": "/images/Ai_Daon_1.png"
+        "image": "/images/Ai_Daon_1.webp"
       },
       {
         "id": 14,
@@ -212,7 +212,7 @@
         "label": "車のスマートキーホルダー/ケース",
         "name": "Daon 25",
         "description": "車のキーの曲線を完璧に再現し、立体的なグリップ感を提供するレザーキーケースです。",
-        "image": "/images/Ai_Daon_2.png"
+        "image": "/images/Ai_Daon_2.webp"
       },
       {
         "id": 15,
@@ -220,7 +220,7 @@
         "label": "車のスマートキーホルダー/ケース",
         "name": "Daon 26",
         "description": "ホワイトレザーと感覚的なカットアウトデザインが適用されたプレミアムキーカバーです。",
-        "image": "/images/Ai_Daon_3.png"
+        "image": "/images/Ai_Daon_3.webp"
       },
       {
         "id": 16,
@@ -228,7 +228,7 @@
         "label": "レザー手帳カバー/バインダー",
         "name": "Daon 27",
         "description": "モダンなブラックレザーでビジネス環境に最適化された手帳カバーです。",
-        "image": "/images/Ai_Daon_4.png"
+        "image": "/images/Ai_Daon_4.webp"
       },
       {
         "id": 17,
@@ -236,7 +236,7 @@
         "label": "コンパクト財布 / スリムカードホルダー",
         "name": "Daon 28",
         "description": "グレーの背景にオレンジ色のポイントを与え、洗練さを加えたカードホルダーです。",
-        "image": "/images/Ai_Daon_5.png"
+        "image": "/images/Ai_Daon_5.webp"
       },
       {
         "id": 18,
@@ -244,7 +244,7 @@
         "label": "多目的ミニポーチ",
         "name": "Daon 29",
         "description": "しっかりとした質感と実用的なハンドルストラップを備えたオリーブグリーンの多目的ポーチです。",
-        "image": "/images/Ai_Daon_6.png"
+        "image": "/images/Ai_Daon_6.webp"
       },
       {
         "id": 19,
@@ -252,7 +252,7 @@
         "label": "レザーストラップ＆ループキーリング",
         "name": "Daon 30",
         "description": "マットなブラックカラビナに精巧なレザーストラップを組み合わせたハイエンドキーリングです。",
-        "image": "/images/Ai_Daon_7.png"
+        "image": "/images/Ai_Daon_7.webp"
       },
       {
         "id": 20,
@@ -260,7 +260,7 @@
         "label": "MagSafeカードウォレット",
         "name": "Daon 31",
         "description": "オレンジのステッチポイントでブラックレザーの単調さをなくした付着型カードウォレットです。",
-        "image": "/images/Ai_Daon_8.png"
+        "image": "/images/Ai_Daon_8.webp"
       },
       {
         "id": 21,
@@ -268,7 +268,7 @@
         "label": "ミニチェーンバッグ",
         "name": "Daon 32",
         "description": "ダークメタルボールチェーンとホワイトレザーが調和し、トレンディな感覚をプレゼントするミニバッグです。",
-        "image": "/images/Ai_Daon_9.png"
+        "image": "/images/Ai_Daon_9.webp"
       },
       {
         "id": 22,
@@ -276,7 +276,7 @@
         "label": "コンパクト財布 / スリムカードホルダー",
         "name": "Daon 33",
         "description": "幾何学的なカットラインとステッチのディテールが際立つディープグリーンカードホルダーです。",
-        "image": "/images/Ai_Daon_10.png"
+        "image": "/images/Ai_Daon_10.webp"
       },
       {
         "id": 23,
@@ -284,7 +284,7 @@
         "label": "コンパクト財布 / スリムカードホルダー",
         "name": "Daon 34",
         "description": "ベーシックなデザインに3つのモダンなカラーオプションを提供するスリムなレザーカードホルダーです。",
-        "image": "/images/Ai_Daon_11.png"
+        "image": "/images/Ai_Daon_11.webp"
       },
       {
         "id": 24,
@@ -292,7 +292,7 @@
         "label": "スマートフォン用レザーケース",
         "name": "Daon 35",
         "description": "シルバーメタリックレザーとスナップボタンポケットでユニークさと実用性を同時に加えたケースです。",
-        "image": "/images/Ai_Daon_12.png"
+        "image": "/images/Ai_Daon_12.webp"
       },
       {
         "id": 25,
@@ -300,7 +300,7 @@
         "label": "MagSafeカードウォレット",
         "name": "Daon 36",
         "description": "ブラックのサフィアーノパターンレザーにY字のメタルディテールを適用し、洗練さを強調したMagSafeウォレットです。",
-        "image": "/images/Ai_Daon_13.png"
+        "image": "/images/Ai_Daon_13.webp"
       },
       {
         "id": 26,
@@ -308,7 +308,7 @@
         "label": "AirPods / Buds レザーケース",
         "name": "Daon 37",
         "description": "ワイヤレスイヤホンを安全に保護し、時間が経つにつれてクラシックな魅力が増すブラウンのレザーケースです。",
-        "image": "/images/Ai_Daon_14.png"
+        "image": "/images/Ai_Daon_14.webp"
       },
       {
         "id": 27,
@@ -316,7 +316,7 @@
         "label": "コンパクト財布 / スリムカードホルダー",
         "name": "Daon 38",
         "description": "独特のシワ感のあるダークブラウンレザーで作られ、ヴィンテージな雰囲気を漂わせるカードウォレットです。",
-        "image": "/images/Ai_Daon_15.png"
+        "image": "/images/Ai_Daon_15.webp"
       },
       {
         "id": 28,
@@ -324,7 +324,7 @@
         "label": "スマートフォン用レザーケース",
         "name": "Daon 39",
         "description": "精巧な動物の刺繍ディテールがポイントで、キッチュでありながらもハイエンドな感性を逃さないケースです。",
-        "image": "/images/Ai_Daon_16.png"
+        "image": "/images/Ai_Daon_16.webp"
       },
       {
         "id": 29,
@@ -332,7 +332,7 @@
         "label": "レザーブリーフケース / ノートパソコンバッグ",
         "name": "Daon 40",
         "description": "ミニマルなデザインと柔らかいグレーのレザーが際立つビジネス用のノートパソコンおよびタブレットスリーブです。",
-        "image": "/images/Ai_Daon_17.png"
+        "image": "/images/Ai_Daon_17.webp"
       },
       {
         "id": 30,
@@ -340,7 +340,7 @@
         "label": "レザー手帳カバー/バインダー",
         "name": "Daon 41",
         "description": "明るい星型のレザーパッチとメタルスタッズの装飾でファンキーな魅力を生かした手帳カバーです。",
-        "image": "/images/Ai_Daon_18.png"
+        "image": "/images/Ai_Daon_18.webp"
       },
       {
         "id": 31,
@@ -348,7 +348,7 @@
         "label": "スマートフォン用レザーケース",
         "name": "Daon 42",
         "description": "ピンクのテクスチャーレザーにグリップ感を高める実用的なメタルリングストラップが付いたエレガントなケースです。",
-        "image": "/images/Ai_Daon_19.png"
+        "image": "/images/Ai_Daon_19.webp"
       },
       {
         "id": 32,
@@ -356,7 +356,7 @@
         "label": "コンパクト財布 / スリムカードホルダー",
         "name": "Daon 43",
         "description": "魅惑的なバーガンディカラーと内部の効率的なカード収納スペースを誇る折りたたみ式財布です。",
-        "image": "/images/Ai_Daon_20.png"
+        "image": "/images/Ai_Daon_20.webp"
       },
       {
         "id": 33,
@@ -364,7 +364,7 @@
         "label": "コンパクト財布 / スリムカードホルダー",
         "name": "Daon 44",
         "description": "ピンクカラーのクロコダイルパターンレザーとハートモチーフのメタル装飾が愛らしいミニ財布です。",
-        "image": "/images/Ai_Daon_21.png"
+        "image": "/images/Ai_Daon_21.webp"
       },
       {
         "id": 34,
@@ -372,7 +372,7 @@
         "label": "ミニチェーンバッグ",
         "name": "Daon 45",
         "description": "メタリックシルバーカラーのレザーと洗練されたチェーンストラップが組み合わされ、華やかでトレンディなルックを完成させます。",
-        "image": "/images/Ai_Daon_22.png"
+        "image": "/images/Ai_Daon_22.webp"
       },
       {
         "id": 35,
@@ -380,7 +380,7 @@
         "label": "MagSafeカードウォレット",
         "name": "Daon 46",
         "description": "クラシックなブラックレザーに木目調のロゴディテールを加え、自然な魅力を生かしたMagSafeウォレットです。",
-        "image": "/images/Ai_Daon_23.png"
+        "image": "/images/Ai_Daon_23.webp"
       },
       {
         "id": 36,
@@ -388,7 +388,7 @@
         "label": "レザー手帳カバー/バインダー",
         "name": "Daon 47",
         "description": "シックなブラックレザーを背景に、シルバーの星型スタッズとアイレットを装飾し、ユニークな感性を醸し出します。",
-        "image": "/images/Ai_Daon_24.png"
+        "image": "/images/Ai_Daon_24.webp"
       },
       {
         "id": 37,
@@ -396,7 +396,7 @@
         "label": "レザーラゲッジタグ / ネームタグ",
         "name": "Daon 48",
         "description": "高級感のあるバーガンディレザーに透明な保護窓を加え、実用性を高めたハイエンドな旅行用ラゲッジタグです。",
-        "image": "/images/Ai_Daon_25.png"
+        "image": "/images/Ai_Daon_25.webp"
       },
       {
         "id": 38,
@@ -404,7 +404,7 @@
         "label": "多目的ミニポーチ",
         "name": "Daon 49",
         "description": "頑丈な金属製カラビナが付いており持ち運びが簡単で、形状保持力に優れたベージュのレザーケースです。",
-        "image": "/images/Ai_Daon_26.png"
+        "image": "/images/Ai_Daon_26.webp"
       },
       {
         "id": 39,
@@ -412,7 +412,7 @@
         "label": "多目的ミニポーチ",
         "name": "Daon 50",
         "description": "小型スマートデバイスやゴルフ用レーザー距離計などを外部の衝撃から安全に保護するプレミアムポーチです。",
-        "image": "/images/Ai_Daon_27.png"
+        "image": "/images/Ai_Daon_27.webp"
       },
       {
         "id": 40,
@@ -420,7 +420,7 @@
         "label": "コンパクト財布 / スリムカードホルダー",
         "name": "Daon 51",
         "description": "光沢のあるレッドの質感とマットなキャメルカラーのコントラストが際立つスリムなベーシックカードホルダーです。",
-        "image": "/images/Ai_Daon_28.png"
+        "image": "/images/Ai_Daon_28.webp"
       },
       {
         "id": 41,
@@ -428,7 +428,7 @@
         "label": "レザーブリーフケース / ノートパソコンバッグ",
         "name": "Daon 52",
         "description": "プロフェッショナルなビジネス環境にふさわしいクラシックなブラックレザー素材の書類バッグ兼ブリーフケースです。",
-        "image": "/images/Ai_Daon_29.png"
+        "image": "/images/Ai_Daon_29.webp"
       },
       {
         "id": 42,
@@ -436,7 +436,7 @@
         "label": "旅行用パスポートウォレット / パスポートケース",
         "name": "Daon 53",
         "description": "シンプルなブラックレザーにゴールドのレタリングポイントを与え、モダンで洗練された雰囲気を演出するカバーです。",
-        "image": "/images/Ai_Daon_30.png"
+        "image": "/images/Ai_Daon_30.webp"
       },
       {
         "id": 43,
@@ -444,7 +444,7 @@
         "label": "コンパクト財布 / スリムカードホルダー",
         "name": "Daon 54",
         "description": "ブルーとブラックカラーの頑丈なレザーをベースに、精巧なステッチ仕上げが際立つスリムカードホルダーです。",
-        "image": "/images/Ai_Daon_31.png"
+        "image": "/images/Ai_Daon_31.webp"
       },
       {
         "id": 44,
@@ -452,7 +452,7 @@
         "label": "MagSafeカードウォレット",
         "name": "Daon 55",
         "description": "ホワイトトーンのすっきりとしたレザーに実用的なフィンガーストラップスタンド機能を加えたMagSafeウォレットです。",
-        "image": "/images/Ai_Daon_32.png"
+        "image": "/images/Ai_Daon_32.webp"
       },
       {
         "id": 45,
@@ -460,7 +460,7 @@
         "label": "レザー手帳カバー/バインダー",
         "name": "Daon 56",
         "description": "エレガントなバーガンディカラーと高級感のある櫛目模様のテクスチャーが適用されたプレミアム手帳カバーです。",
-        "image": "/images/Ai_Daon_33.png"
+        "image": "/images/Ai_Daon_33.webp"
       },
       {
         "id": 46,
@@ -468,7 +468,7 @@
         "label": "MagSafeカードウォレット",
         "name": "Daon 57",
         "description": "ブラックレザーの縁にオレンジカラーのステッチでスポーティな魅力を生かした付着型カードホルダーです。",
-        "image": "/images/Ai_Daon_34.png"
+        "image": "/images/Ai_Daon_34.webp"
       },
       {
         "id": 47,
@@ -476,7 +476,7 @@
         "label": "多目的ミニポーチ",
         "name": "Daon 58",
         "description": "カラビナとミニハンドルが付いており、アウトドア環境や日常で多目的に活用しやすいポーチです。",
-        "image": "/images/Ai_Daon_35.png"
+        "image": "/images/Ai_Daon_35.webp"
       },
       {
         "id": 48,
@@ -484,7 +484,7 @@
         "label": "車のスマートキーホルダー/ケース",
         "name": "Daon 59",
         "description": "5つの多彩なカラーラインナップとゴールドのスナップボタン装飾が魅力的な折りたたみ式キーケースです。",
-        "image": "/images/Ai_Daon_36.png"
+        "image": "/images/Ai_Daon_36.webp"
       },
       {
         "id": 49,
@@ -492,7 +492,7 @@
         "label": "レザーストラップ＆ループキーリング",
         "name": "Daon 60",
         "description": "マットゴールドのメタル装飾とステッチ仕上げの天然皮革が調和した高級ストラップキーリングです。",
-        "image": "/images/Ai_Daon_37.png"
+        "image": "/images/Ai_Daon_37.webp"
       },
       {
         "id": 50,
@@ -500,7 +500,7 @@
         "label": "コンパクト財布 / スリムカードホルダー",
         "name": "Daon 61",
         "description": "クラシックなキャメルブラウンカラーと柔らかいレザーの質感が際立つ折りたたみ式名刺兼カードウォレットです。",
-        "image": "/images/Ai_Daon_38.png"
+        "image": "/images/Ai_Daon_38.webp"
       },
       {
         "id": 51,
@@ -508,7 +508,7 @@
         "label": "スマートフォン用レザーケース",
         "name": "Daon 62",
         "description": "爽やかなギンガムチェック柄の背景にかわいい犬の刺繍が加わり、カジュアルなムードを演出するケースです。",
-        "image": "/images/Ai_Daon_39.png"
+        "image": "/images/Ai_Daon_39.webp"
       },
       {
         "id": 52,
@@ -516,7 +516,7 @@
         "label": "スマートフォン用レザーケース",
         "name": "Daon 63",
         "description": "アニマルテクスチャーとソリッドレザーを活用してユニークさを強調し、背面のリングでグリップ感を高めた製品です。",
-        "image": "/images/Ai_Daon_40.png"
+        "image": "/images/Ai_Daon_40.webp"
       },
       {
         "id": 53,
@@ -524,7 +524,7 @@
         "label": "レザーブリーフケース / ノートパソコンバッグ",
         "name": "Daon 64",
         "description": "落ち着いたブルーグレーのトーンのレザーで作られ、シンプルながらもプロフェッショナルな印象を与える書類およびタブレットスリーブです。",
-        "image": "/images/Ai_Daon_41.png"
+        "image": "/images/Ai_Daon_41.webp"
       },
       {
         "id": 54,
@@ -532,7 +532,7 @@
         "label": "産業用/特殊機器レザーケース",
         "name": "Daon 65",
         "description": "ハイエンドオーディオ機器などの特殊デジタル機器を完璧に保護し、設置できるダークグリーンカラーのオーダーメイドレザーケースです。",
-        "image": "/images/Ai_Daon_42.png"
+        "image": "/images/Ai_Daon_42.webp"
       },
       {
         "id": 55,
@@ -540,7 +540,7 @@
         "label": "ミニチェーンバッグ / サッチェルバッグ / クロスバッグ",
         "name": "Daon 66",
         "description": "クラシックなサッチェルバッグのデザインをミニサイズで具現化し、デイリーに活用しやすいブラウンレザーバッグです。",
-        "image": "/images/Ai_Daon_43.png"
+        "image": "/images/Ai_Daon_43.webp"
       },
       {
         "id": 56,
@@ -548,7 +548,7 @@
         "label": "スマートフォン用レザーケース",
         "name": "Daon 67",
         "description": "洗練されたメタリックシルバーのテクスチャーとフィンガーリングストラップが組み合わされ、折りたたみ式スマートフォンのユーザビリティを極大化したケースです。",
-        "image": "/images/Ai_Daon_44.png"
+        "image": "/images/Ai_Daon_44.webp"
       },
       {
         "id": 57,
@@ -556,7 +556,7 @@
         "label": "MagSafeカードウォレット",
         "name": "Daon 68",
         "description": "柔らかい天然皮革素材と3つのベーシックカラーで構成されたミニマルデザインのMagSafe付着型カードホルダーです。",
-        "image": "/images/Ai_Daon_45.png"
+        "image": "/images/Ai_Daon_45.webp"
       },
       {
         "id": 58,
@@ -564,7 +564,7 @@
         "label": "産業用/特殊機器レザーケース",
         "name": "Daon 69",
         "description": "特殊機器のディスプレイとボタン操作部を考慮して精巧に穴あけおよび設計されたブラックスクリーンレザーカバーです。",
-        "image": "/images/Ai_Daon_46.png"
+        "image": "/images/Ai_Daon_46.webp"
       },
       {
         "id": 59,
@@ -572,7 +572,7 @@
         "label": "多目的ミニポーチ",
         "name": "Daon 70",
         "description": "ビビッドなブルーカラーとエンボス加工されたレザーが際立ち、上部のDリングで携帯性を高めた小型の多目的ポーチです。",
-        "image": "/images/Ai_Daon_47.png"
+        "image": "/images/Ai_Daon_47.webp"
       },
       {
         "id": 60,
@@ -580,7 +580,7 @@
         "label": "スマートフォン用レザーケース",
         "name": "Daon 71",
         "description": "折りたたみ式スマートフォンの上下に完璧にフィットする、ベーシックなキャメルブラウンカラーのプレミアムレザーシェルケースです。",
-        "image": "/images/Ai_Daon_48.png"
+        "image": "/images/Ai_Daon_48.webp"
       },
       {
         "id": 61,
@@ -588,7 +588,7 @@
         "label": "車のスマートキーホルダー/ケース",
         "name": "Daon 72",
         "description": "車のキーのボタン部分まで繊細に覆う一体型デザインでスポーティな魅力を持つスマートキーカバーです。",
-        "image": "/images/Ai_Daon_49.png"
+        "image": "/images/Ai_Daon_49.webp"
       },
       {
         "id": 62,
@@ -596,7 +596,7 @@
         "label": "オフィスステーショナリー",
         "name": "Daon 73",
         "description": "企業や大学のVIPウェルカムキットやイベント用記念品として活用しやすい、カスタマイズされたロゴ刻印入りのレザーフォルダーです。",
-        "image": "/images/Ai_Daon_50.png"
+        "image": "/images/Ai_Daon_50.webp"
       },
       {
         "id": 63,
@@ -604,7 +604,7 @@
         "label": "産業用/特殊機器レザーケース",
         "name": "Daon 74",
         "description": "ハイエンドオーディオ機器などを安全に保護し、放熱を助けるメタルグリルデザインが組み合わされたプレミアムケースです。",
-        "image": "/images/Ai_Daon_51.png"
+        "image": "/images/Ai_Daon_51.webp"
       },
       {
         "id": 64,
@@ -612,7 +612,7 @@
         "label": "多目的ミニポーチ",
         "name": "Daon 75",
         "description": "頑丈なキャンバスの質感の素材とミニハンドル、カラビナを装着し、アウトドアや日常で実用的なトート型ポーチです。",
-        "image": "/images/Ai_Daon_52.png"
+        "image": "/images/Ai_Daon_52.webp"
       },
       {
         "id": 65,
@@ -620,7 +620,7 @@
         "label": "コンパクト財布 / スリムカードホルダー",
         "name": "Daon 76",
         "description": "企業のロゴ刻印が適用され、VIP販促用や従業員のウェルカムキットとして好感度が高いクラシックなレザー名刺入れです。",
-        "image": "/images/Ai_Daon_53.png"
+        "image": "/images/Ai_Daon_53.webp"
       },
       {
         "id": 66,
@@ -628,7 +628,7 @@
         "label": "ミニチェーンバッグ / サッチェルバッグ / クロスバッグ",
         "name": "Daon 77",
         "description": "エレガントなキャメルカラーのクロコダイルパターンレザーと細いストラップが調和し、洗練されたルックを完成させるミニクロスバッグです。",
-        "image": "/images/Ai_Daon_54.png"
+        "image": "/images/Ai_Daon_54.webp"
       },
       {
         "id": 67,
@@ -636,7 +636,7 @@
         "label": "レザーストラップ＆ループキーリング",
         "name": "Daon 78",
         "description": "柔らかいアイボリーレザーと精巧なメタルバックルで作られ、多目的アクセサリーとして活用できるレザーストラップです。",
-        "image": "/images/Ai_Daon_55.png"
+        "image": "/images/Ai_Daon_55.webp"
       },
       {
         "id": 68,
@@ -644,7 +644,7 @@
         "label": "レザーラゲッジタグ / ネームタグ",
         "name": "Daon 79",
         "description": "ブランドロゴの刻印とすっきりとしたステッチ仕上げが際立つ、モダンなベージュカラーの旅行用レザーネームタグです。",
-        "image": "/images/Ai_Daon_56.png"
+        "image": "/images/Ai_Daon_56.webp"
       },
       {
         "id": 69,
@@ -652,7 +652,7 @@
         "label": "AirPods / Buds レザーケース",
         "name": "Daon 80",
         "description": "ユニークでトレンディな動物の刺繍パッチが加わり、ブランドの個性をしっかりと表現できるイヤホンケースです。",
-        "image": "/images/Ai_Daon_57.png"
+        "image": "/images/Ai_Daon_57.webp"
       },
       {
         "id": 70,
@@ -660,7 +660,7 @@
         "label": "多目的ミニポーチ",
         "name": "Daon 81",
         "description": "ベルトやバッグに簡単に結びつけられるカラビナが付いており、形状保持力に優れたベージュの小型ポーチです。",
-        "image": "/images/Ai_Daon_58.png"
+        "image": "/images/Ai_Daon_58.webp"
       },
       {
         "id": 71,
@@ -668,7 +668,7 @@
         "label": "多目的ミニポーチ",
         "name": "Daon 82",
         "description": "幾何学的なメタルカットアウトパターンとブラックレザーが組み合わされ、未来志向な雰囲気を醸し出すハードシェルケースです。",
-        "image": "/images/Ai_Daon_59.png"
+        "image": "/images/Ai_Daon_59.webp"
       },
       {
         "id": 72,
@@ -676,7 +676,7 @@
         "label": "多目的ミニポーチ",
         "name": "Daon 83",
         "description": "時計やジュエリーなどの貴重品を安全に保管できるように、内部にカスタムクッションフォームが適用された鮮やかなブルーカラーのハードポーチです。",
-        "image": "/images/Ai_Daon_60.png"
+        "image": "/images/Ai_Daon_60.webp"
       },
       {
         "id": 73,
@@ -684,7 +684,7 @@
         "label": "ミニチェーンバッグ / サッチェルバッグ",
         "name": "Daon 84",
         "description": "トレンディなメタリックシルバーカラーとミニマルなスクエアシェイプが際立つコンパクトサイズのミニバッグです。",
-        "image": "/images/Ai_Daon_61.png"
+        "image": "/images/Ai_Daon_61.webp"
       },
       {
         "id": 74,
@@ -692,7 +692,7 @@
         "label": "多目的ミニポーチ / クラッチ",
         "name": "Daon 85",
         "description": "高級感のあるブラックレザーにゴールドのメタルフックと着脱可能なハンドストラップを加え、実用性を極大化したクラッチ型ポーチです。",
-        "image": "/images/Ai_Daon_62.png"
+        "image": "/images/Ai_Daon_62.webp"
       },
       {
         "id": 75,
@@ -700,7 +700,7 @@
         "label": "車のスマートキーホルダー/ケース",
         "name": "Daon 86",
         "description": "車のキーのボタンの形を精巧に型押しし、頑丈なステッチで仕上げて一体感を高めたプレミアムスマートキーカバーです。",
-        "image": "/images/Ai_Daon_63.png"
+        "image": "/images/Ai_Daon_63.webp"
       }
     ],
     "subtitle": "ザ・プライムダオンが製作した独創的な製品ラインナップをご覧ください。"
@@ -780,7 +780,7 @@
           "グローバルブランドのテックパック分析",
           "効率的なネスティングによる歩留まり向上"
         ],
-        "image": "/cad_step.jpg"
+        "image": "/cad_step.webp"
       },
       {
         "title": "レーザー加工 (Cutting)",
@@ -789,7 +789,7 @@
           "熱損傷最小化加工技術",
           "量産のための高速裁단システム"
         ],
-        "image": "/laser_step.jpg"
+        "image": "/laser_step.webp"
       },
       {
         "title": "高速精密裁断 (Press)",
@@ -798,7 +798,7 @@
           "精密な金型運用による規格維持",
           "グローバル受注に最適化された納期競争力"
         ],
-        "image": "/press_step.jpg"
+        "image": "/press_step.webp"
       },
       {
         "title": "特殊ミシンと組立",
@@ -807,7 +807,7 @@
           "立体構造のための特殊ミシン運用",
           "名品基準の均一な縫い目と仕上げ品質"
         ],
-        "image": "/sewing_step.jpg"
+        "image": "/sewing_step.webp"
       }
     ]
   },

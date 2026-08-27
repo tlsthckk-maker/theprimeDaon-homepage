@@ -108,7 +108,7 @@
         "label": "Leather Smartphone Case",
         "name": "Daon 1",
         "description": "[Temporary] A model featuring premium leather material and practical card storage.",
-        "image": "/images/Ai_Daon_12.png"
+        "image": "/images/Ai_Daon_12.webp"
       },
       {
         "id": 2,
@@ -116,7 +116,7 @@
         "label": "Leather Smartphone Case",
         "name": "Daon 2",
         "description": "[Temporary] A product maximizing user convenience with delicate texture and metal ring details.",
-        "image": "/images/Ai_Daon_19.png"
+        "image": "/images/Ai_Daon_19.webp"
       },
       {
         "id": 3,
@@ -124,7 +124,7 @@
         "label": "Leather Smartphone Case",
         "name": "Daon 3",
         "description": "[Temporary] A custom genuine leather case that perfectly protects the hinge of foldable smartphones.",
-        "image": "/images/Ai_Daon_48.png"
+        "image": "/images/Ai_Daon_48.webp"
       },
       {
         "id": 4,
@@ -132,7 +132,7 @@
         "label": "Leather Smartphone Case",
         "name": "Daon 4",
         "description": "[Temporary] A special case with increased durability through a unique metal perforated design and leather combination.",
-        "image": "/images/Ai_Daon_51.png"
+        "image": "/images/Ai_Daon_51.webp"
       },
       {
         "id": 5,
@@ -140,7 +140,7 @@
         "label": "Card Holder & Wallet",
         "name": "Daon 5",
         "description": "[Temporary] Slim card holder with soft texture of premium opple leather and unique color scheme.",
-        "image": "/images/Ai_Daon_5.png"
+        "image": "/images/Ai_Daon_5.webp"
       },
       {
         "id": 6,
@@ -148,7 +148,7 @@
         "label": "MagSafe Card Holder",
         "name": "Daon 6",
         "description": "[Temporary] MagSafe wallet that attaches stably with strong magnetic force and finished with stitch details.",
-        "image": "/images/Ai_Daon_8.png"
+        "image": "/images/Ai_Daon_8.webp"
       },
       {
         "id": 7,
@@ -156,7 +156,7 @@
         "label": "Card Holder & Wallet",
         "name": "Daon 7",
         "description": "[Temporary] Card wallet with simple and classic design, available in three modern color lineups.",
-        "image": "/images/Ai_Daon_11.png"
+        "image": "/images/Ai_Daon_11.webp"
       },
       {
         "id": 8,
@@ -164,7 +164,7 @@
         "label": "MagSafe Card Holder",
         "name": "Daon 8",
         "description": "[Temporary] Attachable card holder with unique comb-pattern texture and minimal logo details.",
-        "image": "/images/Ai_Daon_13.png"
+        "image": "/images/Ai_Daon_13.webp"
       },
       {
         "id": 9,
@@ -172,7 +172,7 @@
         "label": "MagSafe Card Holder",
         "name": "Daon 9",
         "description": "[Temporary] Highly durable model made of sophisticated embossed logo and solid leather material.",
-        "image": "/images/Ai_Daon_23.png"
+        "image": "/images/Ai_Daon_23.webp"
       },
       {
         "id": 10,
@@ -180,7 +180,7 @@
         "label": "MagSafe Card Holder",
         "name": "Daon 10",
         "description": "[Temporary] Multi-functional card wallet with bright-toned leather and added stand function for practicality.",
-        "image": "/images/Ai_Daon_32.png"
+        "image": "/images/Ai_Daon_32.webp"
       },
       {
         "id": 11,
@@ -188,7 +188,7 @@
         "label": "MagSafe Card Holder",
         "name": "Daon 11",
         "description": "[Temporary] Harmony of orange point stitch and black leather creates a sophisticated atmosphere.",
-        "image": "/images/Ai_Daon_34.png"
+        "image": "/images/Ai_Daon_34.webp"
       },
       {
         "id": 12,
@@ -196,7 +196,7 @@
         "label": "Card Holder & Wallet",
         "name": "Daon 12",
         "description": "[Temporary] Best-seller boasting slim fit and color variations to satisfy various tastes.",
-        "image": "/images/Ai_Daon_45.png"
+        "image": "/images/Ai_Daon_45.webp"
       },
       {
         "id": 13,
@@ -204,7 +204,7 @@
         "label": "Compact Wallet / Slim Card Holder",
         "name": "Daon 24",
         "description": "Compact wallet featuring soft gray leather and minimal folding design.",
-        "image": "/images/Ai_Daon_1.png"
+        "image": "/images/Ai_Daon_1.webp"
       },
       {
         "id": 14,
@@ -212,7 +212,7 @@
         "label": "Car Smart Key Holder / Case",
         "name": "Daon 25",
         "description": "Leather key case providing a three-dimensional grip by perfectly recreating the curves of the car key.",
-        "image": "/images/Ai_Daon_2.png"
+        "image": "/images/Ai_Daon_2.webp"
       },
       {
         "id": 15,
@@ -220,7 +220,7 @@
         "label": "Car Smart Key Holder / Case",
         "name": "Daon 26",
         "description": "Premium key cover with white leather and sensual cut-out design.",
-        "image": "/images/Ai_Daon_3.png"
+        "image": "/images/Ai_Daon_3.webp"
       },
       {
         "id": 16,
@@ -228,7 +228,7 @@
         "label": "Leather Diary Cover / Binder",
         "name": "Daon 27",
         "description": "Diary cover optimized for business environments with modern black leather.",
-        "image": "/images/Ai_Daon_4.png"
+        "image": "/images/Ai_Daon_4.webp"
       },
       {
         "id": 17,
@@ -236,7 +236,7 @@
         "label": "Compact Wallet / Slim Card Holder",
         "name": "Daon 28",
         "description": "Card holder with added sophistication by giving an orange color point to a gray background.",
-        "image": "/images/Ai_Daon_5.png"
+        "image": "/images/Ai_Daon_5.webp"
       },
       {
         "id": 18,
@@ -244,7 +244,7 @@
         "label": "Multi-purpose Mini Pouch",
         "name": "Daon 29",
         "description": "Olive green multi-purpose pouch with solid texture and practical handle strap.",
-        "image": "/images/Ai_Daon_6.png"
+        "image": "/images/Ai_Daon_6.webp"
       },
       {
         "id": 19,
@@ -252,7 +252,7 @@
         "label": "Leather Strap & Loop Keyring",
         "name": "Daon 30",
         "description": "High-end keyring combining a matte black carabiner with a sophisticated leather strap.",
-        "image": "/images/Ai_Daon_7.png"
+        "image": "/images/Ai_Daon_7.webp"
       },
       {
         "id": 20,
@@ -260,7 +260,7 @@
         "label": "MagSafe Card Wallet",
         "name": "Daon 31",
         "description": "Attachable card wallet that removes the dullness of black leather with orange stitch points.",
-        "image": "/images/Ai_Daon_8.png"
+        "image": "/images/Ai_Daon_8.webp"
       },
       {
         "id": 21,
@@ -268,7 +268,7 @@
         "label": "Mini Chain Bag",
         "name": "Daon 32",
         "description": "Mini bag presenting a trendy sense with the harmony of dark metal ball chain and white leather.",
-        "image": "/images/Ai_Daon_9.png"
+        "image": "/images/Ai_Daon_9.webp"
       },
       {
         "id": 22,
@@ -276,7 +276,7 @@
         "label": "Compact Wallet / Slim Card Holder",
         "name": "Daon 33",
         "description": "Deep green card holder highlighted by geometric cut lines and stitch details.",
-        "image": "/images/Ai_Daon_10.png"
+        "image": "/images/Ai_Daon_10.webp"
       },
       {
         "id": 23,
@@ -284,7 +284,7 @@
         "label": "Compact Wallet / Slim Card Holder",
         "name": "Daon 34",
         "description": "A slim leather card holder offering three modern color options with a basic design.",
-        "image": "/images/Ai_Daon_11.png"
+        "image": "/images/Ai_Daon_11.webp"
       },
       {
         "id": 24,
@@ -292,7 +292,7 @@
         "label": "Leather Smartphone Case",
         "name": "Daon 35",
         "description": "A case that adds both uniqueness and practicality with silver metallic leather and a snap button pocket.",
-        "image": "/images/Ai_Daon_12.png"
+        "image": "/images/Ai_Daon_12.webp"
       },
       {
         "id": 25,
@@ -300,7 +300,7 @@
         "label": "MagSafe Card Wallet",
         "name": "Daon 36",
         "description": "A MagSafe wallet emphasizing sophistication by applying Y-shaped metal details to black saffiano pattern leather.",
-        "image": "/images/Ai_Daon_13.png"
+        "image": "/images/Ai_Daon_13.webp"
       },
       {
         "id": 26,
@@ -308,7 +308,7 @@
         "label": "AirPods / Buds Leather Case",
         "name": "Daon 37",
         "description": "A brown leather case that safely protects wireless earphones and adds a classic charm as time goes by.",
-        "image": "/images/Ai_Daon_14.png"
+        "image": "/images/Ai_Daon_14.webp"
       },
       {
         "id": 27,
@@ -316,7 +316,7 @@
         "label": "Compact Wallet / Slim Card Holder",
         "name": "Daon 38",
         "description": "A card wallet made of dark brown leather with a unique wrinkled texture, exuding a vintage mood.",
-        "image": "/images/Ai_Daon_15.png"
+        "image": "/images/Ai_Daon_15.webp"
       },
       {
         "id": 28,
@@ -324,7 +324,7 @@
         "label": "Leather Smartphone Case",
         "name": "Daon 39",
         "description": "A case that does not miss the high-end sensibility while being kitschy with elaborate animal embroidery details as a point.",
-        "image": "/images/Ai_Daon_16.png"
+        "image": "/images/Ai_Daon_16.webp"
       },
       {
         "id": 29,
@@ -332,7 +332,7 @@
         "label": "Leather Briefcase / Laptop Bag",
         "name": "Daon 40",
         "description": "A business laptop and tablet sleeve featuring a minimalist design and soft gray leather.",
-        "image": "/images/Ai_Daon_17.png"
+        "image": "/images/Ai_Daon_17.webp"
       },
       {
         "id": 30,
@@ -340,7 +340,7 @@
         "label": "Leather Diary Cover / Binder",
         "name": "Daon 41",
         "description": "A diary cover that brings out a funky charm with bright star-shaped leather patches and metal stud decorations.",
-        "image": "/images/Ai_Daon_18.png"
+        "image": "/images/Ai_Daon_18.webp"
       },
       {
         "id": 31,
@@ -348,7 +348,7 @@
         "label": "Leather Smartphone Case",
         "name": "Daon 42",
         "description": "An elegant case with a practical metal ring strap that enhances grip attached to pink textured leather.",
-        "image": "/images/Ai_Daon_19.png"
+        "image": "/images/Ai_Daon_19.webp"
       },
       {
         "id": 32,
@@ -356,7 +356,7 @@
         "label": "Compact Wallet / Slim Card Holder",
         "name": "Daon 43",
         "description": "A folding type wallet boasting a captivating burgundy color and an efficient inner card storage space.",
-        "image": "/images/Ai_Daon_20.png"
+        "image": "/images/Ai_Daon_20.webp"
       },
       {
         "id": 33,
@@ -364,7 +364,7 @@
         "label": "Compact Wallet / Slim Card Holder",
         "name": "Daon 44",
         "description": "A lovely mini wallet with pink crocodile pattern leather and heart motif metal decoration.",
-        "image": "/images/Ai_Daon_21.png"
+        "image": "/images/Ai_Daon_21.webp"
       },
       {
         "id": 34,
@@ -372,7 +372,7 @@
         "label": "Mini Chain Bag",
         "name": "Daon 45",
         "description": "Metallic silver colored leather combined with a sophisticated chain strap completes a glamorous and trendy look.",
-        "image": "/images/Ai_Daon_22.png"
+        "image": "/images/Ai_Daon_22.webp"
       },
       {
         "id": 35,
@@ -380,7 +380,7 @@
         "label": "MagSafe Card Wallet",
         "name": "Daon 46",
         "description": "A MagSafe wallet that brings out a natural style by adding wood-textured logo details to classic black leather.",
-        "image": "/images/Ai_Daon_23.png"
+        "image": "/images/Ai_Daon_23.webp"
       },
       {
         "id": 36,
@@ -388,7 +388,7 @@
         "label": "Leather Diary Cover / Binder",
         "name": "Daon 47",
         "description": "Decorated with silver star-shaped studs and eyelets on a chic black leather background, creating a unique sensibility.",
-        "image": "/images/Ai_Daon_24.png"
+        "image": "/images/Ai_Daon_24.webp"
       },
       {
         "id": 37,
@@ -396,7 +396,7 @@
         "label": "Leather Luggage Tag / Name Tag",
         "name": "Daon 48",
         "description": "A high-end travel luggage tag that enhances practicality by adding a transparent protective window to luxurious burgundy leather.",
-        "image": "/images/Ai_Daon_25.png"
+        "image": "/images/Ai_Daon_25.webp"
       },
       {
         "id": 38,
@@ -404,7 +404,7 @@
         "label": "Multi-purpose Mini Pouch",
         "name": "Daon 49",
         "description": "A beige leather case with excellent shape retention and easy portability due to an attached sturdy metal carabiner.",
-        "image": "/images/Ai_Daon_26.png"
+        "image": "/images/Ai_Daon_26.webp"
       },
       {
         "id": 39,
@@ -412,7 +412,7 @@
         "label": "Multi-purpose Mini Pouch",
         "name": "Daon 50",
         "description": "A premium pouch that safely protects small smart devices or golf rangefinders from external shocks.",
-        "image": "/images/Ai_Daon_27.png"
+        "image": "/images/Ai_Daon_27.webp"
       },
       {
         "id": 40,
@@ -420,7 +420,7 @@
         "label": "Compact Wallet / Slim Card Holder",
         "name": "Daon 51",
         "description": "A slim basic card holder highlighted by the contrast between glossy red texture and matte camel color.",
-        "image": "/images/Ai_Daon_28.png"
+        "image": "/images/Ai_Daon_28.webp"
       },
       {
         "id": 41,
@@ -428,7 +428,7 @@
         "label": "Leather Briefcase / Laptop Bag",
         "name": "Daon 52",
         "description": "A document bag and briefcase made of classic black leather suitable for a professional business environment.",
-        "image": "/images/Ai_Daon_29.png"
+        "image": "/images/Ai_Daon_29.webp"
       },
       {
         "id": 42,
@@ -436,7 +436,7 @@
         "label": "Travel Passport Wallet / Passport Case",
         "name": "Daon 53",
         "description": "A cover that creates a modern and sophisticated atmosphere by giving gold lettering points on simple black leather.",
-        "image": "/images/Ai_Daon_30.png"
+        "image": "/images/Ai_Daon_30.webp"
       },
       {
         "id": 43,
@@ -444,7 +444,7 @@
         "label": "Compact Wallet / Slim Card Holder",
         "name": "Daon 54",
         "description": "A slim card holder highlighting exquisite stitch finishing on a solid leather base in blue and black colors.",
-        "image": "/images/Ai_Daon_31.png"
+        "image": "/images/Ai_Daon_31.webp"
       },
       {
         "id": 44,
@@ -452,7 +452,7 @@
         "label": "MagSafe Card Wallet",
         "name": "Daon 55",
         "description": "A MagSafe wallet that adds a practical finger strap stand function to neat white-toned leather.",
-        "image": "/images/Ai_Daon_32.png"
+        "image": "/images/Ai_Daon_32.webp"
       },
       {
         "id": 45,
@@ -460,7 +460,7 @@
         "label": "Leather Diary Cover / Binder",
         "name": "Daon 56",
         "description": "A premium diary cover applied with an elegant burgundy color and a luxurious comb-pattern texture.",
-        "image": "/images/Ai_Daon_33.png"
+        "image": "/images/Ai_Daon_33.webp"
       },
       {
         "id": 46,
@@ -468,7 +468,7 @@
         "label": "MagSafe Card Wallet",
         "name": "Daon 57",
         "description": "An attachable card holder that brings out a sporty charm with orange color stitches on the edges of black leather.",
-        "image": "/images/Ai_Daon_34.png"
+        "image": "/images/Ai_Daon_34.webp"
       },
       {
         "id": 47,
@@ -476,7 +476,7 @@
         "label": "Multi-purpose Mini Pouch",
         "name": "Daon 58",
         "description": "A pouch that is good for multi-purpose use in outdoor environments or daily life with a carabiner and mini handle attached.",
-        "image": "/images/Ai_Daon_35.png"
+        "image": "/images/Ai_Daon_35.webp"
       },
       {
         "id": 48,
@@ -484,7 +484,7 @@
         "label": "Car Smart Key Holder / Case",
         "name": "Daon 59",
         "description": "A folding type key case attractive for its five colorful color lineups and gold snap button decoration.",
-        "image": "/images/Ai_Daon_36.png"
+        "image": "/images/Ai_Daon_36.webp"
       },
       {
         "id": 49,
@@ -492,7 +492,7 @@
         "label": "Leather Strap & Loop Keyring",
         "name": "Daon 60",
         "description": "A luxurious strap keyring harmoniously blending matte gold metal decoration and stitched natural leather.",
-        "image": "/images/Ai_Daon_37.png"
+        "image": "/images/Ai_Daon_37.webp"
       },
       {
         "id": 50,
@@ -500,7 +500,7 @@
         "label": "Compact Wallet / Slim Card Holder",
         "name": "Daon 61",
         "description": "A folding type business card and card wallet highlighting a classic camel brown color and soft leather texture.",
-        "image": "/images/Ai_Daon_38.png"
+        "image": "/images/Ai_Daon_38.webp"
       },
       {
         "id": 51,
@@ -508,7 +508,7 @@
         "label": "Leather Smartphone Case",
         "name": "Daon 62",
         "description": "A case presenting a casual mood by adding cute puppy embroidery to a refreshing gingham check pattern background.",
-        "image": "/images/Ai_Daon_39.png"
+        "image": "/images/Ai_Daon_39.webp"
       },
       {
         "id": 52,
@@ -516,7 +516,7 @@
         "label": "Leather Smartphone Case",
         "name": "Daon 63",
         "description": "A product emphasizing uniqueness by utilizing animal texture and solid leather, and enhancing grip with a rear ring.",
-        "image": "/images/Ai_Daon_40.png"
+        "image": "/images/Ai_Daon_40.webp"
       },
       {
         "id": 53,
@@ -524,7 +524,7 @@
         "label": "Leather Briefcase / Laptop Bag",
         "name": "Daon 64",
         "description": "A document and tablet sleeve made of calm blue-gray tone leather that gives a simple yet professional feeling.",
-        "image": "/images/Ai_Daon_41.png"
+        "image": "/images/Ai_Daon_41.webp"
       },
       {
         "id": 54,
@@ -532,7 +532,7 @@
         "label": "Industrial / Special Equipment Leather Case",
         "name": "Daon 65",
         "description": "A customized dark green leather case that can perfectly protect and mount special digital equipment such as high-end audio devices.",
-        "image": "/images/Ai_Daon_42.png"
+        "image": "/images/Ai_Daon_42.webp"
       },
       {
         "id": 55,
@@ -540,7 +540,7 @@
         "label": "Mini Chain Bag / Satchel Bag / Crossbag",
         "name": "Daon 66",
         "description": "A brown leather bag that implements a classic satchel bag design in a mini size, making it great for daily use.",
-        "image": "/images/Ai_Daon_43.png"
+        "image": "/images/Ai_Daon_43.webp"
       },
       {
         "id": 56,
@@ -548,7 +548,7 @@
         "label": "Leather Smartphone Case",
         "name": "Daon 67",
         "description": "A case that maximizes the usability of foldable smartphones by combining a sophisticated metallic silver texture and a finger ring strap.",
-        "image": "/images/Ai_Daon_44.png"
+        "image": "/images/Ai_Daon_44.webp"
       },
       {
         "id": 57,
@@ -556,7 +556,7 @@
         "label": "MagSafe Card Wallet",
         "name": "Daon 68",
         "description": "A minimal design MagSafe attachable card holder made of soft natural leather material and available in three basic colors.",
-        "image": "/images/Ai_Daon_45.png"
+        "image": "/images/Ai_Daon_45.webp"
       },
       {
         "id": 58,
@@ -564,7 +564,7 @@
         "label": "Industrial / Special Equipment Leather Case",
         "name": "Daon 69",
         "description": "A black screen leather cover intricately perforated and designed considering the display and button operation parts of special equipment.",
-        "image": "/images/Ai_Daon_46.png"
+        "image": "/images/Ai_Daon_46.webp"
       },
       {
         "id": 59,
@@ -572,7 +572,7 @@
         "label": "Multi-purpose Mini Pouch",
         "name": "Daon 70",
         "description": "A small multi-purpose pouch highlighting a vivid blue color and embossed leather, enhancing portability with a top D-ring.",
-        "image": "/images/Ai_Daon_47.png"
+        "image": "/images/Ai_Daon_47.webp"
       },
       {
         "id": 60,
@@ -580,7 +580,7 @@
         "label": "Leather Smartphone Case",
         "name": "Daon 71",
         "description": "A premium leather shell case in a basic camel brown color that perfectly fits the top and bottom of a foldable smartphone.",
-        "image": "/images/Ai_Daon_48.png"
+        "image": "/images/Ai_Daon_48.webp"
       },
       {
         "id": 61,
@@ -588,7 +588,7 @@
         "label": "Car Smart Key Holder / Case",
         "name": "Daon 72",
         "description": "A smart key cover with a sporty charm featuring an integrated design that delicately covers even the button part of the car key.",
-        "image": "/images/Ai_Daon_49.png"
+        "image": "/images/Ai_Daon_49.webp"
       },
       {
         "id": 62,
@@ -596,7 +596,7 @@
         "label": "Office Stationery",
         "name": "Daon 73",
         "description": "A customized logo-engraved leather folder suitable for use as a VIP welcome kit or event souvenir for companies and universities.",
-        "image": "/images/Ai_Daon_50.png"
+        "image": "/images/Ai_Daon_50.webp"
       },
       {
         "id": 63,
@@ -604,7 +604,7 @@
         "label": "Industrial / Special Equipment Leather Case",
         "name": "Daon 74",
         "description": "A premium case combined with a metal grill design that safely protects high-end audio devices and helps with heat dissipation.",
-        "image": "/images/Ai_Daon_51.png"
+        "image": "/images/Ai_Daon_51.webp"
       },
       {
         "id": 64,
@@ -612,7 +612,7 @@
         "label": "Multi-purpose Mini Pouch",
         "name": "Daon 75",
         "description": "A practical tote-type pouch for outdoors and daily life, equipped with a sturdy canvas-textured material, a mini handle, and a carabiner.",
-        "image": "/images/Ai_Daon_52.png"
+        "image": "/images/Ai_Daon_52.webp"
       },
       {
         "id": 65,
@@ -620,7 +620,7 @@
         "label": "Compact Wallet / Slim Card Holder",
         "name": "Daon 76",
         "description": "A classic leather business card wallet highly preferred for VIP promotions or employee welcome kits with a company logo engraving applied.",
-        "image": "/images/Ai_Daon_53.png"
+        "image": "/images/Ai_Daon_53.webp"
       },
       {
         "id": 66,
@@ -628,7 +628,7 @@
         "label": "Mini Chain Bag / Satchel Bag / Crossbag",
         "name": "Daon 77",
         "description": "A mini crossbag that completes a sophisticated look by harmonizing an elegant camel color crocodile pattern leather and a thin strap.",
-        "image": "/images/Ai_Daon_54.png"
+        "image": "/images/Ai_Daon_54.webp"
       },
       {
         "id": 67,
@@ -636,7 +636,7 @@
         "label": "Leather Strap & Loop Keyring",
         "name": "Daon 78",
         "description": "A leather strap that can be used as a multi-purpose accessory, made of soft ivory leather and an elaborate metal buckle.",
-        "image": "/images/Ai_Daon_55.png"
+        "image": "/images/Ai_Daon_55.webp"
       },
       {
         "id": 68,
@@ -644,7 +644,7 @@
         "label": "Leather Luggage Tag / Name Tag",
         "name": "Daon 79",
         "description": "A modern beige color travel leather name tag highlighting brand logo engraving and neat stitch finishing.",
-        "image": "/images/Ai_Daon_56.png"
+        "image": "/images/Ai_Daon_56.webp"
       },
       {
         "id": 69,
@@ -652,7 +652,7 @@
         "label": "AirPods / Buds Leather Case",
         "name": "Daon 80",
         "description": "An earphone case that can clearly express the brand's personality with a unique and trendy animal embroidery patch added.",
-        "image": "/images/Ai_Daon_57.png"
+        "image": "/images/Ai_Daon_57.webp"
       },
       {
         "id": 70,
@@ -660,7 +660,7 @@
         "label": "Multi-purpose Mini Pouch",
         "name": "Daon 81",
         "description": "A beige small pouch with excellent shape retention, attached with a carabiner that can be easily fastened to a belt or bag.",
-        "image": "/images/Ai_Daon_58.png"
+        "image": "/images/Ai_Daon_58.webp"
       },
       {
         "id": 71,
@@ -668,7 +668,7 @@
         "label": "Multi-purpose Mini Pouch",
         "name": "Daon 82",
         "description": "A hard shell case creating a futuristic atmosphere by combining a geometric metal cutout pattern and black leather.",
-        "image": "/images/Ai_Daon_59.png"
+        "image": "/images/Ai_Daon_59.webp"
       },
       {
         "id": 72,
@@ -676,7 +676,7 @@
         "label": "Multi-purpose Mini Pouch",
         "name": "Daon 83",
         "description": "A vivid blue color hard pouch with a customized internal cushion foam applied so that valuables such as watches and jewelry can be safely stored.",
-        "image": "/images/Ai_Daon_60.png"
+        "image": "/images/Ai_Daon_60.webp"
       },
       {
         "id": 73,
@@ -684,7 +684,7 @@
         "label": "Mini Chain Bag / Satchel Bag",
         "name": "Daon 84",
         "description": "A compact-sized mini bag highlighting a trendy metallic silver color and a minimalist square shape.",
-        "image": "/images/Ai_Daon_61.png"
+        "image": "/images/Ai_Daon_61.webp"
       },
       {
         "id": 74,
@@ -692,7 +692,7 @@
         "label": "Multi-purpose Mini Pouch / Clutch",
         "name": "Daon 85",
         "description": "A clutch-type pouch maximizing practicality by adding a gold metal hook and a detachable hand strap to luxurious black leather.",
-        "image": "/images/Ai_Daon_62.png"
+        "image": "/images/Ai_Daon_62.webp"
       },
       {
         "id": 75,
@@ -700,7 +700,7 @@
         "label": "Car Smart Key Holder / Case",
         "name": "Daon 86",
         "description": "A premium smart key cover that enhances a sense of unity by delicately embossing the button shape of the car key and finishing it with sturdy stitches.",
-        "image": "/images/Ai_Daon_63.png"
+        "image": "/images/Ai_Daon_63.webp"
       }
     ],
     "subtitle": "Explore our masterfully crafted original leather product lineups."
@@ -780,7 +780,7 @@
           "In-depth Tech Pack Analysis",
           "Optimal Material Nesting for Maximum Yield"
         ],
-        "image": "/cad_step.jpg"
+        "image": "/cad_step.webp"
       },
       {
         "title": "Laser Processing (Cutting)",
@@ -789,7 +789,7 @@
           "Heat-Minimize Processing Technology",
           "High-Speed Cutting System for Mass Production"
         ],
-        "image": "/laser_step.jpg"
+        "image": "/laser_step.webp"
       },
       {
         "title": "High-Speed Precision Press",
@@ -798,7 +798,7 @@
           "Precision Mold Management",
           "Optimized Lead-Time for Global Bulk Orders"
         ],
-        "image": "/press_step.jpg"
+        "image": "/press_step.webp"
       },
       {
         "title": "Special Stitching & Assembly",
@@ -807,7 +807,7 @@
           "Tarp-type Sewing for 3D Structures",
           "Uniform Stitch Quality Meeting Luxury Standards"
         ],
-        "image": "/sewing_step.jpg"
+        "image": "/sewing_step.webp"
       }
     ]
   },

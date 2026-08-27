@@ -81,7 +81,7 @@ export default async function RootLayout({
     name: "주식회사 더프라임다온",
     alternateName: ["THE PRIME DAON"],
     url: "https://www.primedaon.com/",
-    logo: "https://www.primedaon.com/logo.png",
+    logo: "https://www.primedaon.com/images/CI.png",
     description: "가죽 제품 OEM/ODM 전문 제조. 보호 케이스, 지갑, 파우치, 카드홀더를 기획부터 생산까지 제작합니다.",
     email: "daon0929@naver.com",
     telephone: "+82-70-4169-9233",

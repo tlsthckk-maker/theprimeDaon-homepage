@@ -108,7 +108,7 @@
         "label": "스마트폰 가죽 케이스",
         "name": "다온1",
         "description": "[임시 특징 설명] 프리미엄 가죽 소재와 실용적인 카드 수납 기능이 돋보이는 모델입니다.",
-        "image": "/images/Ai_Daon_12.png"
+        "image": "/images/Ai_Daon_12.webp"
       },
       {
         "id": 2,
@@ -116,7 +116,7 @@
         "label": "스마트폰 가죽 케이스",
         "name": "다온2",
         "description": "[임시 특징 설명] 섬세한 텍스처와 메탈 링 디테일로 사용자의 편의성을 극대화한 제품입니다.",
-        "image": "/images/Ai_Daon_19.png"
+        "image": "/images/Ai_Daon_19.webp"
       },
       {
         "id": 3,
@@ -124,7 +124,7 @@
         "label": "스마트폰 가죽 케이스",
         "name": "다온3",
         "description": "[임시 특징 설명] 폴더블 스마트폰의 힌지를 완벽하게 보호하는 맞춤형 천연 가죽 케이스입니다.",
-        "image": "/images/Ai_Daon_48.png"
+        "image": "/images/Ai_Daon_48.webp"
       },
       {
         "id": 4,
@@ -132,7 +132,7 @@
         "label": "스마트폰 가죽 케이스",
         "name": "다온4",
         "description": "[임시 특징 설명] 독특한 메탈 타공 디자인과 가죽의 조화로 내구성을 높인 특수 케이스입니다.",
-        "image": "/images/Ai_Daon_51.png"
+        "image": "/images/Ai_Daon_51.webp"
       },
       {
         "id": 5,
@@ -140,7 +140,7 @@
         "label": "카드홀더 & 지갑",
         "name": "다온5",
         "description": "[임시 특징 설명] 프리미엄 오플 가죽의 부드러운 질감과 유니크한 컬러 배색이 돋보이는 슬림 카드홀더입니다.",
-        "image": "/images/Ai_Daon_5.png"
+        "image": "/images/Ai_Daon_5.webp"
       },
       {
         "id": 6,
@@ -148,7 +148,7 @@
         "label": "맥세이프 카드홀더",
         "name": "다온6",
         "description": "[임시 특징 설명] 강력한 자력으로 스마트폰에 안정적으로 부착되며, 스티치 디테일로 마감한 맥세이프 지갑입니다.",
-        "image": "/images/Ai_Daon_8.png"
+        "image": "/images/Ai_Daon_8.webp"
       },
       {
         "id": 7,
@@ -156,7 +156,7 @@
         "label": "카드홀더 & 지갑",
         "name": "다온7",
         "description": "[임시 특징 설명] 세 가지 모던한 컬러 라인업으로 제공되며, 심플하고 클래식한 디자인의 카드지갑입니다.",
-        "image": "/images/Ai_Daon_11.png"
+        "image": "/images/Ai_Daon_11.webp"
       },
       {
         "id": 8,
@@ -164,7 +164,7 @@
         "label": "맥세이프 카드홀더",
         "name": "다온8",
         "description": "[임시 특징 설명] 독특한 빗살무늬 텍스처와 미니멀한 로고 디테일이 가미된 부착형 카드홀더입니다.",
-        "image": "/images/Ai_Daon_13.png"
+        "image": "/images/Ai_Daon_13.webp"
       },
       {
         "id": 9,
@@ -172,7 +172,7 @@
         "label": "맥세이프 카드홀더",
         "name": "다온9",
         "description": "[임시 특징 설명] 정교한 엠보싱 로고와 견고한 가죽 소재로 제작되어 내구성이 뛰어난 모델입니다.",
-        "image": "/images/Ai_Daon_23.png"
+        "image": "/images/Ai_Daon_23.webp"
       },
       {
         "id": 10,
@@ -180,7 +180,7 @@
         "label": "맥세이프 카드홀더",
         "name": "다온10",
         "description": "[임시 특징 설명] 스탠드 기능을 더해 실용성을 높였으며 밝은 톤의 가죽이 돋보이는 다기능 카드지갑입니다.",
-        "image": "/images/Ai_Daon_32.png"
+        "image": "/images/Ai_Daon_32.webp"
       },
       {
         "id": 11,
@@ -188,7 +188,7 @@
         "label": "맥세이프 카드홀더",
         "name": "다온11",
         "description": "[임시 특징 설명] 오렌지색 포인트 스티치와 블랙 가죽의 조화가 세련된 분위기를 연출합니다.",
-        "image": "/images/Ai_Daon_34.png"
+        "image": "/images/Ai_Daon_34.webp"
       },
       {
         "id": 12,
@@ -196,7 +196,7 @@
         "label": "카드홀더 & 지갑",
         "name": "다온12",
         "description": "[임시 특징 설명] 다양한 취향을 만족시키는 컬러 베리에이션과 슬림한 핏을 자랑하는 베스트셀러입니다.",
-        "image": "/images/Ai_Daon_45.png"
+        "image": "/images/Ai_Daon_45.webp"
       },
       {
         "id": 13,
@@ -204,7 +204,7 @@
         "label": "컴팩트 지갑 / 슬림 카드홀더",
         "name": "다온24",
         "description": "부드러운 그레이 가죽과 미니멀한 폴딩 디자인이 특징인 컴팩트 지갑입니다.",
-        "image": "/images/Ai_Daon_1.png"
+        "image": "/images/Ai_Daon_1.webp"
       },
       {
         "id": 14,
@@ -212,7 +212,7 @@
         "label": "자동차 스마트키 홀더/케이스",
         "name": "다온25",
         "description": "차량 키의 굴곡을 완벽하게 재현하여 입체적인 그립감을 제공하는 가죽 키케이스입니다.",
-        "image": "/images/Ai_Daon_2.png"
+        "image": "/images/Ai_Daon_2.webp"
       },
       {
         "id": 15,
@@ -220,7 +220,7 @@
         "label": "자동차 스마트키 홀더/케이스",
         "name": "다온26",
         "description": "화이트 레더와 감각적인 컷아웃 디자인이 적용된 프리미엄 키 커버입니다.",
-        "image": "/images/Ai_Daon_3.png"
+        "image": "/images/Ai_Daon_3.webp"
       },
       {
         "id": 16,
@@ -228,7 +228,7 @@
         "label": "가죽 다이어리 커버 / 바인더",
         "name": "다온27",
         "description": "모던한 블랙 레더로 비즈니스 환경에 최적화된 다이어리 커버입니다.",
-        "image": "/images/Ai_Daon_4.png"
+        "image": "/images/Ai_Daon_4.webp"
       },
       {
         "id": 17,
@@ -236,7 +236,7 @@
         "label": "컴팩트 지갑 / 슬림 카드홀더",
         "name": "다온28",
         "description": "그레이 바탕에 오렌지 컬러 포인트를 주어 세련됨을 더한 카드홀더입니다.",
-        "image": "/images/Ai_Daon_5.png"
+        "image": "/images/Ai_Daon_5.webp"
       },
       {
         "id": 18,
@@ -244,7 +244,7 @@
         "label": "다목적 소형 미니 파우치",
         "name": "다온29",
         "description": "견고한 질감과 실용적인 핸들 스트랩을 갖춘 올리브 그린 다목적 파우치입니다.",
-        "image": "/images/Ai_Daon_6.png"
+        "image": "/images/Ai_Daon_6.webp"
       },
       {
         "id": 19,
@@ -252,7 +252,7 @@
         "label": "가죽 스트랩 & 루프 키링",
         "name": "다온30",
         "description": "매트한 블랙 카라비너에 정교한 가죽 스트랩을 결합한 하이엔드 키링입니다.",
-        "image": "/images/Ai_Daon_7.png"
+        "image": "/images/Ai_Daon_7.webp"
       },
       {
         "id": 20,
@@ -260,7 +260,7 @@
         "label": "맥세이프 카드 지갑",
         "name": "다온31",
         "description": "오렌지 스티치 포인트로 블랙 가죽의 밋밋함을 없앤 부착형 카드 지갑입니다.",
-        "image": "/images/Ai_Daon_8.png"
+        "image": "/images/Ai_Daon_8.webp"
       },
       {
         "id": 21,
@@ -268,7 +268,7 @@
         "label": "미니 체인 백",
         "name": "다온32",
         "description": "다크 메탈 볼 체인과 화이트 가죽이 어우러져 트렌디한 감각을 선사하는 미니 백입니다.",
-        "image": "/images/Ai_Daon_9.png"
+        "image": "/images/Ai_Daon_9.webp"
       },
       {
         "id": 22,
@@ -276,7 +276,7 @@
         "label": "컴팩트 지갑 / 슬림 카드홀더",
         "name": "다온33",
         "description": "기하학적인 절개 라인과 스티치 디테일이 돋보이는 딥 그린 카드홀더입니다.",
-        "image": "/images/Ai_Daon_10.png"
+        "image": "/images/Ai_Daon_10.webp"
       },
       {
         "id": 23,
@@ -284,7 +284,7 @@
         "label": "컴팩트 지갑 / 슬림 카드홀더",
         "name": "다온34",
         "description": "베이직한 디자인에 세 가지 모던한 컬러 옵션을 제공하는 슬림형 가죽 카드홀더입니다.",
-        "image": "/images/Ai_Daon_11.png"
+        "image": "/images/Ai_Daon_11.webp"
       },
       {
         "id": 24,
@@ -292,7 +292,7 @@
         "label": "스마트폰 가죽 케이스",
         "name": "다온35",
         "description": "실버 메탈릭 가죽과 스냅 버튼 포켓으로 유니크함과 실용성을 동시에 더한 케이스입니다.",
-        "image": "/images/Ai_Daon_12.png"
+        "image": "/images/Ai_Daon_12.webp"
       },
       {
         "id": 25,
@@ -300,7 +300,7 @@
         "label": "맥세이프 카드 지갑",
         "name": "다온36",
         "description": "블랙 사피아노 패턴 가죽에 Y자 메탈 디테일을 적용하여 세련미를 강조한 맥세이프 지갑입니다.",
-        "image": "/images/Ai_Daon_13.png"
+        "image": "/images/Ai_Daon_13.webp"
       },
       {
         "id": 26,
@@ -308,7 +308,7 @@
         "label": "에어팟 / 버즈 가죽 케이스",
         "name": "다온37",
         "description": "무선 이어폰을 안전하게 보호하며 시간이 지날수록 클래식한 멋이 더해지는 브라운 가죽 케이스입니다.",
-        "image": "/images/Ai_Daon_14.png"
+        "image": "/images/Ai_Daon_14.webp"
       },
       {
         "id": 27,
@@ -316,7 +316,7 @@
         "label": "컴팩트 지갑 / 슬림 카드홀더",
         "name": "다온38",
         "description": "독특한 링클 질감의 다크 브라운 가죽으로 제작되어 빈티지한 무드를 풍기는 카드지갑입니다.",
-        "image": "/images/Ai_Daon_15.png"
+        "image": "/images/Ai_Daon_15.webp"
       },
       {
         "id": 28,
@@ -324,7 +324,7 @@
         "label": "스마트폰 가죽 케이스",
         "name": "다온39",
         "description": "정교한 동물 자수 디테일이 포인트로 들어가 키치하면서도 하이엔드 감성을 놓치지 않은 케이스입니다.",
-        "image": "/images/Ai_Daon_16.png"
+        "image": "/images/Ai_Daon_16.webp"
       },
       {
         "id": 29,
@@ -332,7 +332,7 @@
         "label": "가죽 브리프케이스 / 노트북 백",
         "name": "다온40",
         "description": "미니멀한 디자인과 부드러운 그레이 가죽이 돋보이는 비즈니스용 노트북 및 태블릿 슬리브입니다.",
-        "image": "/images/Ai_Daon_17.png"
+        "image": "/images/Ai_Daon_17.webp"
       },
       {
         "id": 30,
@@ -340,7 +340,7 @@
         "label": "가죽 다이어리 커버 / 바인더",
         "name": "다온41",
         "description": "밝은 별 모양의 가죽 패치와 메탈 스터드 장식으로 펑키한 매력을 살린 다이어리 커버입니다.",
-        "image": "/images/Ai_Daon_18.png"
+        "image": "/images/Ai_Daon_18.webp"
       },
       {
         "id": 31,
@@ -348,7 +348,7 @@
         "label": "스마트폰 가죽 케이스",
         "name": "다온42",
         "description": "핑크빛 텍스처 가죽에 그립감을 높여주는 실용적인 메탈 링 스트랩이 부착된 우아한 케이스입니다.",
-        "image": "/images/Ai_Daon_19.png"
+        "image": "/images/Ai_Daon_19.webp"
       },
       {
         "id": 32,
@@ -356,7 +356,7 @@
         "label": "컴팩트 지갑 / 슬림 카드홀더",
         "name": "다온43",
         "description": "매혹적인 버건디 컬러와 내부의 효율적인 카드 수납공간을 자랑하는 폴딩 타입 지갑입니다.",
-        "image": "/images/Ai_Daon_20.png"
+        "image": "/images/Ai_Daon_20.webp"
       },
       {
         "id": 33,
@@ -364,7 +364,7 @@
         "label": "컴팩트 지갑 / 슬림 카드홀더",
         "name": "다온44",
         "description": "핑크 컬러의 크로커다일 패턴 가죽과 하트 모티브 메탈 장식이 사랑스러운 미니 지갑입니다.",
-        "image": "/images/Ai_Daon_21.png"
+        "image": "/images/Ai_Daon_21.webp"
       },
       {
         "id": 34,
@@ -372,7 +372,7 @@
         "label": "미니 체인 백",
         "name": "다온45",
         "description": "메탈릭 실버 컬러의 가죽과 세련된 체인 스트랩이 결합되어 화려하고 트렌디한 룩을 완성합니다.",
-        "image": "/images/Ai_Daon_22.png"
+        "image": "/images/Ai_Daon_22.webp"
       },
       {
         "id": 35,
@@ -380,7 +380,7 @@
         "label": "맥세이프 카드 지갑",
         "name": "다온46",
         "description": "클래식한 블랙 가죽에 나무 질감의 로고 디테일을 더해 자연스러운 멋을 살린 맥세이프 지갑입니다.",
-        "image": "/images/Ai_Daon_23.png"
+        "image": "/images/Ai_Daon_23.webp"
       },
       {
         "id": 36,
@@ -388,7 +388,7 @@
         "label": "가죽 다이어리 커버 / 바인더",
         "name": "다온47",
         "description": "시크한 블랙 가죽 바탕에 실버 별 모양 스터드와 아일렛을 장식하여 유니크한 감성을 자아냅니다.",
-        "image": "/images/Ai_Daon_24.png"
+        "image": "/images/Ai_Daon_24.webp"
       },
       {
         "id": 37,
@@ -396,7 +396,7 @@
         "label": "가죽 러기지택 / 네임택",
         "name": "다온48",
         "description": "고급스러운 버건디 가죽에 투명 보호창을 더해 실용성을 높인 하이엔드 여행용 러기지택입니다.",
-        "image": "/images/Ai_Daon_25.png"
+        "image": "/images/Ai_Daon_25.webp"
       },
       {
         "id": 38,
@@ -404,7 +404,7 @@
         "label": "다목적 소형 미니 파우치",
         "name": "다온49",
         "description": "견고한 금속 카라비너가 부착되어 휴대가 간편하며 형태 보존력이 뛰어난 베이지 가죽 케이스입니다.",
-        "image": "/images/Ai_Daon_26.png"
+        "image": "/images/Ai_Daon_26.webp"
       },
       {
         "id": 39,
@@ -412,7 +412,7 @@
         "label": "다목적 소형 미니 파우치",
         "name": "다온50",
         "description": "소형 스마트 기기나 골프 거리측정기 등을 외부 충격으로부터 안전하게 보호하는 프리미엄 파우치입니다.",
-        "image": "/images/Ai_Daon_27.png"
+        "image": "/images/Ai_Daon_27.webp"
       },
       {
         "id": 40,
@@ -420,7 +420,7 @@
         "label": "컴팩트 지갑 / 슬림 카드홀더",
         "name": "다온51",
         "description": "글로시한 레드 질감과 매트한 카멜 컬러의 대조가 돋보이는 슬림형 베이직 카드홀더입니다.",
-        "image": "/images/Ai_Daon_28.png"
+        "image": "/images/Ai_Daon_28.webp"
       },
       {
         "id": 41,
@@ -428,7 +428,7 @@
         "label": "가죽 브리프케이스 / 노트북 백",
         "name": "다온52",
         "description": "프로페셔널한 비즈니스 환경에 어울리는 클래식한 블랙 가죽 소재의 서류 가방 겸 브리프케이스입니다.",
-        "image": "/images/Ai_Daon_29.png"
+        "image": "/images/Ai_Daon_29.webp"
       },
       {
         "id": 42,
@@ -436,7 +436,7 @@
         "label": "여행용 여권 지갑 / 여권 케이스",
         "name": "다온53",
         "description": "심플한 블랙 가죽에 골드 레터링 포인트를 주어 모던하고 세련된 분위기를 연출하는 커버입니다.",
-        "image": "/images/Ai_Daon_30.png"
+        "image": "/images/Ai_Daon_30.webp"
       },
       {
         "id": 43,
@@ -444,7 +444,7 @@
         "label": "컴팩트 지갑 / 슬림 카드홀더",
         "name": "다온54",
         "description": "블루와 블랙 컬러의 견고한 가죽 바탕에 정교한 스티치 마감이 돋보이는 슬림 카드홀더입니다.",
-        "image": "/images/Ai_Daon_31.png"
+        "image": "/images/Ai_Daon_31.webp"
       },
       {
         "id": 44,
@@ -452,7 +452,7 @@
         "label": "맥세이프 카드 지갑",
         "name": "다온55",
         "description": "화이트 톤의 깔끔한 가죽에 실용적인 핑거 스트랩 스탠드 기능을 더한 맥세이프 지갑입니다.",
-        "image": "/images/Ai_Daon_32.png"
+        "image": "/images/Ai_Daon_32.webp"
       },
       {
         "id": 45,
@@ -460,7 +460,7 @@
         "label": "가죽 다이어리 커버 / 바인더",
         "name": "다온56",
         "description": "우아한 버건디 컬러와 고급스러운 빗살무늬 텍스처가 적용된 프리미엄 다이어리 커버입니다.",
-        "image": "/images/Ai_Daon_33.png"
+        "image": "/images/Ai_Daon_33.webp"
       },
       {
         "id": 46,
@@ -468,7 +468,7 @@
         "label": "맥세이프 카드 지갑",
         "name": "다온57",
         "description": "블랙 가죽 가장자리에 오렌지 컬러 스티치로 스포티한 매력을 살린 부착형 카드홀더입니다.",
-        "image": "/images/Ai_Daon_34.png"
+        "image": "/images/Ai_Daon_34.webp"
       },
       {
         "id": 47,
@@ -476,7 +476,7 @@
         "label": "다목적 소형 미니 파우치",
         "name": "다온58",
         "description": "카라비너와 미니 핸들이 부착되어 아웃도어 환경이나 일상에서 다목적으로 활용하기 좋은 파우치입니다.",
-        "image": "/images/Ai_Daon_35.png"
+        "image": "/images/Ai_Daon_35.webp"
       },
       {
         "id": 48,
@@ -484,7 +484,7 @@
         "label": "자동차 스마트키 홀더/케이스",
         "name": "다온59",
         "description": "다섯 가지 다채로운 컬러 라인업과 골드 스냅 버튼 장식이 매력적인 폴딩 타입 키케이스입니다.",
-        "image": "/images/Ai_Daon_36.png"
+        "image": "/images/Ai_Daon_36.webp"
       },
       {
         "id": 49,
@@ -492,7 +492,7 @@
         "label": "가죽 스트랩 & 루프 키링",
         "name": "다온60",
         "description": "무광 골드 메탈 장식과 스티치 마감 처리된 천연 가죽이 조화롭게 어우러진 고급 스트랩 키링입니다.",
-        "image": "/images/Ai_Daon_37.png"
+        "image": "/images/Ai_Daon_37.webp"
       },
       {
         "id": 50,
@@ -500,7 +500,7 @@
         "label": "컴팩트 지갑 / 슬림 카드홀더",
         "name": "다온61",
         "description": "클래식한 카멜 브라운 컬러와 부드러운 가죽 질감이 돋보이는 폴딩형 명함 겸 카드 지갑입니다.",
-        "image": "/images/Ai_Daon_38.png"
+        "image": "/images/Ai_Daon_38.webp"
       },
       {
         "id": 51,
@@ -508,7 +508,7 @@
         "label": "스마트폰 가죽 케이스",
         "name": "다온62",
         "description": "산뜻한 깅엄 체크 패턴 바탕에 귀여운 강아지 자수가 더해져 캐주얼한 무드를 선사하는 케이스입니다.",
-        "image": "/images/Ai_Daon_39.png"
+        "image": "/images/Ai_Daon_39.webp"
       },
       {
         "id": 52,
@@ -516,7 +516,7 @@
         "label": "스마트폰 가죽 케이스",
         "name": "다온63",
         "description": "애니멀 텍스처와 솔리드 가죽을 활용해 유니크함을 강조하고 후면 링으로 그립감을 높인 제품입니다.",
-        "image": "/images/Ai_Daon_40.png"
+        "image": "/images/Ai_Daon_40.webp"
       },
       {
         "id": 53,
@@ -524,7 +524,7 @@
         "label": "가죽 브리프케이스 / 노트북 백",
         "name": "다온64",
         "description": "차분한 블루 그레이 톤의 가죽으로 제작되어 심플하면서도 프로페셔널한 느낌을 주는 서류 및 태블릿 슬리브입니다.",
-        "image": "/images/Ai_Daon_41.png"
+        "image": "/images/Ai_Daon_41.webp"
       },
       {
         "id": 54,
@@ -532,7 +532,7 @@
         "label": "산업용/특수 장비 가죽 케이스",
         "name": "다온65",
         "description": "하이엔드 오디오 기기 등 특수 디지털 장비를 완벽하게 보호하고 거치할 수 있는 다크 그린 색상의 맞춤형 가죽 케이스입니다.",
-        "image": "/images/Ai_Daon_42.png"
+        "image": "/images/Ai_Daon_42.webp"
       },
       {
         "id": 55,
@@ -540,7 +540,7 @@
         "label": "미니 체인 백 / 사첼백 / 크로스백",
         "name": "다온66",
         "description": "클래식한 사첼백 디자인을 미니 사이즈로 구현하여 데일리하게 활용하기 좋은 브라운 가죽 백입니다.",
-        "image": "/images/Ai_Daon_43.png"
+        "image": "/images/Ai_Daon_43.webp"
       },
       {
         "id": 56,
@@ -548,7 +548,7 @@
         "label": "스마트폰 가죽 케이스",
         "name": "다온67",
         "description": "세련된 메탈릭 실버 텍스처와 핑거 링 스트랩이 결합되어 폴더블 스마트폰의 사용성을 극대화한 케이스입니다.",
-        "image": "/images/Ai_Daon_44.png"
+        "image": "/images/Ai_Daon_44.webp"
       },
       {
         "id": 57,
@@ -556,7 +556,7 @@
         "label": "맥세이프 카드 지갑",
         "name": "다온68",
         "description": "부드러운 천연 가죽 소재와 세 가지 베이직 컬러로 구성된 미니멀 디자인의 맥세이프 부착형 카드홀더입니다.",
-        "image": "/images/Ai_Daon_45.png"
+        "image": "/images/Ai_Daon_45.webp"
       },
       {
         "id": 58,
@@ -564,7 +564,7 @@
         "label": "산업용/특수 장비 가죽 케이스",
         "name": "다온69",
         "description": "특수 장비의 디스플레이와 버튼 조작부를 고려하여 정교하게 타공 및 설계된 블랙 스크린 가죽 커버입니다.",
-        "image": "/images/Ai_Daon_46.png"
+        "image": "/images/Ai_Daon_46.webp"
       },
       {
         "id": 59,
@@ -572,7 +572,7 @@
         "label": "다목적 소형 미니 파우치",
         "name": "다온70",
         "description": "비비드한 블루 컬러와 엠보싱 처리된 가죽이 돋보이며, 상단 D링으로 휴대성을 높인 소형 다목적 파우치입니다.",
-        "image": "/images/Ai_Daon_47.png"
+        "image": "/images/Ai_Daon_47.webp"
       },
       {
         "id": 60,
@@ -580,7 +580,7 @@
         "label": "스마트폰 가죽 케이스",
         "name": "다온71",
         "description": "폴더블 스마트폰의 상하단에 완벽하게 핏되는 베이직한 카멜 브라운 컬러의 프리미엄 가죽 쉘 케이스입니다.",
-        "image": "/images/Ai_Daon_48.png"
+        "image": "/images/Ai_Daon_48.webp"
       },
       {
         "id": 61,
@@ -588,7 +588,7 @@
         "label": "자동차 스마트키 홀더/케이스",
         "name": "다온72",
         "description": "차량 키의 버튼부까지 섬세하게 덮어주는 일체형 디자인으로 스포티한 매력을 지닌 스마트키 커버입니다.",
-        "image": "/images/Ai_Daon_49.png"
+        "image": "/images/Ai_Daon_49.webp"
       },
       {
         "id": 62,
@@ -596,7 +596,7 @@
         "label": "오피스 스테이셔너리",
         "name": "다온73",
         "description": "기업 및 대학의 VIP 웰컴 키트나 행사용 기념품으로 활용하기 좋은 맞춤형 로고 각인 가죽 폴더입니다.",
-        "image": "/images/Ai_Daon_50.png"
+        "image": "/images/Ai_Daon_50.webp"
       },
       {
         "id": 63,
@@ -604,7 +604,7 @@
         "label": "산업용/특수 장비 가죽 케이스",
         "name": "다온74",
         "description": "하이엔드 오디오 기기 등을 안전하게 보호하며 방열을 돕는 메탈 그릴 디자인이 결합된 프리미엄 케이스입니다.",
-        "image": "/images/Ai_Daon_51.png"
+        "image": "/images/Ai_Daon_51.webp"
       },
       {
         "id": 64,
@@ -612,7 +612,7 @@
         "label": "다목적 소형 미니 파우치",
         "name": "다온75",
         "description": "견고한 캔버스 질감의 소재와 미니 핸들, 카라비너를 장착하여 아웃도어 및 일상에서 실용적인 토트형 파우치입니다.",
-        "image": "/images/Ai_Daon_52.png"
+        "image": "/images/Ai_Daon_52.webp"
       },
       {
         "id": 65,
@@ -620,7 +620,7 @@
         "label": "컴팩트 지갑 / 슬림 카드홀더",
         "name": "다온76",
         "description": "기업의 로고 각인이 적용되어 VIP 판촉용이나 임직원 웰컴 키트로 선호도가 높은 클래식한 가죽 명함 지갑입니다.",
-        "image": "/images/Ai_Daon_53.png"
+        "image": "/images/Ai_Daon_53.webp"
       },
       {
         "id": 66,
@@ -628,7 +628,7 @@
         "label": "미니 체인 백 / 사첼백 / 크로스백",
         "name": "다온77",
         "description": "우아한 카멜 컬러의 크로커다일 패턴 가죽과 얇은 스트랩이 어우러져 세련된 룩을 완성하는 미니 크로스백입니다.",
-        "image": "/images/Ai_Daon_54.png"
+        "image": "/images/Ai_Daon_54.webp"
       },
       {
         "id": 67,
@@ -636,7 +636,7 @@
         "label": "가죽 스트랩 & 루프 키링",
         "name": "다온78",
         "description": "부드러운 아이보 가죽과 정교한 메탈 버클로 제작되어 다목적 액세서리로 활용 가능한 가죽 스트랩입니다.",
-        "image": "/images/Ai_Daon_55.png"
+        "image": "/images/Ai_Daon_55.webp"
       },
       {
         "id": 68,
@@ -644,7 +644,7 @@
         "label": "가죽 러기지택 / 네임택",
         "name": "다온79",
         "description": "브랜드 로고 각인과 깔끔한 스티치 마감이 돋보이는 모던한 베이지 컬러의 여행용 가죽 네임택입니다.",
-        "image": "/images/Ai_Daon_56.png"
+        "image": "/images/Ai_Daon_56.webp"
       },
       {
         "id": 69,
@@ -652,7 +652,7 @@
         "label": "에어팟 / 버즈 가죽 케이스",
         "name": "다온80",
         "description": "유니크하고 트렌디한 동물 자수 패치가 더해져 브랜드의 개성을 확실하게 표현할 수 있는 이어폰 케이스입니다.",
-        "image": "/images/Ai_Daon_57.png"
+        "image": "/images/Ai_Daon_57.webp"
       },
       {
         "id": 70,
@@ -660,7 +660,7 @@
         "label": "다목적 소형 미니 파우치",
         "name": "다온81",
         "description": "벨트나 가방에 쉽게 체결할 수 있는 카라비너가 부착되어 형태 유지력이 뛰어난 베이지 소형 파우치입니다.",
-        "image": "/images/Ai_Daon_58.png"
+        "image": "/images/Ai_Daon_58.webp"
       },
       {
         "id": 71,
@@ -668,7 +668,7 @@
         "label": "다목적 소형 미니 파우치",
         "name": "다온82",
         "description": "기하학적인 메탈 컷아웃 패턴과 블랙 가죽이 결합되어 미래지향적인 분위기를 자아내는 하드 쉘 케이스입니다.",
-        "image": "/images/Ai_Daon_59.png"
+        "image": "/images/Ai_Daon_59.webp"
       },
       {
         "id": 72,
@@ -676,7 +676,7 @@
         "label": "다목적 소형 미니 파우치",
         "name": "다온83",
         "description": "시계나 주얼리 등 귀중품을 안전하게 보관할 수 있도록 내부 맞춤형 쿠션 폼이 적용된 선명한 블루 컬러의 하드 파우치입니다.",
-        "image": "/images/Ai_Daon_60.png"
+        "image": "/images/Ai_Daon_60.webp"
       },
       {
         "id": 73,
@@ -684,7 +684,7 @@
         "label": "미니 체인 백 / 사첼백",
         "name": "다온84",
         "description": "트렌디한 메탈릭 실버 컬러와 미니멀한 스퀘어 쉐입이 돋보이는 컴팩트한 사이즈의 미니 백입니다.",
-        "image": "/images/Ai_Daon_61.png"
+        "image": "/images/Ai_Daon_61.webp"
       },
       {
         "id": 74,
@@ -692,7 +692,7 @@
         "label": "다목적 소형 미니 파우치 / 클러치",
         "name": "다온85",
         "description": "고급스러운 블랙 가죽에 골드 메탈 후크와 탈부착 가능한 핸드 스트랩을 더해 실용성을 극대화한 클러치형 파우치입니다.",
-        "image": "/images/Ai_Daon_62.png"
+        "image": "/images/Ai_Daon_62.webp"
       },
       {
         "id": 75,
@@ -700,7 +700,7 @@
         "label": "자동차 스마트키 홀더/케이스",
         "name": "다온86",
         "description": "차량 키의 버튼 형태를 정교하게 압인하고 견고한 스티치로 마감하여 일체감을 높인 프리미엄 스마트키 커버입니다.",
-        "image": "/images/Ai_Daon_63.png"
+        "image": "/images/Ai_Daon_63.webp"
       }
     ],
     "subtitle": "더프라임다온이 제작한 독창적인 제품 라인업을 만나보세요."
@@ -780,7 +780,7 @@
           "글로벌 브랜드 테크팩(Tech Pack) 완벽 분석",
           "원단 수율 최적화를 위한 효율적 네스팅"
         ],
-        "image": "/cad_step.jpg"
+        "image": "/cad_step.webp"
       },
       {
         "title": "레이저 가공 (Cutting)",
@@ -789,7 +789,7 @@
           "열 손상 최소화 가공 기술",
           "대량 양산을 위한 고속 재단 시스템"
         ],
-        "image": "/laser_step.jpg"
+        "image": "/laser_step.webp"
       },
       {
         "title": "고속 정밀 절단 (Press)",
@@ -798,7 +798,7 @@
           "균일한 규격 유지를 위한 정밀 금형 운용",
           "글로벌 대량 발주에 최적화된 납기 경쟁력"
         ],
-        "image": "/press_step.jpg"
+        "image": "/press_step.webp"
       },
       {
         "title": "특수 미싱 및 조립",
@@ -807,7 +807,7 @@
           "입체 구조를 위한 전용 타프 미싱 운용",
           "명품 기준의 균일한 땀수와 마감 퀄리티"
         ],
-        "image": "/sewing_step.jpg"
+        "image": "/sewing_step.webp"
       }
     ]
   },

@@ -176,7 +176,7 @@ export default function HomeSections({ dict }: { dict?: any }) {
                     {/* Category 1: Tech */}
                     <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = `/${lng}/showroom`}>
                         <div className="img-placeholder w-full aspect-[4/5] bg-[#e5e5ea] rounded-[18px] overflow-hidden">
-                            <img src="/images/Ai_Daon_12.png" alt="프리미엄 소가죽으로 제작된 스마트폰 케이스를 보여주는 포트폴리오 이미지" className="portfolio-image-inner w-full h-full object-cover" />
+                            <img src="/images/Ai_Daon_12.webp" alt="프리미엄 소가죽으로 제작된 스마트폰 케이스를 보여주는 포트폴리오 이미지" className="portfolio-image-inner w-full h-full object-cover" />
                         </div>
                         <h4 className="mt-6 text-[1.1rem] font-semibold text-center tracking-[-0.015em] break-keep">{d.masterpieces?.tech_item || '스마트폰 가죽 케이스'}</h4>
                         <p className="text-center text-[#86868b] text-[0.85rem] mt-1 tracking-[-0.015em]">{d.masterpieces?.tech || '테크 에센셜'}</p>
@@ -184,7 +184,7 @@ export default function HomeSections({ dict }: { dict?: any }) {
                     {/* Category 2: Bag */}
                     <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = `/${lng}/showroom`}>
                         <div className="img-placeholder w-full aspect-[4/5] bg-[#e5e5ea] rounded-[18px] overflow-hidden">
-                            <img src="/images/Ai_Daon_6.png" alt="베지터블 소가죽으로 제작된 다목적 소형 파우치를 보여주는 포트폴리오 이미지" className="portfolio-image-inner w-full h-full object-cover" />
+                            <img src="/images/Ai_Daon_6.webp" alt="베지터블 소가죽으로 제작된 다목적 소형 파우치를 보여주는 포트폴리오 이미지" className="portfolio-image-inner w-full h-full object-cover" />
                         </div>
                         <h4 className="mt-6 text-[1.1rem] font-semibold text-center tracking-[-0.015em] break-keep">{d.masterpieces?.bag_item || '다목적 소형 파우치'}</h4>
                         <p className="text-center text-[#86868b] text-[0.85rem] mt-1 tracking-[-0.015em]">{d.masterpieces?.bag || '가방 & 파우치'}</p>
@@ -192,7 +192,7 @@ export default function HomeSections({ dict }: { dict?: any }) {
                     {/* Category 3: Leather */}
                     <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = `/${lng}/showroom`}>
                         <div className="img-placeholder w-full aspect-[4/5] bg-[#e5e5ea] rounded-[18px] overflow-hidden">
-                            <img src="/images/Ai_Daon_5.png" alt="블랙 브라이들 가죽으로 만들어진 슬림 카드홀더 포트폴리오 이미지" className="portfolio-image-inner w-full h-full object-cover" />
+                            <img src="/images/Ai_Daon_5.webp" alt="블랙 브라이들 가죽으로 만들어진 슬림 카드홀더 포트폴리오 이미지" className="portfolio-image-inner w-full h-full object-cover" />
                         </div>
                         <h4 className="mt-6 text-[1.1rem] font-semibold text-center tracking-[-0.015em] break-keep">{d.masterpieces?.leather_item || '슬림 카드홀더'}</h4>
                         <p className="text-center text-[#86868b] text-[0.85rem] mt-1 tracking-[-0.015em]">{d.masterpieces?.leather || '퍼스널 레더 굿즈'}</p>
@@ -200,7 +200,7 @@ export default function HomeSections({ dict }: { dict?: any }) {
                     {/* Category 4: Lifestyle */}
                     <div className="portfolio-item stagger-item cursor-pointer group" onClick={() => window.location.href = `/${lng}/showroom`}>
                         <div className="img-placeholder w-full aspect-[4/5] bg-[#e5e5ea] rounded-[18px] overflow-hidden">
-                            <img src="/images/Ai_Daon_2.png" alt="브라운 소가죽 소재의 자동차 스마트키 홀더 포트폴리오 이미지" className="portfolio-image-inner w-full h-full object-cover" />
+                            <img src="/images/Ai_Daon_2.webp" alt="브라운 소가죽 소재의 자동차 스마트키 홀더 포트폴리오 이미지" className="portfolio-image-inner w-full h-full object-cover" />
                         </div>
                         <h4 className="mt-6 text-[1.1rem] font-semibold text-center tracking-[-0.015em] break-keep">{d.masterpieces?.lifestyle_item || '자동차 스마트키 홀더'}</h4>
                         <p className="text-center text-[#86868b] text-[0.85rem] mt-1 tracking-[-0.015em]">{d.masterpieces?.lifestyle || '라이프스타일 소품'}</p>

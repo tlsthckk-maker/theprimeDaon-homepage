@@ -108,7 +108,7 @@
         "label": "智能手机真皮保护壳",
         "name": "Daon 1",
         "description": "[临时说明] 采用优质皮革材料和实用的卡片收纳功能，脱颖而出的款式。",
-        "image": "/images/Ai_Daon_12.png"
+        "image": "/images/Ai_Daon_12.webp"
       },
       {
         "id": 2,
@@ -116,7 +116,7 @@
         "label": "智能手机真皮保护壳",
         "name": "Daon 2",
         "description": "[临时说明] 通过细腻的纹理和金属环细节，最大化用户便利性的产品。",
-        "image": "/images/Ai_Daon_19.png"
+        "image": "/images/Ai_Daon_19.webp"
       },
       {
         "id": 3,
@@ -124,7 +124,7 @@
         "label": "智能手机真皮保护壳",
         "name": "Daon 3",
         "description": "[临时说明] 完美保护折叠智能手机铰链的定制真皮保护壳。",
-        "image": "/images/Ai_Daon_48.png"
+        "image": "/images/Ai_Daon_48.webp"
       },
       {
         "id": 4,
@@ -132,7 +132,7 @@
         "label": "智能手机真皮保护壳",
         "name": "Daon 4",
         "description": "[临时说明] 结合独特的金属冲孔设计与皮革，提高耐用性的特殊保护壳。",
-        "image": "/images/Ai_Daon_51.png"
+        "image": "/images/Ai_Daon_51.webp"
       },
       {
         "id": 5,
@@ -140,7 +140,7 @@
         "label": "卡包与钱包",
         "name": "Daon 5",
         "description": "[临时说明] 凸显优质荔枝纹皮革柔软质感与独特配色的超薄卡包。",
-        "image": "/images/Ai_Daon_5.png"
+        "image": "/images/Ai_Daon_5.webp"
       },
       {
         "id": 6,
@@ -148,7 +148,7 @@
         "label": "MagSafe卡包",
         "name": "Daon 6",
         "description": "[临时说明] 以强大磁力稳定吸附于智能手机，并以缝线细节收尾的MagSafe钱包。",
-        "image": "/images/Ai_Daon_8.png"
+        "image": "/images/Ai_Daon_8.webp"
       },
       {
         "id": 7,
@@ -156,7 +156,7 @@
         "label": "卡包与钱包",
         "name": "Daon 7",
         "description": "[临时说明] 提供三种现代配色阵容，设计简约经典的卡包。",
-        "image": "/images/Ai_Daon_11.png"
+        "image": "/images/Ai_Daon_11.webp"
       },
       {
         "id": 8,
@@ -164,7 +164,7 @@
         "label": "MagSafe卡包",
         "name": "Daon 8",
         "description": "[临时说明] 融入独特梳齿纹理和极简标志细节的附加型卡包。",
-        "image": "/images/Ai_Daon_13.png"
+        "image": "/images/Ai_Daon_13.webp"
       },
       {
         "id": 9,
@@ -172,7 +172,7 @@
         "label": "MagSafe卡包",
         "name": "Daon 9",
         "description": "[临时说明] 采用精致压花标志和坚固皮革材质制成，经久耐用的款式。",
-        "image": "/images/Ai_Daon_23.png"
+        "image": "/images/Ai_Daon_23.webp"
       },
       {
         "id": 10,
@@ -180,7 +180,7 @@
         "label": "MagSafe卡包",
         "name": "Daon 10",
         "description": "[临时说明] 增加支架功能提高实用性，亮色皮革脱颖而出的多功能卡包。",
-        "image": "/images/Ai_Daon_32.png"
+        "image": "/images/Ai_Daon_32.webp"
       },
       {
         "id": 11,
@@ -188,7 +188,7 @@
         "label": "MagSafe卡包",
         "name": "Daon 11",
         "description": "[临时说明] 橙色撞色缝线与黑色皮革的搭配营造出精致氛围。",
-        "image": "/images/Ai_Daon_34.png"
+        "image": "/images/Ai_Daon_34.webp"
       },
       {
         "id": 12,
@@ -196,7 +196,7 @@
         "label": "卡包与钱包",
         "name": "Daon 12",
         "description": "[临时说明] 以满足各种喜好的丰富色彩和修身版型为傲的畅销产品。",
-        "image": "/images/Ai_Daon_45.png"
+        "image": "/images/Ai_Daon_45.webp"
       },
       {
         "id": 13,
@@ -204,7 +204,7 @@
         "label": "紧凑型钱包 / 超薄卡包",
         "name": "Daon 24",
         "description": "以柔软灰色皮革和极简折叠设计为特征的紧凑型钱包。",
-        "image": "/images/Ai_Daon_1.png"
+        "image": "/images/Ai_Daon_1.webp"
       },
       {
         "id": 14,
@@ -212,7 +212,7 @@
         "label": "汽车智能钥匙包/套",
         "name": "Daon 25",
         "description": "完美重现车钥匙曲线，提供立体握感的真皮钥匙包。",
-        "image": "/images/Ai_Daon_2.png"
+        "image": "/images/Ai_Daon_2.webp"
       },
       {
         "id": 15,
@@ -220,7 +220,7 @@
         "label": "汽车智能钥匙包/套",
         "name": "Daon 26",
         "description": "采用白色皮革和时尚镂空设计的高级钥匙套。",
-        "image": "/images/Ai_Daon_3.png"
+        "image": "/images/Ai_Daon_3.webp"
       },
       {
         "id": 16,
@@ -228,7 +228,7 @@
         "label": "真皮日记本套 / 活页夹",
         "name": "Daon 27",
         "description": "以现代黑色皮革为商务环境优化的日记本套。",
-        "image": "/images/Ai_Daon_4.png"
+        "image": "/images/Ai_Daon_4.webp"
       },
       {
         "id": 17,
@@ -236,7 +236,7 @@
         "label": "紧凑型钱包 / 超薄卡包",
         "name": "Daon 28",
         "description": "在灰色背景上加入橙色点缀，增添精致感的卡包。",
-        "image": "/images/Ai_Daon_5.png"
+        "image": "/images/Ai_Daon_5.webp"
       },
       {
         "id": 18,
@@ -244,7 +244,7 @@
         "label": "多功能迷你收纳袋",
         "name": "Daon 29",
         "description": "具有坚固质感和实用提手的橄榄绿多功能收纳袋。",
-        "image": "/images/Ai_Daon_6.png"
+        "image": "/images/Ai_Daon_6.webp"
       },
       {
         "id": 19,
@@ -252,7 +252,7 @@
         "label": "真皮表带及环形钥匙扣",
         "name": "Daon 30",
         "description": "哑光黑色登山扣与精致皮革表带相结合的高端钥匙扣。",
-        "image": "/images/Ai_Daon_7.png"
+        "image": "/images/Ai_Daon_7.webp"
       },
       {
         "id": 20,
@@ -260,7 +260,7 @@
         "label": "MagSafe卡包",
         "name": "Daon 31",
         "description": "以橙色缝线点缀打破黑色皮革沉闷感的附加型卡包。",
-        "image": "/images/Ai_Daon_8.png"
+        "image": "/images/Ai_Daon_8.webp"
       },
       {
         "id": 21,
@@ -268,7 +268,7 @@
         "label": "迷你链条包",
         "name": "Daon 32",
         "description": "深色金属球链与白色皮革相融合，展现流行时尚感的迷你包。",
-        "image": "/images/Ai_Daon_9.png"
+        "image": "/images/Ai_Daon_9.webp"
       },
       {
         "id": 22,
@@ -276,7 +276,7 @@
         "label": "紧凑型钱包 / 超薄卡包",
         "name": "Daon 33",
         "description": "几何切割线条和缝线细节脱颖而出的深绿色卡包。",
-        "image": "/images/Ai_Daon_10.png"
+        "image": "/images/Ai_Daon_10.webp"
       },
       {
         "id": 23,
@@ -284,7 +284,7 @@
         "label": "紧凑型钱包 / 超薄卡包",
         "name": "Daon 34",
         "description": "以基础设计提供三种现代颜色选项的超薄皮革卡包。",
-        "image": "/images/Ai_Daon_11.png"
+        "image": "/images/Ai_Daon_11.webp"
       },
       {
         "id": 24,
@@ -292,7 +292,7 @@
         "label": "智能手机真皮保护壳",
         "name": "Daon 35",
         "description": "采用银色金属感皮革和按扣口袋，同时增加独特性和实用性的手机壳。",
-        "image": "/images/Ai_Daon_12.png"
+        "image": "/images/Ai_Daon_12.webp"
       },
       {
         "id": 25,
@@ -300,7 +300,7 @@
         "label": "MagSafe卡包",
         "name": "Daon 36",
         "description": "在黑色十字纹皮革上应用Y形金属细节，强调精致感的MagSafe钱包。",
-        "image": "/images/Ai_Daon_13.png"
+        "image": "/images/Ai_Daon_13.webp"
       },
       {
         "id": 26,
@@ -308,7 +308,7 @@
         "label": "AirPods / Buds 真皮耳机套",
         "name": "Daon 37",
         "description": "安全保护无线耳机，随着时间推移增添古典魅力的棕色皮革耳机套。",
-        "image": "/images/Ai_Daon_14.png"
+        "image": "/images/Ai_Daon_14.webp"
       },
       {
         "id": 27,
@@ -316,7 +316,7 @@
         "label": "紧凑型钱包 / 超薄卡包",
         "name": "Daon 38",
         "description": "采用具有独特褶皱纹理的深棕色皮革制成，散发复古气息的卡包。",
-        "image": "/images/Ai_Daon_15.png"
+        "image": "/images/Ai_Daon_15.webp"
       },
       {
         "id": 28,
@@ -324,7 +324,7 @@
         "label": "智能手机真皮保护壳",
         "name": "Daon 39",
         "description": "以精致的动物刺绣细节为亮点，俏皮又不失高端质感的手机壳。",
-        "image": "/images/Ai_Daon_16.png"
+        "image": "/images/Ai_Daon_16.webp"
       },
       {
         "id": 29,
@@ -332,7 +332,7 @@
         "label": "真皮公文包 / 笔记本电脑包",
         "name": "Daon 40",
         "description": "以极简设计和柔软灰色皮革为特色的商务笔记本电脑和平板电脑内胆包。",
-        "image": "/images/Ai_Daon_17.png"
+        "image": "/images/Ai_Daon_17.webp"
       },
       {
         "id": 30,
@@ -340,7 +340,7 @@
         "label": "真皮日记本套 / 活页夹",
         "name": "Daon 41",
         "description": "以明亮的星形皮革贴片和金属铆钉装饰展现朋克魅力的日记本套。",
-        "image": "/images/Ai_Daon_18.png"
+        "image": "/images/Ai_Daon_18.webp"
       },
       {
         "id": 31,
@@ -348,7 +348,7 @@
         "label": "智能手机真皮保护壳",
         "name": "Daon 42",
         "description": "粉红色纹理皮革上附有提升握感的实用金属环背带，优雅的手机壳。",
-        "image": "/images/Ai_Daon_19.png"
+        "image": "/images/Ai_Daon_19.webp"
       },
       {
         "id": 32,
@@ -356,7 +356,7 @@
         "label": "紧凑型钱包 / 超薄卡包",
         "name": "Daon 43",
         "description": "拥有迷人勃艮第酒红色和内部高效卡片收纳空间的折叠式钱包。",
-        "image": "/images/Ai_Daon_20.png"
+        "image": "/images/Ai_Daon_20.webp"
       },
       {
         "id": 33,
@@ -364,7 +364,7 @@
         "label": "紧凑型钱包 / 超薄卡包",
         "name": "Daon 44",
         "description": "拥有粉红色鳄鱼纹皮革和心形金属装饰的可爱迷你钱包。",
-        "image": "/images/Ai_Daon_21.png"
+        "image": "/images/Ai_Daon_21.webp"
       },
       {
         "id": 34,
@@ -372,7 +372,7 @@
         "label": "迷你链条包",
         "name": "Daon 45",
         "description": "金属银色皮革与精致链条表带相结合，打造出华丽时尚的外观。",
-        "image": "/images/Ai_Daon_22.png"
+        "image": "/images/Ai_Daon_22.webp"
       },
       {
         "id": 35,
@@ -380,7 +380,7 @@
         "label": "MagSafe卡包",
         "name": "Daon 46",
         "description": "在经典黑色皮革上添加木材质感徽标细节，展现自然风格的MagSafe钱包。",
-        "image": "/images/Ai_Daon_23.png"
+        "image": "/images/Ai_Daon_23.webp"
       },
       {
         "id": 36,
@@ -388,7 +388,7 @@
         "label": "真皮日记本套 / 活页夹",
         "name": "Daon 47",
         "description": "在别致的黑色皮革背景上装饰有银色星形铆钉和孔眼，营造出独特的感性。",
-        "image": "/images/Ai_Daon_24.png"
+        "image": "/images/Ai_Daon_24.webp"
       },
       {
         "id": 37,
@@ -396,7 +396,7 @@
         "label": "真皮行李牌 / 姓名牌",
         "name": "Daon 48",
         "description": "在奢华勃艮第皮革上添加透明保护窗以提高实用性的高端旅行行李牌。",
-        "image": "/images/Ai_Daon_25.png"
+        "image": "/images/Ai_Daon_25.webp"
       },
       {
         "id": 38,
@@ -404,7 +404,7 @@
         "label": "多功能迷你收纳袋",
         "name": "Daon 49",
         "description": "附有坚固金属登山扣，便于携带，形状保持力极佳的米色皮革保护壳。",
-        "image": "/images/Ai_Daon_26.png"
+        "image": "/images/Ai_Daon_26.webp"
       },
       {
         "id": 39,
@@ -412,7 +412,7 @@
         "label": "多功能迷你收纳袋",
         "name": "Daon 50",
         "description": "保护小型智能设备或高尔夫测距仪免受外部冲击的高级收纳袋。",
-        "image": "/images/Ai_Daon_27.png"
+        "image": "/images/Ai_Daon_27.webp"
       },
       {
         "id": 40,
@@ -420,7 +420,7 @@
         "label": "紧凑型钱包 / 超薄卡包",
         "name": "Daon 51",
         "description": "以光泽感红色纹理和哑光驼色对比为特色的超薄基础卡包。",
-        "image": "/images/Ai_Daon_28.png"
+        "image": "/images/Ai_Daon_28.webp"
       },
       {
         "id": 41,
@@ -428,7 +428,7 @@
         "label": "真皮公文包 / 笔记本电脑包",
         "name": "Daon 52",
         "description": "适合专业商务环境的经典黑色皮革公文包兼文件包。",
-        "image": "/images/Ai_Daon_29.png"
+        "image": "/images/Ai_Daon_29.webp"
       },
       {
         "id": 42,
@@ -436,7 +436,7 @@
         "label": "旅行护照钱包 / 护照套",
         "name": "Daon 53",
         "description": "在简单的黑色皮革上加上金色字母点缀，营造出现代精致氛围的保护套。",
-        "image": "/images/Ai_Daon_30.png"
+        "image": "/images/Ai_Daon_30.webp"
       },
       {
         "id": 43,
@@ -444,7 +444,7 @@
         "label": "紧凑型钱包 / 超薄卡包",
         "name": "Daon 54",
         "description": "在蓝色和黑色坚固皮革基础上突出精致缝线修饰的超薄卡包。",
-        "image": "/images/Ai_Daon_31.png"
+        "image": "/images/Ai_Daon_31.webp"
       },
       {
         "id": 44,
@@ -452,7 +452,7 @@
         "label": "MagSafe卡包",
         "name": "Daon 55",
         "description": "在干净的白色皮革上增加了实用指环支架功能的MagSafe钱包。",
-        "image": "/images/Ai_Daon_32.png"
+        "image": "/images/Ai_Daon_32.webp"
       },
       {
         "id": 45,
@@ -460,7 +460,7 @@
         "label": "真皮日记本套 / 活页夹",
         "name": "Daon 56",
         "description": "采用优雅勃艮第酒红色和奢华梳齿纹理的高级日记本套。",
-        "image": "/images/Ai_Daon_33.png"
+        "image": "/images/Ai_Daon_33.webp"
       },
       {
         "id": 46,
@@ -468,7 +468,7 @@
         "label": "MagSafe卡包",
         "name": "Daon 57",
         "description": "在黑色皮革边缘用橙色缝线展现运动魅力的附加型卡包。",
-        "image": "/images/Ai_Daon_34.png"
+        "image": "/images/Ai_Daon_34.webp"
       },
       {
         "id": 47,
@@ -476,7 +476,7 @@
         "label": "多功能迷你收纳袋",
         "name": "Daon 58",
         "description": "配有登山扣和迷你提手，非常适合在户外环境或日常生活中多功能使用的收纳袋。",
-        "image": "/images/Ai_Daon_35.png"
+        "image": "/images/Ai_Daon_35.webp"
       },
       {
         "id": 48,
@@ -484,7 +484,7 @@
         "label": "汽车智能钥匙包/套",
         "name": "Daon 59",
         "description": "拥有五种丰富色彩系列和金色按扣装饰的折叠式钥匙包。",
-        "image": "/images/Ai_Daon_36.png"
+        "image": "/images/Ai_Daon_36.webp"
       },
       {
         "id": 49,
@@ -492,7 +492,7 @@
         "label": "真皮表带及环形钥匙扣",
         "name": "Daon 60",
         "description": "哑光金色金属装饰与精细缝合的天然皮革和谐融合的高级表带钥匙扣。",
-        "image": "/images/Ai_Daon_37.png"
+        "image": "/images/Ai_Daon_37.webp"
       },
       {
         "id": 50,
@@ -500,7 +500,7 @@
         "label": "紧凑型钱包 / 超薄卡包",
         "name": "Daon 61",
         "description": "以经典驼棕色和柔软皮革质感为特色的折叠式名片兼卡片钱包。",
-        "image": "/images/Ai_Daon_38.png"
+        "image": "/images/Ai_Daon_38.webp"
       },
       {
         "id": 51,
@@ -508,7 +508,7 @@
         "label": "智能手机真皮保护壳",
         "name": "Daon 62",
         "description": "在清新的格子图案背景上增添可爱的狗狗刺绣，呈现休闲氛围的手机壳。",
-        "image": "/images/Ai_Daon_39.png"
+        "image": "/images/Ai_Daon_39.webp"
       },
       {
         "id": 52,
@@ -516,7 +516,7 @@
         "label": "智能手机真皮保护壳",
         "name": "Daon 63",
         "description": "利用动物纹理和纯色皮革强调独特性，并通过后置指环提高握感的产品。",
-        "image": "/images/Ai_Daon_40.png"
+        "image": "/images/Ai_Daon_40.webp"
       },
       {
         "id": 53,
@@ -524,7 +524,7 @@
         "label": "真皮公文包 / 笔记本电脑包",
         "name": "Daon 64",
         "description": "由沉稳的蓝灰色调皮革制成的文件和平板电脑内胆包，给人一种简单而专业的感觉。",
-        "image": "/images/Ai_Daon_41.png"
+        "image": "/images/Ai_Daon_41.webp"
       },
       {
         "id": 54,
@@ -532,7 +532,7 @@
         "label": "工业/特殊设备真皮保护套",
         "name": "Daon 65",
         "description": "一款定制的深绿色真皮保护壳，可完美保护并安装高端音频设备等特殊数码设备。",
-        "image": "/images/Ai_Daon_42.png"
+        "image": "/images/Ai_Daon_42.webp"
       },
       {
         "id": 55,
@@ -540,7 +540,7 @@
         "label": "迷你链条包 / 剑桥包 / 斜挎包",
         "name": "Daon 66",
         "description": "将经典的剑桥包设计实现为迷你尺寸的棕色真皮包，非常适合日常使用。",
-        "image": "/images/Ai_Daon_43.png"
+        "image": "/images/Ai_Daon_43.webp"
       },
       {
         "id": 56,
@@ -548,7 +548,7 @@
         "label": "智能手机真皮保护壳",
         "name": "Daon 67",
         "description": "精致的金属银色纹理与指环背带相结合，最大限度地提高折叠式智能手机使用便利性的手机壳。",
-        "image": "/images/Ai_Daon_44.png"
+        "image": "/images/Ai_Daon_44.webp"
       },
       {
         "id": 57,
@@ -556,7 +556,7 @@
         "label": "MagSafe卡包",
         "name": "Daon 68",
         "description": "由柔软的天然皮革材料制成，并提供三种基础颜色的极简设计MagSafe附加型卡包。",
-        "image": "/images/Ai_Daon_45.png"
+        "image": "/images/Ai_Daon_45.webp"
       },
       {
         "id": 58,
@@ -564,7 +564,7 @@
         "label": "工业/特殊设备真皮保护套",
         "name": "Daon 69",
         "description": "考虑到特殊设备的显示屏和按钮操作部分，经过精细打孔和设计的黑屏皮革保护套。",
-        "image": "/images/Ai_Daon_46.png"
+        "image": "/images/Ai_Daon_46.webp"
       },
       {
         "id": 59,
@@ -572,7 +572,7 @@
         "label": "多功能迷你收纳袋",
         "name": "Daon 70",
         "description": "以鲜艳的蓝色和压花皮革为特色，通过顶部D形环提高便携性的小型多功能收纳袋。",
-        "image": "/images/Ai_Daon_47.png"
+        "image": "/images/Ai_Daon_47.webp"
       },
       {
         "id": 60,
@@ -580,7 +580,7 @@
         "label": "智能手机真皮保护壳",
         "name": "Daon 71",
         "description": "完美贴合折叠式智能手机顶部和底部的基础驼棕色高级皮革外壳。",
-        "image": "/images/Ai_Daon_48.png"
+        "image": "/images/Ai_Daon_48.webp"
       },
       {
         "id": 61,
@@ -588,7 +588,7 @@
         "label": "汽车智能钥匙包/套",
         "name": "Daon 72",
         "description": "一体式设计，精致地覆盖车钥匙按钮部分，具有运动魅力的智能钥匙保护套。",
-        "image": "/images/Ai_Daon_49.png"
+        "image": "/images/Ai_Daon_49.webp"
       },
       {
         "id": 62,
@@ -596,7 +596,7 @@
         "label": "办公文具",
         "name": "Daon 73",
         "description": "定制的刻有徽标的真皮文件夹，非常适合作为企业和大学的VIP欢迎套件或活动纪念品。",
-        "image": "/images/Ai_Daon_50.png"
+        "image": "/images/Ai_Daon_50.webp"
       },
       {
         "id": 63,
@@ -604,7 +604,7 @@
         "label": "工业/特殊设备真皮保护套",
         "name": "Daon 74",
         "description": "结合金属网罩设计，安全保护高端音频设备等并有助于散热的高级保护壳。",
-        "image": "/images/Ai_Daon_51.png"
+        "image": "/images/Ai_Daon_51.webp"
       },
       {
         "id": 64,
@@ -612,7 +612,7 @@
         "label": "多功能迷你收纳袋",
         "name": "Daon 75",
         "description": "采用坚固的帆布质感材质，配有迷你提手和登山扣，在户外和日常生活中非常实用的托特包型收纳袋。",
-        "image": "/images/Ai_Daon_52.png"
+        "image": "/images/Ai_Daon_52.webp"
       },
       {
         "id": 65,
@@ -620,7 +620,7 @@
         "label": "紧凑型钱包 / 超薄卡包",
         "name": "Daon 76",
         "description": "刻有企业标志，作为VIP促销或员工欢迎套件而备受青睐的经典真皮名片包。",
-        "image": "/images/Ai_Daon_53.png"
+        "image": "/images/Ai_Daon_53.webp"
       },
       {
         "id": 66,
@@ -628,7 +628,7 @@
         "label": "迷你链条包 / 剑桥包 / 斜挎包",
         "name": "Daon 77",
         "description": "优雅的驼色鳄鱼纹皮革与细肩带相融合，打造精致外观的迷你斜挎包。",
-        "image": "/images/Ai_Daon_54.png"
+        "image": "/images/Ai_Daon_54.webp"
       },
       {
         "id": 67,
@@ -636,7 +636,7 @@
         "label": "真皮表带及环形钥匙扣",
         "name": "Daon 78",
         "description": "由柔软的象牙色皮革和精致的金属带扣制成，可作为多功能配件使用的真皮表带。",
-        "image": "/images/Ai_Daon_55.png"
+        "image": "/images/Ai_Daon_55.webp"
       },
       {
         "id": 68,
@@ -644,7 +644,7 @@
         "label": "真皮行李牌 / 姓名牌",
         "name": "Daon 79",
         "description": "具有品牌徽标雕刻和整洁缝线饰面的现代米色旅行真皮行李牌。",
-        "image": "/images/Ai_Daon_56.png"
+        "image": "/images/Ai_Daon_56.webp"
       },
       {
         "id": 69,
@@ -652,7 +652,7 @@
         "label": "AirPods / Buds 真皮耳机套",
         "name": "Daon 80",
         "description": "加上独特时尚的动物刺绣贴片，能明确表达品牌个性的耳机保护套。",
-        "image": "/images/Ai_Daon_57.png"
+        "image": "/images/Ai_Daon_57.webp"
       },
       {
         "id": 70,
@@ -660,7 +660,7 @@
         "label": "多功能迷你收纳袋",
         "name": "Daon 81",
         "description": "附有登山扣，可轻松挂在腰带或包上，形状保持力极佳的米色小收纳袋。",
-        "image": "/images/Ai_Daon_58.png"
+        "image": "/images/Ai_Daon_58.webp"
       },
       {
         "id": 71,
@@ -668,7 +668,7 @@
         "label": "多功能迷你收纳袋",
         "name": "Daon 82",
         "description": "结合了几何金属镂空图案和黑色皮革，营造出未来主义氛围的硬壳保护套。",
-        "image": "/images/Ai_Daon_59.png"
+        "image": "/images/Ai_Daon_59.webp"
       },
       {
         "id": 72,
@@ -676,7 +676,7 @@
         "label": "多功能迷你收纳袋",
         "name": "Daon 83",
         "description": "内部采用定制缓冲泡沫，可安全存放手表和珠宝等贵重物品，鲜艳蓝色的硬收纳袋。",
-        "image": "/images/Ai_Daon_60.png"
+        "image": "/images/Ai_Daon_60.webp"
       },
       {
         "id": 73,
@@ -684,7 +684,7 @@
         "label": "迷你链条包 / 剑桥包",
         "name": "Daon 84",
         "description": "具有时尚金属银色和极简方形外观的紧凑型迷你包。",
-        "image": "/images/Ai_Daon_61.png"
+        "image": "/images/Ai_Daon_61.webp"
       },
       {
         "id": 74,
@@ -692,7 +692,7 @@
         "label": "多功能迷你收纳袋 / 手拿包",
         "name": "Daon 85",
         "description": "在奢华黑色皮革上增加金色金属挂钩和可拆卸手腕带，最大限度地提高实用性的手拿包型收纳袋。",
-        "image": "/images/Ai_Daon_62.png"
+        "image": "/images/Ai_Daon_62.webp"
       },
       {
         "id": 75,
@@ -700,7 +700,7 @@
         "label": "汽车智能钥匙包/套",
         "name": "Daon 86",
         "description": "通过精细压花车钥匙的按钮形状并以坚固缝线收尾，增强一体感的高级智能钥匙保护套。",
-        "image": "/images/Ai_Daon_63.png"
+        "image": "/images/Ai_Daon_63.webp"
       }
     ],
     "subtitle": "探索由 The Prime Daon 精心打造的原创皮革系列产品。"
@@ -780,7 +780,7 @@
           "全球品牌规格书(Tech Pack)深入分析",
           "提高原材料利用率的高效排版"
         ],
-        "image": "/cad_step.jpg"
+        "image": "/cad_step.webp"
       },
       {
         "title": "激光切割加工 (Cutting)",
@@ -789,7 +789,7 @@
           "减少热损伤加工技术",
           "针对大批量生产的高速裁剪系统"
         ],
-        "image": "/laser_step.jpg"
+        "image": "/laser_step.webp"
       },
       {
         "title": "高速精密模切 (Press)",
@@ -798,7 +798,7 @@
           "精密模具管理",
           "针对全球大宗订单优化的交付竞争力"
         ],
-        "image": "/press_step.jpg"
+        "image": "/press_step.webp"
       },
       {
         "title": "特种缝纫与组装",
@@ -807,7 +807,7 @@
           "立体结构专用特种缝纫机",
           "符合名品标准的均匀针距与收边质量"
         ],
-        "image": "/sewing_step.jpg"
+        "image": "/sewing_step.webp"
       }
     ]
   },

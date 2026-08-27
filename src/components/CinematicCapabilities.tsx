@@ -19,33 +19,33 @@ export default function CinematicCapabilities({ dict }: CinematicCapabilitiesPro
     {
       title: dict.eq_cutting_title || "재단기",
       children: [
-        { title: dict.eq_laser_title || "레이저 커팅기", desc: dict.eq_laser_desc || "co2레이저 컷팅기. 도면 설계에 용이함.", qty: 1, image: "/equipment/레이저커팅기.jpeg" },
-        { title: dict.eq_highpress_title || "고속 프레스", desc: dict.eq_highpress_desc || "롤 형태의 원단을 빠르게 재단할 수 있음.", qty: 2, image: "/equipment/고속프레스.jpeg" },
-        { title: dict.eq_leathercut_title || "가죽 재단기", desc: dict.eq_leathercut_desc || "가죽 재단하는 기계임.", qty: 1, image: "/equipment/가죽재단기.jpeg" }
+        { title: dict.eq_laser_title || "레이저 커팅기", desc: dict.eq_laser_desc || "co2레이저 컷팅기. 도면 설계에 용이함.", qty: 1, image: "/equipment/레이저커팅기.webp" },
+        { title: dict.eq_highpress_title || "고속 프레스", desc: dict.eq_highpress_desc || "롤 형태의 원단을 빠르게 재단할 수 있음.", qty: 2, image: "/equipment/고속프레스.webp" },
+        { title: dict.eq_leathercut_title || "가죽 재단기", desc: dict.eq_leathercut_desc || "가죽 재단하는 기계임.", qty: 1, image: "/equipment/가죽재단기.webp" }
       ]
     },
     {
       title: dict.eq_sewing_title || "봉제기",
       children: [
-        { title: dict.eq_normal_sewing_title || "일반 봉제기", desc: dict.eq_normal_sewing_desc || "가죽 또는 원단을 봉제할 수 있음.", qty: 3, image: "/equipment/봉제기.jpeg" },
-        { title: dict.eq_tarp_sewing_title || "타프 봉제기", desc: dict.eq_tarp_sewing_desc || "가죽 또는 원단을 봉제할 수 있음 (굴곡진 면을 봉제할 때 사용함).", qty: 2, image: "/equipment/타프봉제기.jpeg" },
-        { title: dict.eq_post_sewing_title || "말뚝형 봉제기", desc: dict.eq_post_sewing_desc || "가죽 제품의 깊은 면을 봉제할 때 사용하는 특수 미싱임.", qty: 1, image: "/equipment/말뚝형봉제기.jpeg" },
-        { title: dict.eq_comp_sewing_title || "컴퓨터 봉제기", desc: dict.eq_comp_sewing_desc || "컴퓨터에 입력된 위치로 봉제가 용이함.", qty: 3, image: "/equipment/컴퓨터봉제기.jpeg" }
+        { title: dict.eq_normal_sewing_title || "일반 봉제기", desc: dict.eq_normal_sewing_desc || "가죽 또는 원단을 봉제할 수 있음.", qty: 3, image: "/equipment/봉제기.webp" },
+        { title: dict.eq_tarp_sewing_title || "타프 봉제기", desc: dict.eq_tarp_sewing_desc || "가죽 또는 원단을 봉제할 수 있음 (굴곡진 면을 봉제할 때 사용함).", qty: 2, image: "/equipment/타프봉제기.webp" },
+        { title: dict.eq_post_sewing_title || "말뚝형 봉제기", desc: dict.eq_post_sewing_desc || "가죽 제품의 깊은 면을 봉제할 때 사용하는 특수 미싱임.", qty: 1, image: "/equipment/말뚝형봉제기.webp" },
+        { title: dict.eq_comp_sewing_title || "컴퓨터 봉제기", desc: dict.eq_comp_sewing_desc || "컴퓨터에 입력된 위치로 봉제가 용이함.", qty: 3, image: "/equipment/컴퓨터봉제기.webp" }
       ]
     },
     {
       title: dict.eq_press_title || "프레스 및 성형",
       children: [
-        { title: dict.eq_heat_press_title || "열 프레스", desc: dict.eq_heat_press_desc || "열을 가해서 가죽을 접착할 수 있으며 금형으로 가죽을 성형할 수도 있음.", qty: 9, image: "/equipment/열프레스.jpeg" },
-        { title: dict.eq_hot_stamp_title || "불박기", desc: dict.eq_hot_stamp_desc || "각인 작업에 용이함.", qty: 3, image: "/equipment/불박기.jpeg" }
+        { title: dict.eq_heat_press_title || "열 프레스", desc: dict.eq_heat_press_desc || "열을 가해서 가죽을 접착할 수 있으며 금형으로 가죽을 성형할 수도 있음.", qty: 9, image: "/equipment/열프레스.webp" },
+        { title: dict.eq_hot_stamp_title || "불박기", desc: dict.eq_hot_stamp_desc || "각인 작업에 용이함.", qty: 3, image: "/equipment/불박기.webp" }
       ]
     },
     {
       title: dict.eq_finish_title || "마감 및 기타 장비",
       children: [
-        { title: dict.eq_skiving_title || "가죽 피할기", desc: dict.eq_skiving_desc || "가죽을 부분적으로 두께 조절할 수 있음.", qty: 1, image: "/equipment/가죽피할기.jpeg" },
-        { title: dict.eq_dryer_title || "컨베어 건조기", desc: dict.eq_dryer_desc || "제품의 엣지코팅(기리메) 작업 후 빠른 건조를 위한 건조 장비임.", qty: 1, image: "/equipment/건조기.jpeg" },
-        { title: dict.eq_gluing_title || "본드 접착기", desc: dict.eq_gluing_desc || "가죽 또는 원단에 본드 칠 할 때 사용함.", qty: 1, image: "/equipment/본드접착기.jpeg" }
+        { title: dict.eq_skiving_title || "가죽 피할기", desc: dict.eq_skiving_desc || "가죽을 부분적으로 두께 조절할 수 있음.", qty: 1, image: "/equipment/가죽피할기.webp" },
+        { title: dict.eq_dryer_title || "컨베어 건조기", desc: dict.eq_dryer_desc || "제품의 엣지코팅(기리메) 작업 후 빠른 건조를 위한 건조 장비임.", qty: 1, image: "/equipment/건조기.webp" },
+        { title: dict.eq_gluing_title || "본드 접착기", desc: dict.eq_gluing_desc || "가죽 또는 원단에 본드 칠 할 때 사용함.", qty: 1, image: "/equipment/본드접착기.webp" }
       ]
     }
   ];
@@ -239,7 +239,7 @@ export default function CinematicCapabilities({ dict }: CinematicCapabilitiesPro
       <section className="relative h-[150vh]">
         <div 
           className="sticky top-0 left-0 w-full h-[100vh] bg-center bg-cover z-10 [filter:brightness(0.9)]"
-          style={{ backgroundImage: "url('/cad_step.jpg')" }}
+          style={{ backgroundImage: "url('/cad_step.webp')" }}
         />
         <div 
           className="relative z-20 -mt-[50vh] min-h-[100vh] flex items-center justify-center px-5 lg:px-[10vw] observer-target"
@@ -303,7 +303,7 @@ export default function CinematicCapabilities({ dict }: CinematicCapabilitiesPro
         <div className="sticky top-0 left-0 w-full h-[100vh] overflow-hidden z-10">
           <div 
             className="absolute inset-0 bg-center bg-cover anim-bg-zoom"
-            style={{ backgroundImage: "url('/HighPress.jpeg')" }}
+            style={{ backgroundImage: "url('/HighPress.webp')" }}
           />
         </div>
         <div 

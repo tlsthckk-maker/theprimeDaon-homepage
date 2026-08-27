@@ -25,7 +25,7 @@ export default async function About({ params }: { params: Promise<{ lng: string 
       <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center overflow-hidden w-full">
         <div className="absolute inset-0 bg-slate-900">
             <Image 
-              src="/images/banner.png" 
+              src="/images/banner.webp" 
               alt="다양한 가죽 원단과 작업 도구들이 놓여 있는 공방 배경" 
               fill 
               className="object-cover opacity-60"
@@ -61,7 +61,7 @@ export default async function About({ params }: { params: Promise<{ lng: string 
             {/* Right: Image Area */}
             <div className="order-1 lg:order-2 relative h-[400px] md:h-[500px] lg:h-[600px] rounded-3xl overflow-hidden shadow-2xl">
               <Image 
-                src="/images/daon_2.jpg" 
+                src="/images/daon_2.webp" 
                 alt="가죽 공예 장인이 직접 손으로 가죽을 다듬는 모습" 
                 fill 
                 className="object-cover transition-transform hover:scale-105 duration-700"
