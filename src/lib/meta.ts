@@ -161,6 +161,20 @@ export function brandSuffix(lng: string): string {
 }
 
 /**
+ * SNS·메신저 공유 시 표시되는 이미지. 언어별로 다르다.
+ * public/thumbnail_{ko,en,ja,zh}.jpg — 1200x630
+ */
+export function ogImage(lng: string) {
+  const l = BRAND_SUFFIX[lng] ? lng : 'ko';
+  return {
+    url: `${SITE_URL}/thumbnail_${l}.jpg`,
+    width: 1200,
+    height: 630,
+    alt: getMeta(l, '/').title,
+  };
+}
+
+/**
  * 각 페이지의 generateMetadata 가 그대로 반환하면 되는 메타데이터.
  * canonical / hreflang 은 기존 buildAlternates 를 그대로 사용한다.
  */
@@ -183,7 +197,7 @@ export function buildPageMetadata(lng: string, route: string): Metadata {
       title: full,
       description: m.description,
       url: `${SITE_URL}/${lng}${path}`,
-      images: [{ url: `${SITE_URL}/thumbnail_ko.jpg` }],
+      images: [ogImage(lng)],
     },
   };
 }

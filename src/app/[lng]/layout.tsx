@@ -5,7 +5,7 @@ import '@/app/globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { languages } from '@/i18n/settings';
-import { getMeta, brandSuffix, SITE_URL } from '@/lib/meta';
+import { getMeta, brandSuffix, ogImage, SITE_URL } from '@/lib/meta';
 
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-outfit' });
 const notoSansKR = Noto_Sans_KR({ subsets: ['latin'], variable: '--font-noto' });
@@ -44,11 +44,7 @@ export async function generateMetadata(
       description: home.description,
       url: `${SITE_URL}/${lng}`,
       siteName: 'THE PRIME DAON',
-      images: [
-        {
-          url: `${SITE_URL}/thumbnail_ko.jpg`,
-        },
-      ],
+      images: [ogImage(lng)],
     },
     verification: {
       other: {
